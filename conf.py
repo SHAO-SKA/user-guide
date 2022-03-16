@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'SHAO SKA User Guide'
-copyright = '2022, SHAO SKA TEAM'
-author = 'SHAO SKA TEAM'
+project = 'CSKA User Guide'
+copyright = '2022, CSKA TEAM'
+author = 'CSKA TEAM'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = 'v0.1'
+release = 'v1.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -106,7 +106,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'SHAOSKAUserGuidedoc'
+htmlhelp_basename = 'CSKAUserGuidedoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -133,8 +133,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'SHAOSKAUserGuide.tex', 'SHAO SKA User Guide Documentation',
-     'SHAO SKA TEAM', 'manual'),
+    (master_doc, 'CSKAUserGuide.tex', 'CSKA User Guide Documentation',
+     'CSKA TEAM', 'manual'),
 ]
 
 
@@ -143,7 +143,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'shaoskauserguide', 'SHAO SKA User Guide Documentation',
+    (master_doc, 'cskauserguide', 'CSKA User Guide Documentation',
      [author], 1)
 ]
 
@@ -154,8 +154,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'SHAOSKAUserGuide', 'SHAO SKA User Guide Documentation',
-     author, 'SHAOSKAUserGuide', 'One line description of project.',
+    (master_doc, 'CSKAUserGuide', 'CSKA User Guide Documentation',
+     author, 'CSKAUserGuide', 'One line description of project.',
      'Miscellaneous'),
 ]
 
