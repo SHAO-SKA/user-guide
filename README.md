@@ -1,6 +1,6 @@
 # 上海天文台SKA数据中心原型系统用户手册 
 
-本文档为上海天文台SKA数据中心原型系统用户手册，网址为 https://shaoska-user-guide.readthedocs.io/。
+本文档为上海天文台SKA数据中心原型系统用户手册，网址为 :link: [CSKA用户手册](https://shaoska-user-guide.readthedocs.io/) 。
 
 文档使用reStructureText书写，并在readthedocs发布。
 
