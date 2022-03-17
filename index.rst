@@ -13,6 +13,7 @@
    docs/copyright/index.rst
    docs/introduction/intro.rst
    docs/login/index.rst
+   docs/module/index.rst
    docs/jobs/index.rst
    docs/faq/index.rst
 

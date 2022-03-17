@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------------------- /home/app/modulefiles ----------------------------------------------------------------------------------------
+aegean/cpu-2.2.3-py3                   cmake/cpu-3.15.2                       glib/arm-2.49.1                        mpfr/cpu-2.4.2                         python/cpu-2.7.14
+aoflagger/cpu-master                   cmake/cpu-3.8.2                        glib/cpu-2.49.1                        mpich/arm-3.2.1-gcc-7.3.0              python/cpu-2.7.14-gcc-4.9.3
+askappipeline/cpu-1.0.9-mpich-3.2.1    cuda/10.1                              glib/cpu-2.49.1-gcc-4.9.3              mpich/cpu-3.2.1-gcc-4.8.5              python/cpu-2.7.14-gcc-7.3.0
+askapsoft/cpu-0.24.0-mpich-3.2.1       cuda/10.2                              glib/cpu-2.59.0                        mpich/cpu-3.2.1-gcc-4.9.3              python/cpu-2.7.14-presto-acc
+askapsoft/cpu-1.0.19-mpich-3.2.1       cuda/11.0                              glog/cpu-0.3.3-gcc-4.8.5               mpich/cpu-3.2.1-gcc-7.3.0              python/cpu-2.7.14-virtualenv
+askapsoft/cpu-1.0.2-mpich-3.2.1        cuda/9.0                               gmp/cpu-4.3.2                          numpy/arm-1.16.4                       python/cpu-3.6.5
+askapsoft/cpu-cloud-dingo              destroy/cpu-master                     gsl/arm-2.6-gcc-7.3.0                  openblas/arm-0.3.6-gcc-7.3.0           python/cpu-3.7.4
+askapsoft/cpu-cloud-dingo-jacal-master difx/2.6.1-x86                         gsl/cpu-1.16-gcc-4.9.3                 openblas/cpu-0.3.6-gcc-4.8.5           python/cpu-3.7.4-presto-opt
+askapsoft/cpu-cloud-dingo-mpich-3.2.1  doxygen/arm-1.8.17-gcc-7.3.0           gsl/cpu-1.16-gcc-7.3.0                 openblas/cpu-0.3.6-gcc-4.9.3           python/gpu-2.7.14
+boost/arm-1.65.1                       doxygen/cpu-1.8.17-gcc-7.3.0           gsl/cpu-2.0-gcc-7.3.0                  openblas/cpu-0.3.6-gcc-7.3.0           ruby/cpu-2.7.0-gcc-4.8.5
+boost/cpu-1.65.1                       ds9/centos7-v8.0                       gsl/cpu-2.6-gcc-7.3.0                  openmpi/arm-4.0.1                      sextractor/cpu-2.25.0-gcc-4.8.5
+boost/cpu-1.65.1-gcc-4.9.3             ds9/centos7-v8.2                       hdf5/arm-1.10.4                        openmpi/cpu-2.0.2                      sigproc/cpu-master
+boost/cpu-1.65.1-gcc-7.3.0             ds9/centos7-v8.3                       hdf5/cpu-1.10.4                        openmpi/cpu-4.0.1                      svn/arm-1.12.2
+boost/cpu-1.73.0-gcc-7.3.0             dspsr/cpu-2020-01-10-gcc-4.8.5         hdf5/cpu-1.10.4-gcc-4.9.3              oskar/cpu-2.8.0                        tempo/cpu-master
+boost/cpu-py3.6.5-1.65.1               Duchamp/cpu-1.6.2-gcc-4.8.5            hdf5/cpu-1.10.4-gcc-7.3.0              pgplot/arm-5.2                         tempo2/cpu-master
+casa/4.5.3-el6                         epsic/cpu-master-gcc-4.8.5             hdf5/cpu-1.12.0-mpicc                  pgplot/cpu-5.2                         tempo2/cpu-psrchive
+casa/4.6.0-el6                         fftw/arm-3.3.8                         hdf5/cpu-1.12.0-openmpi                pgplot/cpu-5.2-gcc-4.9.3               tmux/cpu-v3.2a
+casa/4.7.2-el6                         fftw/cpu-3.3.8                         healpix/healpix_c-3.70-gcc-4.8.5       pgplot/gpu-5.2                         topcat/v4.6-2
+casa/5.0.0-218.el6                     fftw/cpu-3.3.8-gcc-4.9.3               healpix/healpix_cxx-3.11.3-gcc-4.8.5   presto/arm-master-opt                  topcat/v4.8
+casa/6.1.0-118                         fftw/cpu-3.3.8-gcc-7.3.0               isl/cpu-0.12.2                         presto/cpu-master                      vcstools/cpu-master
+casacore/cpu-3.0.0-gcc-4.9.3           fiji/cpu                               isl/cpu-0.14                           presto/cpu-master-new                  vcstools/devel
+casacore/cpu-3.3.0-gcc-7.3.0           gcc/arm-7.3.0                          lapack/arm-3.8.0                       presto/cpu-master-opt                  vcstools/master
+casacore/cpu-py3.6.5-3.1.0             gcc/arm-8.3.0                          lapack/cpu-3.8.0                       presto/gpu-master                      wcslib/arm-6.2
+cfitsio/arm-3450                       gcc/arm-9.3.0                          lapack/cpu-3.8.0-gcc-7.3.0             protobuf/cpu-3.0.0-alpha-4.1-gcc-4.8.5 wcslib/cpu-6.2
+cfitsio/cpu-3450                       gcc/cpu-4.9.3                          lapack/cpu-py3.6.5-3.8.0               psrchive/cpu-2020-01-10-gcc-4.8.5      wcslib/cpu-6.2-gcc-4.9.3
+cfitsio/cpu-3450-gcc-4.9.3             gcc/cpu-5.3.0                          libgeos/cpu-3.10.0-gcc-4.8.5           psrdata/cpu-master-gcc-4.8.5           wcslib/cpu-7.2-gcc-7.3.0
+cfitsio/cpu-348-gcc-7.3.0              gcc/cpu-7.3.0                          libpng/cpu-1.2.59-gcc-4.8.5            python/arm-2.7.14                      wsclean/cpu-2.9-gcc-7.3.0
+cfitsio/cpu-349-gcc-4.8.5              gcc/cpu-8.3.0                          libpng/cpu-1.6.37-gcc-4.8.5            python/arm-3.6.5                       zfp/cpu-0.5.5-gcc-4.8.5
+chgcentre/cpu-1.6-gcc-7.3.0            gcc/cpu-9.3.0                          lmdb/cpu-master-gcc-4.8.5              python/arm-3.7.4-gcc-7.3.0             zlib/cpu-1.2.9-gcc-4.8.5
+cmake/arm-3.15.2                       gflags/cpu-master-gcc-4.8.5            mpc/cpu-0.8.1                          python/arm-3.7.4-presto-opt
+
+------------------------------------------------------------------------ /home/share/spack/modules/arm/linux-centos7-aarch64 -------------------------------------------------------------------------
+bowtie2/2.3.5.1-gcc-4.8.5 gcc/8.3.0-gcc-4.8.5       libfabric/1.6.1-gcc-8.3.0 openmpi/4.0.1-gcc-8.3.0   perl/5.30.0-gcc-4.8.5
+cmake/3.15.1-gcc-4.8.5    gcc/9.2.0-gcc-4.8.5       openblas/0.3.6-gcc-8.3.0  perl/5.26.2-gcc-4.8.5     perl/5.30.0-gcc-8.3.0
+cmake/3.9.6-gcc-8.3.0     htop/2.2.0-gcc-8.3.0      openmpi/2.1.6-gcc-4.8.5   perl/5.26.2-gcc-8.3.0     perl/5.30.0-gcc-9.2.0
