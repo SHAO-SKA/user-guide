@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'CSRC-P User Guide'
-copyright = '2022, CSKA TEAM'
-author = 'CSKA TEAM'
+project = 'ChinaSRC-P User Guide'
+copyright = '2022, ChinaSRC TEAM'
+author = '中国SKA区域中心原型机运维团队'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = 'v1.2'
+release = 'v1.3'
 
 
 # -- General configuration ---------------------------------------------------
@@ -133,7 +133,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CSRCPUserGuide.tex', 'CSRC-P User Guide Documentation',
+    (master_doc, 'CSRCPUserGuide.tex', '中国SKA区域中心原型机使用手册',
      'CSKA TEAM', 'manual'),
 ]
 
@@ -143,7 +143,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'csrcpuserguide', 'CSRCP User Guide Documentation',
+    (master_doc, 'csrcpuserguide', '中国SKA区域中心原型机使用手册',
      [author], 1)
 ]
 
@@ -154,7 +154,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'CSRCPUserGuide', 'CSRC-P User Guide Documentation',
+    (master_doc, 'CSRCPUserGuide', '中国SKA区域中心原型机使用手册',
      author, 'CSRCPUserGuide', 'One line description of project.',
      'Miscellaneous'),
 ]

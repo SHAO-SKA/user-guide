@@ -67,15 +67,19 @@ Linux通过终端登录
 MacOSX通过终端登录
 ~~~~~~~~~~~~~~~~~~
 
-|image4|
+.. code:: bash
+
+   $ ssh username@202.127.3.156
+   # or
+   $ ssh username@202.127.3.157
 
 
 .. note:: 普通用户默认情况下分配100G的空间，如有其它需求，请联系管理员进行调额
-   （请联系shaoska@shao.ac.cn）。
+   （请联系shaoska@shao.ac.cn & chinasrc@googlegroups.com）。
 
    用户名和密码等账户信息请通过申请表进行申请。
 
-   请联系shaoska@shao.ac.cn。
+   请联系shaoska@shao.ac.cn & chinasrc@googlegroups.com。
 
 .. |webloginimage| image:: ../../_static/weblogin.png
 .. |image2| image:: ../../_static/windowslogin.png

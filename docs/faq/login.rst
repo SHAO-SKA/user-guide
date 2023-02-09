@@ -14,4 +14,4 @@ CSRC-P目前不支持公网直接访问，此处需要VPN或访问地址添加�
 若遇到连接问题，请先检查网络，在确认是否使用VPN或已经将IP备案。
 
 建议加入“中国SKA原型机”用户微信群，CSRC-P的通知会及时发布在微信群里。
-若需加入用户微信群，请发邮件至 `CSRC-P运维 <mailto:shaoska@shao.ac.cn>`__\；
+若需加入用户微信群，请发邮件至 `CSRC-P运维 <mailto:shaoska@shao.ac.cn & chinasrc@googlegroups.com>`__\；
