@@ -32,9 +32,9 @@ Linux操作系统或Mac操作系统用户直接使用ssh登录。具体操作可
 *****************
 
 用户可以通过web界面 https://202.127.3.156/
-登录CSKA管理系统，如下图所示：
+登录CSRC-P管理系统，如下图所示：
 
-|image1|
+|webloginimage|
 
 输入用户名和密码即可登录。
 
@@ -77,7 +77,7 @@ MacOSX通过终端登录
 
    请联系shaoska@shao.ac.cn。
 
-.. |image1| image:: ../../_static/weblogin.png
+.. |webloginimage| image:: ../../_static/weblogin.png
 .. |image2| image:: ../../_static/windowslogin.png
 .. |image3| image:: ../../_static/linuxlogin2.png
 .. |image4| image:: ../../_static/macosxlogin.png

@@ -10,6 +10,7 @@
 .. code:: bash
 
    $ module use /home/app/modulefiles
+   $ module use /home/software/modulefiles
 
 查看可用的模块列表
 ********************
@@ -20,6 +21,8 @@
 
 
 .. literalinclude:: ../../src/module/modulefiles
+
+.. literalinclude:: ../../src/module/modulefiles-app
 
 
 
@@ -43,6 +46,14 @@
     Copyright (C) 2019 Free Software Foundation, Inc.
     This is free software; see the source for copying conditions.  There is NO
     warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+
+在执行过程中如果出现模块的问题或者冲突，可以考虑清空载入的module，重新进行加载测试，命令如下：
+
+.. code:: bash
+
+    $ module clear
 
 
 .. note::
