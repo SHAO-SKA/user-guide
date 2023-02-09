@@ -13,6 +13,7 @@ wsclean使用
 .. code:: bash
 
 	$ module use /home/app/modulefiles/
+   	$ module use /home/software/modulefiles
 
 .. code:: bash
 
