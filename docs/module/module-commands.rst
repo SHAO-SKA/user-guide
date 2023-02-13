@@ -38,7 +38,7 @@ CSRC-P 平台可用的软件如下所示：
 
 CRATIV 平台可用的软件如下所示：
 
-.. literalinclude:: ../../src/module/modulefiles-crative
+.. literalinclude:: ../../src/module/modulefiles-crativ
 
 
 
