@@ -12,6 +12,13 @@
    $ module use /home/app/modulefiles
    $ module use /home/software/modulefiles
 
+添加模块集合-CRATIV
+********************
+
+.. code:: bash
+
+   $ module use /usr/local/astrosoft/modulefiles
+
 查看可用的模块列表
 ********************
 
@@ -20,9 +27,18 @@
    $ module avail
 
 
+
+CSRC-P 平台可用的软件如下所示：
+
 .. literalinclude:: ../../src/module/modulefiles
 
+
 .. literalinclude:: ../../src/module/modulefiles-app
+
+
+CRATIV 平台可用的软件如下所示：
+
+.. literalinclude:: ../../src/module/modulefiles-crative
 
 
 
@@ -34,8 +50,9 @@
    $ module load [modulefile]
 
 .. note:: 
-    ARM 系统加载方法 `module load softname/arm-version`,
-    X86 系统加载方法 `module load softname/cpu-version` 或 `module load softname/gpu-version`。
+    ARM 系统加载方法 `module load softwarename/arm-version`,
+    X86 系统加载方法 `module load softwarename/cpu-version` 或 `module load softwarename/gpu-version`。
+    CRATIV 系统加载方法 `module load softwarename-version`,
 
 以X86的gcc为例：
 
