@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/faq/login.rst:5 53eae08c355348b7b9cd4aa158255770
+msgid "登陆常见问题"
+msgstr ""
+
+#: ../../docs/faq/login.rst:9 33cdf32f4ae7413cabc22d3b3d22dfcd
+msgid "我为什么连不上CSRC-P？"
+msgstr ""
+
+#: ../../docs/faq/login.rst:11 e473abb5a01a4baa90728bf6fcda7421
+msgid "首先请阅读 :ref:`login` 章节。"
+msgstr ""
+
+#: ../../docs/faq/login.rst:13 e2bfacf8d1134f269961c220cf2331ae
+msgid ""
+"CSRC-P目前不支持公网直接访问，此处需要VPN或访问地址添加到SHAO防火墙。 "
+"若遇到连接问题，请先检查网络，在确认是否使用VPN或已经将IP备案。"
+msgstr ""
+
+#: ../../docs/faq/login.rst:16 ddae5d29dc3f4dd2afbf22a73deb3074
+msgid ""
+"建议加入“中国SKA原型机”用户微信群，CSRC-P的通知会及时发布在微信群里。 若需加入用户微信群，请发邮件至 `CSRC-P运维 "
+"<mailto:shaoska@shao.ac.cn & chinasrc@googlegroups.com>`__\\；"
+msgstr ""
+
+#: ../../docs/faq/login.rst:20 06026c8db6ca4d7bb9342459379bb351
+msgid "为什么WSClean和CASA冲突"
+msgstr ""
+
+#: ../../docs/faq/login.rst:22 a481d49099864beba3e76571cff86364
+msgid "请阅读 :ref:`module_wsclean_casa` 章节。"
+msgstr ""
+

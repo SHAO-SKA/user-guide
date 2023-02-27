@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/storage/index.rst:3 524311a361ff419ea406619f105e9cdb
+msgid "数据存储"
+msgstr ""
+
+#: ../../docs/storage/index.rst:5 a1e6e81c25d8430c91191c05adff7943
+msgid "本章介绍CSRC-P存储情况"
+msgstr ""
+
+#: ../../docs/storage/index.rst:7 224ef4e8a27f4ddd8d44b13ca673451a
+msgid "CSRC-P 文件系统包括："
+msgstr ""
+
+#: ../../docs/storage/index.rst:9 2f5cc894de604cc7a0cf49bbc56a58c3
+msgid "/ssd"
+msgstr ""
+
+#: ../../docs/storage/index.rst:10 26b369d8680045c897eff8032abf6149
+msgid "/o9000"
+msgstr ""
+
+#: ../../docs/storage/index.rst:11 8e842fc3395b4ce3bdf41e8f986ab973
+msgid "/ibo9000"
+msgstr ""
+
+#: ../../docs/storage/index.rst:12 72bc33346dc84dbea71635e471450ab2
+msgid "/p9500"
+msgstr ""
+
+#: ../../docs/storage/index.rst:14 c83798041f934c4aadc3f7b538f1ea48
+msgid "四个分区。"
+msgstr ""
+
+#: ../../docs/storage/index.rst:16 8bb509fd9fdf4d09b7dea6670b09d778
+msgid "/home和/ssd分区主要用于用户个人数据和结果数据存储，"
+msgstr ""
+
+#: ../../docs/storage/index.rst:17 ffd61e5f739f458c8a287aa58010f993
+msgid "/o9000主要用于处理数据的长期存储。"
+msgstr ""
+
+#: ../../docs/storage/index.rst:18 c7c2b008c5254f1c9fba72cbbd508b1b
+msgid "/ibo9000主要用于存储处理数据数据。"
+msgstr ""
+
+#: ../../docs/storage/index.rst:19 280e29e395a94a3ab2cb9d95a731e23a
+msgid "/p9500主要用于存储原始观测数据。"
+msgstr ""
+
+#: ../../docs/storage/index.rst:21 2df2346edcbf40a6bd52a00043ecc098
+msgid "目前，CSRC-P系统存储了约2PB左右的数据， 包括MWA、ASKAP和VLBI望远镜的观测数据。"
+msgstr ""
+
+#: ../../docs/storage/index.rst:24 d1c890b9e1be41dea8e66ceaf5bf5aeb
+msgid "主要数据分组情况：MWA/GLEAM组、 MWA/Pulsar组和ASKAP组。"
+msgstr ""
+
+#: ../../docs/storage/index.rst:26 b2d402b357cb4c56a8ca20ac66ce5bf0
+msgid ""
+"如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 shaoska@shao.ac.cn & "
+"chinasrc@googlegroups.com 咨询。"
+msgstr ""
+

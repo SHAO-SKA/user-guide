@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/login/login-inter.rst:5 90a18b5e147c497f9014915a7082724a
+msgid "台内用户登录"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:8 d0068fbabad641c19f595dd957ded16d
+msgid ""
+"以上成功与数据中心建立了网络连接后，为了进一步保证用户的 数据安全， 中心不允许telnet等方式登录服务器，必须通过ssh登录 "
+"方式来使用中心资源。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:12 00d40ae73c12473ea59ae0d3f6564ce7
+msgid ""
+"Windows操作系统用户可以使用ssh客户端软件 （如Xshell、Xmanager、Putty、SecureCRT）来登录系统。 "
+"Linux操作系统或Mac操作系统用户直接使用ssh登录。具体操作可参考下例。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:15 fd706d1dcb8348e2b021920c8a8cba6c
+msgid "数据中心共有两个登录节点：ARM和X86，它们的IP地址分别是："
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:18 47fd3d352e3048b1824c829afca7b3cc
+msgid "登陆节点"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:18 fec6c193e37c4f2bacc26c0a1bfe2d47
+msgid "IP"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:18 2a7d60fa94984019ad0c7aca29a50494
+msgid "备注"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:20 d3d5bf9bef654039916f12fdfa22d93e
+#: d92d1573403442f99f2566a2f65bebb4
+msgid "ARM"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:20 36e4dbcda3fb4a78b6947b0a708248a8
+msgid "202.127.3.156"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:22 86b4574715ce478788a7561820863dc0
+#: adedb9b3b83d482c923367bf94c28fd2
+msgid "X86"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:22 f5244c13156d4cdf84f0b264afb34732
+msgid "202.127.3.157"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:26 998d5de3636047e7913de34cdfafca38
+msgid ""
+"用户密码方面，管理员发给用户的是随机密码，为了用户访问安全，账户开通后需要立即修改密码。 可以通过访问以下网址，在网页 "
+"右上角用户信息修改密码：https://202.127.3.156。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:29 e16b4b103aa64c7fb2cf2c7a7e53a868
+msgid "用户登录有两种方式，分别为网页版登录和命令行登录。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:32 2bb51ee9df074fd49b57aaee051ee915
+msgid "网页登录"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:34 34d420f0a5544cb49d44993e009b0c55
+msgid "用户可以通过web界面 https://202.127.3.156/ 登录CSRC-P管理系统，如下图所示："
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:37 315a7afb5e2547e780ccf48f75e2b9f6
+msgid "|webloginimage|"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:84 42a0dc753d7a4f14aa746ece040322f1
+#: ae3083ad01dd4af4898596528d3141bf
+msgid "webloginimage"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:39 3c22554b8ae84d9b89041321c6f77014
+msgid "输入用户名和密码即可登录。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:42 61e33ec3afc74dcb9a9303a89a5feb7f
+msgid "命令行登录"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:44 89a8d4b8863b4b5aac5c0ad7f33fdb02
+msgid "Linux和MacOSX用户可以使用terminal终端，Windows用户建议使用xshell，输入命令："
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:52 58eab9f36d4d431b931abde6eea87041
+msgid "其中username为用户名 IP为登陆节点的地址"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:55 0fcfc4cd703f4e038e7f3cad375705c7
+msgid "命令行登录的截图如下所示。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:58 2f02ec823fd048bba88d6b6579715727
+msgid "Windows通过xshell登录"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:60 4e51a7033b6c4eafab468d0c5fc1e1ed
+msgid "|image2|"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:85 4ebcbb0aa0f14c38a4d35fed4b538145
+#: ae3083ad01dd4af4898596528d3141bf
+msgid "image2"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:63 2cd427b89b5b45c9bd654b6e21ddc843
+msgid "Linux通过终端登录"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:65 f116213f35dd4b7083028ba344f0e29a
+msgid "|image3|"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:86 7fec2bc4adf04d4cab931df5108b69b5
+#: ae3083ad01dd4af4898596528d3141bf
+msgid "image3"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:68 42aa37eb815e4c429d8368f731109e31
+msgid "MacOSX通过终端登录"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:77 a2fb582d16174782bc416733e0b82f43
+msgid ""
+"普通用户默认情况下分配100G的空间，如有其它需求，请联系管理员进行调额 （请联系shaoska@shao.ac.cn & "
+"chinasrc@googlegroups.com）。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:80 0f79b0bff92c478d98d4a5c670cd881e
+msgid "用户名和密码等账户信息请通过申请表进行申请。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:82 5bfd6df1174c4078a5c97dc4cd60c24d
+msgid "请联系shaoska@shao.ac.cn & chinasrc@googlegroups.com。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:87 ae3083ad01dd4af4898596528d3141bf
+msgid "image4"
+msgstr ""
+

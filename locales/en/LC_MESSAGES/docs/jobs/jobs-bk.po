@@ -1,0 +1,518 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/jobs/jobs-bk.rst:2 f5742c6f9b344c98939d16f0aab72e4d
+msgid "CSRC-P JOBS system"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:4 3f9b2d00e573486d893fa0623045a8c4
+msgid ""
+"China SKA Regional Centre Prototype (CSRC-P) systems can use Slurm for "
+"resource and job management to avoid mutual interference and improve "
+"operational efficiency. All jobs that need to be run, whether for program"
+" debugging or business calculations, must be submitted through "
+"interactive parallel srun, batch submittion sbatch, or distributed salloc"
+" commands, and related commands can be used to query the job status after"
+" submission. Please do not directly run jobs (except compiling) on the "
+"login node, so as not to affect the normal use of other users."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:14 dacfd9bada7048d4add158f02fa5f66e
+msgid "`Querying SLURM Partitions <#Querying-SLURM-Partitions>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:15 4061d2fcad7a42399ee3399afff0ae39
+msgid "`Querying the Queue <#Querying-the-Queue>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:16 edf5ec4271e946efafbcef5dec172b2e
+msgid "`Job Request <#Job-Request>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:17 79245f03692b4e139fee7aa4c288168f
+msgid "`Jobscripts <#Jobscripts>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:18 0619f906d4ce4b22963d7a7120c97b8e
+msgid "`Serial python example <#Serial-python-example>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:19 716d4f072b7d4d048d37b26e91a1441c
+msgid "`Lauching Paralle Programs <#Lauching-Paralle-Programs>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:20 ce69edc40c9f4769962f7f455f6485c0
+msgid "`GPU Example <#GPU-Example>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:21 1d96966c60b241d2a067c330bf0d31fe
+msgid "`Interactive Jobs <#Interactive-Jobs>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:25 2aa8977da8aa47b4ad26b3ce5f379cbf
+msgid ""
+"A SLURM partition is a queue, which is all the partition that are managed"
+" by a single SLURM daemon. ## Querying SLURM Partitions To list the "
+"partition when logged into a machine:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:26 77ead4bbca0d402f82c353744f964e4e
+msgid "``sinfo``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:27 c53a352436844034b3742aa284553e67
+msgid "To get all partitions in all local clusters: ``sinfo –M all``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:28 dc1520adc4194d5facba4be3f7bde113
+msgid "**For example**:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:48 d37c239f27da456d8091f97f952a2c66
+msgid ""
+"Where PARTITION represents the partition name. AVAIL represents the "
+"status of the partition, the up is available, and the down is not "
+"available. TIMELIMIT represents the maximum time the program runs, and "
+"infinite represents unlimited, the limit format is days-"
+"houres:minutes:seconds. NODES represents the number of nodes. NODELIST is"
+" Node list. STATE represents the running state of the node."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:68 ce9630a2082746c8b3ee697fec027ceb
+msgid ""
+"It is important to use the correct system and partition for each part of "
+"a workflow: \\| Partition \\| Purpose \\| \\| :————- \\| :——— \\| \\| "
+"``arm`` \\|Many core workflows, many serial of shared memory (OpenMP) "
+"jobs, large distributed memory (MPI) jobs\\| \\|\\ ``sugon-gpu``, "
+"``inspur-gpu-opa``, ``inspur-gpu-ib``, ``all-gpu`` \\| GPU-accelerated "
+"jobs, artificial Intelligence jobs\\| \\|\\ ``purley-cpu``,\\ ``hw``,\\ "
+"``all-x86-cpu`` \\| Many serial of shared memory (OpenMP) jobs, large "
+"distributed memory (MPI) jobs\\|"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:78 b5b808d8cb5846daab6ee7822963af57
+msgid "Querying the Queue"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:81 7d709788289048089d334923e6ae1e3d
+msgid ""
+"squeue is used to view job and job step information for jobs managed by "
+"Slurm."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:82 cecb3ddad7f74a7799cfdb56660faa37
+msgid "``squeue <options>``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:83 31fb22a44c964eb9abae27a5c7c05044
+msgid "``squeue -u username``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:84 ae75282415f14b978c644df46aa50e64
+msgid "``squeue -j jobid``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:85 956e60e1c1ba4f62a8a9278ce758a148
+msgid "``squeue -p purley-cpu``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:86 ddbe06c82e62432eaa5caeb67ac95ec7
+msgid "**Exmaple**"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:96 b741c59378864331b254a154af9483e8
+msgid "Information interprets"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:97 c8391a4f65f146c6bd679db9b785a822
+msgid "JOBID: ID of job."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:98 8afd5fda73c848e3adc37db6b0d3d901
+msgid "PARTITION: partition name used of the job."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:99 3cb230b898a64333a2c2c14da412da59
+msgid "NAME: job name."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:100 c7cf6d78db25487db4027ce1b098545d
+msgid "USER: user name."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:102 7267ce7464d347a0a5f33033a5004e5e
+msgid ""
+"ST: job state. R=running. PD=pending. CA=cancelled. CG=completing. "
+"CD=completed."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:103 c76debd510c34a629919979e3ac0f8b9
+msgid "TIME: time used by the job"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:104 fcae6c24a23d423cacdf2c14b6f7a50a
+msgid "NODES: the actual number of nodes allocated to the job."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:105 f4dc9fe95add45ef9b74445f330e02b1
+msgid "NODESLIST: list of nodes allocated to the job or job step."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:107 0b7c256495304dacacae5a97d4cff1ad
+msgid "To view more options of squeue:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:108 a68ab4116ba1474eb97641eaaa654285
+msgid "``squeue --help``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:110 51fde307a5b24a9e80b7174b2c75bd5b
+msgid "Individual Job Information"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:111 44e5db9b3e98416c88816712a2da86cd
+msgid "``scontrol show job jobid``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:146 61e02acddeba48d2ad424f6d2e88dc9c
+msgid "Job Request"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:148 62208a43b2e346288cec6202485ca379
+msgid "SLURM needs to know two things from you:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:150 376725db289b4e9d866388a91f5a1469
+msgid "### Resource requirement. How many nodes and how long you need them for."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:151 169a431087c840f0b311c7dc23afd658
+msgid "### What to run."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:153 cd6e3d5d8c0c4c428eb0ab88b0638566
+msgid ""
+"\\* You cannot submit an application directly to SLURM. Instead, SLURM "
+"executes on your behalf a list of shell commands."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:155 c3633b57ef2642d39fef90f456a41190
+msgid ""
+"\\* In ``batch mode``. SLURM executes a ``jobscript`` which contains the "
+"commands."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:157 2d9cf36585884bb29bb6068b95994585
+msgid "\\* In ``interactive mode``, type in commands just like when you log in."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:159 fa744642c5e84a9fa61f2540dbeb805f
+msgid ""
+"\\* These commands can include launching programs onto compute nodes "
+"assigned for the job."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:162 38c9e61514fe493b97754fde9f455502
+msgid "Jobscripts"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:165 a3cbe9243bf4433d896d837846bbf87d
+msgid "A ``jobscript`` is a bash or csh script."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:168 8a2dc9f1c5b24c938d4c18d5d3ebdbe6
+msgid ""
+"sbatch interprets directives in the script, which are written as comments"
+" and not executed."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:170 131450a9a203464a974b018e968ed684
+msgid "Directive lines start with ``#SBATCH``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:171 973526dd76dd4239a708badde18f36c3
+msgid "These are quivalent to sabtch command-line arguments."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:172 cf600de74820410ba7f56be6a79527d8
+msgid ""
+"Directives are usually more convenient and reproducible than command-line"
+" arguments. Put your resource request into the ``jobscript``. The "
+"``jobscript`` will execute on one of the allocated compute node ``#SBATCH"
+" directives are comments, so only subsequent commands are executed.``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:179 ed8ab6252fbf40b0ba7d223a786733a6
+msgid "Common sbatch directives"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:181 74c4918c257c4166bec21ae1c175f34e
+msgid "**Example jobscript (hostname.sh)**"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:197 bba2a4ff168c4ddbad4ff224ed58d7ea
+msgid "Launch the job with sbatch:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:199 969cc4e024d2497fbd72dd81b431c1e6
+msgid "``sbatch hostname.sh``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:202 6d6caa35f79a4070a775dde962fabc3a
+msgid "To view more options of sbatch:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:204 71f32f8e3baf4bdda3ca5a969bd15e6a
+msgid "``sbatch --help``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:207 72c781c31aed45c6b000469bfc5009f6
+msgid "SLURM Output"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:211 8fc77eb630bd41c28675a97a498d4cf0
+msgid ""
+"Standard output and standard error from your jobscript are collected by "
+"SLURM, and written to a file in the directory you submitted the job when "
+"the job finishes/dies."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:212 3b2c29f91e294276b89681087d432549
+msgid "``slurm-jobid.out``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:213 684404649f8940359aaa04a8ff9153a7
+msgid "``cat slurm-jobid.out``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:216 f4d5526eff884def855a7157c27cf1cd
+msgid "Serial python example (hello-serial.sh)"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:218 a6eb05261585417eacb49d86c2576ad2
+msgid ""
+"This job script will run on a single core of SHAO’s cluster for up to 5 "
+"minutes:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:237 ../../docs/jobs/jobs-bk.rst:302
+#: ../../docs/jobs/jobs-bk.rst:332 8db4fa3ff9a94930a36714cc65bd4c6b
+#: 9231666a967048e798c61deb18eba622 a627a2af4ee7448e93f367535a106383
+msgid "The script can be submitted to the scheduler with:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:238 fb0e946642fb4b2c9cb67e5b63b77268
+msgid "``sbatch hello-serial.sh``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:241 75b7ab2f54a14f0689d5bd3336a9408e
+msgid "Lauching Paralle Programs"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:244 97e30669c8f245f2b0583c486867258f
+msgid ""
+"Parallel applications are launched using srun. The arguments determine "
+"the parallelism:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:245 cfa05aace27f4e359aac5f4206f1c35e
+msgid "-N number of nodes"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:246 edec7c97671d424a850d8d88464e81de
+msgid "-n number of tasks (for process parallelism e.g. MPI)"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:247 1e1c7bb62fb34f3f984062961ef69ea3
+msgid "-c cores per task (for thread parallelism e.g. OpenMP)"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:249 f9608961db094675a94a89197a077ede
+msgid ""
+"While these are already provided in the SBATCH directives, they should be"
+" provided again in the srun arguments."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:251 d82a57d219e14c89b05fbef57231cb0c
+msgid ""
+"**OpenMP example (hello-openmp.sh)** This will run 1 process with 24 "
+"threads on 1 purley-cpu compute node, using 24 cores for up to 5 minutes:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:275 634f98e728e94bda9d31470cf9f5e82e
+msgid ""
+"The program can be compiled and the script can be submitted to the "
+"scheduler with:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:276 69fb62e0a730495c892b23fd5eda1451
+msgid "``cd hello-openmp``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:277 ../../docs/jobs/jobs-bk.rst:305
+#: 0b1cadf13f26466eaf3dd8a99c064ba3 a00808e3af46482c93a7309775badd2c
+msgid "``make``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:278 79892eebe12443648ec46176d2eaa114
+msgid "``sbatch hello-openmp.sh``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:280 f32af3a3eeda4d8aa854e27b380288dc
+msgid "**MPI example**"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:281 1d3140088e0848729bdc9a637ae8cca3
+msgid "This will run 24 MPI processes on 1 node on purley-cpu:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:303 973e342d89234e6f915b394467bdfb02
+msgid "``cd hello-mpi``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:304 cddef90400d64d829337ee9f6505a16a
+msgid "``module load mpich/cpu-3.2.1-gcc-7.3.0``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:306 0a5263e2950442cfb4b76174b2ebfabe
+msgid "``sbatch hello-mpi.sh``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:309 d7cd7208698b4776ad1083c02bedc8fc
+msgid "GPU Example (hello-gpu.sh)"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:311 58f172eaaa3646798ce247abc4e65414
+msgid "This will run one gpu device on a GPU node:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:334 fa4f6bbd226d445e98001c368a2833b8
+msgid ""
+"``cd hello-gpu`` ``module load cuda/9.0`` ``nvcc -o hello-gpu hello-"
+"gpu.cu`` ``sbatch hello-gpu.sh``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:336 3d706c398a9f49799c7a4929b1813836
+msgid "All scripts can be downloaded from this git repository:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:337 76d50b5e084f455580b6ce2228f1b680
+msgid "https://github.com/lao19881213/Introductory-CSRC-P"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:340 36db2590b21d4ab4b1235f1bff8cb8d4
+msgid "Interactive Jobs"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:342 da5eeed761564c27900953c5f9f4754a
+msgid "Sometimes you need them:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:343 cb536afeb6d248708f61fed26d3c7db0
+msgid "\\* Debugging"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:344 439b8834f55e408686d500b8317baab6
+msgid "\\* Compiling"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:345 60453e33c89149fb9b37d3a3da4ecd98
+msgid "\\* Pre/post-processing"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:346 b34b82065e0349bfb608a17098ad6dea
+msgid "Use salloc instead of sbatch."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:347 f7fe1f96c13f472d959cb64671ba605d
+msgid "You still need srun to place jobs onto compute nodes."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:348 c5d85a14c2154b63b2dd38f08cfbcc19
+msgid "``#SBATCH directives must be included as command line arguments.``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:350 03b44be982a84fae9d97b638f2f98453
+msgid "**For example (compiling):**"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:352 2d7c920876234740923a24682076f01a
+msgid ""
+"``salloc --tasks=16 --partition purley-cpu --time=00:10:00`` ``srun make "
+"-j 16``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:354 9e70d4ef2c7e4affa7d2c306062df3fa
+msgid "Run hello-serial.py interactively on a purley-cpu compute node."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:356 177d0f8e50cb46b6bff6ad399979af25
+msgid ""
+"Start an interactive session (you may need to wait while it is in the "
+"queue):"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:359 a54e9865375c4bd69ce9dda1a7b3d1b6
+msgid "``salloc --partition=purley-cpu --tasks=1 --time=00:10:00``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:361 df6f017f07f9490abbc118a0d6931795
+msgid "Prepare the environment:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:362 ../../docs/jobs/jobs-bk.rst:372
+#: 183313afc9e64959b4e81c79ea89d003 cc4b98b28f644f04909f3c06f3a0d891
+msgid "``module use /home/app/modulefiles``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:363 ../../docs/jobs/jobs-bk.rst:373
+#: 3a477727e83e441caed96d30fe1c765a bf6e0599ef8740fdb86a7090db6a84f4
+msgid "``module load python/cpu-3.7.4``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:365 ../../docs/jobs/jobs-bk.rst:375
+#: 0679c86e4a3647a59444caa61b75a6cd fdf7fa4266e44f9a80f55fafd75b03f1
+msgid "Launch the program:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:366 c9c39c2972a44ee7b78e75b4fc64475d
+msgid "``srun --export=all -n 1 python3 hello-serial.py``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:367 75df09fa37b74abb9db051ae095f3681
+msgid "Exit the interactive session:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:368 b19e14baf942481abf21b14461c4eb30
+msgid "``exit``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:371 33894fbdcd454dd78edc7fecb47ef8ee
+msgid ""
+"You can also run a hello-serial interactively only using srun: Prepare "
+"the environment:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:376 87b3f9d40d6f430e90f15aa676e73bfe
+msgid "``srun --export=all -N 1 -n 1 -p purley-cpu python3 hello-serial.py``"
+msgstr ""
+

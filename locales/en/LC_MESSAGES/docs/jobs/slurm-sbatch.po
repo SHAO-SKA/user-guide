@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/jobs/slurm-sbatch.rst:3 db2e7ad4fc544b188733f2b0925e8d33
+msgid "批处理作业sbatch"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:6 a213107eb2824a498f0732889b59802e
+msgid "简介"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:8 4d1439403c5c454db0c82f574d540497
+msgid ""
+"批处理作业是指用户编写作业脚本，指定资源需求约束，提交后台执行作业。 提交批处理作业的命令为sbatch，用户提交命令即返回命令行窗口， "
+"但此时作业在进入调度状态， 在资源满足要求时，分配完计算节点之后， 系统将在所分配的第一个计算节点（而不是登录节点）上加载执行用户的作业脚本。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:14 1957c7f5a75b41e2add64fbb41ea1afa
+msgid ""
+"批处理作业的脚本为一个文本文件， 脚本第一行以 ``#!`` 字符开头，并指定脚本文件的解释程序， 如 sh,bash。 "
+"由于计算节点为精简环境，只提供 sh 和 bash 的默认支持。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:20 6134a730b63e4ce790a21a51b848f11c
+msgid "使用示例"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:22 435cb135e31f4143be0034cd5e56121e
+msgid "例如用户的脚本名为myjob.sh，内容如下："
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:26 30ede79aae2a435c95f49a48eb4ea1fc
+msgid "使用该脚本用户提交批处理作业，需要明确申请的资源为 arm 分 区的 4 个节点。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:30 83e99cf6375f466595d6f26a9398d041
+msgid "需给该文本文件设置myjob.sh可执行权限，利用命令： ``chmod +x myjob.sh``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:32 e7425d9d00a94dbb92cc494cbc00c082
+msgid "用户sbatch批处理命令如下："
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:39 303b69d5c8e04f5ebd1088a3c1f05d5e
+msgid "计算开始后，工作目录中会生成以slurm开头的.out 文件为输出文件。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:50 13e42098aad841cf9308bc30ed3c1d2f
+msgid "更多选项，用户可以通过 ``sbatch --help`` 命令来查看。"
+msgstr ""
+

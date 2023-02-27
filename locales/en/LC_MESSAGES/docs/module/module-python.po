@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/module/module-python.rst:5 61e499bfae1644c89cbee739976f3f5f
+msgid "Python环境使用"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:8 9ec39ecd38e144e485145932eb0ef727
+msgid ""
+"CSRC-P不部署Python module，用户可以通过上述方法加载Python软件后， "
+"创建Python虚拟环境到自己的HOME路径下，然后自行安装所需的Python module。"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:11 c69ea780cb66401f9b1bcb1c44250966
+msgid "具体方法如下： 加载Python软件,以X86系统为例："
+msgstr ""
+
+#: ../../docs/module/module-python.rst:23 3056ca68481d4b2f8fe7160969f63337
+msgid "创建Python虚拟环境："
+msgstr ""
+
+#: ../../docs/module/module-python.rst:36 c8bc141e301943f184d751ad2506a4b8
+msgid "添加环境变量,把下面语句添加到~/.bashrc中："
+msgstr ""
+
+#: ../../docs/module/module-python.rst:42 b4b16027d31f4def8c7dceabcf5b5b5d
+msgid "启用Python虚拟环境："
+msgstr ""
+
+#: ../../docs/module/module-python.rst:49 8b8bbd4b6e8b4aeb88bb223ab522a8ae
+msgid ""
+"此时，可以在终端使用`pip install`安装Python module， 或者下载Python module 源码，使用`python "
+"setup.py install`安装。 退出虚拟环境："
+msgstr ""
+
+#: ../../docs/module/module-python.rst:59 28035b6e01cd4a88a66c16b3a6126d90
+msgid ""
+"conda(Python/R/生信软件) conda "
+"是一个开源的软件包管理系统和环境管理系统，用于安装多个版本的软件包及其依赖关系，并在它们之间轻松切换，conda支持python、R、 ruby、"
+" lua、 scala、 java、 javaScript、 C/ C++、 fortran等多种语言，还支持大部分生信软件的安装。"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:62 4fc61c9e972743d3883634567ffeaa4b
+msgid "首先介绍如何安装conda；接着介绍如何用conda创建虚拟环境和虚拟环境中安装软件；随后简单介绍一个例子，用conda创建python的虚拟环境；随后介绍用conda创建R语言运行环境；接着介绍用conda管理perl语言环境；最后介绍用conda安装生信软件。"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:64 78fa5ac93ff94becb31b775ff4f9cb0d
+msgid "首先介绍如何安装conda；"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:66 dc2e65eaab1c4660aef10feb2b21e792
+msgid ""
+"# 获得最新的miniconda安装包； wget https://repo.anaconda.com/miniconda/Miniconda3"
+"-latest-Linux-x86_64.sh"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:69 a84b4e88fcc346fcbe885cac4894be54
+msgid ""
+"# 安装到自己的HOME目录下software/miniconda3中，这个目录在安装前不能存在； sh Miniconda3-latest-"
+"Linux-x86_64.sh -b -p ${HOME}/software/miniconda3"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:72 8e6d3f025b9c413bb5f7a5c514f8b12f
+msgid "# 安装成功后删除安装包 rm -f Miniconda3-latest-Linux-x86_64.sh"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:75 0133231916054a8a9cca37c0cb2a5b3a
+msgid ""
+"# 将环境变量写入~/.bashrc文件中； echo \"export "
+"PATH=${HOME}/software/miniconda3/bin:\\$PATH\" >> ~/.bashrc"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:78 9820bfec31b64429982d82c6901ae1c8
+msgid "# 退出重新登录或者执行以下命令 source ~/.bashrc"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:81 1e42904b948b4c139672d0578a56340a
+msgid "# 检查是否安装成功 conda --version 随后介绍使用conda创建虚拟环境，并在虚拟环境中安装软件；"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:85 a4fdfcadf4b44e47a0cc7ff5f93f88d7
+msgid "使用conda创建环境、进入环境、删除环境等；"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:87 6913cd3a5728402da34ddcc37ef3e83c
+msgid ""
+"conda info -e     # 查看已有的conda环境； source activate env_name        # "
+"进入指定的conda环境； conda deactivate  # 退出当前的conda环境； conda create -n env_name "
+"[python=<version>] # 创建环境，并指定python版本，或者安装包等； conda remove -n env_name "
+"--all  # 删除指定环境； 使用conda在虚拟环境中安装软件；"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:94 1a2d4dd3942344759dfe3459a01ea38b
+msgid ""
+"conda list [-n env_name] # 查看当前环境(指定环境)下安装的包； conda search pkg_name    # "
+"查看安装包； conda update pkg_name    # 更新指定的安装包； conda remove pkg_name    # "
+"卸载指定的安装包 随后简单介绍一个例子，用conda创建一个python环境；"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:100 6bac345663eb4dea9e74a05961586e87
+msgid "创建一个python环境，并在虚拟环境中安装tensorflow gpu 1.14.0版本库；"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:102 971327737b4948aca1d9749270791a59
+msgid ""
+"# 创建时可以指定Python版本，不指定的话会使用默认的版本(miniconda自带的Python版本)； conda create -n "
+"TensorFlow-1.14.0 -y"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:105 94276429e7324f3a99549dba7b12d125
+msgid "# 进入上一步创建好的环境; source activate TensorFlow-1.14.0"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:108 5b7d4fc929084ab79fcd7575d897671d
+msgid "# 安装相应的库； conda install tensorflow-gpu=1.14.0 # 根据自己的需要安装相应的库；"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:111 52628aa4733e4e85b01c898acb6556a7
+msgid ""
+"# 安装pip并使用pip安装 python 库； conda install pip     # 环境中需要先安装pip pip install"
+" numpy     # 根据自己的需要安装相应的库"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:115 88c431461de54bc78d2ff13d198e9714
+msgid "# 退出当前的虚拟环境； conda deactivate 随后介绍如何使用conda来管理自己的R语言环境；"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:119 cdb890db1b1947049a4a99edc7ff0462
+msgid "R是用于统计分析、绘图的语言和操作环境。R是属于GNU系统的一个自由、免费、源代码开放的软件，它是一个用于统计计算和统计制图的优秀工具。"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:121 ffc7f515e46347a7b05d64f6caf87d1e
+msgid "# 创建虚拟环境，并在创建的时候指定安装R 3.6.0版本; conda create -n myEnvR r=3.6.0 -y"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:124 50c123c5646b44ac844c64227dda128c
+msgid "# 进入上一步创建好的虚拟环境； source activate myEnvR"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:127 8672b412c8ae4e429f7b25855c1119de
+msgid "# 安装R语言库，比如stringi conda install r-stringi"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:130 c7b872f8f43841668f215b7d150473b8
+msgid "# 如果需要用到图形节点，安装rstudio conda install rstudio"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:133 04e29a30ed1f45cd98b65a6b81b7e221
+msgid ""
+"# 安装完后就可以用R语言环境了，如果要退出当前环境则执行以下指令； conda deactivate "
+"如果需要安装4.0的版本，可以通过以下步骤安装，4.0版本暂时无法通过conda安装rstudio"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:137 5382005159814a89bfe394051da1a1ca
+msgid ""
+"# 创建虚拟环境，并在创建的时候指定安装R 4.0版本; conda create -n myEnvR4.0 r=4.0 -c conda-"
+"forge -y"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:140 98eee9f782164275a939182e14bb2fc3
+msgid "# 进入上一步创建好的虚拟环境； source activate myEnvR4.0"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:143 07f04d625e3b4bc09f65eae9b4dd54ae
+msgid "# 安装R语言库，比如stringi conda install r-stringi -c conda-forge"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:146 9471e6ecd33048cba7316e24ad7130ad
+msgid "# 安装完后就可以用R语言环境了，如果要退出当前环境则执行以下指令； conda deactivate 接着介绍用conda管理perl语言环境；"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:150 f35dfd22069e4199821023d5b5541c3d
+msgid "# 创建虚拟环境； conda create -n myEnv"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:153 9498186032764af38c76d94d3a18beff
+msgid "# 进入创建好的虚拟环境； source activate myEnv"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:156 4d2867a3b3f74443abef30c38bf6f1ea
+msgid "# 安装perl和cpan conda install -c bioconda perl perl-app-cpanminus"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:159 59b24af9bd304273bc9d93657b5b94dc
+msgid "# 安装perl相关库 cpanm My::Module 最后介绍通过conda安装生信软件。"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:163 65ef90ca32b94fa1857df8f7b2dd62ac
+msgid "bioconda 就是一个conda中专门用来提供生信软件的 channel，提供有超过7000个的生信软件，以下是通过conda安装生信软件的例子"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:165 f5255cd545d24966a45e6632928ad722
+msgid ""
+"# 创建虚拟环境 conda create -n anvio # 切换到创建好的环境 source activate anvio # "
+"安装anvio conda install -c bioconda anvio -y 更多关于生信软件安装的例子，可以查看链接"
+msgstr ""
+

@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/module/module-intro.rst:5 1acb64747bb1481da333f0a98899a1be
+msgid "module简介"
+msgstr ""
+
+#: ../../docs/module/module-intro.rst:7 3690bc91039b4bb0b84ebf956a34e2d4
+msgid ""
+"由于不同用户在原型系统上可能需要使用不同的软件环境，配置不同的环境变量， "
+"默认配置无法满足所有用户的需要，因而在原型系统上安装了module软件来进行对环境变量的管理， 方便用户更好地使用机器。"
+msgstr ""
+
+#: ../../docs/module/module-intro.rst:11 341e9bcb82b64fa2bfce6ae1b4cca5d7
+msgid "Envrionment modules工具用来快速的设置和修改用户编译运行环境。"
+msgstr ""
+
+#: ../../docs/module/module-intro.rst:13 fb9035480c4a49c9a152ca72456d55bd
+msgid "Envrionment modules通过加载和卸载modulefile文件可直接改变用户的环境变量，用户不需要修改.bashrc，从而避免误操作。"
+msgstr ""
+
+#: ../../docs/module/module-intro.rst:16 3690bc91039b4bb0b84ebf956a34e2d4
+msgid ""
+"`module`通过配置*modulefile*支持环境变量的动态修改， 能够控制软件不同版本对环境变量的依赖关系。 "
+"用户通过简单的命令即可获得适于自己环境变量设置，因而提高了用户移植软件的效率。"
+msgstr ""
+

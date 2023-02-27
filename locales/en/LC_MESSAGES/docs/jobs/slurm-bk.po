@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/jobs/slurm-bk.rst:2 d1d6544a8ec54c578c495f611945f715
+msgid "作业"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:5 e9db2fd277d04c179a85be134b573547
+msgid "提交作业"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:8 094395186f494a2597f83647952dd0ec
+msgid "提交OMP的 Hello world 单节点作业"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:10 14e2492fb7af4eaa88b69d8403fd97e5
+msgid "以单节点的 OpenMP Hello world 为例，演示  集群作业提交过程。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:12 c94ba683340048c3b6585015969abf8e
+msgid "撰写名为 hello_world.c 代码如下"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:18 fe3dbfa8572243928e5326ac77657b4c
+msgid "使用 GCC 编译"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:25 227e1d9425bb4f51aa6720f91559b0b3
+msgid "在本地测试运行 4 线程应用程序"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:31 16e1c327b1814e66ac22d5ac731a1c02
+msgid "编写一个名为 hello_world.slurm 的作业脚本"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:36 575e58099c3d42a08cda058192c507b6
+msgid "提交到 SLURM"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:43 15148ac065c344e8a141d11c3f568e08
+msgid "查询作业"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:46 17af8458b93d4db6b0a6dffba095439e
+msgid "停止作业"
+msgstr ""
+

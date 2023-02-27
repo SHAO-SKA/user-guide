@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/jobs/slurm-scancel.rst:3 391e1325e49146bba3240714ef6d55a0
+msgid "任务取消scancel"
+msgstr ""
+
+#: ../../docs/jobs/slurm-scancel.rst:6 246e6725e6d64bdcb1857b8494227261
+msgid "用户使用scancel命令取消自己的作业。命令格式如下："
+msgstr ""
+
+#: ../../docs/jobs/slurm-scancel.rst:12 635dab10f14b4393bbdae2af581f6b3c
+msgid ""
+"jobid可通过 ``squeue`` 获得。 对于排队作业，取消作业将简单地把作业标记为CANCELLED状态而结束作业。 "
+"对于运行中或挂起的作业，取消作业将终止作业的所有作业步， 包括批处理作业脚本，将作业标记为CANCELLED状态，并回收分配给作业的节点。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-scancel.rst:17 8cb9a98ea06e4754ad3ad8fcb2d61621
+msgid ""
+"一般地，批处理作业将会马上终止； 交互作业的srun进程将会感知到任务的退出而终止； "
+"抢占节点资源的salloc进程不会自动退出，除非作业所执行的用户命令因作业或任务的结束而终止。 "
+"但是在作业被取消时，控制进程都会发送通知消息给分配资源的srun或salloc进程。 用户可以选择通过salloc的--kill-"
+"command选项设置在收到通知时向所执行的命令发送信号将其终止。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-scancel.rst:23 a5e0361e089b43a5bf0041793c0ce54a
+msgid "更多选项，用户可以通过 ``scancel --help`` 命令来查看。"
+msgstr ""
+

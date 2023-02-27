@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/faq/index.rst:5 b4fd2e69e61942619f641c16c306b686
+msgid "常见问题集锦"
+msgstr ""
+
+#: ../../docs/faq/index.rst:8 681d9a4ccabd4a71bff6202a46e32a85
+msgid "本章列举使用过程中经常遇到的问题及解决方法。"
+msgstr ""
+
+#: ../../docs/faq/index.rst:13 e9fc89d2d3254526a38a063ce73c9674
+msgid "由于手册篇幅限制，只列出了对于绝大多是用户比较重要的相关内容，如您有其他需求也可以联系数据中心技术人员。 重要提示："
+msgstr ""
+
+#: ../../docs/faq/index.rst:16 01178baa7a2146eea9781ff84cda1f7c
+msgid "请不要在登录节点直接运行可执行程序（极大的影响其他用户的登录和使用效率）。"
+msgstr ""
+
+#: ../../docs/faq/index.rst:17 da9285e3458249f0ba220e96316ba907
+msgid "如无特殊需要，请使用批处理方式（sbatch）提交任务，如果有任何问题请联系数据中心技术人员。"
+msgstr ""
+
+#: ../../docs/faq/index.rst:18 51cbe0ee118941e3b844cf32d2ae0fd2
+msgid "请保存好运行程序的log文件，从而方便数据中心技术人员在作业出问题后，协助解决问题。"
+msgstr ""
+
+#: ../../docs/faq/index.rst:19 8c59540d322244c3ae1e7543c932ca41
+msgid "若需登录计算节点运行和调试程序，可以先分配独占计算节点，方可ssh登录计算节"
+msgstr ""
+

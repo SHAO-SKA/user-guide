@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/module/module-wsclean.rst:5 dad0e4973616496aa76a9467ba88495d
+msgid "wsclean使用"
+msgstr ""
+
+#: ../../docs/module/module-wsclean.rst:7 abc81a969cd9495ba8cbad3680eeb429
+msgid "**WSClean** 是w-stack clean的缩写，为w投影算法的一种方法，这种方法在对uv数据做FFT之后在进行w项的校正，速度较快。"
+msgstr ""
+
+#: ../../docs/module/module-wsclean.rst:9 c4ba26c110d04cde9e17593f9d17d03f
+msgid "当前广泛用于LOFAR，MWA等宽视场阵列的数据处理中。"
+msgstr ""
+
+#: ../../docs/module/module-wsclean.rst:11 883b9ed8ff9542edb3bb58073fba8a30
+msgid "使用方法如下："
+msgstr ""
+
+#: ../../docs/module/module-wsclean.rst:23 741bb6fc240e4a7c8d8f71b4109e87e9
+msgid "此时应该可以看到wsclean的各个版本"
+msgstr ""
+
+#: ../../docs/module/module-wsclean.rst:44 99886f9b3d9e466cb4106e22270c501f
+msgid "与casa的配合使用"
+msgstr ""
+
+#: ../../docs/module/module-wsclean.rst:46 14cc42eb595f45cd94bdd575ee90de01
+msgid "在与casa联合使用的过程中，会涉及到环境变量的冲突问题， 具体使用方法如下："
+msgstr ""
+

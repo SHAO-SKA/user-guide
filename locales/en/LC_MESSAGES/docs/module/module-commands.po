@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/module/module-commands.rst:5 f3e5ad3f397e412ebc9187615c5b5cb6
+msgid "基本命令"
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:8 a7142ea8fa7142ed8910e325bfc46dfa
+msgid "添加模块集合"
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:16 57adde81645b4880a832b8efc9833087
+msgid "添加模块集合-CRATIV"
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:23 220ec52e0baf4ae8a918588ec4985540
+msgid "查看可用的模块列表"
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:31 5e5d1b4bce1640af852140e7b295e111
+msgid "CSRC-P 平台可用的软件如下所示："
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:39 8da6d09a2a284bebacece8f386fb1ad2
+msgid "CRATIV 平台可用的软件如下所示："
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:46 c5edbb4da4284457a2a6fa425e58e800
+msgid "加载需要的模块"
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:53 c4b8883c12d24f3c8f15c7a77b3336de
+msgid ""
+"ARM 系统加载方法 `module load softwarename/arm-version`, X86 系统加载方法 `module "
+"load softwarename/cpu-version` 或 `module load softwarename/gpu-version`。 "
+"CRATIV 系统加载方法 `module load softwarename-version`,"
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:57 7a8df4f85a51443e9ff7a187d37902e3
+msgid "以X86的gcc为例："
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:69 a26e6f23a5174584b37279ffb2210ecf
+msgid "在执行过程中如果出现模块的问题或者冲突，可以考虑清空载入的module，重新进行加载测试，命令如下："
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:77 7b9d7f2651934fa28c10d846ce6610c2
+msgid ""
+"module 其他用法，可以通过module --help查询。 "
+"更多详细使用方法见[module官网](http://modules.sourceforge.net)"
+msgstr ""
+

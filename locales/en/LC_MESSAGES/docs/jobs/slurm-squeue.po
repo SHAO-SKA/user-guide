@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/jobs/slurm-squeue.rst:3 4141164134ba48cbbe121b1411cadd3c
+msgid "作业状态信息查看squeue"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:5 060dde93e29d466c9a0ff1eb5290d141
+msgid "用户用 ``squeue -u username`` 查看自己作业的运行情况。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:19 a228ed9372184d72990f53912875b612
+msgid ""
+"其中 JOBID表示任务ID， NAME表示任务名称， USER为用户， ST表示运行状态， TIME为已运行时间， NODES表示占用节点数， "
+"NODELIST为任 务运行的节点列表。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:37 cba2805b136242bea4c81c5011167d04
+msgid "ST：状态，常见的状态包括："
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:29 bf06f34a43124b75a6f4cd10d405892e
+msgid "PD、Q：排队中 ，PENDING"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:30 02c8d3f806f24469893fef0970962bae
+msgid "R：运行中 ，RUNNING"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:31 5e9da9fcd43947738835d2318471ece6
+msgid "CA：已取消，CANCELLED"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:32 e3caf78fa19c4d289f9e976b9aefa81d
+msgid "CG：完成中，COMPLETIONG"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:33 94661068546142978c11eb53b50fe628
+msgid "F：已失败，FAILED"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:34 b5e919cd517c42c7953c8529f5079b53
+msgid "TO：超时，TIMEOUT"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:35 89bcc08106294444bc3dfffd279885e2
+msgid "NF：节点失效，NODE FAILURE"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:36 e60d29f0afba4a00bbfd30eeb6e5d8ec
+msgid "CD：已完成，COMPLETED"
+msgstr ""
+

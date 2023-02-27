@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/introduction/intro.rst:6 1271ca6ac2854074babc59542a1f303e
+msgid "使用须知"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:8 9a09a061f0a64a6caa23115a8fbdb4cf
+msgid "欢迎使用中国SKA区域中心原型机系统，以下简称CSRC-P。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:10 f33450f462a7414eb011e7e2eb86f1df
+msgid "该文档为CSRC-P用户使用文档，内容包括如何登录、运行作业和使用软件等。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:12 ffabdab3bc084d13bc78d968f612f31c
+msgid ""
+"发表论文成果并致谢平台的可获得对应的机时奖励，具体可邮件 shaoska@shao.ac.cn & "
+"chinasrc@googlegroups.com 咨询 。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:15 a4f5c747b06b473998e3c944f2115b2b
+msgid ""
+"CSRC-P的CPU计算节点资源使用方式为机时或核·小时分配，即作业使用的核数乘以运行时间，分配机时给 "
+"用户以后即可使用。例如，某次作业使用了28核，运行了1小时，机 时为28*1=28(核·小时)。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:16 3dd2ce366d4c4a98a1afc25f5c100994
+msgid ""
+"目前CSRC-P系统CPU节点有4种类型:华为 taishan ARM、Intel Purley X86 CPU、Intel KNL和Intel "
+"KNM，每 个节点的核数分别是96、28、72和68。GPU计算节点资源使用方式是 以小时分配，分配账户后即可使用。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:17 2247a2ff055b46648f225fe24cc30aed
+msgid "资源开通方式:填写用户及资源申请表并发送到邮箱 shaoska@shao.ac.cn & chinasrc@googlegroups.com。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:18 2ffc46a7a5f74071898f5946331b53c3
+msgid ""
+"数据中心不提供商业软件的安装适配、售后及应用支持服务。您 可以自行安装和使用商业软件，或与该软件的售后服务团队联系寻求 "
+"协助。用户自行安装软件带来的版权问题请自负责任。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:19 99ad25cd3b064a8db1f8553e6cf56c78
+msgid ""
+"数据中心根据实际情况对基于原型系统部署的开源软件的安装进 行一定程度上的协助，但软件的算法合理性、精度、并行效率、使用 "
+"方法等软件自身问题需要自行解决。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:20 ffe7d2df332d4596ac80aa163f6c825c
+msgid "如您的任何行为对数据中心的财产和声誉等方面造成了任何损 失，数据中心将依法追究相关责任。以上条例解释权归数据中心所有。"
+msgstr ""
+

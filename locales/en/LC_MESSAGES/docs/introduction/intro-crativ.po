@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/introduction/intro-crativ.rst:4 86dcb94948e1455e916951f31d596198
+msgid "CRATIV平台"
+msgstr ""
+
+#: ../../docs/introduction/intro-crativ.rst:6 c53efdcb1d484fe59160877c34a4d6e2
+msgid ""
+"CSRC-P平台还包括一台CRATIV系统，主要用于前期的数据处理与软件开发。 远程登录可以使用VNC软件，软件使用module系统。 "
+"详细信息可邮件 shaoska@shao.ac.cn & chinasrc@googlegroups.com 咨询 。"
+msgstr ""
+
+#: ../../docs/introduction/intro-crativ.rst:11 d4c434b295564311a9f097244241d396
+msgid ". CRATIV具有256G RAM/50TB Storage/Intel(R) Xeon(R) CPU E5-2698."
+msgstr ""
+

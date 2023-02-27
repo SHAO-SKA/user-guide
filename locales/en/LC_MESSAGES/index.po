@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../index.rst:9 0d2cbfac50d8408bb50885520697ffa1
+msgid "Contents:"
+msgstr ""
+
+#: ../../index.rst:7 cc1c9a34dcaf40d6b401b0c786104505
+msgid "上海天文台SKA数据中心原型系统"
+msgstr "Shanghai Astronomical Observatory SKA Regional Centre Prototype"
+
+#: ../../index.rst:23 cb5a71fe0d6e46b4af325e493ed7d61f
+msgid "Indices and tables"
+msgstr ""
+
+#: ../../index.rst:25 45d08b2d36ed4bf78bad01483df068a2
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../index.rst:26 9aba79ee4a1c42e1a2f2a1ea3e5af7b2
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../index.rst:27 b2ff998fcce04223868eaaa183d55e77
+msgid ":ref:`search`"
+msgstr ""
+

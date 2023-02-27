@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-27 12:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/module/index.rst:3 c9986cf0921d4a2bad05ffb691624db3
+msgid "环境变量管理工具module"
+msgstr ""
+
+#: ../../docs/module/index.rst:5 c2dfbf24247e4d318154be4170d2940f
+msgid "本章介绍如何使用环境管理工具"
+msgstr ""
+
+#: ../../docs/module/index.rst:7 aee46fc6356e41169c10f5e47b75f03a
+msgid "为了满足不同用户或者科学研究的需求，CSRC-P中安装了各种版本的软件。"
+msgstr ""
+
+#: ../../docs/module/index.rst:9 658a7514812442919a0d844d94c848e8
+msgid "用户可在同一软件的不同版本之间切换，也可以在同一功能的不同软件之间切换，以此来选择最合适的编程环境和运行环境。"
+msgstr ""
+
+#: ../../docs/module/index.rst:11 ccd3d51df3c94a40b0d4212ba278eea3
+msgid "使用系统命令 ``module`` 可以快速地达到这一效果。"
+msgstr ""
+
+#: ../../docs/module/index.rst:13 ebceb1a54d9e4c6cad50adfad0c8f7e8
+msgid "详细的介绍可以参考: [module官方网站](https://modules.readthedocs.io/en/latest/)"
+msgstr ""
+
