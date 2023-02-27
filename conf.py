@@ -21,7 +21,7 @@
 
 project = 'ChinaSRC-P User Guide'
 copyright = '2022, ChinaSRC TEAM'
-author = '中国SKA区域中心原型机运维团队'
+author = 'ChinaSRC Team'
 
 # The short X.Y version
 version = ''
@@ -64,6 +64,10 @@ master_doc = 'index'
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 language = 'en'
+
+locale_dirs = ['locales/']
+gettext_compact = False
+gettext_uuid = True
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -133,7 +137,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CSRCPUserGuide.tex', '中国SKA区域中心原型机使用手册',
+    (master_doc, 'CSRCPUserGuide.tex', 'ChinaSRC-User-Guide',
      'CSKA TEAM', 'manual'),
 ]
 
@@ -143,7 +147,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'csrcpuserguide', '中国SKA区域中心原型机使用手册',
+    (master_doc, 'csrcpuserguide', 'ChinaSRC-User-Guide',
      [author], 1)
 ]
 
@@ -154,7 +158,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'CSRCPUserGuide', '中国SKA区域中心原型机使用手册',
+    (master_doc, 'CSRCPUserGuide', 'ChinaSRC-User-Guide',
      author, 'CSRCPUserGuide', 'One line description of project.',
      'Miscellaneous'),
 ]
