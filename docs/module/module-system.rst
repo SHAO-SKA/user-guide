@@ -21,7 +21,7 @@
 
 当前支持的命令如下所示：
 
-.. literalinclude:: ../../src/module/modulefiles
+.. literalinclude:: ../../src/module/modulefiles-system
 
 加载系统模块
 
