@@ -16,4 +16,5 @@ ChinaSRC-P平台的登录地址为：http://chinasrcyun.shao.ac.cn ，可通过C
     :maxdepth: 1
 
     login-inter.rst
+    login-ssh.rst
     login-outer.rst
