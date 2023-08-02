@@ -27,7 +27,7 @@
 |loginin|
 
 输入用户名和密码，点击“登录”进入服务平台。
-登录CSRC-P管理系统，如下图所示：
+登录ChinaSRC-P管理系统，如下图所示：
 
 |iam|
 
@@ -41,7 +41,16 @@
 
 首次登录要在平台上新注册用户并填写完整用户信息，等待管理员审批通过后，才能登录进入平台。
 
-点击“注册”按钮，进入到注册界面，填写用户名、密码及其他信息。
+点击“注册”按钮,
+
+
+|login-register|
+
+
+进入到注册界面，填写用户名、密码及其他信息。
+
+|login-submit|
+
 
 .. attention:: 
 
@@ -181,3 +190,7 @@ Linux操作系统或Mac操作系统用户直接使用ssh登录。具体操作可
   :scale: 50
 
 .. |personal info| image:: ../../_static/login_personal_info.png
+
+.. |login-register| image:: ../../_static/login_register.png
+
+.. |login-submit| image:: ../../_static/login_submit.png

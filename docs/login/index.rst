@@ -4,7 +4,7 @@
 
 .. note:: 
     
-    本章介绍如何登陆到CSRC-P
+    本章介绍如何登陆到ChinaSRC-P
 
 
 ChinaSRC-P平台的登录地址为：http://chinasrcyun.shao.ac.cn ，可通过Chrome、Firefox等浏览器直接访问,
