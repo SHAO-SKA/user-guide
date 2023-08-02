@@ -8,12 +8,13 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 目录
   
    docs/copyright/index.rst
    docs/introduction/intro.rst
    docs/introduction/intro-crativ.rst
    docs/login/index.rst
+   docs/mode/index.rst
    docs/module/index.rst
    docs/storage/index.rst
    docs/jobs/index.rst

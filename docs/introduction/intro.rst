@@ -24,11 +24,15 @@
 -------------------------------------
 
 .. note::
+
 	本研究使用了由中华人民共和国科学技术部和中国科学院资助研制的中国SKA区域中心原型机的资源。
+
 	This work used resources of China SKA Regional Centre prototype  funded by Ministry of Science and Technology of the People’s Republic of China and Chinese Academy of Sciences. 
 
 	Reference : 
+
 	1. An, Wu, Hong. SKA data take centre stage in China. Nat Astron, 2019, Vol. 3, p. 1030
+
 	2. T. An, et al. Status and progress of China SKA Regional Centre prototype. Sci. China-Phys. Mech. Astron. 65: 129501 (2022)
 
 	@ARTICLE{2019NatAs...3.1030A,
@@ -45,7 +49,8 @@
 	}
 
 	@ARTICLE{2022SCPMA..6529501A,
-		author = {{An}, Tao and {Wu}, Xiaocong and {Lao}, Baoqiang and {Guo}, Shaoguang and {Xu}, Zhijun and {Lv}, Weijia and {Zhang}, Yingkang and {Zhang}, Zhongli},
+		author = {{An}, Tao and {Wu}, Xiaocong and {Lao}, Baoqiang and {Guo}, Shaoguang 
+		         and {Xu}, Zhijun and {Lv}, Weijia and {Zhang}, Yingkang and {Zhang}, Zhongli},
 			title = "{Status and progress of China SKA Regional Centre prototype}",
 		journal = {Science China Physics, Mechanics, and Astronomy},
 		keywords = {Astrophysics - Instrumentation and Methods for Astrophysics},

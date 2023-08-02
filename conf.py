@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'ChinaSRC-P User Guide'
-copyright = '2022, ChinaSRC TEAM'
+project = '中国SKA区域中心原型机用户手册'
+copyright = '2022-2023, ChinaSRC TEAM'
 author = '中国SKA区域中心原型机运维团队'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = 'v1.3'
+release = 'v2.0'
 
 
 # -- General configuration ---------------------------------------------------
