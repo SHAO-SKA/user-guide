@@ -2,9 +2,9 @@
 数据存储
 ##################
 
-.. note:: 本章介绍CSRC-P存储情况
+.. note:: 本章介绍ChinaSRC-P存储情况
 
-CSRC-P 文件系统包括：
+ChinaSRC-P 文件系统包括：
 
 - /ssd
 - /o9000
@@ -18,7 +18,7 @@ CSRC-P 文件系统包括：
 - /ibo9000主要用于存储处理数据数据。
 - /p9500主要用于存储原始观测数据。
 
-目前，CSRC-P系统存储了约2PB左右的数据，
+目前，ChinaSRC-P系统存储了约2PB左右的数据，
 包括MWA、ASKAP和VLBI望远镜的观测数据。
 
 主要数据分组情况：MWA/GLEAM组、 MWA/Pulsar组和ASKAP组。

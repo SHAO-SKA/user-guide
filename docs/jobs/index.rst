@@ -10,7 +10,7 @@
     但程序的运行需要交给它背后的计算节点们完成。那么如何告诉工作站来运行我们的程序？ 我们需要使用作业调度系统 SLURM，
     它给我们提供了若干运行程序的方式，在本章节 里我们简要介绍最常用的方式：提交 SLURM 作业脚本的批处理方式。
 
-CSRC-P通过Slurm调度系统进行资源和作业管理，提高运行效率，以此来完成程序的规范运行，最新文档参考 [Slurm官网](https://slurm.schedmd.com/documentation.html)。
+ChinaSRC-P通过Slurm调度系统进行资源和作业管理，提高运行效率，以此来完成程序的规范运行，最新文档参考 [Slurm官网](https://slurm.schedmd.com/documentation.html)。
 
 所有需要运行的作业，无论是程序调试还是业务计算，都必须通过交互式并行srun、批量提交sbatch或分布式salloc命令提交，提交后可以使用相关命令查询作业状态。
 
