@@ -1,6 +1,12 @@
+.. _srun:
+
 #################################
 交互式作业提交srun
 #################################
+
+Slurm作业通常分为交互式和批量式两种。
+交互式作业通常用于代码编译、脚本调试、交互式计算等工作。
+长期后台计算的任务通常以作业脚本的方式进行批量提交 :ref:`sbatch` 。
 
 简介
 *******************
@@ -8,7 +14,8 @@
 交互式提交作业：在shell窗口中执行 ``srun`` 命令，主要命令格式如下： 
 
 .. code:: bash
-   $srun [options] program 
+
+   $ srun [options] program 
 
 
 srun常用选项 
@@ -29,7 +36,6 @@ srun包括多个选项，其中最常用的选项主要有以下几个：
 
 
 
-
 使用示例
 *******************
 
@@ -38,6 +44,7 @@ srun包括多个选项，其中最常用的选项主要有以下几个：
 .. code:: bash
 
    $srun -n 6 -p arm hostname
+   
    taishan-arm-cpu01
    taishan-arm-cpu01
    taishan-arm-cpu01
@@ -51,6 +58,7 @@ srun包括多个选项，其中最常用的选项主要有以下几个：
 .. code:: bash
 
    $srun -n 5 -w taishan-arm-cpu[01-05] -p arm hostname
+
    taishan-arm-cpu01
    taishan-arm-cpu03
    taishan-arm-cpu04
@@ -59,6 +67,7 @@ srun包括多个选项，其中最常用的选项主要有以下几个：
 
    # 多个任务
    $srun -n 10 -w taishan-arm-cpu[01-05] -p arm hostname
+
    taishan-arm-cpu03
    taishan-arm-cpu03
    taishan-arm-cpu02
@@ -77,6 +86,7 @@ srun包括多个选项，其中最常用的选项主要有以下几个：
 .. code:: bash
  
    $srun -n 4 -N 4 -w taishan-arm-cpu[03-05] -p arm hostname
+
    taishan-arm-cpu03
    taishan-arm-cpu04
    taishan-arm-cpu05
@@ -88,7 +98,12 @@ srun包括多个选项，其中最常用的选项主要有以下几个：
 .. code:: bash
 
    $srun -n 4 -N 4 -x taishan-arm-cpu[03-05] -p arm hostname
+
    taishan-arm-cpu06
    taishan-arm-cpu09
    taishan-arm-cpu08
    taishan-arm-cpu07
+
+
+
+
