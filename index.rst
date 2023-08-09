@@ -1,4 +1,4 @@
-.. CSRC-P User Guide documentation master file, created by
+.. ChinaSRC-P User Guide documentation master file, created by
    sphinx-quickstart on Wed Mar 16 15:41:00 2022.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -15,6 +15,7 @@
    docs/introduction/intro-crativ.rst
    docs/login/index.rst
    docs/mode/index.rst
+   docs/data/index.rst
    docs/module/index.rst
    docs/storage/index.rst
    docs/jobs/index.rst
