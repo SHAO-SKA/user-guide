@@ -1,4 +1,4 @@
-.. _usage-mode:
+.. _usage-mode-ref:
 
 使用模式
 ==========

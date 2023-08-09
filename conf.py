@@ -106,7 +106,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'CSKAUserGuidedoc'
+htmlhelp_basename = 'ChinaSRCUserGuidedoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -133,8 +133,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CSRCPUserGuide.tex', '中国SKA区域中心原型机使用手册',
-     'CSKA TEAM', 'manual'),
+    (master_doc, 'ChinaSRCPUserGuide.tex', '中国SKA区域中心原型机用户手册',
+     'ChinaSRC Group', 'manual'),
 ]
 
 
@@ -143,7 +143,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'csrcpuserguide', '中国SKA区域中心原型机使用手册',
+    (master_doc, 'ChinaSRCpuserguide', '中国SKA区域中心原型机用户手册',
      [author], 1)
 ]
 
@@ -154,8 +154,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'CSRCPUserGuide', '中国SKA区域中心原型机使用手册',
-     author, 'CSRCPUserGuide', 'One line description of project.',
+    (master_doc, 'ChinaSRCPUserGuide', '中国SKA区域中心原型机用户手册',
+     author, 'ChinaSRCPUserGuide', 'One line description of project.',
      'Miscellaneous'),
 ]
 

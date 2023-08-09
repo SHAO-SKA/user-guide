@@ -5,7 +5,7 @@ Python环境使用
 ################
 
 
-CSRC-P不部署Python module，用户可以通过上述方法加载Python软件后，
+ChinaSRC-P不部署Python module，用户可以通过上述方法加载Python软件后，
 创建Python虚拟环境到自己的HOME路径下，然后自行安装所需的Python module。
 
 具体方法如下：
