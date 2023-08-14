@@ -17,5 +17,6 @@
 
     module-intro.rst
     module-commands.rst
+    module-system.rst
     module-python.rst
     module-wsclean.rst

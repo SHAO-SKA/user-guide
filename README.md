@@ -24,4 +24,4 @@ $ make html
 ## 联系我们
 
 Welcome comments, issuse and PR.
-有任何问题，请联系我们 :mailbox: shaoska@shao.ac.cn & chinasrc@googlegroups.com
+有任何问题，请联系我们 :mailbox: shaoska@shao.ac.cn 

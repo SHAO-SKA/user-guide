@@ -13,31 +13,28 @@ CSRC-P不部署Python module，用户可以通过上述方法加载Python软件�
 
 .. code:: bash
     
-    $ module load python/cpu-3.7.4
+    $ module load python/cpu-3.8.12-gcc-7.3.0
+    $ python --version
+    Python 3.8.12
     $ python
-    Python 3.7.4 (default, Sep  5 2019, 21:47:51) 
-    [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)] on linux
+    Python 3.8.12 (default, Mar 11 2022, 08:16:38) 
+    [GCC 7.3.0] on linux
     Type "help", "copyright", "credits" or "license" for more information.
     >>> 
+
 
 创建Python虚拟环境：
 
 .. code:: bash
 
-    $ virtualenv virtual_test
-
-    Using base prefix '/home/app/python/3.7.4/cpu'
-    New python executable in /home/username/virtual_test/bin/python3.7
-    Also creating executable in /home/username/virtual_test/bin/python
-    Installing setuptools, pip, wheel...
-    done.
+    $ python -m venv virtual_env_name
 
 
 添加环境变量,把下面语句添加到~/.bashrc中：
 
 .. code:: bash
     
-    $ export PYTHONPATH=/home/username/virtual_test/lib/python3.7/site-packages
+    $ export PYTHONPATH=/home/username/virtual_env_name/lib/python3.8/site-packages
 
 启用Python虚拟环境：
 
@@ -48,6 +45,19 @@ CSRC-P不部署Python module，用户可以通过上述方法加载Python软件�
 
 此时，可以在终端使用`pip install`安装Python module，
 或者下载Python module 源码，使用`python setup.py install`安装。
+以安装zstd为例
+
+.. code:: bash
+
+    $ source ~/virtual_env_name/bin/activate
+    $ python -m pip install zstd
+    Collecting zstd
+    Using cached zstd-1.5.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.7 MB)
+    Installing collected packages: zstd
+    Successfully installed zstd-1.5.4.0
+
+
+
 退出虚拟环境：
 
 .. code:: bash

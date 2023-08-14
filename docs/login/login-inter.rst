@@ -75,11 +75,11 @@ MacOSX通过终端登录
 
 
 .. note:: 普通用户默认情况下分配100G的空间，如有其它需求，请联系管理员进行调额
-   （请联系shaoska@shao.ac.cn & chinasrc@googlegroups.com）。
+   （请联系shaoska@shao.ac.cn ）。
 
    用户名和密码等账户信息请通过申请表进行申请。
 
-   请联系shaoska@shao.ac.cn & chinasrc@googlegroups.com。
+   请联系shaoska@shao.ac.cn 。
 
 .. |webloginimage| image:: ../../_static/weblogin.png
 .. |image2| image:: ../../_static/windowslogin.png

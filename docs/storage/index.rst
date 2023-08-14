@@ -23,4 +23,4 @@ CSRC-P 文件系统包括：
 
 主要数据分组情况：MWA/GLEAM组、 MWA/Pulsar组和ASKAP组。
 
-如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 shaoska@shao.ac.cn & chinasrc@googlegroups.com 咨询。
+如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 shaoska@shao.ac.cn  咨询。
