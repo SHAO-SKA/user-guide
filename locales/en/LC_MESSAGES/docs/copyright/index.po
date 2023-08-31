@@ -18,9 +18,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../docs/copyright/index.rst:3 28c13750f9b34346aae24d3d9a020e3d
+#: ../../docs/copyright/index.rst:3 7eb5596dd6594af8a6dc2dda1eddd551
 msgid "版权说明"
-msgstr ""
+msgstr "Copyright"
 

@@ -18,17 +18,17 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../docs/copyright/copyright.rst:2 340ab3ea01f142a7b9c0aa91121817fa
+#: ../../docs/copyright/copyright.rst:2 c60734081d354d8987c1010bb32066a4
 msgid "版权声明"
-msgstr ""
+msgstr "Copyright "
 
-#: ../../docs/copyright/copyright.rst:6 356da12f53fd4c8ca1e85900022f6ceb
+#: ../../docs/copyright/copyright.rst:6 a981cff94da447459ebee41e802ad8a6
 msgid "未经中国SKA区域中心原型机团队(以下简称CSRC-P)事先书面许可的情况下，严禁以任何形式复制、传递、分发和存储本文档案中的任何内容。"
-msgstr ""
+msgstr "The reproduction, transmission, distribution and storage of any content in this archive in any form is strictly prohibited without the prior written permission of the Prototype Team of the SKA Regional Center in China (CSRC-P)."
 
-#: ../../docs/copyright/copyright.rst:8 394bcbc2c23a4e3ba4a5ca8695114dda
+#: ../../docs/copyright/copyright.rst:8 a7e7d9b263904b4b90fc0ec60860354e
 msgid "CSRC-P对本文档中描述的任何内容有修改和改进的权利。"
-msgstr ""
+msgstr "CSRC-P reserves the right to modify or improve anything described in this document"
 

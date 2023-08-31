@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022-2023, ChinaSRC TEAM
-# This file is distributed under the same license as the 中国SKA区域中心原型机用户手册
-# package.
+# Copyright (C) 2018-2023, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../index.rst:9
 msgid "目录"
-msgstr ""
+msgstr "Content"
 
 #: ../../index.rst:7
 msgid "上海天文台SKA数据中心原型系统"
-msgstr ""
+msgstr "Shanghai Astronomical Observatory SKA Regional Centre Prototype"
 
 #: ../../index.rst:25
 msgid "Indices and tables"
