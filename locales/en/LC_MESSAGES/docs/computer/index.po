@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../docs/computer/index.rst:3 060378f70b9d495d92d158418ed0c195
+msgid "计算节点"
+msgstr ""
+
+#: ../../docs/computer/index.rst:5 c489a87f0f86436cac897d0f1bbe5eac
+msgid "本章介绍ChinaSRC-P计算节点情况"
+msgstr ""
+
+#: ../../docs/computer/index.rst:7 5f9bab92545546eb88d7f6c6825ae428
+msgid "数据中心原型系统的文件系统包括："
+msgstr ""
+
+#: ../../docs/computer/index.rst:9 66d3252833a84dbf8f6fbb5103d18054
+msgid ""
+"节点类型    节点数量    CPU 详情  超线程     总 CPU 核心        内存      内存/核心   备注 管理节点"
+"    1       2 x E5-2640 v3, 2.60 GHz, 8 cores       是       32      64 GB"
+"   2 GB/core       单用户限制内存 4 GB CPU 节点  4       2 x E5-2680 v3, 2.50 GHz,"
+" 12 cores      是       48      128 GB  2.67 GB/core    --- GPU 节点  1"
+"       2 x E5-2680 v4, 2.40 GHz, 14 cores      是       56      128 GB  "
+"2.28 GB/core    NVIDIA Tesla P100 x 2, CUDA 9.0"
+msgstr ""
+
+#: ../../docs/computer/index.rst:15 0c3ffdda690b475eb66a47a8def931ed
+msgid "三个分区。"
+msgstr ""
+
+#: ../../docs/computer/index.rst:17 0bef7e2e5d14491f8fa41420cee54382
+msgid "/home和/ssd分区主要用于用户个人数据和结果数据存储， /o9000主要用于处理数据的长期存储。 /ibo9000主要用于存储原始观测数据。"
+msgstr ""
+
+#: ../../docs/computer/index.rst:21 7e99809a58674db8abe371e3ec70660a
+msgid "目前，ChinaSRC-P系统存储了约2PB左右的数据， 包括MWA、ASKAP和VLBI望远镜的观测数据。"
+msgstr ""
+
+#: ../../docs/computer/index.rst:24 f3828390486246e290951e716f880931
+msgid "主要数据分组情况：MWA/GLEAM组、 MWA/Pulsar组和ASKAP组。"
+msgstr ""
+
+#: ../../docs/computer/index.rst:26 2b01361ca1ae4f82900ceb289613cacc
+msgid "如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 shaoska@shao.ac.cn  咨询。"
+msgstr ""
+

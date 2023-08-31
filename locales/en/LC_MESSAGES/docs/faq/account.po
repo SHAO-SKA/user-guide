@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../docs/faq/account.rst:5 009962aad4b74d5a95d59bfe69cdeb01
+msgid "账号常见问题"
+msgstr ""
+
+#: ../../docs/faq/account.rst:8 0c9b81a1828442a89e251adf66a35316
+msgid "账号申请"
+msgstr ""
+
+#: ../../docs/faq/account.rst:10 af19a773015b472fa27f81fd5b35938f
+msgid ""
+"请先阅读 `中国SKA原型样机 <https://www.shao.ac.cn/cskap>`__ ，填写《上海天文台原型样机申请表》，并发送至 "
+"`CSRC-P运维 <mailto:shaoska@shao.ac.cn & chinasrc@googlegroups.com>`__\\ 。 "
+"我们将会在3个工作日内开通账号并将账号信息发送至您的邮箱。"
+msgstr ""
+
+#: ../../docs/faq/account.rst:15 b9bdc8bf56e242f483671af969638201
+msgid "另外，为帮助用户正确使用CSRC-P超算资源，请账号使用人先通读“CSRC-P简明手册”。"
+msgstr ""
+
