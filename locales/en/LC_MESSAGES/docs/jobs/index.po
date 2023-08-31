@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../docs/jobs/index.rst:3 920c7b1c7c00463e85d25b5cee6d86d1
+msgid "作业"
+msgstr ""
+
+#: ../../docs/jobs/index.rst:5 a30793d3f4844c91b98f98d42d46ea12
+msgid ""
+"CSRC-P通过Slurm调度系统运行作业，以此来完成程序的规范运行，最新文档参考 "
+"[Slurm官网](https://slurm.schedmd.com/documentation.html)"
+msgstr ""
+
+#: ../../docs/jobs/index.rst:8 c9408b90cfcf489fbaf8468a8d173c4e
+msgid ""
+"编写 SLURM 脚本 如果你顺利完成了上面的步骤，那么是否可以直接让服务器运行你的程序了呢？答案是不可以的。 "
+"不知你是否曾经注意过登录之后显示的主机名，名为 admin 的主机仅仅为用户提供了登录操作的 "
+"平台，但程序的运行需要交给它背后的计算节点们完成。那么如何告诉工作站来运行我们的程序？ 我们需要使用作业调度系统 "
+"SLURM，它给我们提供了若干运行程序的方式，在本章节 里我们简要介绍最常用的方式：提交 SLURM 作业脚本的批处理方式。"
+msgstr ""
+
+#: ../../docs/jobs/index.rst:11 306d2ecad500424a987f847bddc8bf39
+msgid "首先需要编写一个 SLURM 脚本。"
+msgstr ""
+
+#: ../../docs/jobs/index.rst:26 4c8d220efb674b7c912bf236ca657a93
+msgid "准备好 SLURM 脚本之后，使用"
+msgstr ""
+
+#: ../../docs/jobs/index.rst:28 07f51bfdaf984fe1b363e3f4dc387073
+msgid "$ sbatch run.slurm"
+msgstr ""
+

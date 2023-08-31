@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2023, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: China SKA Regional Center Prototype User Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-31 16:10+0800\n"
+"PO-Revision-Date: 2023-08-31 16:30+0800\n"
+"Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../index.rst:9
+msgid "目录"
+msgstr "Content"
+
+#: ../../index.rst:7
+msgid "上海天文台SKA数据中心原型系统"
+msgstr "Shanghai Astronomical Observatory SKA Regional Centre Prototype"
+
+#: ../../index.rst:25
+msgid "Indices and tables"
+msgstr ""
+
+#: ../../index.rst:27
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../index.rst:28
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../index.rst:29
+msgid ":ref:`search`"
+msgstr ""
+

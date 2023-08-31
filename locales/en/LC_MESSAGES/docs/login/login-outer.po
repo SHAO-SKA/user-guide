@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../docs/login/login-outer.rst:5 addd0d721d3a4fffa0d655231c5fd8fc
+msgid "台外用户登录"
+msgstr ""
+
+#: ../../docs/login/login-outer.rst:8 710fd8cae4a7426ea4ccd19209083744
+msgid ""
+"台内用户需要台里开通VPN账户，可以邮件给shaoska@shao.ac.cn & "
+"chinasrc@googlegroups.com，为你开通相关权限。 登录CSRC-P系统时，先开启VPN，然后根据 :ref:`login-"
+"inter` 提供的方法登录。"
+msgstr ""
+
+#: ../../docs/login/login-outer.rst:11 31c7ec7ff3554eaba93fd426e87ff2c8
+msgid ""
+"台外用户需要提供您办公地点的一个固定（静态）IP地址或IP网段，开通IP白名单的方式来访问。 开通之后， 根据 :ref:`login-"
+"inter` 提供的方法登录。"
+msgstr ""
+
+#: ../../docs/login/login-outer.rst:14 95b026f47b6d4f03b50128f130da3c98
+msgid "用户名和密码等账户信息请通过申请表进行申请。"
+msgstr ""
+
+#: ../../docs/login/login-outer.rst:16 17d7a4e877ea48f9ad5e197e877ccdcc
+msgid "其他问题参考 :ref:`faq` 请联系shaoska@shao.ac.cn & chinasrc@googlegroups.com。"
+msgstr ""
+

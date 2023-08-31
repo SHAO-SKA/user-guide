@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../docs/jobs/slurm-salloc.rst:3 b3fc8ed8f2cd4a0aaa9f3951100353c4
+msgid "节点资源抢占命令salloc"
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:6 326ae39ee87b47ec849b9a27c742950c
+msgid "简介"
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:8 578470f87759401ebca69a30ca31375c
+msgid "该命令支持用户在提交作业前，抢占所需计算资源（此时开始计算所用机时）。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:11 d35a3883e73c4bf582aa3cdcce192b94
+msgid "使用示例"
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:13 16adaef11aaf40fb842f28a11aafbe98
+msgid "salloc提交方式如下： 首先申请资源，执行如下命令："
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:26 97d65b03ee704b9c9694aef5cd6d8b6f
+msgid "更多选项，用户可以通过 ``scancel --help`` 命令来查看。"
+msgstr ""
+

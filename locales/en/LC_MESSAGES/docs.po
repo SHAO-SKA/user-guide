@@ -1,0 +1,3906 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022-2023, ChinaSRC TEAM
+# This file is distributed under the same license as the 中国SKA区域中心原型机用户手册
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: China SKA Regional Center Prototype User Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-31 16:10+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../docs/computer/index.rst:3
+msgid "计算节点"
+msgstr ""
+
+#: ../../docs/computer/index.rst:5
+msgid "本章介绍ChinaSRC-P计算节点情况"
+msgstr ""
+
+#: ../../docs/computer/index.rst:7
+msgid "数据中心原型系统的文件系统包括："
+msgstr ""
+
+#: ../../docs/computer/index.rst:9
+msgid ""
+"节点类型    节点数量    CPU 详情  超线程     总 CPU 核心        内存      内存/核心   备注 管理节点"
+"    1       2 x E5-2640 v3, 2.60 GHz, 8 cores       是       32      64 GB"
+"   2 GB/core       单用户限制内存 4 GB CPU 节点  4       2 x E5-2680 v3, 2.50 GHz,"
+" 12 cores      是       48      128 GB  2.67 GB/core    --- GPU 节点  1"
+"       2 x E5-2680 v4, 2.40 GHz, 14 cores      是       56      128 GB  "
+"2.28 GB/core    NVIDIA Tesla P100 x 2, CUDA 9.0"
+msgstr ""
+
+#: ../../docs/computer/index.rst:15
+msgid "三个分区。"
+msgstr ""
+
+#: ../../docs/computer/index.rst:17
+msgid "/home和/ssd分区主要用于用户个人数据和结果数据存储， /o9000主要用于处理数据的长期存储。 /ibo9000主要用于存储原始观测数据。"
+msgstr ""
+
+#: ../../docs/computer/index.rst:21 ../../docs/data/storage.rst:44
+msgid "目前，ChinaSRC-P系统存储了约2PB左右的数据， 包括MWA、ASKAP和VLBI望远镜的观测数据。"
+msgstr ""
+
+#: ../../docs/computer/index.rst:24 ../../docs/data/storage.rst:22
+#: ../../docs/data/storage.rst:47
+msgid "主要数据分组情况：MWA/GLEAM组、 MWA/Pulsar组和ASKAP组。"
+msgstr ""
+
+#: ../../docs/computer/index.rst:26 ../../docs/data/storage.rst:24
+#: ../../docs/data/storage.rst:49
+msgid "如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 shaoska@shao.ac.cn  咨询。"
+msgstr ""
+
+#: ../../docs/copyright/copyright.rst:2
+msgid "版权声明"
+msgstr ""
+
+#: ../../docs/copyright/copyright.rst:6
+msgid "未经中国SKA区域中心原型机团队(以下简称ChinaSRC-P)事先书面许可的情况下，严禁以任何形式复制、传递、分发和存储本文档案中的任何内容。"
+msgstr ""
+
+#: ../../docs/copyright/copyright.rst:8
+msgid "ChinaSRC-P对本文档中描述的任何内容有修改和改进的权利。"
+msgstr ""
+
+#: ../../docs/copyright/index.rst:3
+msgid "版权说明"
+msgstr ""
+
+#: ../../docs/data/index.rst:3
+msgid "数据传输与存储"
+msgstr ""
+
+#: ../../docs/data/index.rst:7
+msgid "本章介绍ChinaSRC-P的数据传输和存储"
+msgstr ""
+
+#: ../../docs/data/storage.rst:3
+msgid "数据存储"
+msgstr ""
+
+#: ../../docs/data/storage.rst:5
+msgid "本章介绍ChinaSRC-P存储情况"
+msgstr ""
+
+#: ../../docs/data/storage.rst:9
+msgid "ChinaSRC平台存储情况"
+msgstr ""
+
+#: ../../docs/data/storage.rst:11 ../../docs/data/storage.rst:30
+msgid "ChinaSRC-P 文件系统包括："
+msgstr ""
+
+#: ../../docs/data/storage.rst:1
+msgid "序号"
+msgstr ""
+
+#: ../../docs/data/storage.rst:1
+msgid "目录"
+msgstr ""
+
+#: ../../docs/data/storage.rst:1 ../../docs/login/login-inter.rst:172
+msgid "备注"
+msgstr ""
+
+#: ../../docs/data/storage.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../docs/data/storage.rst:1 ../../docs/data/transfer.rst:1
+msgid "/home/username"
+msgstr ""
+
+#: ../../docs/data/storage.rst:1
+msgid "用于用户个人数据和结果数据存储"
+msgstr ""
+
+#: ../../docs/data/storage.rst:1
+msgid "2"
+msgstr ""
+
+#: ../../docs/data/storage.rst:1
+msgid "/p9550"
+msgstr ""
+
+#: ../../docs/data/storage.rst:1
+msgid "用于存储原始观测数据"
+msgstr ""
+
+#: ../../docs/data/storage.rst:19
+msgid "目前，ChinaSRC-P系统存储超过了2PB左右的数据， 包括MWA、ASKAP、MeerKAT、VLBI望远镜等的观测数据。"
+msgstr ""
+
+#: ../../docs/data/storage.rst:28
+msgid "旧平台 - 待移除 V1"
+msgstr ""
+
+#: ../../docs/data/storage.rst:32
+msgid "/ssd"
+msgstr ""
+
+#: ../../docs/data/storage.rst:33
+msgid "/o9000"
+msgstr ""
+
+#: ../../docs/data/storage.rst:34
+msgid "/ibo9000"
+msgstr ""
+
+#: ../../docs/data/storage.rst:35
+msgid "/p9500"
+msgstr ""
+
+#: ../../docs/data/storage.rst:37
+msgid "四个分区。"
+msgstr ""
+
+#: ../../docs/data/storage.rst:39
+msgid "/home和/ssd分区主要用于用户个人数据和结果数据存储，"
+msgstr ""
+
+#: ../../docs/data/storage.rst:40
+msgid "/o9000主要用于处理数据的长期存储。"
+msgstr ""
+
+#: ../../docs/data/storage.rst:41
+msgid "/ibo9000主要用于存储处理数据数据。"
+msgstr ""
+
+#: ../../docs/data/storage.rst:42
+msgid "/p9500主要用于存储原始观测数据。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:2
+msgid "WebDAV 协议访问"
+msgstr ""
+
+#: ../../docs/data/todo.rst:4
+msgid "由于不是所有实例都提供SSH端口的访问方式，对于需要批量上传或下载的用户，ChinaSRC还提供了WebDAV协议的文件访问方式。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:6
+msgid "WebDAV是一种通信协议，支持大批量的文件传输。对于用户来说，相当于将ChinaSRC的服务器以网盘的形式挂载到用户的个人电脑，用户将个人电脑里的数据拷贝或者上传到ChinaSRC的服务器上。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:8
+msgid "WebDAV协议访问的地址是\\ |webdav url| \\ 。用户验证请使用ChinaSRC用户名和密码。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:10
+msgid ""
+"Windows系统建议使用\\ `RaiDrive <https://www.raidrive.com/>`__\\ 或\\ `Cyberduck"
+" <https://cyberduck.io/>`__\\ 。Mac系统建议使用\\ `Cyberduck "
+"<https://cyberduck.io/>`__\\ 。Linux系统建议使用\\ `rclone "
+"<https://rclone.org/docs/>`__\\ 。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:12
+msgid "为了方便，ChinaSRC提供了上述软件，请根据需要下载："
+msgstr ""
+
+#: ../../docs/data/todo.rst:14
+msgid "**Mac：**"
+msgstr ""
+
+#: ../../docs/data/todo.rst:16
+msgid ""
+"`Cyberduck for Mac "
+"<http://xx.xx.xx.xx:8080/help/files/Cyberduck-7.5.1.33324-mac.zip>`_"
+msgstr ""
+
+#: ../../docs/data/todo.rst:18
+msgid "**Windows：**"
+msgstr ""
+
+#: ../../docs/data/todo.rst:20
+msgid "`RaiDrive <http://xx.xx.xx.xx:8080/help/files/RaiDrive_2020.6.36.exe>`_"
+msgstr ""
+
+#: ../../docs/data/todo.rst:21
+msgid ""
+"`Cyberduck for Win <http://xx.xx.xx.xx:8080/help/files/Cyberduck-"
+"Installer-7.5.1.33324-win.exe>`_"
+msgstr ""
+
+#: ../../docs/data/todo.rst:22
+msgid "`WinSCP <http://xx.xx.xx.xx:8080/help/files/WinSCP-5.17.10-Setup.exe>`_"
+msgstr ""
+
+#: ../../docs/data/todo.rst:24
+msgid "**Linux：**"
+msgstr ""
+
+#: ../../docs/data/todo.rst:26
+msgid ""
+"`rclone <https://downloads.rclone.org/v1.55.1/rclone-v1.55.1-linux-"
+"amd64.zip>`_"
+msgstr ""
+
+#: ../../docs/data/todo.rst:29
+msgid "Cyberduck使用说明"
+msgstr ""
+
+#: ../../docs/data/todo.rst:31
+msgid "打开Cyberduck，点击“新建连接”，按照下图所示填写连接方式，要选择“WebDAV(HTTPS)”方式。用户验证请使用ChinaSRC用户名和密码。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:33
+msgid "|cyberduck connect|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:35
+msgid "连接过程中出现任何提示，直接点“继续”。连接成功后，可以使用软件的创建文件夹、上传等功能。注意，使用共享实例，比如交互式的JupyterLab、RStudio、Stata、MATLAB的用户，目标文件夹是“MyData”文件夹。软件的“操作”按钮下有“新建文件夹”、“上传”等功能。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:38
+msgid "RaiDrive使用说明"
+msgstr ""
+
+#: ../../docs/data/todo.rst:40
+msgid ""
+"下载\\ `RaiDrive "
+"<http://xx.xx.xx.xx:8080/help/files/RaiDrive_2020.6.36.exe>`_\\ "
+"并安装后，点击窗口顶部的“添加”按钮，按照下图所示创建WebDAV驱动器。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:42
+msgid "|raidrive connect|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:44
+msgid "点击确定后，会跳出一个Windows资源浏览器窗口。RaiDrive已经把新添加的WebDAV连接创建成了一个网络存储驱动器，可以像操作本地磁盘一样从其他驱动器里拖拽文件或者拷贝到这个驱动器下的子目录中。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:48
+msgid "RaiDrive WebDAV驱动器功能有局限"
+msgstr ""
+
+#: ../../docs/data/todo.rst:50
+msgid "WebDAV驱动器里的文件不支持编辑，只支持创建和删除。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:51
+msgid "根目录下不能创建目录或文件，只能在列出的顶层目录下操作。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:54
+msgid "WinSCP使用说明"
+msgstr ""
+
+#: ../../docs/data/todo.rst:56
+msgid ""
+"打开 WinSCP ，在登录对话框中“新建站点”。按下图所示，选择“WebDAV”-“TLS/SSL隐式加密”、填入主机名和端口\\ "
+"|webdav url| \\ ，使用ChinaSRC用户名和密码进行登录"
+msgstr ""
+
+#: ../../docs/data/todo.rst:58
+msgid "|winscp connect|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:61
+msgid "rclone使用说明"
+msgstr ""
+
+#: ../../docs/data/todo.rst:62
+msgid "1.下载rclone压缩包"
+msgstr ""
+
+#: ../../docs/data/todo.rst:64
+msgid "官方链接地址 https://downloads.rclone.org/v1.55.1/rclone-v1.55.1-linux-amd64.zip"
+msgstr ""
+
+#: ../../docs/data/todo.rst:67
+msgid "2.解压，并将rclone程序拷贝到 $PATH 中，给予相应权限"
+msgstr ""
+
+#: ../../docs/data/todo.rst:78
+msgid "3.配置 rclone config"
+msgstr ""
+
+#: ../../docs/data/todo.rst:97
+msgid "以上操作结束后，可以在/root/.config/rclone/rclone.conf 中看到相应配置文件"
+msgstr ""
+
+#: ../../docs/data/todo.rst:100
+msgid "4.关闭证书检查"
+msgstr ""
+
+#: ../../docs/data/todo.rst:103
+msgid "注意：此项必须关闭，不然远程操作会报错。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:105
+msgid "有两种关闭检查的方式，如下："
+msgstr ""
+
+#: ../../docs/data/todo.rst:107
+msgid ""
+"1.在执行命令时带上\\ ``--no-check-certificate``\\ 参数，如：``rclone ls remote: --no-"
+"check-certificate``"
+msgstr ""
+
+#: ../../docs/data/todo.rst:108
+msgid "2.在环境变量里指定，如：``export RCLONE_NO_CHECK_CERTIFICATE=true``"
+msgstr ""
+
+#: ../../docs/data/todo.rst:111
+msgid "5.rclone常用操作"
+msgstr ""
+
+#: ../../docs/data/todo.rst:125
+msgid "6.其它操作可参考官方文档：https://rclone.org/docs/"
+msgstr ""
+
+#: ../../docs/data/todo.rst:128
+msgid "虚拟机实例内访问Home目录"
+msgstr ""
+
+#: ../../docs/data/todo.rst:130
+msgid "ChinaSRC内的虚拟机实例访问共享文件系统上的Home目录的机制类似于用户从外部访问WebDAV服务。目前ChinaSRC提供Windows和Linux虚拟机，连接方法分别如下:"
+msgstr ""
+
+#: ../../docs/data/todo.rst:132
+msgid ""
+"Linux虚拟机：在Linux虚拟机镜像中已经预先做好了WebDAV卷的自动挂载，挂载点是/webdav，可以直接访问 "
+"/webdav/MyData/ 目录下的文件。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:134
+msgid ""
+"Windows虚拟机：在Windows虚拟机中也预先做好了WebDAV卷的自动挂载，原理是使用Windows自带的WebDAV "
+"Client工具挂载了WebDAV服务端提供的网络存储。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:136
+msgid ""
+"其中，\\ ``MyData``\\ 存放的是个人数据，\\ ``ProjectGroup(public_cluster)``\\ 存放的是\\ "
+"``public_cluster``\\ 项目组中的数据，其它项目组同理。如下图:"
+msgstr ""
+
+#: ../../docs/data/todo.rst:138
+msgid "|windows webdav client|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:140
+msgid "算例数据可以通过这种方式拷贝到C盘目录去处理，处理完再从C盘拷贝到网络存储的目录中，然后从实例的数据“管理页面”下载到自己的电脑。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:144
+msgid "通过系统ChinaSRC的数据管理页面下载时，对下载的文件数量有限制，建议先在虚拟机中对处理结果打包后再传输。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:146
+msgid "Windows系统自带的WebDAV Client可以满足大多数文件拷贝需求，但是对单个文件的大小限制为4G，文件如果大于4G会报错。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:148
+msgid "|transfer error|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:150
+msgid "此时，需要在虚拟机里安装WinSCP工具来拷贝文件，参考前面软件下载部分。以下分别以RaiDrive软件和WinSCP为例："
+msgstr ""
+
+#: ../../docs/data/todo.rst:153
+msgid "RaiDrive"
+msgstr ""
+
+#: ../../docs/data/todo.rst:155
+msgid ""
+"首先下载RaiDrive并上传到虚拟机中，安装RaiDrive需要\\ ``.net framework``\\ "
+"的支持，会提示下载安装，默认安装即可。另外，可能会要求重启虚拟机系统，重启即可。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:157
+msgid ""
+"安装完成后，新建站点并输入以下信息进行连接，“文件协议”-“WebDAV”，不加密，连接地址为\\ "
+"``http://10.0.255.254:4918``\\ ，Account即ChinaSRC的用户名、密码。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:159
+msgid "|winscp vm connect|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:161
+msgid "|winscp vm connect 2|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:163 ../../docs/data/todo.rst:174
+msgid "连接建立成功后，会自动打开数据目录，再进行文件传输即可。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:165
+msgid "|winscp vm connect 3|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:168
+msgid "WinSCP"
+msgstr ""
+
+#: ../../docs/data/todo.rst:170
+msgid "在虚拟机内安装WinSCP，安装后重启虚拟机系统。 按如下新建会话后点击登录。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:172
+msgid "|winscp vm connect 4|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:176
+msgid "|winscp vm connect 5|"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:4
+msgid "文件传输"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:7
+msgid "用户数据存储空间"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:9
+msgid ""
+"在ChinaSRC上，系统根据三种 :ref:`usage-mode-ref` "
+"为用户在共享文件系统上分配三种目录，分别是个人目录，项目目录和公共集群目录。"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:11
+msgid "在实例或集群中，这三种目录所对应的路径不同，具体见下表："
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "个人目录"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "项目目录"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "公共集群目录"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "容器实例"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "/group_homes/<project>/home/username"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "/group_homes/public_cluster/home/username"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "虚拟机实例"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "/webdav/MyData"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "/webdav/ProjectGroup(<project>)"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "/webdav/ProjectGroup(public_cluster)"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1 ../../docs/mode/usage-mode.rst:76
+msgid "公共集群"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "/users/username"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "/groups/<project id>/home/username"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "WEB页面"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "独占实例数据-username"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "共享实例数据-<project显示名>"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:1
+msgid "共享实例数据-public_cluster"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:24
+msgid "username请替换为自己的用户名（这个信息可以在“我的信息”-“基本信息”中查询）。"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:26
+msgid "<project id>请替换为\"g+项目ID\"（项目基本信息中查询项目ID），例：项目ID为700008，则替换为“g700008”。"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:28
+msgid "<project>请替换为项目名（项目基本信息中查询。）"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:32
+msgid ""
+"项目目录和公共集群目录的具体说明请分别查看 :ref:`project data` 和 :ref:`集群数据 <public cluster "
+"data>` 。"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:36
+msgid "Web页面数据传输"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:38
+msgid "ChinaSRC支持通过Web页面上传下载数据和管理文件。"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:40
+msgid "通过Web页面上传和下载文件有数量限制，每次最多上传\\ **10**\\ 个文件，下载\\ **1**\\ 个文件。"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:42
+msgid "进入“工作台”-“数据总览”，选择相应的数据位置，就可以对个人、项目和公共集群中的数据进行管理。"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:44
+msgid "|web data management|"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:101
+msgid "web data management"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:47
+msgid "通过ssh账户传输"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:49
+msgid "由于Web传输文件功能有限，对于开放了SSH端口的集群或实例，用户可以通过SSH账户使用scp类的工具来传输数据。"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:51 ../../docs/jobs/slurm-salloc.rst:19
+#: ../../docs/login/login-ssh.rst:14
+msgid "|image4|"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:102 ../../docs/jobs/slurm-salloc.rst:21
+#: ../../docs/login/login-inter.rst:185 ../../docs/login/login-ssh.rst:210
+msgid "image4"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:53
+msgid ""
+"以公共集群项目为例，用户在 **项目** -> *public cluster* 的页面里，选择 **实例** "
+"，点击实例最右侧的SSH服务地址按钮，会弹出ChinaSRC对外开放的IP地址和端口："
+msgstr ""
+
+#: ../../docs/data/transfer.rst:55
+msgid "|ssh ip|"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:57
+msgid "ssh ip"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:60
+msgid "首次使用SSH登录的用户需要 :ref:`重置ChinaSRC密码 <reset password>`"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:62
+msgid "|reset_pw|"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:104
+msgid "reset_pw"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:64
+msgid ""
+"用户在能够直接访问ChinaSRC服务IP地址的情况下，可以使用scp、\\ `WinSCP "
+"<https://winscp.net/eng/docs/lang:chs>`__\\ 或\\ `Xmanager "
+"<https://www.netsarang.com/en/xmanager/>`__\\ 等scp工具来传输数据："
+msgstr ""
+
+#: ../../docs/data/transfer.rst:71
+msgid "使用XFTP传输"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:73
+msgid "Windows用户也可以使用\\ `XFTP <https://www.xshellcn.com/xftp.html>`__\\ 客户端进行传输。"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:75
+msgid "下载并安装XFTP软件后打开，点击“文件”-“新建”。"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:77
+msgid "|new xftp connection|"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:79
+msgid "new xftp connection"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:81
+msgid "名称用户可以自定义，主机选项中输入“服务ssh“显示的服务外部地址，端口号填写“服务ssh”中的端口号，协议使用默认的SFTP，用户名和密码填写ChinaSRC的用户名和密码。点击”连接“。"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:83
+msgid "|set xftp connection|"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:85
+msgid "set xftp connection"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:87
+msgid ""
+"连接后左侧为当前用户计算机的视图，右侧为远程计算机的视图，用户访问的远程计算机路径为\\ ``/home/username``\\ "
+"，即当前用户的家目录，用户可将文件从个人电脑上传输到共享文件夹内，下方传输栏会显示传输任务详细信息。"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:89
+msgid "|xftp windows|"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:91
+msgid "xftp windows"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:93
+msgid "传输完成后即可在公共集群或实例控制台的用户家目录中看到刚才传输的文件。"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:95
+msgid "|file in terminal|"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:97
+msgid "file in terminal"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:103 ../../docs/login/login-ssh.rst:212
+msgid "image5"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:106
+msgid "cyberduck connect"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:107
+msgid "raidrive connect"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:108
+msgid "winscp connect"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:109
+msgid "windows webdav client"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:110
+msgid "transfer error"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:111
+msgid "winscp vm connect"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:112
+msgid "winscp vm connect 2"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:113
+msgid "winscp vm connect 3"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:114
+msgid "winscp vm connect 4"
+msgstr ""
+
+#: ../../docs/data/transfer.rst:115
+msgid "winscp vm connect 5"
+msgstr ""
+
+#: ../../docs/faq/abbr.rst:5
+msgid "常见缩写定义"
+msgstr ""
+
+#: ../../docs/faq/abbr.rst:8
+msgid "ChinaSRC-P"
+msgstr ""
+
+#: ../../docs/faq/abbr.rst:10
+msgid ""
+"ChinaSRC-P为China SKA Regional Centre Prototype的缩写， 为中国SKA原型样机， "
+"也是世界上首台专门针对SKA区域中心研发的原型样机。"
+msgstr ""
+
+#: ../../docs/faq/abbr.rst:14
+msgid "SKA"
+msgstr ""
+
+#: ../../docs/faq/abbr.rst:16
+msgid ""
+"SKA为Square Kilometre Array的缩写， 为平方公里阵列望远镜。 "
+"详细可见：https://www.skatelescope.org/"
+msgstr ""
+
+#: ../../docs/faq/account.rst:5
+msgid "账号常见问题"
+msgstr ""
+
+#: ../../docs/faq/account.rst:8
+msgid "账号申请"
+msgstr ""
+
+#: ../../docs/faq/account.rst:10
+msgid ""
+"请先阅读 userguide_ . 并通过 ChinaSRC统一身份门户 portal_  门户进行注册申请。 "
+"我们会在3个工作日内开通账号并将账号信息发送至您的邮箱， 如有其他问题请并发送邮件至至 ChinaSRC-P运维 mailto_ 。"
+msgstr ""
+
+#: ../../docs/faq/account.rst:15
+msgid "另外，为帮助用户正确使用ChinaSRC-P超算资源，请账号使用人先通读“ChinaSRC-P用户手册”。"
+msgstr ""
+
+#: ../../docs/faq/index.rst:5
+msgid "常见问题集锦"
+msgstr ""
+
+#: ../../docs/faq/index.rst:8
+msgid "本章列举使用过程中经常遇到的问题及解决方法。"
+msgstr ""
+
+#: ../../docs/faq/index.rst:13
+msgid "由于手册篇幅限制，只列出了对于绝大多是用户比较重要的相关内容，如您有其他需求也可以联系数据中心技术人员。 重要提示："
+msgstr ""
+
+#: ../../docs/faq/index.rst:16
+msgid "请不要在登录节点直接运行可执行程序（极大的影响其他用户的登录和使用效率）。"
+msgstr ""
+
+#: ../../docs/faq/index.rst:17
+msgid "如无特殊需要，请使用批处理方式（sbatch）提交任务，如果有任何问题请联系数据中心技术人员。"
+msgstr ""
+
+#: ../../docs/faq/index.rst:18
+msgid "请保存好运行程序的log文件，从而方便数据中心技术人员在作业出问题后，协助解决问题。"
+msgstr ""
+
+#: ../../docs/faq/index.rst:19
+msgid "若需登录计算节点运行和调试程序，可以先分配独占计算节点，方可ssh登录计算节"
+msgstr ""
+
+#: ../../docs/faq/login.rst:5
+msgid "登陆常见问题"
+msgstr ""
+
+#: ../../docs/faq/login.rst:9
+msgid "我为什么连不上ChinaSRC-P？"
+msgstr ""
+
+#: ../../docs/faq/login.rst:11
+msgid "首先请阅读 :ref:`login` 章节。"
+msgstr ""
+
+#: ../../docs/faq/login.rst:13
+msgid ""
+"ChinaSRC-P目前不支持公网直接访问，此处需要VPN或访问地址添加到SHAO防火墙。 "
+"若遇到连接问题，请先检查网络，在确认是否使用VPN或已经将IP备案。"
+msgstr ""
+
+#: ../../docs/faq/login.rst:16
+msgid ""
+"建议加入“中国SKA原型机”用户微信群，ChinaSRC-P的通知会及时发布在微信群里。 若需加入用户微信群，请发邮件至 ChinaSRC-P运维"
+" mailto_ ."
+msgstr ""
+
+#: ../../docs/faq/login.rst:20
+msgid "为什么WSClean和CASA冲突"
+msgstr ""
+
+#: ../../docs/faq/login.rst:22
+msgid "请阅读 :ref:`module_wsclean_casa` 章节。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:6
+msgid "使用须知"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:8
+msgid "欢迎使用中国SKA区域中心原型机系统，以下简称ChinaSRC-P。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:10
+msgid "该文档为ChinaSRC-P用户使用文档，内容包括如何登录、运行作业和使用软件等。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:12
+msgid "发表论文成果并致谢平台的可获得对应的机时奖励，具体可邮件 shaoska@shao.ac.cn  咨询 。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:15
+msgid ""
+"ChinaSRC-P的CPU计算节点资源使用方式为机时或核·小时分配，即作业使用的核数乘以运行时间，分配机时给 "
+"用户以后即可使用。例如，某次作业使用了28核，运行了1小时，机 时为28*1=28(核·小时)。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:16
+msgid ""
+"目前ChinaSRC-P系统CPU节点有4种类型:华为 taishan ARM、Intel Purley X86 CPU、Intel "
+"KNL和Intel KNM，每 个节点的核数分别是96、28、72和68。GPU计算节点资源使用方式是 以小时分配，分配账户后即可使用。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:17
+msgid "资源开通方式:填写用户及资源申请表并发送到邮箱 shaoska@shao.ac.cn 。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:18
+msgid ""
+"数据中心不提供商业软件的安装适配、售后及应用支持服务。您 可以自行安装和使用商业软件，或与该软件的售后服务团队联系寻求 "
+"协助。用户自行安装软件带来的版权问题请自负责任。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:19
+msgid ""
+"数据中心根据实际情况对基于原型系统部署的开源软件的安装进 行一定程度上的协助，但软件的算法合理性、精度、并行效率、使用 "
+"方法等软件自身问题需要自行解决。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:20
+msgid "如您的任何行为对数据中心的财产和声誉等方面造成了任何损 失，数据中心将依法追究相关责任。以上条例解释权归数据中心所有。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:24
+msgid "中国SKA区域中心原型机致谢模板"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:28
+msgid "本研究使用了由中华人民共和国科学技术部和中国科学院资助研制的中国SKA区域中心原型机的资源。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:30
+msgid ""
+"This work used resources of China SKA Regional Centre prototype  funded "
+"by Ministry of Science and Technology of the People’s Republic of China "
+"and Chinese Academy of Sciences."
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:32
+msgid "Reference :"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:34
+msgid ""
+"An, Wu, Hong. SKA data take centre stage in China. Nat Astron, 2019, Vol."
+" 3, p. 1030"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:36
+msgid ""
+"An, et al. Status and progress of China SKA Regional Centre prototype. "
+"Sci. China-Phys. Mech. Astron. 65: 129501 (2022)"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:47
+msgid "@ARTICLE{2019NatAs...3.1030A,"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:39
+msgid "author = {{An}, Tao and {Wu}, Xiang-Ping and {Hong}, Xiaoyu},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:40
+msgid "title = \"{SKA data take centre stage in China}\","
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:42
+msgid "journal = {Nature Astronomy},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:42
+msgid "year = 2019, month = nov,"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:45
+msgid "volume = {3},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:45
+msgid "pages = {1030-1030}, doi = {10.1038/s41550-019-0943-4},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:47
+msgid ""
+"adsurl = {https://ui.adsabs.harvard.edu/abs/2019NatAs...3.1030A}, adsnote"
+" = {Provided by the SAO/NASA Astrophysics Data System}"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:49 ../../docs/introduction/intro.rst:69
+msgid "}"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:62
+msgid "@ARTICLE{2022SCPMA..6529501A,"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:53
+msgid ""
+"author = {{An}, Tao and {Wu}, Xiaocong and {Lao}, Baoqiang and {Guo}, "
+"Shaoguang"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:53
+msgid ""
+"and {Xu}, Zhijun and {Lv}, Weijia and {Zhang}, Yingkang and {Zhang}, "
+"Zhongli},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:54
+msgid "title = \"{Status and progress of China SKA Regional Centre prototype}\","
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:55
+msgid ""
+"journal = {Science China Physics, Mechanics, and Astronomy}, keywords = "
+"{Astrophysics - Instrumentation and Methods for Astrophysics},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:57
+msgid "year = 2022, month = dec,"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:59
+msgid "volume = {65}, number = {12},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:61
+msgid "eid = {129501}, pages = {129501}, doi = {10.1007/s11433-022-1981-8},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:64
+msgid "archivePrefix = {arXiv},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:65
+msgid "eprint = {2206.13022},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:67
+msgid "primaryClass = {astro-ph.IM},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:67
+msgid ""
+"adsurl = {https://ui.adsabs.harvard.edu/abs/2022SCPMA..6529501A}, adsnote"
+" = {Provided by the SAO/NASA Astrophysics Data System}"
+msgstr ""
+
+#: ../../docs/introduction/intro-crativ.rst:4
+msgid "CRATIV平台"
+msgstr ""
+
+#: ../../docs/introduction/intro-crativ.rst:6
+msgid ""
+"ChinaSRC-P平台还包括一台CRATIV系统，主要用于前期的数据处理与软件开发。 远程登录可以使用VNC软件，软件使用module系统。 "
+"详细信息可邮件 shaoska@shao.ac.cn  咨询 。"
+msgstr ""
+
+#: ../../docs/introduction/intro-crativ.rst:12
+msgid "CRATIV具有256G RAM/50TB Storage/Intel(R) Xeon(R) CPU E5-2698."
+msgstr ""
+
+#: ../../docs/jobs/index.rst:3
+msgid "作业系统"
+msgstr ""
+
+#: ../../docs/jobs/index.rst:5
+msgid ""
+"ChinaSRC-P通过Slurm调度系统进行资源和作业管理，提高运行效率，以此来完成程序的规范运行，最新文档参考 "
+"[Slurm官网](https://slurm.schedmd.com/documentation.html)。"
+msgstr ""
+
+#: ../../docs/jobs/index.rst:7
+msgid "所有需要运行的作业，无论是程序调试还是业务计算，都必须通过交互式并行srun、批量提交sbatch或分布式salloc命令提交，提交后可以使用相关命令查询作业状态。"
+msgstr ""
+
+#: ../../docs/jobs/index.rst:11
+msgid "本章节介绍了作业系统的基本使用方法，如果你是第一次接触作业系统，建议你先阅读 :ref:`slurm_intro` 章节。"
+msgstr ""
+
+#: ../../docs/jobs/index.rst:13
+msgid ""
+"如果你顺利完成了上面的步骤，那么是否可以直接让服务器运行你的程序了呢？ "
+"答案是不可以的，如果你在登录后直接运行程序，很抱歉，会被终止掉，这是因为登录节点是不允许运行程序的， 你需要使用作业调度系统 SLURM "
+"来运行你的程序。 如果你留意登录之后显示的主机名，名为 workstation 的主机仅仅为用户提供了登录操作的平台， "
+"但程序的运行需要交给它背后的计算节点们完成。那么如何告诉工作站来运行我们的程序？ "
+"我们需要使用作业调度系统SLURM，它给我们提供了若干运行程序的方式， 在本章节里我们简要介绍最常用的方式：提交 SLURM "
+"作业脚本的批处理方式。"
+msgstr ""
+
+#: ../../docs/jobs/index.rst:22
+msgid "请不要在登录节点上直接运行作业，以免影响其他用户的正常使用。"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:2
+msgid "ChinaSRC-P JOBS system"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:4
+msgid ""
+"China SKA Regional Centre Prototype (ChinaSRC-P) systems can use Slurm "
+"for resource and job management to avoid mutual interference and improve "
+"operational efficiency. All jobs that need to be run, whether for program"
+" debugging or business calculations, must be submitted through "
+"interactive parallel srun, batch submittion sbatch, or distributed salloc"
+" commands, and related commands can be used to query the job status after"
+" submission. Please do not directly run jobs (except compiling) on the "
+"login node, so as not to affect the normal use of other users."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:14
+msgid "`Querying SLURM Partitions <#Querying-SLURM-Partitions>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:15
+msgid "`Querying the Queue <#Querying-the-Queue>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:16
+msgid "`Job Request <#Job-Request>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:17
+msgid "`Jobscripts <#Jobscripts>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:18
+msgid "`Serial python example <#Serial-python-example>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:19
+msgid "`Lauching Paralle Programs <#Lauching-Paralle-Programs>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:20
+msgid "`GPU Example <#GPU-Example>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:21
+msgid "`Interactive Jobs <#Interactive-Jobs>`__"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:25
+msgid ""
+"A SLURM partition is a queue, which is all the partition that are managed"
+" by a single SLURM daemon. ## Querying SLURM Partitions To list the "
+"partition when logged into a machine:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:26
+msgid "``sinfo``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:27
+msgid "To get all partitions in all local clusters: ``sinfo –M all``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:28
+msgid "**For example**:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:48
+msgid ""
+"Where PARTITION represents the partition name. AVAIL represents the "
+"status of the partition, the up is available, and the down is not "
+"available. TIMELIMIT represents the maximum time the program runs, and "
+"infinite represents unlimited, the limit format is days-"
+"houres:minutes:seconds. NODES represents the number of nodes. NODELIST is"
+" Node list. STATE represents the running state of the node."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:68
+msgid ""
+"It is important to use the correct system and partition for each part of "
+"a workflow: \\| Partition \\| Purpose \\| \\| :————- \\| :——— \\| \\| "
+"``arm`` \\|Many core workflows, many serial of shared memory (OpenMP) "
+"jobs, large distributed memory (MPI) jobs\\| \\|\\ ``sugon-gpu``, "
+"``inspur-gpu-opa``, ``inspur-gpu-ib``, ``all-gpu`` \\| GPU-accelerated "
+"jobs, artificial Intelligence jobs\\| \\|\\ ``purley-cpu``,\\ ``hw``,\\ "
+"``all-x86-cpu`` \\| Many serial of shared memory (OpenMP) jobs, large "
+"distributed memory (MPI) jobs\\|"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:78
+msgid "Querying the Queue"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:81
+msgid ""
+"squeue is used to view job and job step information for jobs managed by "
+"Slurm."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:82
+msgid "``squeue <options>``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:83
+msgid "``squeue -u username``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:84
+msgid "``squeue -j jobid``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:85
+msgid "``squeue -p purley-cpu``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:86
+msgid "**Exmaple**"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:96
+msgid "Information interprets"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:97
+msgid "JOBID: ID of job."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:98
+msgid "PARTITION: partition name used of the job."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:99
+msgid "NAME: job name."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:100
+msgid "USER: user name."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:102
+msgid ""
+"ST: job state. R=running. PD=pending. CA=cancelled. CG=completing. "
+"CD=completed."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:103
+msgid "TIME: time used by the job"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:104
+msgid "NODES: the actual number of nodes allocated to the job."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:105
+msgid "NODESLIST: list of nodes allocated to the job or job step."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:107
+msgid "To view more options of squeue:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:108
+msgid "``squeue --help``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:110
+msgid "Individual Job Information"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:111
+msgid "``scontrol show job jobid``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:146
+msgid "Job Request"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:148
+msgid "SLURM needs to know two things from you:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:150
+msgid "### Resource requirement. How many nodes and how long you need them for."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:151
+msgid "### What to run."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:153
+msgid ""
+"\\* You cannot submit an application directly to SLURM. Instead, SLURM "
+"executes on your behalf a list of shell commands."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:155
+msgid ""
+"\\* In ``batch mode``. SLURM executes a ``jobscript`` which contains the "
+"commands."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:157
+msgid "\\* In ``interactive mode``, type in commands just like when you log in."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:159
+msgid ""
+"\\* These commands can include launching programs onto compute nodes "
+"assigned for the job."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:162
+msgid "Jobscripts"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:165
+msgid "A ``jobscript`` is a bash or csh script."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:168
+msgid ""
+"sbatch interprets directives in the script, which are written as comments"
+" and not executed."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:170
+msgid "Directive lines start with ``#SBATCH``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:171
+msgid "These are quivalent to sabtch command-line arguments."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:172
+msgid ""
+"Directives are usually more convenient and reproducible than command-line"
+" arguments. Put your resource request into the ``jobscript``. The "
+"``jobscript`` will execute on one of the allocated compute node ``#SBATCH"
+" directives are comments, so only subsequent commands are executed.``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:179
+msgid "Common sbatch directives"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:181
+msgid "**Example jobscript (hostname.sh)**"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:197
+msgid "Launch the job with sbatch:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:199
+msgid "``sbatch hostname.sh``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:202
+msgid "To view more options of sbatch:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:204
+msgid "``sbatch --help``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:207
+msgid "SLURM Output"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:211
+msgid ""
+"Standard output and standard error from your jobscript are collected by "
+"SLURM, and written to a file in the directory you submitted the job when "
+"the job finishes/dies."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:212
+msgid "``slurm-jobid.out``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:213
+msgid "``cat slurm-jobid.out``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:216
+msgid "Serial python example (hello-serial.sh)"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:218
+msgid ""
+"This job script will run on a single core of SHAO’s cluster for up to 5 "
+"minutes:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:237 ../../docs/jobs/jobs-bk.rst:302
+#: ../../docs/jobs/jobs-bk.rst:332
+msgid "The script can be submitted to the scheduler with:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:238
+msgid "``sbatch hello-serial.sh``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:241
+msgid "Lauching Paralle Programs"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:244
+msgid ""
+"Parallel applications are launched using srun. The arguments determine "
+"the parallelism:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:245
+msgid "-N number of nodes"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:246
+msgid "-n number of tasks (for process parallelism e.g. MPI)"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:247
+msgid "-c cores per task (for thread parallelism e.g. OpenMP)"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:249
+msgid ""
+"While these are already provided in the SBATCH directives, they should be"
+" provided again in the srun arguments."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:251
+msgid ""
+"**OpenMP example (hello-openmp.sh)** This will run 1 process with 24 "
+"threads on 1 purley-cpu compute node, using 24 cores for up to 5 minutes:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:275
+msgid ""
+"The program can be compiled and the script can be submitted to the "
+"scheduler with:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:276
+msgid "``cd hello-openmp``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:277 ../../docs/jobs/jobs-bk.rst:305
+msgid "``make``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:278
+msgid "``sbatch hello-openmp.sh``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:280
+msgid "**MPI example**"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:281
+msgid "This will run 24 MPI processes on 1 node on purley-cpu:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:303
+msgid "``cd hello-mpi``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:304
+msgid "``module load mpich/cpu-3.2.1-gcc-7.3.0``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:306
+msgid "``sbatch hello-mpi.sh``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:309
+msgid "GPU Example (hello-gpu.sh)"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:311
+msgid "This will run one gpu device on a GPU node:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:334
+msgid ""
+"``cd hello-gpu`` ``module load cuda/9.0`` ``nvcc -o hello-gpu hello-"
+"gpu.cu`` ``sbatch hello-gpu.sh``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:336
+msgid "All scripts can be downloaded from this git repository:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:337
+msgid "https://github.com/lao19881213/Introductory-ChinaSRC-P"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:340
+msgid "Interactive Jobs"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:342
+msgid "Sometimes you need them:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:343
+msgid "\\* Debugging"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:344
+msgid "\\* Compiling"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:345
+msgid "\\* Pre/post-processing"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:346
+msgid "Use salloc instead of sbatch."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:347
+msgid "You still need srun to place jobs onto compute nodes."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:348
+msgid "``#SBATCH directives must be included as command line arguments.``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:350
+msgid "**For example (compiling):**"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:352
+msgid ""
+"``salloc --tasks=16 --partition purley-cpu --time=00:10:00`` ``srun make "
+"-j 16``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:354
+msgid "Run hello-serial.py interactively on a purley-cpu compute node."
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:356
+msgid ""
+"Start an interactive session (you may need to wait while it is in the "
+"queue):"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:359
+msgid "``salloc --partition=purley-cpu --tasks=1 --time=00:10:00``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:361
+msgid "Prepare the environment:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:362 ../../docs/jobs/jobs-bk.rst:372
+msgid "``module use /home/app/modulefiles``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:363 ../../docs/jobs/jobs-bk.rst:373
+msgid "``module load python/cpu-3.7.4``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:365 ../../docs/jobs/jobs-bk.rst:375
+msgid "Launch the program:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:366
+msgid "``srun --export=all -n 1 python3 hello-serial.py``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:367
+msgid "Exit the interactive session:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:368
+msgid "``exit``"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:371
+msgid ""
+"You can also run a hello-serial interactively only using srun: Prepare "
+"the environment:"
+msgstr ""
+
+#: ../../docs/jobs/jobs-bk.rst:376
+msgid "``srun --export=all -N 1 -n 1 -p purley-cpu python3 hello-serial.py``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:2
+msgid "作业"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:5
+msgid "提交作业"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:8
+msgid "提交OMP的 Hello world 单节点作业"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:10
+msgid "以单节点的 OpenMP Hello world 为例，演示  集群作业提交过程。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:12
+msgid "撰写名为 hello_world.c 代码如下"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:18
+msgid "使用 GCC 编译"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:25
+msgid "在本地测试运行 4 线程应用程序"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:31
+msgid "编写一个名为 hello_world.slurm 的作业脚本"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:36
+msgid "提交到 SLURM"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:43
+msgid "查询作业"
+msgstr ""
+
+#: ../../docs/jobs/slurm-bk.rst:46
+msgid "停止作业"
+msgstr ""
+
+#: ../../docs/jobs/slurm-gpu.rst:5
+msgid "GPU集群作业提交"
+msgstr ""
+
+#: ../../docs/jobs/slurm-gpu.rst:7
+msgid ""
+"如果是GPU集群，需要在作业脚本中增加\\ ``--gres=gpu:<number of card>``\\ 参数。例如\\ ``#SBATCH"
+" --gres=gpu:2``\\ ，意味着指定2张GPU卡数。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-gpu.rst:9
+msgid "以下为GPU作业的一个示例："
+msgstr ""
+
+#: ../../docs/jobs/slurm-gpu.rst:40
+msgid ""
+"GPU集群中提交作业时，需要在\\ ``srun`` \\ 或 \\ ``sbatch``\\ 命令中增加参数\\ ``-s``\\，或者 \\ "
+"``--oversubscribe``\\。表示允许与其它作业共享资源。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-gpu.rst:42
+msgid "例如："
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:5
+msgid "Slurm系统简介"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:8
+msgid ""
+"ChinaSRC-P在公共集群中使用SLURM作业调度系统进行任务的调度和管理。 SLURM（Simple Linux Utility for "
+"Resource Management） "
+"是一种可用于大型计算节点集群的高度可伸缩和容错的集群管理器和作业调度系统，被世界范围内的超级计算机和计算集群广泛采用。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:13
+msgid "Slurm常用命令"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:26
+msgid "日常使用超算资源只需掌握简单的几条命令即可，具体详细的配置请参考\\ `SLURM官方文档`_。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:32
+msgid "编写 SLURM 脚本"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:34
+msgid "首先请阅读 :ref:`slurm-sinfo` 章节，获取可以使用的分区信息"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:37
+msgid "首先需要编写一个 SLURM 脚本。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:41
+msgid "准备好 SLURM 脚本之后，使用"
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:3
+msgid "节点资源抢占命令salloc"
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:7
+msgid "集群的登录节点设置有资源限制，请勿在登录节点进行大量计算。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:9
+msgid ""
+"集群的计算节点默认不允许用户直接登录，对需要交互式处理的程序， 在登录到集群后，使用\\ ``salloc``\\ "
+"命令分配节点，然后再ssh到分配的节点上进行处理："
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:12 ../../docs/login/login-inter.rst:143
+msgid "|image3|"
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:14 ../../docs/login/login-inter.rst:184
+msgid "image3"
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:16
+msgid ""
+"计算完成后，使用\\ ``exit``\\ 命令推出节点，注意需要\\ ``exit``\\ 两次， 第一次\\ ``exit``\\ "
+"是从计算节点退出到登录节点，第二次\\ ``exit``\\ 是释放所申请的资源。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:23
+msgid "该命令支持用户在提交作业前，抢占所需计算资源（此时开始计算所用机时）。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:26 ../../docs/jobs/slurm-sbatch.rst:22
+#: ../../docs/jobs/slurm-srun.rst:40
+msgid "使用示例"
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:28
+msgid "salloc提交方式如下： 首先申请资源，执行如下命令："
+msgstr ""
+
+#: ../../docs/jobs/slurm-salloc.rst:42 ../../docs/jobs/slurm-scancel.rst:23
+msgid "更多选项，用户可以通过 ``scancel --help`` 命令来查看。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:5
+msgid "批处理作业sbatch"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:8 ../../docs/jobs/slurm-srun.rst:12
+msgid "简介"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:10
+msgid ""
+"批处理作业是指用户编写作业脚本，指定资源需求约束，提交后台执行作业。 提交批处理作业的命令为sbatch，用户提交命令即返回命令行窗口， "
+"但此时作业在进入调度状态， 在资源满足要求时，分配完计算节点之后， 系统将在所分配的第一个计算节点（而不是登录节点）上加载执行用户的作业脚本。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:16
+msgid ""
+"批处理作业的脚本为一个文本文件， 脚本第一行以 ``#!`` 字符开头，并指定脚本文件的解释程序， 如 sh,bash。 "
+"由于计算节点为精简环境，只提供 sh 和 bash 的默认支持。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:24
+msgid "例如用户的脚本名为myjob.sh，内容如下："
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:28
+msgid "使用该脚本用户提交批处理作业，需要明确申请的资源为 arm 分 区的 4 个节点。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:32
+msgid "需给该文本文件设置myjob.sh可执行权限，利用命令： ``chmod +x myjob.sh``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:34
+msgid "用户sbatch批处理命令如下："
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:41
+msgid "计算开始后，工作目录中会生成以slurm开头的.out 文件为输出文件。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:52
+msgid "一个简单的脚本示例如下："
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:80
+msgid "上述中\\ ``###``\\ 为注释行。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:82
+msgid "第一行表示这是一个bash脚本，第4-17行以\\ ``#SBATCH``\\ 开头的命令表示这些是需要slurm系统处理的参数。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:84
+msgid ""
+"如下图所示，通过\\ ``sbatch+作业脚本名``\\ 提交作业，系统会返回作业编号，通过\\ ``squeue``\\ "
+"命令可以看到作业运行状态，等作业执行完成后，默认会把程序的输出放到\\ ``slurm-作业编号.out``\\ "
+"的文件中，可通过该文件查看程序的输出。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:86
+msgid "|image6|"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:88
+msgid "image6"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:91
+msgid "常见提交作业参数参考"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:95
+msgid "**参数**"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:96
+msgid "**说明**"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:97
+msgid "``--job­name=<name>``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:98
+msgid "设定作业名称"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:99
+msgid "``--nodes=<n>`` 或 ``-N``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:100
+msgid ""
+"设定作业需要的节点数。如果没有指定，默认分配足够的节点来满足\\ ``--ntasks=<n>``\\ 和\\ ``--cpus-per-"
+"task=<ncpus>``\\ 参数的要求。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:101
+msgid "``--ntasks-per-node=<ntasks>``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:102
+msgid "设定每个节点上的任务数。要和 ``--nodes=<n>`` 同时配合使用。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:103
+msgid "``--ntasks=<n>`` 或 ``-n``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:104
+msgid "设定最多启动的任务数。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:105
+msgid "``--cpus-per-task=<ncpus>``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:106
+msgid "设定每个任务所需要的CPU核数。如果没有指定，默认为每个任务分配一个CPU核。一般运行OpenMP等多线程程序时需要，普通MPI程序不需要。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:107
+msgid "``--gres=gpu:n``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:108
+msgid "设定需要使用的GPU卡数量"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:109
+msgid "``--comment projectName``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:110
+msgid "设定需要扣费的项目账户，将 ``projectName`` 替换为项目名称。如果项目名称错误，作业会提交失败。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:112
+msgid "更多选项，用户可以通过 ``sbatch --help`` 命令来查看。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-scancel.rst:3
+msgid "任务取消scancel"
+msgstr ""
+
+#: ../../docs/jobs/slurm-scancel.rst:6
+msgid "用户使用scancel命令取消自己的作业。命令格式如下："
+msgstr ""
+
+#: ../../docs/jobs/slurm-scancel.rst:12
+msgid ""
+"jobid可通过 ``squeue`` 获得。 对于排队作业，取消作业将简单地把作业标记为CANCELLED状态而结束作业。 "
+"对于运行中或挂起的作业，取消作业将终止作业的所有作业步， 包括批处理作业脚本，将作业标记为CANCELLED状态，并回收分配给作业的节点。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-scancel.rst:17
+msgid ""
+"一般地，批处理作业将会马上终止； 交互作业的srun进程将会感知到任务的退出而终止； "
+"抢占节点资源的salloc进程不会自动退出，除非作业所执行的用户命令因作业或任务的结束而终止。 "
+"但是在作业被取消时，控制进程都会发送通知消息给分配资源的srun或salloc进程。 用户可以选择通过salloc的--kill-"
+"command选项设置在收到通知时向所执行的命令发送信号将其终止。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:5
+msgid "计算节点状态查看sinfo"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:7
+msgid "可以通过 `sinfo` 来查看计算节点的状态"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:13
+msgid "输出如下："
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:18
+msgid "其中各项参数的含义如下："
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:23 ../../docs/jobs/slurm-squeue.rst:23
+msgid "**关键词**"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:24 ../../docs/jobs/slurm-squeue.rst:24
+msgid "**含义**"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:25 ../../docs/jobs/slurm-squeue.rst:27
+msgid "``PARTITION``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:26
+msgid "分区名，对节点的逻辑分组。不同的分区会设置不同权限、资源限制等。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:27
+msgid "``AVAIL``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:28
+msgid "可用状态：``up`` 可用；``down`` 不可用"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:29
+msgid "``TIMELIMIT``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:30
+msgid ""
+"该分区的作业最大运行时长限制, ``30:00`` 表示30分钟，如果是\\ ``2-00:00:00``\\ 表示2天，如果是\\ "
+"``infinite``\\ 表示不限时间"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:31 ../../docs/jobs/slurm-squeue.rst:37
+msgid "``NODES``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:32
+msgid "节点数量"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:33
+msgid "``STATE``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:34
+msgid ""
+"状态：``drain/drained``: 排空状态，表示该类节点不再分配到其他；``idle``: "
+"空闲状态；``alloc/allocated``: 被分配状态; ``mix``:部分被占用，但是仍有可用资源； ``down``\\ 宕机 "
+";completing、comp  完成中 ; fail  失效; unknown、unk  未知原因"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:35
+msgid "``NODELIST``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:36
+msgid "节点列表"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:41
+msgid "如果状态带有后缀*,表示该节点没有响应。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:44
+msgid "在使用过程中，选择正确的分区对程序的运行十分重要"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:3
+msgid "作业状态信息查看squeue"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:5
+msgid "用户用 ``squeue -u username`` 查看自己作业的运行情况。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:18
+msgid "squeue的输出信息解释："
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:25
+msgid "``JOBID``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:26
+msgid "作业的id号，每个成功提交的任务都会有唯一的id"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:28
+msgid "分区名"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:29
+msgid "``NAME``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:30
+msgid "作业名称，默认为提交脚本的名称"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:31
+msgid "``USER``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:32
+msgid "用户名，提交该作业的用户名"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:33
+msgid "``ST``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:34
+msgid "作业状态：``PD``\\ 排队；``R``\\ 运行；``S``\\ 挂起；``CG``\\ 正在退出"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:35
+msgid "``TIME``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:36
+msgid "作业运行时间"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:38
+msgid "作业占节点数"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:39
+msgid "``NODELIST(REASON)``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:40
+msgid "作业所占节点列表，如果是排队状态的任务，则会给出排队原因"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:52
+msgid "ST：状态，常见的状态包括："
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:44
+msgid "PD、Q：排队中 ，PENDING"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:45
+msgid "R：运行中 ，RUNNING"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:46
+msgid "CA：已取消，CANCELLED"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:47
+msgid "CG：完成中，COMPLETIONG"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:48
+msgid "F：已失败，FAILED"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:49
+msgid "TO：超时，TIMEOUT"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:50
+msgid "NF：节点失效，NODE FAILURE"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:51
+msgid "CD：已完成，COMPLETED"
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:5
+msgid "交互式作业提交srun"
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:7
+msgid ""
+"Slurm作业通常分为交互式和批量式两种。 交互式作业通常用于代码编译、脚本调试、交互式计算等工作。 "
+"长期后台计算的任务通常以作业脚本的方式进行批量提交 :ref:`sbatch` 。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:14
+msgid "交互式提交作业：在shell窗口中执行 ``srun`` 命令，主要命令格式如下："
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:22
+msgid "srun常用选项"
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:24
+msgid "srun包括多个选项，其中最常用的选项主要有以下几个："
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:26
+msgid "-n, --ntasks=number 指定要运行的任务数。请求为number 个任务分配资源，默认为每个任务一个处理器核"
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:27
+msgid ""
+"-c, --cpus-per-task=ncpus 告知资源管理系统控制进程，作业步的每个任务需要ncpus "
+"个处理器核。若未指定此选项，则控制进程默认为每个任务分配一个处理器核。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:28
+msgid "-N, --nodes=minnodes[-maxnodes]"
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:29
+msgid ""
+"请求为作业至少分配minnodes个节点。调度器可能觉得在多于 "
+"minnodes个节点上运行作业。可以通过maxnodes限制最多分配的节点数目（例如“-N "
+"2-4”或“--nodes=2-4”）。最少和最多节点数目 可以相同以指定特定的节点数目（例如，“-N 2”或“--nodes=2-2” "
+"将请求两个且仅两个节点）。分区的节点数目限制将覆盖作业的请求。 如果作业的节点限制超出了分区中配置的节点数目，作业将被拒绝。 "
+"如果没有指定-N，缺省行为是分配足够多的节点以满足-n和-c参数的 "
+"需求。在允许的限制范围内以及不延迟作业开始运行的前提下，作业将被分配尽可能多的节点。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:30
+msgid "-p, --partition=partition name 在指定分区中分配资源。如未指定，则由控制进程在系统默认分区中分配资源。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:31
+msgid ""
+"-w, --nodelist=node name list 请求指定的节点名字列表。作业分配资源中将至少包含这些节点。列 "
+"表可以用逗号分隔的节点名或节点范围（如taishan-arm-cpu [01-05,07,...]，其中taishan-arm-"
+"cpu为节点名称）指定，或者用 文件名指定。如果参数中包含“/”字符，则会被当作文件名。如果指定了最大节点数如-N "
+"1-2，但是文件中有多余2个节点，则请求列 表中只使用前2个节点。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:32
+msgid "-x, --exclude=node name list"
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:33
+msgid ""
+"不要将指定的节点分配给作业。如果包含“/”字符，参数将被当作 文件名。srun将把作业请求提交到控制进程，然后在远程节点上启动 "
+"所有进程。如果资源请求不能立即被满足，srun将阻塞等待，直到资源可用以运行作业。如果指定了--immediate选项，则srun将在资源 "
+"不是立即可用时终止。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:34
+msgid "-h, --help 若需使用srun更多选项，可通过“srun –h”或“srun --help”查看."
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:42
+msgid "在分区arm上指定任务数运行hostname："
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:56
+msgid "在分区arm，节点taishan-arm-cpu[01-05]上运行hostname："
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:84
+msgid "在arm分区，运行4 任务的hostname，每个节点一个任务，分配的 节点中至少包含节点taishan-arm-cpu[03-05]："
+msgstr ""
+
+#: ../../docs/jobs/slurm-srun.rst:96
+msgid "在arm分区，运行4 任务的hostname，每个节点一个任务，分配的节点中不包含节点taishan-arm-cpu[03-05]："
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:4
+msgid "系统页面提交"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:6
+msgid "系统支持直接在页面提交作业。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:8
+msgid "点击上方“集群”按钮，选择“提交作业”。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:10
+msgid "|submit job web|"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:12
+msgid "submit job web"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:14
+msgid "选择需要使用的集群和作业模板，填写作业名称，在脚本编辑器里填入作业脚本，点击右上方的“提交作业”按钮。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:16
+msgid "|submit job|"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:18
+msgid "submit job"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:20
+msgid "提交作业后，可以在“作业”页面查看是否提交成功。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:22
+msgid "|job status|"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:24
+msgid "job status"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:26
+msgid "如果提交的作业有输出，需要下载，等待作业运行完成后，点击作业名称，进入作业详情。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:28
+msgid "|enter job info|"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:30
+msgid "enter job info"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:32
+msgid "在“作业输出”页面，点击“下载输出日志”。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:34
+msgid "|download job output|"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:36
+msgid "download job output"
+msgstr ""
+
+#: ../../docs/login/index.rst:3
+msgid "登录"
+msgstr ""
+
+#: ../../docs/login/index.rst:7
+msgid "本章介绍如何登陆到ChinaSRC-P"
+msgstr ""
+
+#: ../../docs/login/index.rst:10
+msgid ""
+"ChinaSRC-P平台的登录地址为：http://chinasrc.shao.ac.cn:8882 "
+"，可通过Chrome、Firefox等浏览器直接访问, 台外用户请使用 VPN 或者联系shaoska@shao.ac.cn 获取访问权限。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:5
+msgid "台内用户登录"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:9
+msgid "以上成功与数据中心建立了网络连接后，为了进一步保证用户的数据安全， 中心不允许telnet等方式登录服务器，必须通过ssh登录方式来使用中心资源。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:16
+msgid ""
+"用户密码方面，管理员发给用户的是随机密码，为了用户访问安全，账户开通后需要立即修改密码。 可以通过访问以下网址，在网页 "
+"右上角用户信息修改密码：http://chinasrc.shao.ac.cn:8882"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:19
+msgid "用户登录有两种方式，分别为网页版登录和命令行登录。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:22
+msgid "网页登录"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:24
+msgid "用户可以通过web界面 http://chinasrc.shao.ac.cn:8882 点击“通过统一认证服务登录”进入统一身份认证平台，"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:27
+msgid "|loginin|"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:180
+msgid "loginin"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:29
+msgid "输入用户名和密码，点击“登录”进入服务平台。 登录ChinaSRC-P管理系统，如下图所示："
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:32
+msgid "|iam|"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:181
+msgid "iam"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:34
+msgid "输入用户名和密码即可登录。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:40
+msgid "用户注册"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:42
+msgid "首次登录要在平台上新注册用户并填写完整用户信息，等待管理员审批通过后，才能登录进入平台。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:44
+msgid "点击“注册”按钮,"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:47
+msgid "|login-register|"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:194
+msgid "login-register"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:50
+msgid "进入到注册界面，填写用户名、密码及其他信息。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:52
+msgid "|login-submit|"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:196
+msgid "login-submit"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:57
+msgid "注意通知邮箱填写正确，并且是正常可接收邮件的邮箱。后续审批通过后需要接收首次登录的验证码。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:60
+msgid "注册申请提交后，管理员会在后台进行审核，审核通过后，邮箱会收到一封邮件："
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:64
+msgid "亲爱的用户 xxx 您好，"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:66
+msgid "您的注册申请已经审批通过，请使用用户名 xxx 、Token \\****\\* 及申请注册时所设置的密码进行登录。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:69
+msgid "收到这样的邮件，就表示已经通过用户审批，可以登录使用平台了。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:72
+msgid "首次登录"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:74
+msgid "为了验证邮箱为该注册用户邮箱，所以，在用户进行首次登录的时候，需要采用邮箱收到的验证码进行登录。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:76
+msgid "直接输入用户进行登录，系统会判断该用户为首次登录用户，就会自动跳转到使用用户名和验证码登录的界面。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:78
+msgid "输入用户名和邮件收到的验证码，点击登录即可。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:81
+msgid "正常登录"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:83
+msgid "第一次通过用户名和验证码登录以后，后续登录使用注册时候的密码即可。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:88
+msgid "重置密码"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:90
+msgid "点击右上角的用户，选择“重置密码”："
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:92
+msgid "|resetpassword|"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:187
+msgid "resetpassword"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:94
+msgid "重置密码时请确认选择足够强度的密码，并保证密码安全。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:96
+msgid "|resetpassword2|"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:189
+msgid "resetpassword2"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:100
+msgid "登录平台Web页面，以及使用集群登录、SSH连接和WebDAV等平台服务时用的是注册平台的用户名和密码。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:103
+msgid "用户信息"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:105
+msgid "页面右上角，点击用户名称，进入“我的信息”界面，可以查看个人信息，包括注册时填写的基本信息以及用量/限额详情。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:107
+msgid "|personal info|"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:192
+msgid "personal info"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:110
+msgid "用量/限额详情"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:112
+msgid ""
+"每位用户分配有一定的资源。当创建实例的时候，占用资源限额。如果所用的资源超过了限额，系统会提示资源不够。用户可以先\\ :ref:`释放资源 "
+"<release resource>`\\ ，然后再创建实例。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:114
+msgid "如果需要资源很多，超过了系统默认限额，用户可以联系管理员修改个人限额。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:119
+msgid "命令行登录"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:121
+msgid "Linux和MacOSX用户可以使用terminal终端，Windows用户建议使用xshell，输入命令："
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:129
+msgid "其中username为用户名， IP为登陆节点的地址， port为登陆节点的端口号，该端口信息可以通过web平台获取。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:133
+msgid "命令行登录的截图如下所示。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:136
+msgid "Windows通过xshell登录"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:138
+msgid "|image2|"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:183
+msgid "image2"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:141
+msgid "Linux通过终端登录"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:146
+msgid "MacOSX通过终端登录"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:155
+msgid "普通用户默认情况下分配100G的空间，如有其它需求，请联系管理员进行调额 （请联系shaoska@shao.ac.cn ）。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:158
+msgid "用户名和密码等账户信息请通过申请表进行申请。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:160
+msgid "请联系shaoska@shao.ac.cn 。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:164
+msgid "待移除"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:166
+msgid ""
+"Windows操作系统用户可以使用ssh客户端软件 （如Xshell、Xmanager、Putty、SecureCRT）来登录系统。 "
+"Linux操作系统或Mac操作系统用户直接使用ssh登录。具体操作可参考下例。"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:169
+msgid "数据中心共有两个登录节点：ARM和X86，它们的IP地址分别是："
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:172
+msgid "登陆节点"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:172
+msgid "IP"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:174
+msgid "ARM"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:174
+msgid "202.127.3.156"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:176
+msgid "X86"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:176
+msgid "202.127.3.157"
+msgstr ""
+
+#: ../../docs/login/login-inter.rst:182
+msgid "webloginimage"
+msgstr ""
+
+#: ../../docs/login/login-outer.rst:5
+msgid "台外用户登录"
+msgstr ""
+
+#: ../../docs/login/login-outer.rst:8
+msgid ""
+"台内用户需要台里开通VPN账户，可以邮件给shaoska@shao.ac.cn ，为你开通相关权限。 "
+"登录ChinaSRC-P系统时，先开启VPN，然后根据 :ref:`login-inter` 提供的方法登录。"
+msgstr ""
+
+#: ../../docs/login/login-outer.rst:11
+msgid ""
+"台外用户需要提供您办公地点的一个固定（静态）IP地址或IP网段，开通IP白名单的方式来访问。 开通之后， 根据 :ref:`login-"
+"inter` 提供的方法登录。"
+msgstr ""
+
+#: ../../docs/login/login-outer.rst:14
+msgid "新用户申请参考 :ref:`user-register` 部分进行申请。"
+msgstr ""
+
+#: ../../docs/login/login-outer.rst:16
+msgid "其他问题参考 :ref:`faq` 请联系shaoska@shao.ac.cn 。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:4
+msgid "查看SSH登录信息"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:6
+msgid ""
+"对于共享集群和独占集群，以及自带SSH服务的实例可以通过本地机器直接登录。如果实例没有自带SSH服务，可以\\ :ref:`自行配置 <start"
+" ssh service>`。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:10
+msgid "在首次使用SSH登录之前，需要通过平台管理界面\\ :ref:`重置密码 <reset password>`。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:12
+msgid "每套虚拟集群有自己的访问端口，在“工作台”-“资源总览”中通过点击如图所示图标可显示集群的IP和端口信息。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:16
+msgid "请使用红框框选出的地址。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:18
+msgid "|ssh address|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:211
+msgid "ssh address"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:20
+msgid ""
+"Windows推荐使用\\ `PuTTY`_，`SecureCRT`_，`Xmanager`_\\ "
+"等客户端访问集群的服务端口，Linux/Mac直接使用终端即可。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:27
+msgid "|image5|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:32
+msgid "SSH免密码登录"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:34
+msgid ""
+"SSH免密码登录需要一对密钥对，包括一个公钥和一个私钥，其中私钥放在用户本机，公钥放在集群的\\ "
+"``~/.ssh/authorized_keys``\\ "
+"目录。下次登录时，用户本机的私钥和远程集群的公钥通过加密协议验证配对，验证成功后将不需要密码直接登录成功。所以这里需要生成公私钥，并将公钥上传到目标实例的指定位置。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:36
+msgid "使用SSH客户端免密码登录主要需要两步："
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:38
+msgid "在用户本机生成公私钥。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:40
+msgid "将公钥添加到计算云目标实例的\\ ``~/.ssh/authorized_keys``\\ 文件末尾。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:43
+msgid "生成密钥对"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:46 ../../docs/login/login-ssh.rst:136
+msgid "MacOS & Linux"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:48
+msgid "直接使用终端在用户本机生成公钥和私钥。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:50
+msgid "输入命令\\ ``ssh-keygen -t rsa``："
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:56
+msgid "终端会提示："
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:63
+msgid "括号内为生成的公私钥的默认目录位置，直接回车就会使用这个默认位置。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:65
+msgid "|mac ssh keygen|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:213
+msgid "mac ssh keygen"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:67
+msgid "如果默认位置已经生成过公私钥，则终端会提示是否需要覆盖，这时可不用再次生成公私钥。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:74
+msgid ""
+"终端会提示输入密码 "
+"passphrase，这个密码为生成私钥的密码，将来防止私钥被其他人盗用。这里可以不输入任何密码，直接回车，再次提示输入密码，再次回车。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:76
+msgid "|mac set keygen passphrase|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:214
+msgid "mac set keygen passphrase"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:78
+msgid ""
+"这时公钥存储在\\ ``/Users/~your-local-username~/.ssh/id_rsa.pub``\\ 文件里，私钥存储在\\ "
+"``/Users/~your-local-username~/.ssh/id_rsa``\\ 文件里。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:80
+msgid "|mac list keygen|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:215
+msgid "mac list keygen"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:82
+msgid "获取公钥，将返回值拷贝到剪贴板。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:88
+msgid "|mac copy public key|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:216
+msgid "mac copy public key"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:91 ../../docs/login/login-ssh.rst:155
+msgid "Windows"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:93
+msgid "可以通过\\ `PuTTY`_\\ 或\\ `Xshell`_\\ 生成公私钥。下面以Xshell软件为例，介绍公私钥生成。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:95
+msgid "打开Xshell工具，工具栏有一个工具选项，点开选择新建用户密钥生成向导。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:97
+msgid "|xshell new user key|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:217
+msgid "xshell new user key"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:99
+msgid "密钥类型默认使用RSA，密钥长度默认2048位，点击下一步。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:101
+msgid "|xshell generate key|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:218
+msgid "xshell generate key"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:103
+msgid "等待软件自动生成密钥对后点击下一步。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:105
+msgid "|xshell waiting for key|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:219
+msgid "xshell waiting for key"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:107
+msgid "按照软件指引配置密钥名称和密码后点击下一步。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:111
+msgid "该密码加密您的私钥文件，若遗忘，则需要重新生成公私钥并重新添加至集群，请牢记！"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:113
+msgid "|xshell set key information|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:220
+msgid "xshell set key information"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:115
+msgid "软件会显示生成的公钥，选中公钥复制到剪贴板，然后点击结束，将公钥另存为文件。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:117
+msgid "|xshell copy public key|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:221
+msgid "xshell copy public key"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:119
+msgid "|xshell save public key|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:222
+msgid "xshell save public key"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:122
+msgid "将公钥添加到集群"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:124
+msgid ""
+"接下来需要将刚刚复制的公钥追加到集群内\\ ``~/.ssh/authorized_keys``。先使用\\ :ref:`Web SSH登录 "
+"<web login>`\\ 到集群，在Web终端中输入如下命令："
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:130
+msgid "其中，将``ssh-rsa AAAA..``\\ 替换为刚才复制的公钥。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:133
+msgid "用密钥登录集群"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:138
+msgid ""
+"本地机器上打开自带的终端，按照\\ :ref:`上文 <ssh info>`\\ 查看要登录的集群SSH "
+"IP和端口信息，输入如下命令后回车登录集群："
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:144
+msgid ""
+"其中，\\ ``202.201.1.198``\\ 和\\ ``20139``\\ 分别替换为集群的SSH IP地址和端口， \\ "
+"``username``\\ 替换为自己的平台用户名。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:146
+msgid "如果显示类似如下提示，输入\\ ``yes``\\ 后回车，即可正常登录。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:157
+msgid "此处以\\ `Xshell`_\\ 登录为例。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:159
+msgid ""
+"点击软件左上角新建会话属性，按照\\ :ref:`上文 <ssh info>`\\ 查看要登录的集群SSH IP和端口信息，输入SSH "
+"IP地址和端口后点击连接。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:161
+msgid "|xshell new login|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:223
+msgid "xshell new login"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:163
+msgid "输入平台用户名后点击OK。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:165
+msgid "|xshell enter username|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:224
+msgid "xshell enter username"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:167
+msgid "在用户身份验证界面选择“Public Key” 选择上文中保存在本地的公钥文件。如果之前在生成密钥对时设置了密钥密码，还需要一并输入密码。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:169
+msgid "|xshell import public key|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:225
+msgid "xshell import public key"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:171
+msgid "点击确认，成功登录。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:173
+msgid "|xshell login successfully|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:226
+msgid "xshell login successfully"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:178
+msgid "SSH服务配置"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:180
+msgid "启动实例，打开终端安装ssh服务"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:186
+msgid "开启ssh服务"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:192
+msgid "如果提示\\ ``service command not found``\\，执行如下命令："
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:198
+msgid "更改用户密码"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:205
+msgid "然后输入新密码。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:207
+msgid "用ssh工具远程登陆实例。"
+msgstr ""
+
+#: ../../docs/mode/index.rst:3
+msgid "模式与实例"
+msgstr ""
+
+#: ../../docs/mode/index.rst:7
+msgid "本章介绍使用模式与用户实例。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:4
+msgid "用户实例"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:6
+msgid "在“实例”中，用户点击实例名称，可以查看实例的基本信息、资源详情、服务和集群， 并对实例进行操作。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:11
+msgid ""
+"此处显示的实例包含\\ :ref:`独占实例 <apply private instance>`\\ 和\\ :ref:`独占集群 <apply "
+"private cluster>`。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:14
+msgid "实例详情"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:16
+msgid "|instance information|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:251
+msgid "instance information"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:19
+msgid "基本信息"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:21
+msgid "基本信息显示当前实例的运行状态、运行剩余时间、健康状态、资源分配状态、创建实例所用的应用、创建时间。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:23
+msgid "|instance basic information|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:252
+msgid "instance basic information"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:26
+msgid "资源详情"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:28
+msgid "资源详情显示当前实例所使用的CPU核数、内存数、GPU数、块存储和镜像。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:30
+msgid "|instance resource information|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:253
+msgid "instance resource information"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:33
+msgid "服务"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:35
+msgid ""
+"服务显示该实例当前的健康状态和开通的功能，例如控制台、交互界面和SSH等。可以点击图标选择相应的服务，也可以\\ :ref:`添加自定义服务 "
+"<customize service>`。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:37
+msgid "|instance service information|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:254
+msgid "instance service information"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:40
+msgid "集群"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:42
+msgid "集群显示了当前资源所使用的节点和节点的详细信息。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:44
+msgid "|instance node information|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:255
+msgid "instance node information"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:46
+msgid ""
+"根据用户创建的类型不同，节点数量也不同，有的为单节点\\ :ref:`独占实例 <apply private instance>`\\ "
+"，有的为\\ :ref:`独占集群 <apply private cluster>`。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:48
+msgid "|instance single node|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:256
+msgid "instance single node"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:50
+msgid "|instance multiple nodes|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:257
+msgid "instance multiple nodes"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:52
+msgid "可以点击节点图标，切换下方的节点详细信息。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:54
+msgid "|change node|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:258
+msgid "change node"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:56
+msgid "节点详细信息包含如下："
+msgstr ""
+
+#: ../../docs/mode/instance.rst:58
+msgid "**名称**：节点名称。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:60
+msgid "**ID**：节点的ID。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:62
+msgid "**类型**：分为“CTRT容器”，“OCI容器”和“虚拟机”。“CTRT容器”是专为集群开发的容器，根据集群的需求可以进行更细粒度的控制。“OCI容器”是Docker的标准化容器。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:64
+msgid "**角色**：分为“主节点”、“工作站”和“计算节点”。“主节点”是作业队列系统的管理节点，负责接受用户提交的任务，进行任务调度和分发。“工作站”节点主要用于用户登录、作业提交、作业查看、文本编辑、数据传输等工作。“计算节点”用于处理用户的计算任务。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:66
+msgid "**运行状态**：显示节点当前的运行状态，例如“运行中”、“等待”、“暂停”、“错误”等等。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:68
+msgid "**物理节点**：显示当前节点所在的物理节点。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:70
+msgid "**资源分配**：当前节点所占用的资源。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:72
+msgid "**资源使用统计**：最近6小时的CPU和内存使用情况。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:77
+msgid "启动/停止实例"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:79
+msgid "实例详情的右上角，有“启动”和“停止”按钮，点击后就可以运行或停止实例。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:81
+msgid "|change state|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:259
+msgid "change state"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:84
+msgid "实例延期"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:86
+msgid "为了充分的利用资源，每个实例都设有默认的最长使用期限。当创建实例成功后就开始倒计时，倒计时为零时，系统会自动停止该实例释放资源。如果用户希望延长实例的使用时间，可以申请对实例延期。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:88
+msgid "点击“实例”中的“申请延期”。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:90
+msgid "|apply delay|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:260
+msgid "apply delay"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:92
+msgid "在窗口中选择需要延期的类型，填写希望延长的时间和理由，并提交管理员审批。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:94
+msgid "|select extend type 1|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:261
+msgid "select extend type 1"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:96
+msgid "|select extend type 2|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:262
+msgid "select extend type 2"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:98
+msgid "**延后实例本次运行的截止日期**：延期申请只针对当前正在运行的实例，不影响之后的实例运行。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:99
+msgid "**更新实例的使用期限**：申请用户该实例的默认最长使用期限，只对下次及以后的运行有效。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:103
+msgid "如果要对当前正在运行的实例进行延期，请预留审批时间，避免在快截止时提出申请。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:105
+msgid "用户可以在“申请”中查看自己已经提交的延期请求以及审批情况。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:107
+msgid "|approval state|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:263
+msgid "approval state"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:111
+msgid "如果实例有还未审批的请求，不允许对该实例提交相同类型的延期请求。需要等审批完毕后才能再次提交。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:116
+msgid "资源释放"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:119
+msgid "实例会从创建开始计费，直到自动或手动释放资源停止计费。因此如果资源使用完毕，记得及时手动释放资源。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:121
+msgid "实例只有在停止状态下才能释放资源。:ref:`停止实例 <change state>`\\ 后，点击“释放资源”按钮，并停止计费。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:123
+msgid "|release|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:265
+msgid "release"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:125
+msgid "已经释放资源的实例会进入“回收站”，用户可以在“回收站”里找到实例，并重新分配资源，进入计费状态。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:127
+msgid "|allocate|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:264
+msgid "allocate"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:131
+msgid "进入“回收站”的实例的数据和环境都依然保存。如果希望彻底删除，点击删除图标，将实例和数据彻底删除。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:136
+msgid "磁盘扩容"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:138
+msgid ""
+"实例只有在停止状态下才能磁盘扩容。:ref:`停止实例 <change state>`\\ "
+"后，在列表中点击磁盘扩容按钮，或是在实例详情中点击磁盘扩容按钮。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:140
+msgid "|expand disk|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:142
+msgid "expand disk"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:144
+msgid "|expand disk2|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:146
+msgid "expand disk2"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:148
+msgid "在弹出窗口中，通过滑条或是直接输入磁盘尺寸调整所需要的磁盘大小后，点击确定完成扩容。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:150
+msgid "|set disk volume|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:152
+msgid "set disk volume"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:156
+msgid "扩容大小在2048G范围内，实例自动扩容，无需其他额外操作，直接使用扩容空间。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:158
+msgid "扩容大小在2048G以上，需要按照以下教程操作。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:160
+msgid "扩容完成后，启动实例，进入到实例中。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:162
+msgid "在命令行输入\\ ``lsblk``\\ ，查看磁盘扩容情况，本次扩容空间大小为20T，见下图："
+msgstr ""
+
+#: ../../docs/mode/instance.rst:164
+msgid "|check disk volume|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:166
+msgid "check disk volume"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:168
+msgid "在命令行继续输入\\ ``df -Th``\\ 查看磁盘的格式，主要包含ext4或者xfs两种，本次实例查看见下图："
+msgstr ""
+
+#: ../../docs/mode/instance.rst:170
+msgid "|check disk format|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:172
+msgid "check disk format"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:174
+msgid ""
+"可以看到，``lsblk``\\ 和\\ ``df -Th``\\ 两个命令看到的磁盘大小是不一样的。用\\ ``lsblk``\\ "
+"看到的是20T，但是用\\ ``df -Th``\\ 查看只有49G，两者存在差异。这是因为\\ ``lsblk``\\ 查看的是block "
+"device，即逻辑磁盘大小。\\ ``df``\\ 查看的是file system, 即文件系统层的磁盘大小。磁盘扩容后，block "
+"device容量变大，但还没有反映到file system中，需要用resize2fs 命令来更新。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:176
+msgid ""
+"在命令行输入\\ ``resize2fs /dev/vda1``\\ "
+"进行更新，扩容时间视扩容空间大小而定，扩容20T需要几分钟的时间，提示如下图所示内容，表示扩容完成。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:178
+msgid "|resize disk|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:180
+msgid "resize disk"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:182
+msgid "在命令行输入\\ ``df -Th``\\ 查看扩容后的磁盘空间，可以看到已经变为20T。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:184
+msgid "|check disk volume2|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:186
+msgid "check disk volume2"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:190
+msgid "\\ ``resize2fs``\\ 只可用于调整ext4文件系统的大小。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:192
+msgid "如果分区类型为xfs，则执行\\ ``xfs_growfs /dev/vda1``\\ 进行扩容，操作过程和ext4一样。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:197
+msgid "修改配置"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:199
+msgid "如果觉得创建的实例资源不够，比如希望增加CPU核数、GPU卡数或是内存，可以修改实例的资源配置。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:201
+msgid "停止实例，并释放资源，在“我的资源”-“回收站”里找到实例，点击右侧的“修改配置”，在弹出窗口中选择需要的资源配置。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:203
+msgid "|change resource|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:205
+msgid "change resource"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:207
+msgid "|set resource|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:209
+msgid "set resource"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:212
+msgid "修改资源配置后，为实例\\ :ref:`重新分配资源 <allocate resource>`\\ 并启动即可。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:216
+msgid "每个实例是否可更改资源配置以及可选的资源配置，取决于管理员对应用的设置。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:221
+msgid "添加自定义服务"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:223
+msgid "平台支持用户增加自定义服务，目前只支持自助添加和删除TCP端口映射。点击右上角的“添加自定义服务”。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:225
+msgid "|customize service|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:266
+msgid "customize service"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:227
+msgid "在弹出窗口中输入服务名称，容器或虚拟机内部监听的服务地址，端口和所在节点。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:229
+msgid "|set service|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:267
+msgid "set service"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:233
+msgid "端口名称不可以跟保留的名称，即平台已使用的ssh, desktop, jupyter等重名。 用户也不可添加和删除spec里已经配的端口映射。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:236
+msgid "集群扩缩容"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:240
+msgid ""
+"只有\\ :ref:`独占集群 <apply private cluster>`\\ 才可以扩容缩容，\\ :ref:`独占实例 <apply "
+"private instance>`\\ 的资源分配在申请资源时设定。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:242
+msgid "点击集群右侧“伸缩集群”按钮。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:244
+msgid "|private cluster set resource|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:268
+msgid "private cluster set resource"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:246
+msgid "在弹出窗口中，选择扩缩容节点组，选择扩容还是缩容，以及相应的节点数。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:248
+msgid "|private cluster set resource window|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:269
+msgid "private cluster set resource window"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:4
+msgid "使用模式"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:7
+msgid "模式对比"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:9
+msgid ""
+"为了满足复杂多样的个性化计算需求，适应新型计算模式对运行环境的复杂要求， 高性能计算平台的建设除了在硬件设备的选型上充分考虑了计算的多样性， "
+"提供了包含CPU节点、ARM节点和GPU节点等的丰富算力组合， 在软件平台的建设上也采用了区别于传统超算中心的作业调度系统的解决方案， "
+"在不损失计算性能的前提下以灵活多样的方式提供服务。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:17
+msgid "**资源多≠速度快**，无论使用以下哪种方式申请计算资源，并不意味着申请的资源越多，计算速度就会越快。程序必须经过并行计算优化，才能取得更快的计算速度，比如，CPU程序要经过多核优化，GPU程序要利用CUDA加速。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:19
+msgid "Usage Mode"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:23
+msgid "**公共集群**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:24
+msgid "**独占集群**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:25
+msgid "**独占/共享实例**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:26
+msgid "**适用人群**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:27
+msgid "对Linux命令行和作业调度系统比较熟悉。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:28
+msgid "对Linux命令行和作业调度系统比较熟悉，计算量非常大。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:29
+msgid "不熟悉Linux，习惯交互式图形界面，计算量相对较小，使用图形界面快速实验验证一些想法。**无计算机背景的新用户建议使用这种模式。**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:30
+msgid "**应用场景**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:31
+msgid "全体共享一个计算集群，多用户排队提交作业"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:32
+msgid "个人/院系独占集群资源，可自定义集群内部运行环境，自主安装系统应用"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:33
+msgid "个人独占/多人共享单节点资源"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:34
+msgid "**执行方式**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:35
+msgid "SLURM作业提交"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:36
+msgid "自主安装作业调度系统或直接多节点并行"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:37
+msgid "交互式提交"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:38
+msgid "**节点数量**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:39
+msgid "预分配固定节点"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:40
+msgid "规模可伸缩"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:41
+msgid "单节点"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:42
+msgid "**应用类型**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:43 ../../docs/mode/usage-mode.rst:44
+msgid "绝大多数计算任务"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:45
+msgid "CentOS、Ubuntu系统，Jupyter、RStudio、MATLAB等有交互界面的计算任务。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:46
+msgid "**申请资源**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:47
+msgid "编写资源申请脚本，使用作业调度软件提交作业"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:48
+msgid "Web页面申请集群，编写资源申请脚本，登录集群后提交作业"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:49
+msgid "在Web界面申请资源，使用Linux命令行或者VNC操作服务器"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:50
+msgid "**计费方式**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:51
+msgid "从作业启动后开始计费，直到作业结束，作业结束后资源自动释放。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:52 ../../docs/mode/usage-mode.rst:53
+msgid "从启动计算资源开始计费，直到资源释放为止。有最长使用期限，超过最长使用期限后系统自动释放资源，用户也可以自己手动释放资源。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:54
+msgid "**图形界面**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:55 ../../docs/mode/usage-mode.rst:61
+msgid "不支持"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:56 ../../docs/mode/usage-mode.rst:57
+#: ../../docs/mode/usage-mode.rst:59 ../../docs/mode/usage-mode.rst:60
+msgid "支持"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:58
+msgid "**客户端ssh**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:62
+msgid "**root权限**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:63
+msgid "否"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:64 ../../docs/mode/usage-mode.rst:65
+msgid "是"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:67
+msgid "如上表所示，平台主要支持三种模式："
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:69
+msgid ""
+"对于计算资源使用量较大、有一定Linux命令行基础的用户，可以考虑使用\\ **公共集群**\\ 或者\\ **独占集群**\\ "
+"模式。这两种模式都使用作业调度系统提交作业。不同在于\\ **公共集群**\\ 按作业运行时长来计费，\\ **独占集群**\\ "
+"的计费从分配资源开始到资源释放，如果中间并未运行作业，依然计费。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:70
+msgid ""
+"如果对Linux命令行不熟悉，我们提供了\\ **独占/共享实例**\\ "
+"模式，可以在“申请资源”处申请有交互界面的计算资源，提供了Jupyter等有交互界面的工具，上手简单，无需学习Linux，适用于无计算机背景的新用户。此模式优点是学习成本低，缺点是计费方式粒度粗，不适合有大量计算任务的用户。用户也可以前期使用这类交互界面实例，如发现计算量较大，建议逐渐迁移到\\"
+" **公共集群**\\ 模式上，该模式计费更准确。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:71
+msgid "对于想独占计算资源的用户，可以使用\\ **独占集群**\\ 模式。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:73
+msgid "综上，无计算机背景的新用户建议使用\\ **独占/共享实例**\\ 模式。下面将分别简述三种模式的使用方法。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:78
+msgid ""
+"公共集群以传统的作业调度方式提供公共共享的计算资源，所有用户无需申请即可直接登录使用。每位用户进入平台后就已经自动分配到公共集群的项目组内，“共享资源”中的"
+" ``public_cluster`` 就是公共集群。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:80
+msgid ""
+"用户在公共集群内使用资源时以作业提交的方式申请计算资源，通过作业调度系统将任务分发到计算节点上。用户在公共资源里只具有普通用户权限，可通过ssh客户端直接"
+" :ref:`登录集群 <cluster login>`。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:82
+msgid "公共集群的登录节点配置了资源限制，请勿在公共集群的登录节点执行大的计算任务。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:85
+msgid "|image1|"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:149
+msgid "image1"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:90
+msgid "独占实例"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:92
+msgid "独占实例是用户独占的单机计算资源，用户在自己的独占实例中具有虚拟超级用户权限，这种资源使用方式可以提供远程桌面以满足图形化交互计算的需求。除了可以使用到普通的物理计算节点资源，这种实例可以使用到KNL节点等计算资源。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:94
+msgid "独占实例的申请流程如下："
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:96
+msgid "点击“申请资源”，进入资源库，根据需要在过滤条件处选出自己所需的计算资源，比如Jupyter等，点击“创建实例”。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:98
+msgid "|image9|"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:150
+msgid "image9"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:100
+msgid "填写该实例的必备信息。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:102
+msgid "**名称**: 为该实例名称，用于分辨同一用户创建的不同实例。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:103
+msgid "**邮箱**: 用于发送平台通知，例如使用最长到时间即将到期时，将发送邮件通知用户。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:104
+msgid "**节点资源设置**: 用于设置实例的节点资源。根据实例的不同，可选的资源也不同。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:108
+msgid "``CPU``\\ 是指实例要使用的CPU核数。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:110
+msgid "``GPU``\\ 是指实例要使用的GPU卡数。如果卡数为0.x的小数点，意为共享GPU。例如0.2卡，则系统会分配给实例1/5的GPU卡。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:112
+msgid "``Memory``\\ 是指实例需要的内存数。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:115
+msgid ""
+"**使用周期**\\ "
+"是该实例默认最长使用期限。超过该期限后，平台会自动释放该实例的计算资源。在该期限内用户可以自由使用该实例，但该实例会一直计费。用户也可以\\ "
+":ref:`手动释放 <release resource>`\\ 该实例的计算资源，结束对该资源的计费。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:118
+msgid "该模式从创建开始计费，直到自动或手动释放资源停止计费。为避免申请到资源不进行计算或者正在进行计算时超时系统自动回收资源，用户一定要注意“使用周期”和“通知邮箱”项，并定期查看邮箱中来自平台的通知邮件。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:120
+msgid "|image10|"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:151
+msgid "image10"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:122
+msgid "在“我的资源”中选择申请的实例，启动该实例。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:125
+msgid "如果平台当前可用资源已经全部分配完毕，该实例申请后需要排队等待分配，此时无法启动实例。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:127
+msgid "点击“远程桌面”图标可以登录桌面。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:129
+msgid "|image12|"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:154
+msgid "image12"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:131
+msgid "点击“控制台”可进入终端界面，输入\\ ``sudo -i``\\ 可切换至虚拟超级用户对系统进行修改、安装软件或开发包。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:133
+msgid "|image11|"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:152
+msgid "image11"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:135
+msgid "|image13|"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:157
+msgid "image13"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:138
+msgid "**不同实例所能支持的操作不同**。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:143
+msgid "共享实例"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:145
+msgid "要创建共享模式使用的实例，需要先\\ :ref:`创建共享项目 <project>`。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:147
+msgid ""
+"整个申请过程和\\ :ref:`独占实例 <apply private instance>`\\ "
+"类似，不同之处在于在填写实例信息时需要选定实例所归属的项目。该实例的计费均会计入该共享项目内。"
+msgstr ""
+
+#: ../../docs/module/index.rst:3
+msgid "环境变量管理工具module"
+msgstr ""
+
+#: ../../docs/module/index.rst:5
+msgid "本章介绍如何使用环境管理工具"
+msgstr ""
+
+#: ../../docs/module/index.rst:7
+msgid "为了满足不同用户或者科学研究的需求，ChinaSRC-P中安装了各种版本的软件。"
+msgstr ""
+
+#: ../../docs/module/index.rst:9
+msgid "用户可在同一软件的不同版本之间切换，也可以在同一功能的不同软件之间切换，以此来选择最合适的编程环境和运行环境。"
+msgstr ""
+
+#: ../../docs/module/index.rst:11
+msgid "使用系统命令 ``module`` 可以快速地达到这一效果。"
+msgstr ""
+
+#: ../../docs/module/index.rst:13
+msgid "详细的介绍可以参考: [module官方网站](https://modules.readthedocs.io/en/latest/)"
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:5
+msgid "基本命令"
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:8
+msgid "添加模块集合"
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:16
+msgid "添加模块集合-CRATIV"
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:23
+msgid "查看可用的模块列表"
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:31
+msgid "ChinaSRC-P 平台可用的软件如下所示："
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:39
+msgid "CRATIV 平台可用的软件如下所示："
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:46
+msgid "加载需要的模块"
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:53
+msgid ""
+"ARM 系统加载方法 `module load softwarename/arm-version`, X86 系统加载方法 `module "
+"load softwarename/cpu-version` 或 `module load softwarename/gpu-version`。 "
+"CRATIV 系统加载方法 `module load softwarename-version`,"
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:57
+msgid "以X86的gcc为例："
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:69
+msgid "在执行过程中如果出现模块的问题或者冲突，可以考虑清空载入的module，重新进行加载测试，命令如下："
+msgstr ""
+
+#: ../../docs/module/module-commands.rst:77
+msgid ""
+"module 其他用法，可以通过module --help查询。 "
+"更多详细使用方法见[module官网](http://modules.sourceforge.net)"
+msgstr ""
+
+#: ../../docs/module/module-intro.rst:5
+msgid "module简介"
+msgstr ""
+
+#: ../../docs/module/module-intro.rst:7
+msgid ""
+"由于不同用户在原型系统上可能需要使用不同的软件环境，配置不同的环境变量， "
+"默认配置无法满足所有用户的需要，因而在原型系统上安装了module软件来进行对环境变量的管理， 方便用户更好地使用机器。"
+msgstr ""
+
+#: ../../docs/module/module-intro.rst:11
+msgid "Envrionment modules工具用来快速的设置和修改用户编译运行环境。"
+msgstr ""
+
+#: ../../docs/module/module-intro.rst:13
+msgid "Envrionment modules通过加载和卸载modulefile文件可直接改变用户的环境变量，用户不需要修改.bashrc，从而避免误操作。"
+msgstr ""
+
+#: ../../docs/module/module-intro.rst:16
+msgid ""
+"`module`通过配置*modulefile*支持环境变量的动态修改， 能够控制软件不同版本对环境变量的依赖关系。 "
+"用户通过简单的命令即可获得适于自己环境变量设置，因而提高了用户移植软件的效率。"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:5
+msgid "Python环境使用"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:8
+msgid ""
+"ChinaSRC-P不部署Python module，用户可以通过上述方法加载Python软件后， "
+"创建Python虚拟环境到自己的HOME路径下，然后自行安装所需的Python module。"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:11
+msgid "具体方法如下： 加载Python软件,以X86系统为例："
+msgstr ""
+
+#: ../../docs/module/module-python.rst:26
+msgid "创建Python虚拟环境："
+msgstr ""
+
+#: ../../docs/module/module-python.rst:37
+msgid "添加环境变量,把下面语句添加到~/.bashrc中："
+msgstr ""
+
+#: ../../docs/module/module-python.rst:43
+msgid "启用Python虚拟环境："
+msgstr ""
+
+#: ../../docs/module/module-python.rst:50
+msgid ""
+"此时，可以在终端使用`pip install`安装Python module， 或者下载Python module 源码，使用`python "
+"setup.py install`安装。 以安装zstd为例"
+msgstr ""
+
+#: ../../docs/module/module-python.rst:65
+msgid "退出虚拟环境："
+msgstr ""
+
+#: ../../docs/module/module-system.rst:5
+msgid "系统命令的使用"
+msgstr ""
+
+#: ../../docs/module/module-system.rst:7
+msgid "部分命令是系统级别的命令，如果希望以Slurm的方式运行， 需要导入需要的module文件，具体的使用方法如下："
+msgstr ""
+
+#: ../../docs/module/module-system.rst:20
+msgid "此时应该可以看到system的各个版本"
+msgstr ""
+
+#: ../../docs/module/module-system.rst:22
+msgid "当前支持的命令如下所示："
+msgstr ""
+
+#: ../../docs/module/module-system.rst:26
+msgid "加载系统模块"
+msgstr ""
+
+#: ../../docs/module/module-system.rst:33
+msgid "然后就可以使用各个命令了。"
+msgstr ""
+
+#: ../../docs/module/module-wsclean.rst:5
+msgid "wsclean使用"
+msgstr ""
+
+#: ../../docs/module/module-wsclean.rst:7
+msgid "**WSClean** 是w-stack clean的缩写，为w投影算法的一种方法，这种方法在对uv数据做FFT之后在进行w项的校正，速度较快。"
+msgstr ""
+
+#: ../../docs/module/module-wsclean.rst:9
+msgid "当前广泛用于LOFAR，MWA等宽视场阵列的数据处理中。"
+msgstr ""
+
+#: ../../docs/module/module-wsclean.rst:11
+msgid "使用方法如下："
+msgstr ""
+
+#: ../../docs/module/module-wsclean.rst:23
+msgid "此时应该可以看到wsclean的各个版本"
+msgstr ""
+
+#: ../../docs/module/module-wsclean.rst:44
+msgid "与casa的配合使用"
+msgstr ""
+
+#: ../../docs/module/module-wsclean.rst:46
+msgid "在与casa联合使用的过程中，会涉及到环境变量的冲突问题， 具体使用方法如下："
+msgstr ""
+

@@ -1,0 +1,302 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../docs/data/todo.rst:2 89be7b63fd7a4247a88534fa91c3258d
+msgid "WebDAV 协议访问"
+msgstr ""
+
+#: ../../docs/data/todo.rst:4 69fb09f3cc6640cd80cc19316422f40a
+msgid "由于不是所有实例都提供SSH端口的访问方式，对于需要批量上传或下载的用户，ChinaSRC还提供了WebDAV协议的文件访问方式。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:6 7e9d599072ed4f47b11c806a976b6783
+msgid "WebDAV是一种通信协议，支持大批量的文件传输。对于用户来说，相当于将ChinaSRC的服务器以网盘的形式挂载到用户的个人电脑，用户将个人电脑里的数据拷贝或者上传到ChinaSRC的服务器上。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:8 e0cae32a39c5489daa1cf57f6df1a100
+msgid "WebDAV协议访问的地址是\\ |webdav url| \\ 。用户验证请使用ChinaSRC用户名和密码。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:10 6ea14caaf9314a77a1659a512f4fe02f
+msgid ""
+"Windows系统建议使用\\ `RaiDrive <https://www.raidrive.com/>`__\\ 或\\ `Cyberduck"
+" <https://cyberduck.io/>`__\\ 。Mac系统建议使用\\ `Cyberduck "
+"<https://cyberduck.io/>`__\\ 。Linux系统建议使用\\ `rclone "
+"<https://rclone.org/docs/>`__\\ 。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:12 50fb085486e34905a53a4191d519c826
+msgid "为了方便，ChinaSRC提供了上述软件，请根据需要下载："
+msgstr ""
+
+#: ../../docs/data/todo.rst:14 1947aa99cdcf47faba0ac67c1ab08a71
+msgid "**Mac：**"
+msgstr ""
+
+#: ../../docs/data/todo.rst:16 021ed91f403f4ce0a22417e210ddcaa0
+msgid ""
+"`Cyberduck for Mac "
+"<http://xx.xx.xx.xx:8080/help/files/Cyberduck-7.5.1.33324-mac.zip>`_"
+msgstr ""
+
+#: ../../docs/data/todo.rst:18 d90a4c3c90fd4abcb9e9f64c352b4e9b
+msgid "**Windows：**"
+msgstr ""
+
+#: ../../docs/data/todo.rst:20 97fc1db3df474650a60151f2f22dc04f
+msgid "`RaiDrive <http://xx.xx.xx.xx:8080/help/files/RaiDrive_2020.6.36.exe>`_"
+msgstr ""
+
+#: ../../docs/data/todo.rst:21 4e48b929af24481ea5977c426602f21b
+msgid ""
+"`Cyberduck for Win <http://xx.xx.xx.xx:8080/help/files/Cyberduck-"
+"Installer-7.5.1.33324-win.exe>`_"
+msgstr ""
+
+#: ../../docs/data/todo.rst:22 47fd857c7474421a9ffd22d82ae131cc
+msgid "`WinSCP <http://xx.xx.xx.xx:8080/help/files/WinSCP-5.17.10-Setup.exe>`_"
+msgstr ""
+
+#: ../../docs/data/todo.rst:24 6c09007dddf248b399c003f159f43877
+msgid "**Linux：**"
+msgstr ""
+
+#: ../../docs/data/todo.rst:26 35fff782b18048a6b043769915cff62a
+msgid ""
+"`rclone <https://downloads.rclone.org/v1.55.1/rclone-v1.55.1-linux-"
+"amd64.zip>`_"
+msgstr ""
+
+#: ../../docs/data/todo.rst:29 754a271cab4e47dc9c5014c035fba352
+msgid "Cyberduck使用说明"
+msgstr ""
+
+#: ../../docs/data/todo.rst:31 a68f023849f84d558f1f939adcc98ce5
+msgid "打开Cyberduck，点击“新建连接”，按照下图所示填写连接方式，要选择“WebDAV(HTTPS)”方式。用户验证请使用ChinaSRC用户名和密码。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:33 9399d0186a25445d8f315151192920f4
+msgid "|cyberduck connect|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:35 11e70c2e345848079945a34f1da9c560
+msgid "连接过程中出现任何提示，直接点“继续”。连接成功后，可以使用软件的创建文件夹、上传等功能。注意，使用共享实例，比如交互式的JupyterLab、RStudio、Stata、MATLAB的用户，目标文件夹是“MyData”文件夹。软件的“操作”按钮下有“新建文件夹”、“上传”等功能。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:38 ee0d188c1e0b4db5827c99f2708cf907
+msgid "RaiDrive使用说明"
+msgstr ""
+
+#: ../../docs/data/todo.rst:40 54e0bed8b345472c8164b4f32b11b08a
+msgid ""
+"下载\\ `RaiDrive "
+"<http://xx.xx.xx.xx:8080/help/files/RaiDrive_2020.6.36.exe>`_\\ "
+"并安装后，点击窗口顶部的“添加”按钮，按照下图所示创建WebDAV驱动器。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:42 416866c2522d457c83fa24e0f1fa4180
+msgid "|raidrive connect|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:44 535aa3d21c3547e9830dc9a7f01daba7
+msgid "点击确定后，会跳出一个Windows资源浏览器窗口。RaiDrive已经把新添加的WebDAV连接创建成了一个网络存储驱动器，可以像操作本地磁盘一样从其他驱动器里拖拽文件或者拷贝到这个驱动器下的子目录中。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:48 87ea93386d1a4483af688b985f66b03c
+msgid "RaiDrive WebDAV驱动器功能有局限"
+msgstr ""
+
+#: ../../docs/data/todo.rst:50 ae901446a5184ecb82cb55ea7371a329
+msgid "WebDAV驱动器里的文件不支持编辑，只支持创建和删除。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:51 d84349e6be3d4cc5801186e70af56adc
+msgid "根目录下不能创建目录或文件，只能在列出的顶层目录下操作。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:54 f87e4c0e70644cf3b017e60fd21503d0
+msgid "WinSCP使用说明"
+msgstr ""
+
+#: ../../docs/data/todo.rst:56 ee6c358cf88e49859360029666d93093
+msgid ""
+"打开 WinSCP ，在登录对话框中“新建站点”。按下图所示，选择“WebDAV”-“TLS/SSL隐式加密”、填入主机名和端口\\ "
+"|webdav url| \\ ，使用ChinaSRC用户名和密码进行登录"
+msgstr ""
+
+#: ../../docs/data/todo.rst:58 63b7d1e0ddfe462eb02d23e8c4712a18
+msgid "|winscp connect|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:61 8e99a0b826ca4457a2be7eceb871b675
+msgid "rclone使用说明"
+msgstr ""
+
+#: ../../docs/data/todo.rst:62 560007afba5c4fab9343d55afcaf8b47
+msgid "1.下载rclone压缩包"
+msgstr ""
+
+#: ../../docs/data/todo.rst:64 5a8ae934052c4b8c8b09ca145d33601a
+msgid "官方链接地址 https://downloads.rclone.org/v1.55.1/rclone-v1.55.1-linux-amd64.zip"
+msgstr ""
+
+#: ../../docs/data/todo.rst:67 c8c2cdeb35f04486b268c2a5d9a98a41
+msgid "2.解压，并将rclone程序拷贝到 $PATH 中，给予相应权限"
+msgstr ""
+
+#: ../../docs/data/todo.rst:78 9b814a6d314e499e8364da2ff9082b44
+msgid "3.配置 rclone config"
+msgstr ""
+
+#: ../../docs/data/todo.rst:97 7449107f415b434ab93b6fa92cccc3ba
+msgid "以上操作结束后，可以在/root/.config/rclone/rclone.conf 中看到相应配置文件"
+msgstr ""
+
+#: ../../docs/data/todo.rst:100 074460e9f6a14a01b8ce6bdfaf3f0964
+msgid "4.关闭证书检查"
+msgstr ""
+
+#: ../../docs/data/todo.rst:103 9bb9331c3590423b8801c2c05ecc2ab9
+msgid "注意：此项必须关闭，不然远程操作会报错。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:105 d8425d3c4de2496dad6a77cda852cdc0
+msgid "有两种关闭检查的方式，如下："
+msgstr ""
+
+#: ../../docs/data/todo.rst:107 c63411ce003c44e7a85e2fb3fa80d7b6
+msgid ""
+"1.在执行命令时带上\\ ``--no-check-certificate``\\ 参数，如：``rclone ls remote: --no-"
+"check-certificate``"
+msgstr ""
+
+#: ../../docs/data/todo.rst:108 040f73471e004827a274dd07769ee9ff
+msgid "2.在环境变量里指定，如：``export RCLONE_NO_CHECK_CERTIFICATE=true``"
+msgstr ""
+
+#: ../../docs/data/todo.rst:111 6e52f468a61e4e73b5beffb6c8d28d33
+msgid "5.rclone常用操作"
+msgstr ""
+
+#: ../../docs/data/todo.rst:125 85601f8d55a9484ca561888a8868e26f
+msgid "6.其它操作可参考官方文档：https://rclone.org/docs/"
+msgstr ""
+
+#: ../../docs/data/todo.rst:128 01c2d8a137ee4e79a0d98937fbb5fe35
+msgid "虚拟机实例内访问Home目录"
+msgstr ""
+
+#: ../../docs/data/todo.rst:130 bcf3090a491d4da8913c40ed0489438e
+msgid "ChinaSRC内的虚拟机实例访问共享文件系统上的Home目录的机制类似于用户从外部访问WebDAV服务。目前ChinaSRC提供Windows和Linux虚拟机，连接方法分别如下:"
+msgstr ""
+
+#: ../../docs/data/todo.rst:132 06270dbf23f84ed8862c1d3614a2f8f7
+msgid ""
+"Linux虚拟机：在Linux虚拟机镜像中已经预先做好了WebDAV卷的自动挂载，挂载点是/webdav，可以直接访问 "
+"/webdav/MyData/ 目录下的文件。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:134 96d69450068847cfb7c2d68444ccca1e
+msgid ""
+"Windows虚拟机：在Windows虚拟机中也预先做好了WebDAV卷的自动挂载，原理是使用Windows自带的WebDAV "
+"Client工具挂载了WebDAV服务端提供的网络存储。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:136 7108587bf6014d5198959479144ad4e6
+msgid ""
+"其中，\\ ``MyData``\\ 存放的是个人数据，\\ ``ProjectGroup(public_cluster)``\\ 存放的是\\ "
+"``public_cluster``\\ 项目组中的数据，其它项目组同理。如下图:"
+msgstr ""
+
+#: ../../docs/data/todo.rst:138 2d00064d99ae4430947f82ee1da438b8
+msgid "|windows webdav client|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:140 31deec2c0de040d290182b108a771008
+msgid "算例数据可以通过这种方式拷贝到C盘目录去处理，处理完再从C盘拷贝到网络存储的目录中，然后从实例的数据“管理页面”下载到自己的电脑。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:144 737f51a17c2c494695e18679dd647b2a
+msgid "通过系统ChinaSRC的数据管理页面下载时，对下载的文件数量有限制，建议先在虚拟机中对处理结果打包后再传输。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:146 17cf7fe33540416781911520ab906248
+msgid "Windows系统自带的WebDAV Client可以满足大多数文件拷贝需求，但是对单个文件的大小限制为4G，文件如果大于4G会报错。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:148 5462785d00e847aa8375989052237fd0
+msgid "|transfer error|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:150 cd710f49f4ff4e479903f509ed4a9c35
+msgid "此时，需要在虚拟机里安装WinSCP工具来拷贝文件，参考前面软件下载部分。以下分别以RaiDrive软件和WinSCP为例："
+msgstr ""
+
+#: ../../docs/data/todo.rst:153 8deb86dcffef4ae99f33825c978f78c0
+msgid "RaiDrive"
+msgstr ""
+
+#: ../../docs/data/todo.rst:155 ef07d501170e456cacbec1c505f23968
+msgid ""
+"首先下载RaiDrive并上传到虚拟机中，安装RaiDrive需要\\ ``.net framework``\\ "
+"的支持，会提示下载安装，默认安装即可。另外，可能会要求重启虚拟机系统，重启即可。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:157 5eb5713921264de987f850141ff8d1cb
+msgid ""
+"安装完成后，新建站点并输入以下信息进行连接，“文件协议”-“WebDAV”，不加密，连接地址为\\ "
+"``http://10.0.255.254:4918``\\ ，Account即ChinaSRC的用户名、密码。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:159 99a6291b2ace4f02bfb224634f44042f
+msgid "|winscp vm connect|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:161 f9ca473e932c4e6e89e987f76ce06ca1
+msgid "|winscp vm connect 2|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:163 ../../docs/data/todo.rst:174
+#: 936c648b4930498b8f8b1ea0ccfa7b72 bd8b77723a114ab0823d7361b815b75d
+msgid "连接建立成功后，会自动打开数据目录，再进行文件传输即可。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:165 d99bb1f5624f4416a7a9d4f18427cb13
+msgid "|winscp vm connect 3|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:168 8b1c06ee1dd24db4b4102d3487c72004
+msgid "WinSCP"
+msgstr ""
+
+#: ../../docs/data/todo.rst:170 cf1ad06e78234834b0e6606c76d199ed
+msgid "在虚拟机内安装WinSCP，安装后重启虚拟机系统。 按如下新建会话后点击登录。"
+msgstr ""
+
+#: ../../docs/data/todo.rst:172 5272a6b390864927b9e0840d9ccd496f
+msgid "|winscp vm connect 4|"
+msgstr ""
+
+#: ../../docs/data/todo.rst:176 09703cd4b7ca45fd80a1d197d88cfeab
+msgid "|winscp vm connect 5|"
+msgstr ""
+
