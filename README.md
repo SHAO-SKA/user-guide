@@ -1,8 +1,8 @@
-# 上海天文台SKA数据中心原型系统用户手册 
+# 中国SKA区域中心原型机系统用户手册 
 
 [![Documentation Status](https://readthedocs.org/projects/shaoska-user-guide/badge/?version=latest)](https://shaoska-user-guide.readthedocs.io/zh_CN/latest/?badge=latest)
 
-本文档为上海天文台SKA数据中心原型系统用户手册，网址为 :link: [ChinaSRC-P用户手册](https://shaoska-user-guide.readthedocs.io/) 。
+本文档为中国SKA区域中心原型机系统的用户手册，网址为 :link: [ChinaSRC-P用户手册](https://shaoska-user-guide.readthedocs.io/) 。
 
 文档使用reStructureText书写，并在readthedocs发布。
 

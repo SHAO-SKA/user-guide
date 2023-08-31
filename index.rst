@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-上海天文台SKA数据中心原型系统
+中国SKA区域中心原型机系统
 ===============================================
 
 .. toctree::
