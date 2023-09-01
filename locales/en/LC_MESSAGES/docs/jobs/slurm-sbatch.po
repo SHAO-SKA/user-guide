@@ -22,49 +22,53 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:3 95e3724ae92346378cb0629ee1ff1532
 msgid "批处理作业sbatch"
-msgstr ""
+msgstr "Batch Jobs with sbatch"
 
 #: ../../docs/jobs/slurm-sbatch.rst:6 ac091e9ade5745eeb12c73c6d40e5835
 msgid "简介"
-msgstr ""
+msgstr "Introduction"
 
 #: ../../docs/jobs/slurm-sbatch.rst:8 ebb1430051e64e399d6d20d4970c8c49
 msgid ""
 "批处理作业是指用户编写作业脚本，指定资源需求约束，提交后台执行作业。 提交批处理作业的命令为sbatch，用户提交命令即返回命令行窗口， "
 "但此时作业在进入调度状态， 在资源满足要求时，分配完计算节点之后， 系统将在所分配的第一个计算节点（而不是登录节点）上加载执行用户的作业脚本。"
 msgstr ""
+"Batch jobs refer to user-written job scripts that specify resource requirements and are submitted for execution in the background. The command used to submit batch jobs is sbatch, and when a user submits the command, it returns to the command-line interface."
+"However, at this point, the job enters the scheduling state. When the required resources are satisfied, and after the allocation of computing nodes is complete, the system will load and execute the user's job script on the first allocated computing node (rather than the login node)."
 
 #: ../../docs/jobs/slurm-sbatch.rst:14 7d279b68303245cbb7dbbc601e84ddf3
 msgid ""
 "批处理作业的脚本为一个文本文件， 脚本第一行以 ``#!`` 字符开头，并指定脚本文件的解释程序， 如 sh,bash。 "
 "由于计算节点为精简环境，只提供 sh 和 bash 的默认支持。"
 msgstr ""
+"The script for batch jobs is a text file, and the first line of the script starts with the characters '#!' and specifies the script file's interpreter, such as sh or bash."
+"Since the computing nodes provide default support only for sh and bash due to their streamlined environment."
 
 #: ../../docs/jobs/slurm-sbatch.rst:20 370bb8fe779b4e9895012cf0c4a2fc3b
 msgid "使用示例"
-msgstr ""
+msgstr "Usage Examples"
 
 #: ../../docs/jobs/slurm-sbatch.rst:22 a559c47fd4a24f7ba8a29c7420cd55a4
 msgid "例如用户的脚本名为myjob.sh，内容如下："
-msgstr ""
+msgstr "For instance, if the user's script is named "myjob.sh" with the following content:"
 
 #: ../../docs/jobs/slurm-sbatch.rst:26 27dc52edd19d479d8f784ac2ff899b27
 msgid "使用该脚本用户提交批处理作业，需要明确申请的资源为 arm 分 区的 4 个节点。"
-msgstr ""
+msgstr "To submit a batch processing job using this script, it is essential to specify a request for 4 nodes in the arm partition."
 
 #: ../../docs/jobs/slurm-sbatch.rst:30 06c4f09dad054f5298c148a93d82653e
 msgid "需给该文本文件设置myjob.sh可执行权限，利用命令： ``chmod +x myjob.sh``"
-msgstr ""
+msgstr "To make this text file executable, use the command: chmod +x myjob.sh"
 
 #: ../../docs/jobs/slurm-sbatch.rst:32 f88b3fd4a8f444cdb56e3193c97bf6c7
 msgid "用户sbatch批处理命令如下："
-msgstr ""
+msgstr "The user can submit the job using the sbatch batch processing command as follows:"
 
 #: ../../docs/jobs/slurm-sbatch.rst:39 9cfbfc74edc2442c9df1775b2f3de32d
 msgid "计算开始后，工作目录中会生成以slurm开头的.out 文件为输出文件。"
-msgstr ""
+msgstr "Upon the start of computation, output files beginning with "slurm" will be generated in the working directory."
 
 #: ../../docs/jobs/slurm-sbatch.rst:50 9cddcfafd792456eb89f0e22c12a30cc
 msgid "更多选项，用户可以通过 ``sbatch --help`` 命令来查看。"
-msgstr ""
+msgstr "For more options, users can refer to the sbatch --help command."
 
