@@ -26,7 +26,7 @@ msgstr ""
 
 #: ../../docs/module/module-python.rst:8 ad8d39d4f7874795abcacddec5810aa0
 msgid ""
-"CSRC-P不部署Python module，用户可以通过上述方法加载Python软件后， "
+"ChinaSRC-P不部署Python module，用户可以通过上述方法加载Python软件后， "
 "创建Python虚拟环境到自己的HOME路径下，然后自行安装所需的Python module。"
 msgstr ""
 

@@ -25,10 +25,10 @@ msgid "版权声明"
 msgstr "Copyright "
 
 #: ../../docs/copyright/copyright.rst:6 a981cff94da447459ebee41e802ad8a6
-msgid "未经中国SKA区域中心原型机团队(以下简称CSRC-P)事先书面许可的情况下，严禁以任何形式复制、传递、分发和存储本文档案中的任何内容。"
-msgstr "The reproduction, transmission, distribution and storage of any content in this archive in any form is strictly prohibited without the prior written permission of the Prototype Team of the SKA Regional Center in China (CSRC-P)."
+msgid "未经中国SKA区域中心原型机团队(以下简称ChinaSRC-P)事先书面许可的情况下，严禁以任何形式复制、传递、分发和存储本文档案中的任何内容。"
+msgstr "The reproduction, transmission, distribution and storage of any content in this archive in any form is strictly prohibited without the prior written permission of the Prototype Team of the SKA Regional Center in China (ChinaSRC-P)."
 
 #: ../../docs/copyright/copyright.rst:8 a7e7d9b263904b4b90fc0ec60860354e
-msgid "CSRC-P对本文档中描述的任何内容有修改和改进的权利。"
-msgstr "CSRC-P reserves the right to modify or improve anything described in this document"
+msgid "ChinaSRC-P对本文档中描述的任何内容有修改和改进的权利。"
+msgstr "ChinaSRC-P reserves the right to modify or improve anything described in this document"
 

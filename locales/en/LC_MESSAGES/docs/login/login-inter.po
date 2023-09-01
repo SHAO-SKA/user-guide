@@ -85,7 +85,7 @@ msgid "网页登录"
 msgstr ""
 
 #: ../../docs/login/login-inter.rst:34 6d03b578e64446be8f6838f9165ded1a
-msgid "用户可以通过web界面 https://202.127.3.156/ 登录CSRC-P管理系统，如下图所示："
+msgid "用户可以通过web界面 https://202.127.3.156/ 登录ChinaSRC-P管理系统，如下图所示："
 msgstr ""
 
 #: ../../docs/login/login-inter.rst:37 c90a436aa0664a8cbaa11530716c187b

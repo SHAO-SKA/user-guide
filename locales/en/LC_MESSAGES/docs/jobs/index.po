@@ -26,7 +26,7 @@ msgstr ""
 
 #: ../../docs/jobs/index.rst:5 a30793d3f4844c91b98f98d42d46ea12
 msgid ""
-"CSRC-P通过Slurm调度系统运行作业，以此来完成程序的规范运行，最新文档参考 "
+"ChinaSRC-P通过Slurm调度系统运行作业，以此来完成程序的规范运行，最新文档参考 "
 "[Slurm官网](https://slurm.schedmd.com/documentation.html)"
 msgstr ""
 

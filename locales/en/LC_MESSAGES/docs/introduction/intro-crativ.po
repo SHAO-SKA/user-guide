@@ -26,7 +26,7 @@ msgstr "CRATIV Platform"
 
 #: ../../docs/introduction/intro-crativ.rst:6 f131c64f71c14f3cb6ef1dacc5f7520d
 msgid ""
-"CSRC-P平台还包括一台CRATIV系统，主要用于前期的数据处理与软件开发。 远程登录可以使用VNC软件，软件使用module系统。 "
+"ChinaSRC-P平台还包括一台CRATIV系统，主要用于前期的数据处理与软件开发。 远程登录可以使用VNC软件，软件使用module系统。 "
 "详细信息可邮件 shaoska@shao.ac.cn & chinasrc@googlegroups.com 咨询 。"
 msgstr ""
 "The ChinaSRC-P platform also includes a CRATIV system, primarily used for early-stage data processing and software development. Remote access can be achieved using VNC software, and software usage is managed through the module system."

@@ -25,6 +25,6 @@ msgid "登录"
 msgstr "login"
 
 #: ../../docs/login/index.rst:5 dab05e33ed084098948b3e63c9f9e98b
-msgid "本章介绍如何登陆到CSRC-P"
+msgid "本章介绍如何登陆到ChinaSRC-P"
 msgstr ""
 

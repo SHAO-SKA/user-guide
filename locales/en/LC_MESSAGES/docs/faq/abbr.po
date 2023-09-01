@@ -25,12 +25,12 @@ msgid "常见缩写定义"
 msgstr ""
 
 #: ../../docs/faq/abbr.rst:8 62db29a1c8814c4b9001bd5e488b1f91
-msgid "CSRC-P"
+msgid "ChinaSRC-P"
 msgstr ""
 
 #: ../../docs/faq/abbr.rst:10 a0728ddf6ca74e6a8f535a91c2ce0b3b
 msgid ""
-"CSRC-P为China SKA Regional Centre Prototype的缩写， 为中国SKA原型样机， "
+"ChinaSRC-P为China SKA Regional Centre Prototype的缩写， 为中国SKA原型样机， "
 "也是世界上首台专门针对SKA区域中心研发的原型样机。"
 msgstr ""
 

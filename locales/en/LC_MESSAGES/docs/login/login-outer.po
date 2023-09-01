@@ -27,7 +27,7 @@ msgstr ""
 #: ../../docs/login/login-outer.rst:8 710fd8cae4a7426ea4ccd19209083744
 msgid ""
 "台内用户需要台里开通VPN账户，可以邮件给shaoska@shao.ac.cn & "
-"chinasrc@googlegroups.com，为你开通相关权限。 登录CSRC-P系统时，先开启VPN，然后根据 :ref:`login-"
+"chinasrc@googlegroups.com，为你开通相关权限。 登录ChinaSRC-P系统时，先开启VPN，然后根据 :ref:`login-"
 "inter` 提供的方法登录。"
 msgstr ""
 

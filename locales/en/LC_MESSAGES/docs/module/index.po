@@ -29,7 +29,7 @@ msgid "本章介绍如何使用环境管理工具"
 msgstr ""
 
 #: ../../docs/module/index.rst:7 e76aafe8afcb42789eee7dcc699fe0b4
-msgid "为了满足不同用户或者科学研究的需求，CSRC-P中安装了各种版本的软件。"
+msgid "为了满足不同用户或者科学研究的需求，ChinaSRC-P中安装了各种版本的软件。"
 msgstr ""
 
 #: ../../docs/module/index.rst:9 7884a095e1364078a1412ac90539f29f

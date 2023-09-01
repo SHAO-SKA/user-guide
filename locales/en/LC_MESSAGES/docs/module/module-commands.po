@@ -37,7 +37,7 @@ msgid "查看可用的模块列表"
 msgstr ""
 
 #: ../../docs/module/module-commands.rst:31 0236687419b8426da97cccf709404a1d
-msgid "CSRC-P 平台可用的软件如下所示："
+msgid "ChinaSRC-P 平台可用的软件如下所示："
 msgstr ""
 
 #: ../../docs/module/module-commands.rst:39 298156954eab467ba75ab699d3f5e91b
