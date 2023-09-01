@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../docs/computer/index.rst:3
 msgid "计算节点"
-msgstr ""
+msgstr "computer nodes"
 
 #: ../../docs/computer/index.rst:5
 msgid "本章介绍ChinaSRC-P计算节点情况"
