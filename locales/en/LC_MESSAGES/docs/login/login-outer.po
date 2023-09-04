@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../docs/login/login-outer.rst:5 addd0d721d3a4fffa0d655231c5fd8fc
 msgid "台外用户登录"
-msgstr ""
+msgstr "Access for users from external institutions, excluding Shanghai Astronomical Observatory (SHAO)"
 
 #: ../../docs/login/login-outer.rst:8 710fd8cae4a7426ea4ccd19209083744
 msgid ""
@@ -30,18 +30,23 @@ msgid ""
 "chinasrc@googlegroups.com，为你开通相关权限。 登录ChinaSRC-P系统时，先开启VPN，然后根据 :ref:`login-"
 "inter` 提供的方法登录。"
 msgstr ""
+“Internal users from the observatory need to have a VPN account opened by the observatory. You can email shaoska@shao.ac.cn & "
+"chinasrc@googlegroups.com to request the necessary permissions. When logging into CSRC-P system, start the VPN first, and then follow the instructions provided in :ref:login- "
+"inter to log in.
 
 #: ../../docs/login/login-outer.rst:11 31c7ec7ff3554eaba93fd426e87ff2c8
 msgid ""
 "台外用户需要提供您办公地点的一个固定（静态）IP地址或IP网段，开通IP白名单的方式来访问。 开通之后， 根据 :ref:`login-"
 "inter` 提供的方法登录。"
 msgstr ""
+"External users need to provide a fixed (static) IP address or IP range for their office location to access the system via IP whitelisting. Once this is set up, follow the instructions in :ref:login- "
+"inter to log in."
 
 #: ../../docs/login/login-outer.rst:14 95b026f47b6d4f03b50128f130da3c98
 msgid "用户名和密码等账户信息请通过申请表进行申请。"
-msgstr ""
+msgstr "For account information such as usernames and passwords, please apply through the application form."
 
 #: ../../docs/login/login-outer.rst:16 17d7a4e877ea48f9ad5e197e877ccdcc
 msgid "其他问题参考 :ref:`faq` 请联系shaoska@shao.ac.cn & chinasrc@googlegroups.com。"
-msgstr ""
+msgstr "For any other questions, please contact shaoska@shao.ac.cn & chinasrc@googlegroups.com and refer to :ref:faq for additional assistance."
 

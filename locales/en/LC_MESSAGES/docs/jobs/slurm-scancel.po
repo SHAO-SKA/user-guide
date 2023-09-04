@@ -22,17 +22,19 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-scancel.rst:3 0d376b9c1b5d4c3790ec689af471bc95
 msgid "任务取消scancel"
-msgstr ""
+msgstr "Canceling Jobs with scancel"
 
 #: ../../docs/jobs/slurm-scancel.rst:6 f6a295959f6045f2b05705a96b4f6b0f
 msgid "用户使用scancel命令取消自己的作业。命令格式如下："
-msgstr ""
+msgstr "Users can cancel their own jobs using the scancel command. The command format is as follows:"
 
 #: ../../docs/jobs/slurm-scancel.rst:12 c019fdfc701e4d2fb7db3d171b62aeb7
 msgid ""
 "jobid可通过 ``squeue`` 获得。 对于排队作业，取消作业将简单地把作业标记为CANCELLED状态而结束作业。 "
 "对于运行中或挂起的作业，取消作业将终止作业的所有作业步， 包括批处理作业脚本，将作业标记为CANCELLED状态，并回收分配给作业的节点。"
 msgstr ""
+"The jobid can be obtained through the squeue command. For queued jobs, canceling a job will simply mark it as CANCELLED and end the job."
+"For running or suspended jobs, canceling a job will terminate all job steps, including batch job scripts, mark the job as CANCELLED, and reclaim the nodes allocated to the job."
 
 #: ../../docs/jobs/slurm-scancel.rst:17 7b6689e6bbbb45c582e6aadc93d250c7
 msgid ""
@@ -41,8 +43,12 @@ msgid ""
 "但是在作业被取消时，控制进程都会发送通知消息给分配资源的srun或salloc进程。 用户可以选择通过salloc的--kill-"
 "command选项设置在收到通知时向所执行的命令发送信号将其终止。"
 msgstr ""
+"In general, batch jobs will terminate immediately; the srun process of interactive jobs will sense the exit of tasks and terminate."
+"The salloc process preempting node resources will not exit automatically unless the user commands executed by the job or task terminate."
+"However, when a job is canceled, control processes will send notification messages to the allocated resource srun or salloc processes. Users can choose to send a signal to terminate the executed command upon receiving the notification using the --kill-"
+"command option of salloc."
 
 #: ../../docs/jobs/slurm-scancel.rst:23 8af0587ced7b49efa92bee20d2834b24
 msgid "更多选项，用户可以通过 ``scancel --help`` 命令来查看。"
-msgstr ""
+msgstr "For more options, users can refer to the 'scancel --help' command."
 

@@ -22,31 +22,32 @@ msgstr ""
 
 #: ../../docs/module/module-commands.rst:5 7e9e13fffadd43a29cee5caadbc8231b
 msgid "基本命令"
-msgstr ""
+msgstr "Basic Commands"
 
 #: ../../docs/module/module-commands.rst:8 09557749d0a64d118a74df6e5381c35e
 msgid "添加模块集合"
-msgstr ""
+msgstr "Add Module Sets"
 
 #: ../../docs/module/module-commands.rst:16 1aa65a0b1bd447029fafe6517688ceae
 msgid "添加模块集合-CRATIV"
-msgstr ""
+msgstr "Add Module Sets - CRATIV"
 
 #: ../../docs/module/module-commands.rst:23 092e9c8d24b345c2afeefc438cad8069
 msgid "查看可用的模块列表"
-msgstr ""
+msgstr "View Available Module Lists"
 
 #: ../../docs/module/module-commands.rst:31 0236687419b8426da97cccf709404a1d
+
 msgid "ChinaSRC-P 平台可用的软件如下所示："
-msgstr ""
+msgstr "The software available on the ChinaSRC-P platform is as follows:"
 
 #: ../../docs/module/module-commands.rst:39 298156954eab467ba75ab699d3f5e91b
 msgid "CRATIV 平台可用的软件如下所示："
-msgstr ""
+msgstr "The software available on the CRATIV platform is as follows:"
 
 #: ../../docs/module/module-commands.rst:46 5884f8748b624b1bb930ccf4c8dff623
 msgid "加载需要的模块"
-msgstr ""
+msgstr "Loading Required Modules"
 
 #: ../../docs/module/module-commands.rst:53 308c498aafc64fddbf6c4539405a59d4
 msgid ""
@@ -54,18 +55,22 @@ msgid ""
 "load softwarename/cpu-version` 或 `module load softwarename/gpu-version`。 "
 "CRATIV 系统加载方法 `module load softwarename-version`,"
 msgstr ""
+"For ARM systems, load modules using the command 'module load softwarename/arm-version'. For X86 systems, load modules using the command 'module "
+"load softwarename/cpu-version' or 'module load softwarename/gpu-version'."
+"For CRATIV systems, load modules using the command 'module load softwarename-version'."
 
 #: ../../docs/module/module-commands.rst:57 6a089fb25041431ea07b15cb89693f7a
 msgid "以X86的gcc为例："
-msgstr ""
+msgstr "Using GCC for X86 systems as an example:"
 
 #: ../../docs/module/module-commands.rst:69 a2b18d12e0bf4c87826e193d4fdd2054
 msgid "在执行过程中如果出现模块的问题或者冲突，可以考虑清空载入的module，重新进行加载测试，命令如下："
-msgstr ""
+msgstr "If you encounter issues or conflicts with modules during execution, consider unloading the loaded modules and reloading them for testing using the following command:"
 
 #: ../../docs/module/module-commands.rst:77 560811bed263434a9b74848a0e34672e
 msgid ""
 "module 其他用法，可以通过module --help查询。 "
 "更多详细使用方法见[module官网](http://modules.sourceforge.net)"
 msgstr ""
-
+"For other uses of the module command, you can refer to 'module --help' for more information."
+"For more detailed usage instructions, please visit the [module official website](http://modules.sourceforge.net)."

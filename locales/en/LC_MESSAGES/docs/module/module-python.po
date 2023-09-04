@@ -22,33 +22,37 @@ msgstr ""
 
 #: ../../docs/module/module-python.rst:5 8b84c674b14b414a9ef16d84fbd16da1
 msgid "Python环境使用"
-msgstr ""
+msgstr "Using the Python Environment"
 
 #: ../../docs/module/module-python.rst:8 ad8d39d4f7874795abcacddec5810aa0
 msgid ""
 "ChinaSRC-P不部署Python module，用户可以通过上述方法加载Python软件后， "
 "创建Python虚拟环境到自己的HOME路径下，然后自行安装所需的Python module。"
 msgstr ""
+"ChinaSRC-P does not deploy Python modules. Users can load Python software using the method described above "
+"and create a Python virtual environment in their HOME directory. They can then install the required Python modules on their own."
 
 #: ../../docs/module/module-python.rst:11 cc2a0a3cb9f440dcaa90e36c3c1c92e8
 msgid "具体方法如下： 加载Python软件,以X86系统为例："
-msgstr ""
+msgstr "Here are the specific steps: Loading Python software, using X86 system as an example:"
 
 #: ../../docs/module/module-python.rst:23 2facfce4e8a24745baf8e16b85014f73
 msgid "创建Python虚拟环境："
-msgstr ""
+msgstr "Creating a Python virtual environment:"
 
 #: ../../docs/module/module-python.rst:36 61eba2a414c74b4ba463f37840aac032
 msgid "添加环境变量,把下面语句添加到~/.bashrc中："
-msgstr ""
+msgstr "Add environment variables by adding the following statement to ~/.bashrc:"
 
 #: ../../docs/module/module-python.rst:42 e60ac74ea3124ca6a6e8f03158fe5755
 msgid "启用Python虚拟环境："
-msgstr ""
+msgstr "Activate the Python virtual environment:"
 
 #: ../../docs/module/module-python.rst:49 dbe1340044044218900a1c2b85c18f09
 msgid ""
 "此时，可以在终端使用`pip install`安装Python module， 或者下载Python module 源码，使用`python "
 "setup.py install`安装。 退出虚拟环境："
 msgstr ""
+"At this point, you can use 'pip install' in the terminal to install Python modules or download the source code of Python modules and use 'python "
+"setup.py install' for installation. To exit the virtual environment:"
 

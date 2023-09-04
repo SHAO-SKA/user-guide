@@ -22,146 +22,156 @@ msgstr ""
 
 #: ../../docs/login/login-inter.rst:5 8b2e38af61b04ccc9b34d91e26da6e4a
 msgid "台内用户登录"
-msgstr ""
+msgstr "Shanghai Astronomical Observatory Unit User Login"
 
 #: ../../docs/login/login-inter.rst:8 233cfe94eb4b4885acc0a9bd7207c484
 msgid ""
 "以上成功与数据中心建立了网络连接后，为了进一步保证用户的 数据安全， 中心不允许telnet等方式登录服务器，必须通过ssh登录 "
 "方式来使用中心资源。"
 msgstr ""
+"After successfully establishing a network connection with the data center, in order to further ensure the security of user data, the center does not allow login to the server via methods like telnet. Users must log in using SSH"
+" to use ChinaSRC-P"
 
 #: ../../docs/login/login-inter.rst:12 22d934d1b2c046638edd57f43ce3374d
 msgid ""
 "Windows操作系统用户可以使用ssh客户端软件 （如Xshell、Xmanager、Putty、SecureCRT）来登录系统。 "
 "Linux操作系统或Mac操作系统用户直接使用ssh登录。具体操作可参考下例。"
 msgstr ""
+"Windows operating system users can use SSH client software (such as Xshell, Xmanager, Putty, SecureCRT) to log in to the system."
+"For Linux operating system or Mac operating system users, you can log in directly using SSH. Specific instructions can be found below."
 
 #: ../../docs/login/login-inter.rst:15 edd1f5f36a69427ebbbc0851cd182370
 msgid "数据中心共有两个登录节点：ARM和X86，它们的IP地址分别是："
-msgstr ""
+msgstr "There are two login nodes in the data center: ARM and X86, with the following IP addresses:"
 
 #: ../../docs/login/login-inter.rst:18 837d44af37e049c487553a078266847b
 msgid "登陆节点"
-msgstr ""
+msgstr "Login Node"
 
 #: ../../docs/login/login-inter.rst:18 73171a0df1a4469290ec8fc7776e6ce7
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: ../../docs/login/login-inter.rst:18 9e13d099d68a43ac9d9993569783fe8a
 msgid "备注"
-msgstr ""
+msgstr "Remarks"
 
 #: ../../docs/login/login-inter.rst:20 0befe7101d5946f1b9958442f6611092
 #: f5ecef8a7c2d402db51b2eabdd0d3f78
 msgid "ARM"
-msgstr ""
+msgstr "ARM"
 
 #: ../../docs/login/login-inter.rst:20 b76bc28cbf134d4a9bb91a3828796417
 msgid "202.127.3.156"
-msgstr ""
+msgstr "202.127.3.156"
 
 #: ../../docs/login/login-inter.rst:22 23cbdad141884d83a3c4427684c77fe6
 #: f5b6d803591545c0a6965f29119ee747
 msgid "X86"
-msgstr ""
+msgstr "X86"
 
 #: ../../docs/login/login-inter.rst:22 416888c48d234cc9b05525d868a77e13
 msgid "202.127.3.157"
-msgstr ""
+msgstr "202.127.3.157"
 
 #: ../../docs/login/login-inter.rst:26 392f310e4c4c4af0bb85d85b7854a543
 msgid ""
 "用户密码方面，管理员发给用户的是随机密码，为了用户访问安全，账户开通后需要立即修改密码。 可以通过访问以下网址，在网页 "
 "右上角用户信息修改密码：https://202.127.3.156。"
 msgstr ""
+"For user passwords, administrators provide random passwords. For user security, it is necessary to change the password immediately after the account is created. You can change the password by visiting the following website, "
+"and clicking on 'User Information' at the top right corner of the webpage: https://202.127.3.156."
 
 #: ../../docs/login/login-inter.rst:29 14357687be234a8d886a502add5a62c9
 msgid "用户登录有两种方式，分别为网页版登录和命令行登录。"
-msgstr ""
+msgstr "There are two methods for user login: web-based login and command line login"
 
 #: ../../docs/login/login-inter.rst:32 c175618ef23346f0b0390b5337485ab8
 msgid "网页登录"
-msgstr ""
+msgstr "Web-Based Login"
 
 #: ../../docs/login/login-inter.rst:34 6d03b578e64446be8f6838f9165ded1a
+
 msgid "用户可以通过web界面 https://202.127.3.156/ 登录ChinaSRC-P管理系统，如下图所示："
-msgstr ""
+msgstr "Users can log in to the CSRC-P management system via the web interface at https://202.127.3.156/, as shown in the screenshot below:"
+
 
 #: ../../docs/login/login-inter.rst:37 c90a436aa0664a8cbaa11530716c187b
 msgid "|webloginimage|"
-msgstr ""
+msgstr "|webloginimage|"
 
 #: ../../docs/login/login-inter.rst:84 971e606ed2a344f399402486d1cb9c68
 #: d2ad212bf3f84138b501772234b9d028
 msgid "webloginimage"
-msgstr ""
+msgstr "webloginimage"
 
 #: ../../docs/login/login-inter.rst:39 e66762e608744f57b4d33bdff8537446
 msgid "输入用户名和密码即可登录。"
-msgstr ""
+msgstr "Enter your username and password to log in."
 
 #: ../../docs/login/login-inter.rst:42 b8c8e985fde1410fa09e843da0c9b053
 msgid "命令行登录"
-msgstr ""
+msgstr "Command Line Login"
 
 #: ../../docs/login/login-inter.rst:44 7d585bee7b5648b284a7820be3d186e8
 msgid "Linux和MacOSX用户可以使用terminal终端，Windows用户建议使用xshell，输入命令："
-msgstr ""
+msgstr "Linux and MacOSX users can use the terminal, while Windows users are recommended to use xshell. Enter the command:"
 
 #: ../../docs/login/login-inter.rst:52 f35b86442729447192193bfbf9e7a51e
 msgid "其中username为用户名 IP为登陆节点的地址"
-msgstr ""
+msgstr "Where 'username' is your username, and 'IP' is the login node's address."
 
 #: ../../docs/login/login-inter.rst:55 7ff26f469c4842e0b1216b840b5cb421
 msgid "命令行登录的截图如下所示。"
-msgstr ""
+msgstr "A screenshot of the command line login is shown below"
 
 #: ../../docs/login/login-inter.rst:58 66d94658e7084100acd86b2ea6333313
 msgid "Windows通过xshell登录"
-msgstr ""
+msgstr "Logging in via xshell on Windows"
 
 #: ../../docs/login/login-inter.rst:60 de2a655af16c4f629ca1210ac0c9882f
 msgid "|image2|"
-msgstr ""
+msgstr "|image2|"
 
 #: ../../docs/login/login-inter.rst:85 202cd1280e1e43159d747f42a10bd591
 #: 90b94afba9e94fbeb512cf69d09cd088
 msgid "image2"
-msgstr ""
+msgstr "image2"
 
 #: ../../docs/login/login-inter.rst:63 6a11a80200574fed91e5db1888a6e891
 msgid "Linux通过终端登录"
-msgstr ""
+msgstr "Logging in via the terminal on Linux"
 
 #: ../../docs/login/login-inter.rst:65 1cffefeb77444d7699ae18831b2adb98
 msgid "|image3|"
-msgstr ""
+msgstr "|image3|"
 
 #: ../../docs/login/login-inter.rst:86 70d2ea313a1a48549cdcd07afbd85c76
 #: d3e84aba19df478f893506a072edbe2f
 msgid "image3"
-msgstr ""
+msgstr "image3"
 
 #: ../../docs/login/login-inter.rst:68 10f705f862a648b78f0d87460cfaedcc
 msgid "MacOSX通过终端登录"
-msgstr ""
+msgstr "Logging in via the terminal on MacOSX"
 
 #: ../../docs/login/login-inter.rst:77 bf09658eb6d842cf8771a0d3b9590dae
 msgid ""
 "普通用户默认情况下分配100G的空间，如有其它需求，请联系管理员进行调额 （请联系shaoska@shao.ac.cn & "
 "chinasrc@googlegroups.com）。"
 msgstr ""
+"By default, regular users are allocated 100GB of space. If you have other requirements, please contact the administrator for adjustments (please contact shaoska@shao.ac.cn & "
+"chinasrc@googlegroups.com)."
 
 #: ../../docs/login/login-inter.rst:80 1c97debe86d64a648f203e74c460e88c
 msgid "用户名和密码等账户信息请通过申请表进行申请。"
-msgstr ""
+msgstr "Account information such as usernames and passwords should be applied for through the application form"
 
 #: ../../docs/login/login-inter.rst:82 72e377dd5ae6440481f291b32d5cee18
 msgid "请联系shaoska@shao.ac.cn & chinasrc@googlegroups.com。"
-msgstr ""
+msgstr "Please contact shaoska@shao.ac.cn & chinasrc@googlegroups.com."
 
 #: ../../docs/login/login-inter.rst:87 3c880762b5cc4d5aa50b9ab965b65459
 msgid "image4"
-msgstr ""
+msgstr "image4"
 

@@ -22,25 +22,26 @@ msgstr ""
 
 #: ../../docs/module/index.rst:3 af80b7ea429442b1b7f42a23d6df82f2
 msgid "环境变量管理工具module"
-msgstr ""
+msgstr "Environment Variable Management Tool (module)"
 
 #: ../../docs/module/index.rst:5 1aaa307b63904dc8b1c4f1ca00485c5e
 msgid "本章介绍如何使用环境管理工具"
-msgstr ""
+msgstr "This chapter introduces how to use the environment management tool."
 
 #: ../../docs/module/index.rst:7 e76aafe8afcb42789eee7dcc699fe0b4
 msgid "为了满足不同用户或者科学研究的需求，ChinaSRC-P中安装了各种版本的软件。"
-msgstr ""
+msgstr "To meet the needs of different users or scientific research, various versions of software are installed in ChinaSRC-P."
+
 
 #: ../../docs/module/index.rst:9 7884a095e1364078a1412ac90539f29f
 msgid "用户可在同一软件的不同版本之间切换，也可以在同一功能的不同软件之间切换，以此来选择最合适的编程环境和运行环境。"
-msgstr ""
+msgstr "Users can switch between different versions of the same software or between different software with the same functionality to choose the most suitable programming and runtime environment."
 
 #: ../../docs/module/index.rst:11 3a319623c10844839f5d981f0fdb5f1d
 msgid "使用系统命令 ``module`` 可以快速地达到这一效果。"
-msgstr ""
+msgstr "This can be quickly achieved using the system command 'module'."
 
 #: ../../docs/module/index.rst:13 6a43af98120849a9b1cbb53e1f86ddce
 msgid "详细的介绍可以参考: [module官方网站](https://modules.readthedocs.io/en/latest/)"
-msgstr ""
+msgstr "For detailed information, please refer to: [module official website](https://modules.readthedocs.io/en/latest/)"
 

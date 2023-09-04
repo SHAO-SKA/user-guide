@@ -22,51 +22,53 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-squeue.rst:3 4b190e7e6f694ac9819d6faba4dc3e75
 msgid "作业状态信息查看squeue"
-msgstr ""
+msgstr "Viewing Job Status Information with squeue"
 
 #: ../../docs/jobs/slurm-squeue.rst:5 cf54a3c6f897432baa22e993e166db24
 msgid "用户用 ``squeue -u username`` 查看自己作业的运行情况。"
-msgstr ""
+msgstr "Users can check the status of their jobs by using squeue -u username."
 
 #: ../../docs/jobs/slurm-squeue.rst:19 ee1acfc2d90b4d549878d1d23b696855
 msgid ""
 "其中 JOBID表示任务ID， NAME表示任务名称， USER为用户， ST表示运行状态， TIME为已运行时间， NODES表示占用节点数， "
-"NODELIST为任 务运行的节点列表。"
+"NODELIST为任务运行的节点列表。"
 msgstr ""
+"Here, JOBID represents the task ID, NAME represents the task name, USER is the user, ST represents the running status, TIME is the elapsed time, NODES indicates the number of occupied nodes"
+"NODELIST is the list of nodes where the task is running."
 
 #: ../../docs/jobs/slurm-squeue.rst:37 0073911683aa41c5b181a0c2c147d699
 msgid "ST：状态，常见的状态包括："
-msgstr ""
+msgstr "ST: Status, common statuses include:"
 
 #: ../../docs/jobs/slurm-squeue.rst:29 b65584ba0cc343b49e113d7551d6fd29
 msgid "PD、Q：排队中 ，PENDING"
-msgstr ""
+msgstr "PD, Q: Queued, PENDING"
 
 #: ../../docs/jobs/slurm-squeue.rst:30 6011837ac88f47b9b79e6b733b1c640b
 msgid "R：运行中 ，RUNNING"
-msgstr ""
+msgstr "R: Running, RUNNING"
 
 #: ../../docs/jobs/slurm-squeue.rst:31 2219863e763e4683a0b583f242f38e6e
 msgid "CA：已取消，CANCELLED"
-msgstr ""
+msgstr "CA: Canceled, CANCELLED"
 
 #: ../../docs/jobs/slurm-squeue.rst:32 956d610cb9924140ac45e68f63d6debe
 msgid "CG：完成中，COMPLETIONG"
-msgstr ""
+msgstr "CG: Completing, COMPLETIONG"
 
 #: ../../docs/jobs/slurm-squeue.rst:33 5521a09291b84c4a945ac72588894ef1
 msgid "F：已失败，FAILED"
-msgstr ""
+msgstr "F: Failed, FAILED"
 
 #: ../../docs/jobs/slurm-squeue.rst:34 e386c82e518c46d189b15d02671f1b28
 msgid "TO：超时，TIMEOUT"
-msgstr ""
+msgstr "TO: Timed Out, TIMEOUT"
 
 #: ../../docs/jobs/slurm-squeue.rst:35 79e2886f644041c2a6f9d79dbdde94e3
 msgid "NF：节点失效，NODE FAILURE"
-msgstr ""
+msgstr "NF: Node Failure, NODE FAILURE"
 
 #: ../../docs/jobs/slurm-squeue.rst:36 c4ca29402fa4442dad86437f0562793e
 msgid "CD：已完成，COMPLETED"
-msgstr ""
+msgstr "CD: Completed, COMPLETED"
 
