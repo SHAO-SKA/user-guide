@@ -137,7 +137,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CSRCPUserGuide.tex', 'ChinaSRC-User-Guide',
+    (master_doc, 'ChinaSRCPUserGuide.tex', 'ChinaSRC-User-Guide',
      'CSKA TEAM', 'manual'),
 ]
 
@@ -147,7 +147,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'csrcpuserguide', 'ChinaSRC-User-Guide',
+    (master_doc, 'ChinaSRCuserguide', 'ChinaSRC-User-Guide',
      [author], 1)
 ]
 
@@ -158,8 +158,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'CSRCPUserGuide', 'ChinaSRC-User-Guide',
-     author, 'CSRCPUserGuide', 'One line description of project.',
+    (master_doc, 'ChinaSRCPUserGuide', 'ChinaSRC-User-Guide',
+     author, 'ChinaSRCPUserGuide', 'One line description of project.',
      'Miscellaneous'),
 ]
 
