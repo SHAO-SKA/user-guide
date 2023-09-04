@@ -22,25 +22,28 @@ msgstr ""
 
 #: ../../docs/module/module-intro.rst:5 3f3aecafaeab4e0ba345ac4d0378452d
 msgid "module简介"
-msgstr ""
+msgstr "Module Introduction"
 
 #: ../../docs/module/module-intro.rst:7 515a42d340114b24b27b399337f2a5f8
 msgid ""
 "由于不同用户在原型系统上可能需要使用不同的软件环境，配置不同的环境变量， "
 "默认配置无法满足所有用户的需要，因而在原型系统上安装了module软件来进行对环境变量的管理， 方便用户更好地使用机器。"
 msgstr ""
+"Since different users may need to use different software environments and configure different environment variables on the prototype system, "
+"the default configuration cannot meet the needs of all users. Therefore, the module software is installed on the prototype system to manage environment variables, making it easier for users to use the machine."
 
 #: ../../docs/module/module-intro.rst:11 598e96363473428da58a30bc9b066956
 msgid "Envrionment modules工具用来快速的设置和修改用户编译运行环境。"
-msgstr ""
+msgstr "The Environment Modules tool is used to quickly set and modify user compilation and runtime environments."
 
 #: ../../docs/module/module-intro.rst:13 690893818a2548639eeb70b38b8bf708
 msgid "Envrionment modules通过加载和卸载modulefile文件可直接改变用户的环境变量，用户不需要修改.bashrc，从而避免误操作。"
-msgstr ""
+msgstr "Environment Modules can directly change user environment variables by loading and unloading module files, eliminating the need for users to modify .bashrc and avoiding accidental operations."
 
 #: ../../docs/module/module-intro.rst:16 a59fac3656ac45d091869d1b5e02658e
 msgid ""
 "`module`通过配置*modulefile*支持环境变量的动态修改， 能够控制软件不同版本对环境变量的依赖关系。 "
 "用户通过简单的命令即可获得适于自己环境变量设置，因而提高了用户移植软件的效率。"
 msgstr ""
-
+"module dynamically modifies environment variables by configuring module files and can control the dependency relationships of different software versions on environment variables."
+"Users can easily obtain environment variable settings suitable for their own needs with simple commands, thereby improving the efficiency of software portability for users."

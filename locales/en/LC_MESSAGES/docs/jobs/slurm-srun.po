@@ -22,37 +22,39 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-srun.rst:3 6f4e84a745ad4c769b369d15a9cb12d6
 msgid "交互式作业提交srun"
-msgstr ""
+msgstr "Interactive Job Submission with srun"
 
 #: ../../docs/jobs/slurm-srun.rst:6 30903eb9f56b40d588688f4555938bc1
 msgid "简介"
-msgstr ""
+msgstr "Introduction"
 
 #: ../../docs/jobs/slurm-srun.rst:8 4bda2c44113348aca401764a21a6897a
 msgid "交互式提交作业：在shell窗口中执行 ``srun`` 命令，主要命令格式如下："
-msgstr ""
+msgstr "Interactive Job Submission: Execute the srun command in a shell window. The main command format is as follows:"
 
 #: ../../docs/jobs/slurm-srun.rst:15 e16f05390dd44eeca7e74e81137a8cc0
 msgid "srun常用选项"
-msgstr ""
+msgstr "Common srun Options"
 
 #: ../../docs/jobs/slurm-srun.rst:17 0a2692d60a2a432e8cb2bd747325d74c
 msgid "srun包括多个选项，其中最常用的选项主要有以下几个："
-msgstr ""
+msgstr "srun has several options, with the most commonly used options including the following:"
 
 #: ../../docs/jobs/slurm-srun.rst:19 23434d273c2349cd99acb469f3989a7a
 msgid "-n, --ntasks=number 指定要运行的任务数。请求为number 个任务分配资源，默认为每个任务一个处理器核"
-msgstr ""
+msgstr "-n, --ntasks=number Specifies the number of tasks to run. Requests allocation of resources for 'number' tasks, with the default being one processor core per task"
 
 #: ../../docs/jobs/slurm-srun.rst:20 70b8267f1f1b4c6e85917cc6aa0cc302
 msgid ""
 "-c, --cpus-per-task=ncpus 告知资源管理系统控制进程，作业步的每个任务需要ncpus "
 "个处理器核。若未指定此选项，则控制进程默认为每个任务分配一个处理器核。"
 msgstr ""
+"-c, --cpus-per-task=ncpus Informs the resource management system that each task in the job step requires 'ncpus' processor cores."
+"If this option is not specified, the control process defaults to allocating one processor core per task."
 
 #: ../../docs/jobs/slurm-srun.rst:21 31c7f4ae43da48eb8fbd275eb35a1e04
 msgid "-N, --nodes=minnodes[-maxnodes]"
-msgstr ""
+msgstr "-N, --nodes=minnodes[-maxnodes]"
 
 #: ../../docs/jobs/slurm-srun.rst:22 1818db91117b4e4bb48852482e546fbe
 msgid ""
@@ -63,10 +65,16 @@ msgid ""
 "如果没有指定-N，缺省行为是分配足够多的节点以满足-n和-c参数的 "
 "需求。在允许的限制范围内以及不延迟作业开始运行的前提下，作业将被分配尽可能多的节点。"
 msgstr ""
+"Requests at least 'minnodes' nodes for the job. The scheduler may choose to run the job on more than"
+" 'minnodes' nodes. The maximum number of nodes allocated can be limited by using 'maxnodes' (e.g., '-N "
+"2-4' or '--nodes=2-4'). The minimum and maximum node counts can be the same to specify a specific number of nodes (e.g., '-N 2' or '--nodes=2-2' "
+"requests exactly two nodes). Node count constraints for partitions override job requests. If the job's node request exceeds the number of nodes configured in the partition, the job will be denied. "
+"If '-N' is not specified, the default behavior is to allocate enough nodes to satisfy the requirements of '-n' and '-c' parameters"
+"within the allowed constraints and without delaying the start of the job, maximizing the number of nodes allocated as much as possible."
 
 #: ../../docs/jobs/slurm-srun.rst:23 740801ab965246e79f81b9ea7c9fc749
 msgid "-p, --partition=partition name 在指定分区中分配资源。如未指定，则由控制进程在系统默认分区中分配资源。"
-msgstr ""
+msgstr "-p, --partition=partition name Allocates resources within the specified partition. If not specified, the control process allocates resources in the system's default partition."
 
 #: ../../docs/jobs/slurm-srun.rst:24 6d46534757d746249f55f7a55d86d714
 msgid ""
@@ -75,10 +83,14 @@ msgid ""
 "cpu为节点名称）指定，或者用 文件名指定。如果参数中包含“/”字符，则会被当作文件名。如果指定了最大节点数如-N "
 "1-2，但是文件中有多余2个节点，则请求列 表中只使用前2个节点。"
 msgstr ""
+"-w, --nodelist=node name list Requests a specified list of node names. The allocated resources for the job will include at least these nodes. "
+"The list can be specified using comma-separated node names or node ranges (e.g., taishan-arm-cpu [01-05,07,...], where taishan-arm-"
+"cpu is a node name) or by specifying a file name. If the argument contains '/' characters, it will be treated as a file name. If a maximum node count is specified, such as '-N "
+"1-2,' but the file contains more than 2 nodes, only the first 2 nodes in the list will be used."
 
 #: ../../docs/jobs/slurm-srun.rst:25 db2aca16dae24f4d82536b8385750263
 msgid "-x, --exclude=node name list"
-msgstr ""
+msgstr "-x, --exclude=node name list"
 
 #: ../../docs/jobs/slurm-srun.rst:26 68f528c0fb9e4bf8a8eb9b5f0e4e8b98
 msgid ""
@@ -86,28 +98,31 @@ msgid ""
 "所有进程。如果资源请求不能立即被满足，srun将阻塞等待，直到资源可用以运行作业。如果指定了--immediate选项，则srun将在资源 "
 "不是立即可用时终止。"
 msgstr ""
+"Do not assign specific nodes to the job. If the parameter contains '/' character, it will be treated as a filename. srun will submit the job request to the control process and then initiate all processes on remote nodes."
+"If the resource request cannot be immediately satisfied, srun will block and wait until resources become available to run the job. If the --immediate option is specified,"
+"srun will terminate when resources are not immediately available."
 
 #: ../../docs/jobs/slurm-srun.rst:27 0155e5bcf7144fd88f0c543750536f54
 msgid "-h, --help 若需使用srun更多选项，可通过“srun –h”或“srun --help”查看."
-msgstr ""
+msgstr "-h, --help For more srun options, you can view them by running 'srun -h' or 'srun --help' "
 
 #: ../../docs/jobs/slurm-srun.rst:34 a39f57b4b40641a8b70ea567f8768cea
 msgid "使用示例"
-msgstr ""
+msgstr "Usage Examples:"
 
 #: ../../docs/jobs/slurm-srun.rst:36 5656d117b9ef4dca96efecbe9d367d44
 msgid "在分区arm上指定任务数运行hostname："
-msgstr ""
+msgstr "Run hostname with the specified number of tasks on the arm partition:"
 
 #: ../../docs/jobs/slurm-srun.rst:49 1d3b02a3996249608a93879e0ccd0f7f
 msgid "在分区arm，节点taishan-arm-cpu[01-05]上运行hostname："
-msgstr ""
+msgstr "Run hostname on nodes taishan-arm-cpu[01-05] in the arm partition:"
 
 #: ../../docs/jobs/slurm-srun.rst:75 adf50b04081c4ac5bc31bedb14b1ba00
 msgid "在arm分区，运行4 任务的hostname，每个节点一个任务，分配的 节点中至少包含节点taishan-arm-cpu[03-05]："
-msgstr ""
+msgstr "Run hostname with 4 tasks in the arm partition, one task per node, with the allocated nodes containing at least taishan-arm-cpu[03-05] nodes:"
 
 #: ../../docs/jobs/slurm-srun.rst:86 8ea071c69ec44539980343030bff6875
 msgid "在arm分区，运行4 任务的hostname，每个节点一个任务，分配的节点中不包含节点taishan-arm-cpu[03-05]："
-msgstr ""
+msgstr "Run hostname with 4 tasks in the arm partition, one task per node, without including taishan-arm-cpu[03-05] nodes in the allocated nodes:"
 
