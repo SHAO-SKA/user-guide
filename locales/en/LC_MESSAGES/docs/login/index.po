@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../docs/login/index.rst:3 ec6f5ec5a3cb43f58435025965e395df
 msgid "登录"
-msgstr "log in"
+msgstr "login"
 
 #: ../../docs/login/index.rst:5 dab05e33ed084098948b3e63c9f9e98b
 
