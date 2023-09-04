@@ -25,12 +25,12 @@ msgid "使用须知"
 msgstr "Notes"
 
 #: ../../docs/introduction/intro.rst:8 9a09a061f0a64a6caa23115a8fbdb4cf
-msgid "欢迎使用中国SKA区域中心原型机系统，以下简称CSRC-P。"
-msgstr "Welcome to China SKA Regional Center Prototype System, hereinafter referred to as CSRC-P"
+msgid "欢迎使用中国SKA区域中心原型机系统，以下简称ChinaSRC-P。"
+msgstr "Welcome to China SKA Regional Center Prototype System, hereinafter referred to as ChinaSRC-P"
 
 #: ../../docs/introduction/intro.rst:10 f33450f462a7414eb011e7e2eb86f1df
-msgid "该文档为CSRC-P用户使用文档，内容包括如何登录、运行作业和使用软件等。"
-msgstr "This document is for the user of CSRC-P, including how to log in, run jobs and use software, etc."
+msgid "该文档为ChinaSRC-P用户使用文档，内容包括如何登录、运行作业和使用软件等。"
+msgstr "This document is for the user of ChinaSRC-P, including how to log in, run jobs and use software, etc."
 
 #: ../../docs/introduction/intro.rst:12 ffabdab3bc084d13bc78d968f612f31c
 msgid ""
@@ -41,16 +41,16 @@ msgstr "Those who publish their paper achievements and thank the platform can ge
 
 #: ../../docs/introduction/intro.rst:15 a4f5c747b06b473998e3c944f2115b2b
 msgid ""
-"CSRC-P的CPU计算节点资源使用方式为机时或核·小时分配，即作业使用的核数乘以运行时间，分配机时给 "
+"ChinaSRC-P的CPU计算节点资源使用方式为机时或核·小时分配，即作业使用的核数乘以运行时间，分配机时给 "
 "用户以后即可使用。例如，某次作业使用了28核，运行了1小时，机 时为28*1=28(核·小时)。"
-msgstr "The CPU computing node resources of CSRC-P are allocated by hours or kernel · hour, that is, the number of cores used by the job is multiplied by the running time, and the hours are allocated to"
+msgstr "The CPU computing node resources of ChinaSRC-P are allocated by hours or kernel · hour, that is, the number of cores used by the job is multiplied by the running time, and the hours are allocated to"
 "the user who can use it later. For example, a job that used 28 cores and ran for an hour had a machine time of 28*1=28(cores · hours)."
 
 #: ../../docs/introduction/intro.rst:16 3dd2ce366d4c4a98a1afc25f5c100994
 msgid ""
-"目前CSRC-P系统CPU节点有4种类型:华为 taishan ARM、Intel Purley X86 CPU、Intel KNL和Intel "
+"目前ChinaSRC-P系统CPU节点有4种类型:华为 taishan ARM、Intel Purley X86 CPU、Intel KNL和Intel "
 "KNM，每 个节点的核数分别是96、28、72和68。GPU计算节点资源使用方式是 以小时分配，分配账户后即可使用。"
-msgstr "There are currently four types of CPU nodes in the CSRC-P system: Huawei taishan ARM, Intel Purley X86 CPU, Intel KNL, and Intel."
+msgstr "There are currently four types of CPU nodes in the ChinaSRC-P system: Huawei taishan ARM, Intel Purley X86 CPU, Intel KNL, and Intel."
 "KNM, the number of kernels per node is 96, 28, 72, and 68. GPU computing node resources are allocated on an hourly basis and can be used after an account is assigned."
 
 #: ../../docs/introduction/intro.rst:17 2247a2ff055b46648f225fe24cc30aed

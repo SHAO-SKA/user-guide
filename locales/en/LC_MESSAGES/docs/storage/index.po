@@ -25,11 +25,11 @@ msgid "数据存储"
 msgstr ""
 
 #: ../../docs/storage/index.rst:5 14fc5f0b1aa14a18925fa3b45a1c415b
-msgid "本章介绍CSRC-P存储情况"
+msgid "本章介绍ChinaSRC-P存储情况"
 msgstr ""
 
 #: ../../docs/storage/index.rst:7 88c925c5797d4c08b227a83233006a88
-msgid "CSRC-P 文件系统包括："
+msgid "ChinaSRC-P 文件系统包括："
 msgstr ""
 
 #: ../../docs/storage/index.rst:9 dd195879d8154a6fb184c71e8631db13
@@ -69,7 +69,7 @@ msgid "/p9500主要用于存储原始观测数据。"
 msgstr ""
 
 #: ../../docs/storage/index.rst:21 30d4734c778f43be8b533c10da76246d
-msgid "目前，CSRC-P系统存储了约2PB左右的数据， 包括MWA、ASKAP和VLBI望远镜的观测数据。"
+msgid "目前，ChinaSRC-P系统存储了约2PB左右的数据， 包括MWA、ASKAP和VLBI望远镜的观测数据。"
 msgstr ""
 
 #: ../../docs/storage/index.rst:24 31b554a26b504034bce1196a4a76e603

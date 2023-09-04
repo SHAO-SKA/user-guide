@@ -25,7 +25,7 @@ msgid "登陆常见问题"
 msgstr ""
 
 #: ../../docs/faq/login.rst:9 a4bb1f1070bd431d884db853fdad16ab
-msgid "我为什么连不上CSRC-P？"
+msgid "我为什么连不上ChinaSRC-P？"
 msgstr ""
 
 #: ../../docs/faq/login.rst:11 13b9180d23c44952b1d2df09f84542ee
@@ -34,13 +34,13 @@ msgstr ""
 
 #: ../../docs/faq/login.rst:13 acd1e1260ec74f33a347d4722af24086
 msgid ""
-"CSRC-P目前不支持公网直接访问，此处需要VPN或访问地址添加到SHAO防火墙。 "
+"ChinaSRC-P目前不支持公网直接访问，此处需要VPN或访问地址添加到SHAO防火墙。 "
 "若遇到连接问题，请先检查网络，在确认是否使用VPN或已经将IP备案。"
 msgstr ""
 
 #: ../../docs/faq/login.rst:16 69adef0dfeb74e3f8472e0596dfff4f5
 msgid ""
-"建议加入“中国SKA原型机”用户微信群，CSRC-P的通知会及时发布在微信群里。 若需加入用户微信群，请发邮件至 `CSRC-P运维 "
+"建议加入“中国SKA原型机”用户微信群，ChinaSRC-P的通知会及时发布在微信群里。 若需加入用户微信群，请发邮件至 `ChinaSRC-P运维 "
 "<mailto:shaoska@shao.ac.cn & chinasrc@googlegroups.com>`__\\；"
 msgstr ""
 
