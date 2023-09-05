@@ -60,11 +60,20 @@
    #SBATCH --job-name=JOBNAME
    ### set the job name
 
-   #SBATCH --nodes=2
+   #SBATCH --partition=PARTITION_NAME
+   ### set the partition name : can be hw-32C768G/insp-4V100/insp-8V100
+
+   #SBATCH --nodes=1
    ### set the number of nodes
    
-   #SBATCH --ntasks-per-node=40
-   ### setting ntasks-per-node=40 is equivalent to setting
+   #SBATCH --ntasks-per-node=1
+   ### setting ntasks-per-node=1 is equivalent to setting
+   
+   #SBATCH --output=%u-%x-%j.out
+   ### set the output file name
+
+   #SBATCH --error=%u-%x-%j.err
+   ### set the error file name
 
    #SBATCH --time=2:00:00
    ### maximum time allowed for job to run, if it exceeds this time, the job will be terminated
@@ -72,8 +81,7 @@
    #SBATCH --comment project_name
    ### point out which project to charge. If this parameter is not specified, it will be charged from the personal account
    
-   mpirun hostname
-   ### execute the program
+   mpirun hostname ### execute the program
 
 .. attention:: 
 
