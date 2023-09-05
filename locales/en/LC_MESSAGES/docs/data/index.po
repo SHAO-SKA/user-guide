@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../docs/data/index.rst:3 44b27e658bad41378daf9c03079929a2
 msgid "数据传输与存储"
-msgstr ""
+msgstr "Data Transmission and Storage"
 
 #: ../../docs/data/index.rst:7 36efa64d123a49bbb576febd20fd5427
 msgid ""
 "本章介绍ChinaSRC-P的数据传输和存储 This chapter introduces data transmission and "
 "storage for ChinaSRC-P."
-msgstr ""
+msgstr "This chapter introduces data transmission and storage for ChinaSRC-P."
 

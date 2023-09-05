@@ -22,9 +22,7 @@ msgstr ""
 
 #: ../../docs/login/login-outer.rst:5 d14b2eb2743f467a834d5cb9c0259394
 msgid "台外用户登录"
-msgstr ""
-"Access for users from external institutions, excluding Shanghai "
-"Astronomical Observatory (SHAO)"
+msgstr "Login for external users(not at SHAO)"
 
 #: ../../docs/login/login-outer.rst:8 0fed6f47af29416e9cbcf93f6f810188
 
@@ -47,15 +45,13 @@ msgstr ""
 
 #: ../../docs/login/login-outer.rst:14 bbcd862c6e1f45e196b3223061d8e2a0
 msgid "新用户申请参考 :ref:`user-register` 部分进行申请。"
-msgstr ""
+msgstr "New users can apply for an account by following the instructions in :ref:user-register."
 
 #: ../../docs/login/login-outer.rst:16 9adc8fc6ae8f4e27bc8797d93759fc89
 
 msgid "其他问题参考 :ref:`faq` 请联系shaoska@shao.ac.cn 。"
 msgstr ""
-"For any other questions, please contact shaoska@shao.ac.cn & "
-"chinasrc@googlegroups.com and refer to :ref:faq for additional "
-"assistance."
+"For any other questions, please contact shaoska@shao.ac.cn  :ref:faq for additional assistance."
 
 #~ msgid "用户名和密码等账户信息请通过申请表进行申请。"
 #~ msgstr ""

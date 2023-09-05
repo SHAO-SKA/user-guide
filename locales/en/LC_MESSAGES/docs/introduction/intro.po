@@ -75,7 +75,7 @@ msgstr ""
 msgid "资源开通方式:填写用户及资源申请表并发送到邮箱 shaoska@shao.ac.cn 。"
 msgstr ""
 "Resource applying : Fill in the user and resource application form and "
-"send it to email shaoska@shao.ac.cn & chinasrc@googlegroups.com"
+"send it to email shaoska@shao.ac.cn"
 
 #: ../../docs/introduction/intro.rst:18 1d28632f6188481cb7864698dd0d0e7f
 
@@ -115,7 +115,7 @@ msgstr "China SKA Regional Center Prototype Acknowledgement Template"
 
 #: ../../docs/introduction/intro.rst:28 fc96b6e3425546da9800c69adf796fef
 msgid "本研究使用了由中华人民共和国科学技术部和中国科学院资助研制的中国SKA区域中心原型机的资源。"
-msgstr ""
+msgstr "This work used resources of China SKA Regional Centre prototype funded by Ministry of Science and Technology of the People’s Republic of China and Chinese Academy of Sciences."
 
 #: ../../docs/introduction/intro.rst:30 64dec1eaf17a4e38b93d555059ea430a
 msgid ""
@@ -235,3 +235,4 @@ msgid ""
 " = {Provided by the SAO/NASA Astrophysics Data System}"
 msgstr ""
 
+China SKA Regional Center Prototype Acknowledgement Template

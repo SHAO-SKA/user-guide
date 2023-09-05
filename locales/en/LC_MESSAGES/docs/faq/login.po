@@ -26,31 +26,31 @@ msgstr "Login FAQ"
 
 #: ../../docs/faq/login.rst:9 f0dc024d69a046efb1dadd8aa55d2692
 msgid "我为什么连不上ChinaSRC-P？"
-msgstr ""
+msgstr "Why can't I connect to ChinaSRC-P?"
 
 #: ../../docs/faq/login.rst:11 e4d7c7eab31b495da697dbf9c67905ec
 msgid "首先请阅读 :ref:`login` 章节。"
-msgstr ""
+msgstr "First read the :ref:`login` section."
 
 #: ../../docs/faq/login.rst:13 11820c4cccc649948a78e75b149f1d17
 msgid ""
 "ChinaSRC-P目前不支持公网直接访问，此处需要VPN或访问地址添加到SHAO防火墙。 "
 "若遇到连接问题，请先检查网络，在确认是否使用VPN或已经将IP备案。"
-msgstr ""
+msgstr "ChinaSRC-P is currently not accessible directly from the public network. VPN or access address needs to be added to the SHAO firewall. If you encounter connection problems, please check the network first, and confirm whether you are using VPN or have already filed the IP."
 
 #: ../../docs/faq/login.rst:16 9a736976aef54c2b987ec90e45c2affb
 msgid ""
 "建议加入“中国SKA原型机”用户微信群，ChinaSRC-P的通知会及时发布在微信群里。 若需加入用户微信群，请发邮件至 ChinaSRC-P运维"
 " mailto_ ."
-msgstr ""
+msgstr "Suggest to join the \"ChinaSKA Prototype\" user WeChat group, ChinaSRC-P notifications will be released in the WeChat group in time. If you need to join the user WeChat group, please send an email to ChinaSRC-P operation and maintenance mailto_ ."
 
 #: ../../docs/faq/login.rst:20 f1125fe75cd643999d9a89719daeb132
 msgid "为什么WSClean和CASA冲突"
-msgstr ""
+msgstr "Why WSClean and CASA conflict"
 
 #: ../../docs/faq/login.rst:22 03e3f0c220d24e97b7faa8e19b215dcb
 msgid "请阅读 :ref:`module_wsclean_casa` 章节。"
-msgstr ""
+msgstr "Read the :ref:`module_wsclean_casa` section."
 
 #~ msgid "我为什么连不上ChinaSRC-P？"
 #~ msgstr ""

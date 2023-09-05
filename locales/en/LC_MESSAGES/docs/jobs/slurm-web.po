@@ -26,11 +26,11 @@ msgstr "System web submission"
 
 #: ../../docs/jobs/slurm-web.rst:6 d72604eaf4204683a0bea8766cce27a9
 msgid "系统支持直接在页面提交作业。"
-msgstr ""
+msgstr "System support direct submission of jobs on the page."
 
 #: ../../docs/jobs/slurm-web.rst:8 d5804baaf0f24f3d8e43f2a6ee3a325c
 msgid "点击上方“集群”按钮，选择“提交作业”。"
-msgstr ""
+msgstr "Click the \"cluster\" button above and select \"submit job\"."
 
 #: ../../docs/jobs/slurm-web.rst:10 fe324646d42f4861a73b33dd8ca3f3a0
 msgid "|submit job web|"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-web.rst:14 474224ee2cce4669ab5bd7d76ba899b9
 msgid "选择需要使用的集群和作业模板，填写作业名称，在脚本编辑器里填入作业脚本，点击右上方的“提交作业”按钮。"
-msgstr ""
+msgstr "Choose the cluster and job template you want to use, fill in the job name, fill in the job script in the script editor, and click the \"submit job\" button in the upper right corner.
 
 #: ../../docs/jobs/slurm-web.rst:16 fc0c266a4d7a40b3a9a30bb61f4efa96
 msgid "|submit job|"
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-web.rst:20 244b588fa1a74cc0971f3871682a31cc
 msgid "提交作业后，可以在“作业”页面查看是否提交成功。"
-msgstr ""
+msgstr "After submitting the job, you can check whether it is submitted successfully on the \"job\" page.
 
 #: ../../docs/jobs/slurm-web.rst:22 5904a4bf61da48ad99bda87d8b3d9cea
 msgid "|job status|"
@@ -66,7 +66,7 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-web.rst:26 92d517616b9e45bab0b1484ef853b396
 msgid "如果提交的作业有输出，需要下载，等待作业运行完成后，点击作业名称，进入作业详情。"
-msgstr ""
+msgstr "If the submitted job has output, you need to download it. After waiting for the job to run, click the job name to enter the job details."
 
 #: ../../docs/jobs/slurm-web.rst:28 ade57a0d3be54637b0c50b9f8ef10dfc
 msgid "|enter job info|"
@@ -78,7 +78,7 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-web.rst:32 c0fd4cb3258e45e68c60effe12eaa63e
 msgid "在“作业输出”页面，点击“下载输出日志”。"
-msgstr ""
+msgstr "In the \"job output\" page, click \"download output log\".
 
 #: ../../docs/jobs/slurm-web.rst:34 f9c91cff66a9400d9387165d7e966309
 msgid "|download job output|"

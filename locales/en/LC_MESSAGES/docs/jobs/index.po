@@ -37,11 +37,11 @@ msgstr ""
 
 #: ../../docs/jobs/index.rst:7 443ca2b5a83c4dad9a4af57e12842faf
 msgid "所有需要运行的作业，无论是程序调试还是业务计算，都必须通过交互式并行srun、批量提交sbatch或分布式salloc命令提交，提交后可以使用相关命令查询作业状态。"
-msgstr ""
+msgstr "All jobs that need to be run, whether it is program debugging or business calculation, must be submitted through the interactive parallel srun, batch submission sbatch or distributed salloc command. After submission, you can use the relevant command to query the job status."
 
 #: ../../docs/jobs/index.rst:11 e49d118a43e6411d9a5dc022f3b6f5ee
 msgid "本章节介绍了作业系统的基本使用方法，如果你是第一次接触作业系统，建议你先阅读 :ref:`slurm_intro` 章节。"
-msgstr ""
+msgstr "This chapter introduces the basic usage of the job system. If you are new to the job system, it is recommended that you read the :ref:`slurm_intro` chapter first."
 
 #: ../../docs/jobs/index.rst:13 72c04743e4984749ad0dddcdb983eb2d
 
@@ -65,7 +65,7 @@ msgstr ""
 
 #: ../../docs/jobs/index.rst:22 a53b99b522fc49548924c4279c16529e
 msgid "请不要在登录节点上直接运行作业，以免影响其他用户的正常使用。"
-msgstr ""
+msgstr "Please do not run jobs directly on the login node to avoid affecting the normal use of other users."
 
 #~ msgid "首先需要编写一个 SLURM 脚本。"
 #~ msgstr "First, you need to create an SLURM script."
