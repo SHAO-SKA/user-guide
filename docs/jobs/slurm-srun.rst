@@ -65,7 +65,7 @@ srun包括多个选项，其中最常用的选项主要有以下几个：
    taishan-arm-cpu05
    taishan-arm-cpu02
 
-   # 多个任务
+   # multiple tasks per node
    $srun -n 10 -w taishan-arm-cpu[01-05] -p arm hostname
 
    taishan-arm-cpu03

@@ -55,25 +55,25 @@
    :linenos:
    
    #! /bin/bash
-   ### 表示这是一个bash脚本
+   ### This is a sample script file for slurm
 
    #SBATCH --job-name=JOBNAME
-   ### 设置该作业的作业名
+   ### set the job name
 
    #SBATCH --nodes=2
-   ### 指定该作业需要2个节点数
+   ### set the number of nodes
    
    #SBATCH --ntasks-per-node=40
-   ### 每个节点所运行的进程数为40
+   ### setting ntasks-per-node=40 is equivalent to setting
 
    #SBATCH --time=2:00:00
-   ### 作业最大的运行时间，超过时间后作业资源会被SLURM回收
+   ### maximum time allowed for job to run, if it exceeds this time, the job will be terminated
 
    #SBATCH --comment project_name
-   ### 指定从哪个项目扣费。如果没有这条参数，则从个人账户扣费
+   ### point out which project to charge. If this parameter is not specified, it will be charged from the personal account
    
    mpirun hostname
-   ### 程序的执行命令
+   ### execute the program
 
 .. attention:: 
 

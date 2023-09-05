@@ -12,16 +12,19 @@ SLURM（Simple Linux Utility for Resource Management）
 Slurm常用命令
 -------------
 
-============ ==========================
-``sinfo``        查看节点与分区状态
-``squeue``       查看队列状态
-``scancel``      取消作业
-``sacct``        查看历史作业信息
-``salloc``       分配资源
-``sbatch``       提交批处理作业
-``scontrol``     系统控制
-``srun``         执行作业
-============ ===========================
+.. csv-table:: 
+   :header: "command", "Meaning"
+
+    ``sinfo``  ,      查看节点与分区状态
+    ``squeue``  ,     查看队列状态
+    ``scancel``  ,    取消作业
+    ``sacct``   ,     查看历史作业信息
+    ``salloc``  ,     分配资源
+    ``sbatch``  ,     提交批处理作业
+    ``scontrol``,     系统控制
+    ``srun``    ,     执行作业
+
+
 
 日常使用超算资源只需掌握简单的几条命令即可，具体详细的配置请参考\ `SLURM官方文档`_。 
 
