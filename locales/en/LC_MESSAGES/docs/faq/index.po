@@ -4,7 +4,7 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../docs/faq/index.rst:5 393c024f42ce4f60949be6fd3d985844
 msgid "常见问题集锦"
-msgstr ""
+msgstr "Frequently Asked Questions"
 
 #: ../../docs/faq/index.rst:8 26b46732155b4d019ae978fb34ff8e38
 msgid "本章列举使用过程中经常遇到的问题及解决方法。"

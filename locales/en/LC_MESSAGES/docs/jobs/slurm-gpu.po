@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2023, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../docs/jobs/slurm-gpu.rst:5 00203468123347e884d0631fe984159e
+msgid "GPU集群作业提交"
+msgstr "GPU cluster job submission"
+
+#: ../../docs/jobs/slurm-gpu.rst:7 ba14289316d7447191723ef3f77f6f23
+msgid ""
+"如果是GPU集群，需要在作业脚本中增加\\ ``--gres=gpu:<number of card>``\\ 参数。例如\\ ``#SBATCH"
+" --gres=gpu:2``\\ ，意味着指定2张GPU卡数。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-gpu.rst:9 b4b99d2803574fc5b5ecc67be400247e
+msgid "以下为GPU作业的一个示例："
+msgstr ""
+
+#: ../../docs/jobs/slurm-gpu.rst:40 8779483892d945a297e54c644ab17f86
+msgid ""
+"GPU集群中提交作业时，需要在\\ ``srun`` \\ 或 \\ ``sbatch``\\ 命令中增加参数\\ ``-s``\\，或者 \\ "
+"``--oversubscribe``\\。表示允许与其它作业共享资源。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-gpu.rst:42 62adaa6c56684dc9ae54c57eb99419c3
+msgid "例如："
+msgstr ""
+

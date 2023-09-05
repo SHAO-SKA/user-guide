@@ -4,12 +4,12 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: China SKA Regional Center Prototype User Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-31 16:10+0800\n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
 "PO-Revision-Date: 2023-08-31 16:30+0800\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
@@ -18,29 +18,30 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
 #: ../../index.rst:9
 msgid "目录"
 msgstr "Content"
 
-#: ../../index.rst:7
-msgid "上海天文台SKA数据中心原型系统"
-msgstr "Shanghai Astronomical Observatory SKA Regional Centre Prototype"
+#: ../../index.rst:7 0e3c7bea5a1440d3804711c37554b6f2
 
-#: ../../index.rst:25
+msgid "中国SKA区域中心原型机系统"
+msgstr "China SKA Regional Centre Prototype"
+
+#: ../../index.rst:25 448f20faaed942b8a0d1143281d2d1a1
 msgid "Indices and tables"
 msgstr ""
 
-#: ../../index.rst:27
+#: ../../index.rst:27 f2a072e6384140148410b044ef515b9a
 msgid ":ref:`genindex`"
 msgstr ""
 
-#: ../../index.rst:28
+#: ../../index.rst:28 a6a5ce5aa7af4ca99085406219ad1137
 msgid ":ref:`modindex`"
 msgstr ""
 
-#: ../../index.rst:29
+#: ../../index.rst:29 42a73b97731842fbb6b43f34852aad07
 msgid ":ref:`search`"
 msgstr ""
 

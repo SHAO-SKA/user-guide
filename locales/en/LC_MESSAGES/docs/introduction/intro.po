@@ -4,12 +4,12 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
@@ -18,60 +18,220 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: ../../docs/introduction/intro.rst:6 1271ca6ac2854074babc59542a1f303e
+#: ../../docs/introduction/intro.rst:6 805e18e7ae604ac18d5813652ae0d2fd
 msgid "使用须知"
 msgstr "Notes"
 
-#: ../../docs/introduction/intro.rst:8 9a09a061f0a64a6caa23115a8fbdb4cf
+#: ../../docs/introduction/intro.rst:8 75521ac3ef224c82928bb6b3cc7bc131
+
 msgid "欢迎使用中国SKA区域中心原型机系统，以下简称ChinaSRC-P。"
-msgstr "Welcome to China SKA Regional Center Prototype System, hereinafter referred to as ChinaSRC-P"
+msgstr ""
+"Welcome to China SKA Regional Center Prototype System, hereinafter "
+"referred to as ChinaSRC-P"
 
-#: ../../docs/introduction/intro.rst:10 f33450f462a7414eb011e7e2eb86f1df
+#: ../../docs/introduction/intro.rst:10 e7b945c84e754ac09dc86b702dce2efd
+
 msgid "该文档为ChinaSRC-P用户使用文档，内容包括如何登录、运行作业和使用软件等。"
-msgstr "This document is for the user of ChinaSRC-P, including how to log in, run jobs and use software, etc."
+msgstr ""
+"This document is for the user of ChinaSRC-P, including how to log in, run"
+" jobs and use software, etc."
 
-#: ../../docs/introduction/intro.rst:12 ffabdab3bc084d13bc78d968f612f31c
-msgid ""
-"发表论文成果并致谢平台的可获得对应的机时奖励，具体可邮件 shaoska@shao.ac.cn & "
-"chinasrc@googlegroups.com 咨询 。"
-msgstr "Those who publish their paper achievements and thank the platform can get the corresponding time reward. For details, please email"
-"shaoska@shao.ac.cn & chinasrc@googlegroups.com"
+#: ../../docs/introduction/intro.rst:12 e770256480ba49afa4fb8ee23cbd4283
 
-#: ../../docs/introduction/intro.rst:15 a4f5c747b06b473998e3c944f2115b2b
+msgid "发表论文成果并致谢平台的可获得对应的机时奖励，具体可邮件 shaoska@shao.ac.cn  咨询 。"
+msgstr ""
+"Those who publish their paper achievements and thank the platform can get"
+" the corresponding time reward. For details, please email "
+"shaoska@shao.ac.cn "
+
+#: ../../docs/introduction/intro.rst:15 f730b455bdef49538b064a83fe104ac5
+
 msgid ""
 "ChinaSRC-P的CPU计算节点资源使用方式为机时或核·小时分配，即作业使用的核数乘以运行时间，分配机时给 "
 "用户以后即可使用。例如，某次作业使用了28核，运行了1小时，机 时为28*1=28(核·小时)。"
-msgstr "The CPU computing node resources of ChinaSRC-P are allocated by hours or kernel · hour, that is, the number of cores used by the job is multiplied by the running time, and the hours are allocated to"
-"the user who can use it later. For example, a job that used 28 cores and ran for an hour had a machine time of 28*1=28(cores · hours)."
+msgstr ""
+"The CPU computing node resources of ChinaSRC-P are allocated by hours or "
+"kernel · hour, that is, the number of cores used by the job is multiplied"
+" by the running time, and the hours are allocated tothe user who can use "
+"it later. For example, a job that used 28 cores and ran for an hour had a"
+" machine time of 28*1=28(cores · hours)."
 
-#: ../../docs/introduction/intro.rst:16 3dd2ce366d4c4a98a1afc25f5c100994
+#: ../../docs/introduction/intro.rst:16 734b6f246ba644ada3524c3173158a35
+
 msgid ""
-"目前ChinaSRC-P系统CPU节点有4种类型:华为 taishan ARM、Intel Purley X86 CPU、Intel KNL和Intel "
-"KNM，每 个节点的核数分别是96、28、72和68。GPU计算节点资源使用方式是 以小时分配，分配账户后即可使用。"
-msgstr "There are currently four types of CPU nodes in the ChinaSRC-P system: Huawei taishan ARM, Intel Purley X86 CPU, Intel KNL, and Intel."
-"KNM, the number of kernels per node is 96, 28, 72, and 68. GPU computing node resources are allocated on an hourly basis and can be used after an account is assigned."
+"目前ChinaSRC-P系统CPU节点有4种类型:华为 taishan ARM、Intel Purley X86 CPU、Intel "
+"KNL和Intel KNM，每 个节点的核数分别是96、28、72和68。GPU计算节点资源使用方式是 以小时分配，分配账户后即可使用。"
+msgstr ""
+"There are currently four types of CPU nodes in the ChinaSRC-P system: "
+"Huawei taishan ARM, Intel Purley X86 CPU, Intel KNL, and Intel.KNM, the "
+"number of kernels per node is 96, 28, 72, and 68. GPU computing node "
+"resources are allocated on an hourly basis and can be used after an "
+"account is assigned."
 
-#: ../../docs/introduction/intro.rst:17 2247a2ff055b46648f225fe24cc30aed
-msgid "资源开通方式:填写用户及资源申请表并发送到邮箱 shaoska@shao.ac.cn & chinasrc@googlegroups.com。"
-msgstr "Resource applying : Fill in the user and resource application form and send it to email shaoska@shao.ac.cn & chinasrc@googlegroups.com"
+#: ../../docs/introduction/intro.rst:17 7d36e1f1f7a44ddeb77c7478b0175f85
 
-#: ../../docs/introduction/intro.rst:18 2ffc46a7a5f74071898f5946331b53c3
+msgid "资源开通方式:填写用户及资源申请表并发送到邮箱 shaoska@shao.ac.cn 。"
+msgstr ""
+"Resource applying : Fill in the user and resource application form and "
+"send it to email shaoska@shao.ac.cn & chinasrc@googlegroups.com"
+
+#: ../../docs/introduction/intro.rst:18 1d28632f6188481cb7864698dd0d0e7f
+
 msgid ""
 "数据中心不提供商业软件的安装适配、售后及应用支持服务。您 可以自行安装和使用商业软件，或与该软件的售后服务团队联系寻求 "
 "协助。用户自行安装软件带来的版权问题请自负责任。"
-msgstr "The data center does not provide installation, adaptation, after-sales, and application support services for commercial software. You may install and use the commercial software yourself, or contact the software's after-sales service team."
-"help. Users are responsible for copyright problems caused by software installation by themselves"
+msgstr ""
+"The data center does not provide installation, adaptation, after-sales, "
+"and application support services for commercial software. You may install"
+" and use the commercial software yourself, or contact the software's "
+"after-sales service team. help. Users are responsible for copyright "
+"problems caused by software installation by themselves"
 
-#: ../../docs/introduction/intro.rst:19 99ad25cd3b064a8db1f8553e6cf56c78
+#: ../../docs/introduction/intro.rst:19 10eea3426df0438697318a33dee4471a
+
 msgid ""
-"数据中心根据实际情况对基于原型系统部署的开源软件的安装进行一定程度上的协助，但软件的算法合理性、精度、并行效率、使用 "
+"数据中心根据实际情况对基于原型系统部署的开源软件的安装进 行一定程度上的协助，但软件的算法合理性、精度、并行效率、使用 "
 "方法等软件自身问题需要自行解决。"
-msgstr "The data center assists to a certain extent in the installation of open source software based on the deployment of prototype systems, but the software's algorithm-based rationality, accuracy, parallel efficiency, and use"
-"methods and other software problems need to be solved by themselves."
+msgstr ""
+"The data center assists to a certain extent in the installation of open "
+"source software based on the deployment of prototype systems, but the "
+"software's algorithm-based rationality, accuracy, parallel efficiency, "
+"and usemethods and other software problems need to be solved by "
+"themselves."
 
-#: ../../docs/introduction/intro.rst:20 ffe7d2df332d4596ac80aa163f6c825c
+#: ../../docs/introduction/intro.rst:20 aceade326e714d1cb5c7b7682f4d701f
 msgid "如您的任何行为对数据中心的财产和声誉等方面造成了任何损 失，数据中心将依法追究相关责任。以上条例解释权归数据中心所有。"
-msgstr "If any of your actions cause any loss or damage to the property and reputation of the data center, the data Center will be held responsible according to law. The data center reserves the right to interpret the above regulations"
+msgstr ""
+"If any of your actions cause any loss or damage to the property and "
+"reputation of the data center, the data Center will be held responsible "
+"according to law. The data center reserves the right to interpret the "
+"above regulations"
+
+#: ../../docs/introduction/intro.rst:24 2171407710b94662b0995a2d18984a43
+msgid "中国SKA区域中心原型机致谢模板"
+msgstr "China SKA Regional Center Prototype Acknowledgement Template"
+
+#: ../../docs/introduction/intro.rst:28 fc96b6e3425546da9800c69adf796fef
+msgid "本研究使用了由中华人民共和国科学技术部和中国科学院资助研制的中国SKA区域中心原型机的资源。"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:30 64dec1eaf17a4e38b93d555059ea430a
+msgid ""
+"This work used resources of China SKA Regional Centre prototype  funded "
+"by Ministry of Science and Technology of the People’s Republic of China "
+"and Chinese Academy of Sciences."
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:32 b480023d51b44aaabae009812e8dba6c
+msgid "Reference :"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:34 b6e7f63d65334d1fa8db2e86479e3b4b
+msgid ""
+"An, Wu, Hong. SKA data take centre stage in China. Nat Astron, 2019, Vol."
+" 3, p. 1030"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:36 4af68ce2feed40a0986dbbbc9ef25081
+msgid ""
+"An, et al. Status and progress of China SKA Regional Centre prototype. "
+"Sci. China-Phys. Mech. Astron. 65: 129501 (2022)"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:47 0c52499c20f5417f969ca5343bf188f1
+msgid "@ARTICLE{2019NatAs...3.1030A,"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:39 76ee9530c6cc408e81825c607ac422b2
+msgid "author = {{An}, Tao and {Wu}, Xiang-Ping and {Hong}, Xiaoyu},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:40 07ec624da2574982a9c7e143859a6c73
+msgid "title = \"{SKA data take centre stage in China}\","
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:42 e84458a4b5d34f8a8bd63ae711035136
+msgid "journal = {Nature Astronomy},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:42 139a9573d30645ba81f9a15f26b54e8d
+msgid "year = 2019, month = nov,"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:45 989a628f115e4735a31e452626a416e9
+msgid "volume = {3},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:45 27fd5846accc45488b7d6906aa378560
+msgid "pages = {1030-1030}, doi = {10.1038/s41550-019-0943-4},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:47 3badfb15b8f14294888b848bff2cd310
+msgid ""
+"adsurl = {https://ui.adsabs.harvard.edu/abs/2019NatAs...3.1030A}, adsnote"
+" = {Provided by the SAO/NASA Astrophysics Data System}"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:49 ../../docs/introduction/intro.rst:69
+#: 50ebf9482f294a3e9b7734a60a8278fd 5b7ab7d173824285aa0f67ea7c9f9cc6
+msgid "}"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:62 eb2237571dbb430686df980a5d0d7429
+msgid "@ARTICLE{2022SCPMA..6529501A,"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:53 0d8baccd621749ca9f28cc6819479e9c
+msgid ""
+"author = {{An}, Tao and {Wu}, Xiaocong and {Lao}, Baoqiang and {Guo}, "
+"Shaoguang"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:53 333b214b93ae45e3a5fdc4514f2be556
+msgid ""
+"and {Xu}, Zhijun and {Lv}, Weijia and {Zhang}, Yingkang and {Zhang}, "
+"Zhongli},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:54 e8a6c8acd3284ef3b5987ccc92fe1a4a
+msgid "title = \"{Status and progress of China SKA Regional Centre prototype}\","
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:55 42230ca7b4f1467e809eaf5f614401bc
+msgid ""
+"journal = {Science China Physics, Mechanics, and Astronomy}, keywords = "
+"{Astrophysics - Instrumentation and Methods for Astrophysics},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:57 c3dea65bfd354090945d2745dad574b2
+msgid "year = 2022, month = dec,"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:59 0fabf375d86b43fe9119af072fd0b557
+msgid "volume = {65}, number = {12},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:61 7628bf7f314647dd8e6873942ea0024c
+msgid "eid = {129501}, pages = {129501}, doi = {10.1007/s11433-022-1981-8},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:64 a55bb8c051ec44a886dea7424cc035c8
+msgid "archivePrefix = {arXiv},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:65 9a59fa910866441e902439cfc51bcd89
+msgid "eprint = {2206.13022},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:67 8701dd2b2bcb415cb2f20aae4d0655a3
+msgid "primaryClass = {astro-ph.IM},"
+msgstr ""
+
+#: ../../docs/introduction/intro.rst:67 273101b62d5d486bbae2442407a4a7e8
+msgid ""
+"adsurl = {https://ui.adsabs.harvard.edu/abs/2022SCPMA..6529501A}, adsnote"
+" = {Provided by the SAO/NASA Astrophysics Data System}"
+msgstr ""
 

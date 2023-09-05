@@ -4,12 +4,12 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
@@ -18,29 +18,45 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: ../../docs/faq/abbr.rst:5 b158e39c3a994fa8bd0f8388c2326019
+#: ../../docs/faq/abbr.rst:5 f9cd5d6ed8a047db93bd263cb537b8b0
 msgid "常见缩写定义"
-msgstr ""
+msgstr "Abbreviation"
 
-#: ../../docs/faq/abbr.rst:8 62db29a1c8814c4b9001bd5e488b1f91
+#: ../../docs/faq/abbr.rst:8 be47f0de0fe44ae89888c3818b0a1fd7
 msgid "ChinaSRC-P"
 msgstr ""
 
-#: ../../docs/faq/abbr.rst:10 a0728ddf6ca74e6a8f535a91c2ce0b3b
+#: ../../docs/faq/abbr.rst:10 3642f500d2cf4fd7a8f678778f6f443a
 msgid ""
 "ChinaSRC-P为China SKA Regional Centre Prototype的缩写， 为中国SKA原型样机， "
 "也是世界上首台专门针对SKA区域中心研发的原型样机。"
 msgstr ""
 
-#: ../../docs/faq/abbr.rst:14 449932f5653f4bada3e8a2adbe7d6977
+#: ../../docs/faq/abbr.rst:14 59d33b78a7b945ecba6d89faa2d17e94
 msgid "SKA"
 msgstr ""
 
-#: ../../docs/faq/abbr.rst:16 452145605e23467794b269b45126812a
+#: ../../docs/faq/abbr.rst:16 20a07a28be06483296ff9961a9a41947
 msgid ""
 "SKA为Square Kilometre Array的缩写， 为平方公里阵列望远镜。 "
 "详细可见：https://www.skatelescope.org/"
 msgstr ""
+
+#~ msgid "ChinaSRC-P"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "ChinaSRC-P为China SKA Regional Centre "
+#~ "Prototype的缩写， 为中国SKA原型样机， 也是世界上首台专门针对SKA区域中心研发的原型样机。"
+#~ msgstr ""
+
+#~ msgid "CSRC-P"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "CSRC-P为China SKA Regional Centre "
+#~ "Prototype的缩写， 为中国SKA原型样机， 也是世界上首台专门针对SKA区域中心研发的原型样机。"
+#~ msgstr ""
 

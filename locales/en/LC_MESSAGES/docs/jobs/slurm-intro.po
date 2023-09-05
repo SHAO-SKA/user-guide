@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2023, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../docs/jobs/slurm-intro.rst:5 fe494ec57e214366bcb39b6f3794c53e
+msgid "Slurm系统简介"
+msgstr "Slurm system introduction"
+
+#: ../../docs/jobs/slurm-intro.rst:8 0bbd4912002f4fa39e6f20bfa007a1ae
+msgid ""
+"ChinaSRC-P在公共集群中使用SLURM作业调度系统进行任务的调度和管理。 SLURM（Simple Linux Utility for "
+"Resource Management） "
+"是一种可用于大型计算节点集群的高度可伸缩和容错的集群管理器和作业调度系统，被世界范围内的超级计算机和计算集群广泛采用。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:13 9c3c06c796ac408188b002a09c796096
+msgid "Slurm常用命令"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:26 d7b6a1f786f14497846a6f97ac2777bc
+msgid "日常使用超算资源只需掌握简单的几条命令即可，具体详细的配置请参考\\ `SLURM官方文档`_。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:32 67ae3635c6f142778dd700baff6d6b1d
+msgid "编写 SLURM 脚本"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:34 ba92726cd171494ca2b1e2a15f7ca8a4
+msgid "首先请阅读 :ref:`slurm-sinfo` 章节，获取可以使用的分区信息"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:37 06bc55f8fcdf4a189fbe743fb248b050
+msgid "首先需要编写一个 SLURM 脚本。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:41 b6281b9a56fc441bb056d7e9a30e0814
+msgid "准备好 SLURM 脚本之后，使用"
+msgstr ""
+

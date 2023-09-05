@@ -4,12 +4,12 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
@@ -18,21 +18,27 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: ../../docs/introduction/intro-crativ.rst:4 0713024ffd3a4de9a16a28d7b35fb2ef
+#: ../../docs/introduction/intro-crativ.rst:4 8d41d48d679b40c48a46e2ab086217db
 msgid "CRATIV平台"
 msgstr "CRATIV Platform"
 
-#: ../../docs/introduction/intro-crativ.rst:6 f131c64f71c14f3cb6ef1dacc5f7520d
+#: ../../docs/introduction/intro-crativ.rst:6 0305721b60aa4623b19510fc846e31a3
+
 msgid ""
 "ChinaSRC-P平台还包括一台CRATIV系统，主要用于前期的数据处理与软件开发。 远程登录可以使用VNC软件，软件使用module系统。 "
-"详细信息可邮件 shaoska@shao.ac.cn & chinasrc@googlegroups.com 咨询 。"
+"详细信息可邮件 shaoska@shao.ac.cn  咨询 。"
 msgstr ""
-"The ChinaSRC-P platform also includes a CRATIV system, primarily used for early-stage data processing and software development. Remote access can be achieved using VNC software, and software usage is managed through the module system."
-"For further details, please feel free to reach out to us via email at shaoska@shao.ac.cn or chinasrc@googlegroups.com for inquiries."
+"The ChinaSRC-P platform also includes a CRATIV system, primarily used for"
+" early-stage data processing and software development. Remote access can "
+"be achieved using VNC software, and software usage is managed through the"
+" module system.For further details, please feel free to reach out to us "
+"via email at shaoska@shao.ac.cn or chinasrc@googlegroups.com for "
+"inquiries."
 
-#: ../../docs/introduction/intro-crativ.rst:11 73d8d2509425477bbcc8e60565ac0336
-msgid ". CRATIV具有256G RAM/50TB Storage/Intel(R) Xeon(R) CPU E5-2698."
+#: ../../docs/introduction/intro-crativ.rst:12 ac38c4b74d83442a9af5d7de52ae2469
+
+msgid "CRATIV具有256G RAM/50TB Storage/Intel(R) Xeon(R) CPU E5-2698."
 msgstr ". CRATIV has 256G RAM/50TB Storage/Intel(R) Xeon(R) CPU E5-2698."
 

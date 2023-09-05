@@ -1,0 +1,522 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2023, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../docs/mode/instance.rst:4 c1c85d97e18c4193833a061cace4fe74
+msgid "用户实例"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:6 2f0b537a712c4d3db3c1a56af130229e
+msgid "在“实例”中，用户点击实例名称，可以查看实例的基本信息、资源详情、服务和集群， 并对实例进行操作。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:11 9a1685c7e4ef4629a19dafa4c9e5e1cf
+msgid ""
+"此处显示的实例包含\\ :ref:`独占实例 <apply private instance>`\\ 和\\ :ref:`独占集群 <apply "
+"private cluster>`。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:14 bdf098350a9f4dab86568e48421b3c32
+msgid "实例详情"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:16 3a97482e41684f4aaae82ae59610056d
+msgid "|instance information|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:251 86fe74a58127437bbd3b94594ea6992a
+msgid "instance information"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:19 c19470c750054da6b9919c3e81f2c94b
+msgid "基本信息"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:21 ee35328bc96549a8a05299916e0c21dc
+msgid "基本信息显示当前实例的运行状态、运行剩余时间、健康状态、资源分配状态、创建实例所用的应用、创建时间。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:23 2914e29a8811487bad1e8883f396e162
+msgid "|instance basic information|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:252 244dcc4bf2824cbda0909f0c66ee4181
+msgid "instance basic information"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:26 5d7f5805ad7c460e90737184e5dd5767
+msgid "资源详情"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:28 9da0a3c1797946bea4c9f72cc8de381e
+msgid "资源详情显示当前实例所使用的CPU核数、内存数、GPU数、块存储和镜像。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:30 54ad01ed976a4aa0a7133f057bbe7c2c
+msgid "|instance resource information|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:253 1fec464e9d794c709fc2d55808284cd8
+msgid "instance resource information"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:33 02eb6a35b2e64903904e6a1450a958b0
+msgid "服务"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:35 cebd5e7a19d346f9bebebd1689508001
+msgid ""
+"服务显示该实例当前的健康状态和开通的功能，例如控制台、交互界面和SSH等。可以点击图标选择相应的服务，也可以\\ :ref:`添加自定义服务 "
+"<customize service>`。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:37 0c7dd69ff69546a48621c08313839be6
+msgid "|instance service information|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:254 8faf8d3b0f274d3189188949590b1415
+msgid "instance service information"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:40 ff74f65f981544768faad854b7386acf
+msgid "集群"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:42 66f7267596024b6091a4f263a3d362f8
+msgid "集群显示了当前资源所使用的节点和节点的详细信息。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:44 f3420499d0484bcc84f9bbc7b59e7ff5
+msgid "|instance node information|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:255 d6f9679c7fc24a578c1fe63eb8055a53
+msgid "instance node information"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:46 03662d26f7154b43b78796880ced3927
+msgid ""
+"根据用户创建的类型不同，节点数量也不同，有的为单节点\\ :ref:`独占实例 <apply private instance>`\\ "
+"，有的为\\ :ref:`独占集群 <apply private cluster>`。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:48 9def4bdf13ab4963b8f1a9a22494d7d4
+msgid "|instance single node|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:256 77d3020d61944ca1bfa9f94336823d93
+msgid "instance single node"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:50 a2c73fa689444f63a99c3dc975c7297d
+msgid "|instance multiple nodes|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:257 fa88775291a342619ffe6fd3f6717833
+msgid "instance multiple nodes"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:52 65d5cccd19734e62ac875d65d24a1e5b
+msgid "可以点击节点图标，切换下方的节点详细信息。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:54 1f43c3fac4dc49e1b8b67c9152fe967c
+msgid "|change node|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:258 159cebce20434935bb6acef063948f2c
+msgid "change node"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:56 052137bb706b4f0dae611b3b7a2738a8
+msgid "节点详细信息包含如下："
+msgstr ""
+
+#: ../../docs/mode/instance.rst:58 61e669f7a88441159e8b16e6af6fe762
+msgid "**名称**：节点名称。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:60 3745bff1539f4b20bc16983a76444a5a
+msgid "**ID**：节点的ID。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:62 5e0f698845aa41cbbbd5be2100b47c2d
+msgid "**类型**：分为“CTRT容器”，“OCI容器”和“虚拟机”。“CTRT容器”是专为集群开发的容器，根据集群的需求可以进行更细粒度的控制。“OCI容器”是Docker的标准化容器。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:64 669e9c46caa54495b2e8830f7325417a
+msgid "**角色**：分为“主节点”、“工作站”和“计算节点”。“主节点”是作业队列系统的管理节点，负责接受用户提交的任务，进行任务调度和分发。“工作站”节点主要用于用户登录、作业提交、作业查看、文本编辑、数据传输等工作。“计算节点”用于处理用户的计算任务。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:66 fa7b049db00840c5937530c9cf824811
+msgid "**运行状态**：显示节点当前的运行状态，例如“运行中”、“等待”、“暂停”、“错误”等等。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:68 2fbbba4e0022413e8ff06073aa72bd5b
+msgid "**物理节点**：显示当前节点所在的物理节点。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:70 a74e2d5b2ecd4e11bf3b4ece505b5153
+msgid "**资源分配**：当前节点所占用的资源。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:72 b61603c4814546f9878beb3c51ccec71
+msgid "**资源使用统计**：最近6小时的CPU和内存使用情况。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:77 296a14723e5243e38eb18dc5f2b3521b
+msgid "启动/停止实例"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:79 09a417b441c748ebb27f2f6899629de2
+msgid "实例详情的右上角，有“启动”和“停止”按钮，点击后就可以运行或停止实例。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:81 4244c188d32e49b199dcde0fdeb4e936
+msgid "|change state|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:259 207a384dbf62420493a636ad00a43bcb
+msgid "change state"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:84 bd63ea69b6a8400a87e0bb2320c03905
+msgid "实例延期"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:86 4f95b4c939af4e18bde7b2301afacf7d
+msgid "为了充分的利用资源，每个实例都设有默认的最长使用期限。当创建实例成功后就开始倒计时，倒计时为零时，系统会自动停止该实例释放资源。如果用户希望延长实例的使用时间，可以申请对实例延期。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:88 46ae4d130a244376a50536d145b80dcb
+msgid "点击“实例”中的“申请延期”。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:90 9da41de93ee3435688ad42e75fa54852
+msgid "|apply delay|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:260 411d50790dbe44f6bc160fbea19697d1
+msgid "apply delay"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:92 9bd4514765f94a53adb892b39d12b022
+msgid "在窗口中选择需要延期的类型，填写希望延长的时间和理由，并提交管理员审批。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:94 cca69af7739b41309c4f5c01a98333c6
+msgid "|select extend type 1|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:261 44c7e60021c64c52b955dcf50e817ea7
+msgid "select extend type 1"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:96 f29beee5ff6640f2ade093da7dd4046c
+msgid "|select extend type 2|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:262 7628117e04364318badbf91d3a72b244
+msgid "select extend type 2"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:98 b3159e1ff7804ffea7a282b79513b02e
+msgid "**延后实例本次运行的截止日期**：延期申请只针对当前正在运行的实例，不影响之后的实例运行。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:99 d2c75245c3b040b6bacc456dc73e0c35
+msgid "**更新实例的使用期限**：申请用户该实例的默认最长使用期限，只对下次及以后的运行有效。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:103 f2038ebaffcc44a18462a70393f27d81
+msgid "如果要对当前正在运行的实例进行延期，请预留审批时间，避免在快截止时提出申请。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:105 e7537ea450e1497dbdc5678ecbf8d7e2
+msgid "用户可以在“申请”中查看自己已经提交的延期请求以及审批情况。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:107 99ae17b35d4247ec80aedc0381966af6
+msgid "|approval state|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:263 c2880095195e423f862b87e85270e851
+msgid "approval state"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:111 1f30347c300d458b91247825f37d7e1e
+msgid "如果实例有还未审批的请求，不允许对该实例提交相同类型的延期请求。需要等审批完毕后才能再次提交。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:116 228fcfe240b74e8ab6f636c8aa1d76f3
+msgid "资源释放"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:119 1405f15c70c34fcaa3f98792df751c93
+msgid "实例会从创建开始计费，直到自动或手动释放资源停止计费。因此如果资源使用完毕，记得及时手动释放资源。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:121 ae8dc13ffa7941b4b04f72ae7726cba9
+msgid "实例只有在停止状态下才能释放资源。:ref:`停止实例 <change state>`\\ 后，点击“释放资源”按钮，并停止计费。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:123 6acf911608c140788b481c203de6cc31
+msgid "|release|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:265 29ba1adfd68843b28270f8ae62548a81
+msgid "release"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:125 74fc4c9adcde4b609c89965c9fc26552
+msgid "已经释放资源的实例会进入“回收站”，用户可以在“回收站”里找到实例，并重新分配资源，进入计费状态。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:127 c5e99289c2cc4ed88cfe27941c7c040d
+msgid "|allocate|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:264 6f267ae75b3242869f2d8e5a517df222
+msgid "allocate"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:131 a70b0f55776448da923ed3fb3befd327
+msgid "进入“回收站”的实例的数据和环境都依然保存。如果希望彻底删除，点击删除图标，将实例和数据彻底删除。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:136 5ef11c7697cc4dae8c9b922bd83758c7
+msgid "磁盘扩容"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:138 5ab3000c44784ed39c4cf2e6ae628d1b
+msgid ""
+"实例只有在停止状态下才能磁盘扩容。:ref:`停止实例 <change state>`\\ "
+"后，在列表中点击磁盘扩容按钮，或是在实例详情中点击磁盘扩容按钮。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:140 b681969981464ba2846af7d1057ed88b
+msgid "|expand disk|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:142 c36e846353cd4d9facb405d05855fdad
+msgid "expand disk"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:144 1cdebc9495524753b29faae27b4e71ff
+msgid "|expand disk2|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:146 c4f1e5b742464332a5c4757f6f3784d5
+msgid "expand disk2"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:148 4060bf7aee4b4e80b2ee79baac1c0899
+msgid "在弹出窗口中，通过滑条或是直接输入磁盘尺寸调整所需要的磁盘大小后，点击确定完成扩容。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:150 a541b6162d194bee83bf9ad00c8a2059
+msgid "|set disk volume|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:152 5396f4e15ed84d0f8600a8661dd8c272
+msgid "set disk volume"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:156 85f24d4e97444b368cb788c518fa203a
+msgid "扩容大小在2048G范围内，实例自动扩容，无需其他额外操作，直接使用扩容空间。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:158 78f9710df21249eca2f0767af4888cab
+msgid "扩容大小在2048G以上，需要按照以下教程操作。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:160 783c9fab5ba64e3a9653c64dc7438841
+msgid "扩容完成后，启动实例，进入到实例中。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:162 dea20a84aee74a29818db984a58def0c
+msgid "在命令行输入\\ ``lsblk``\\ ，查看磁盘扩容情况，本次扩容空间大小为20T，见下图："
+msgstr ""
+
+#: ../../docs/mode/instance.rst:164 e01816b8c7804fd89ce9795e7c976a9d
+msgid "|check disk volume|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:166 595eea0637944697b1b4cf6f1b96b1bd
+msgid "check disk volume"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:168 37aed994fb7f4465b7af11d2a913e343
+msgid "在命令行继续输入\\ ``df -Th``\\ 查看磁盘的格式，主要包含ext4或者xfs两种，本次实例查看见下图："
+msgstr ""
+
+#: ../../docs/mode/instance.rst:170 33a36ebd2b474389ab2a601c0885c04e
+msgid "|check disk format|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:172 84c1b6ece4284f10a530ee28d668271e
+msgid "check disk format"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:174 6f0d8321910844439c6d65ef55a2f27c
+msgid ""
+"可以看到，``lsblk``\\ 和\\ ``df -Th``\\ 两个命令看到的磁盘大小是不一样的。用\\ ``lsblk``\\ "
+"看到的是20T，但是用\\ ``df -Th``\\ 查看只有49G，两者存在差异。这是因为\\ ``lsblk``\\ 查看的是block "
+"device，即逻辑磁盘大小。\\ ``df``\\ 查看的是file system, 即文件系统层的磁盘大小。磁盘扩容后，block "
+"device容量变大，但还没有反映到file system中，需要用resize2fs 命令来更新。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:176 9f0b71dc590c4d9a87238638165029df
+msgid ""
+"在命令行输入\\ ``resize2fs /dev/vda1``\\ "
+"进行更新，扩容时间视扩容空间大小而定，扩容20T需要几分钟的时间，提示如下图所示内容，表示扩容完成。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:178 517e26c5582745cfbdd5d39b0f0e9fab
+msgid "|resize disk|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:180 06d1271cb8a2468587daf1bc2bf22f6e
+msgid "resize disk"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:182 40fa0942d5784f558ef810fb81a8b3a6
+msgid "在命令行输入\\ ``df -Th``\\ 查看扩容后的磁盘空间，可以看到已经变为20T。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:184 cdb70dd703ab44ceae9f87885db74e27
+msgid "|check disk volume2|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:186 36754e8f85c64224aff9d0e3abc22dd8
+msgid "check disk volume2"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:190 9b42433dbae94da698611a66ae90531e
+msgid "\\ ``resize2fs``\\ 只可用于调整ext4文件系统的大小。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:192 7072bc61629d431a9c1cd0d39d12b04a
+msgid "如果分区类型为xfs，则执行\\ ``xfs_growfs /dev/vda1``\\ 进行扩容，操作过程和ext4一样。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:197 41ff5203125546a6946105cf8b0f2060
+msgid "修改配置"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:199 f6ac850fbeab47d581b9dbd7754b8de3
+msgid "如果觉得创建的实例资源不够，比如希望增加CPU核数、GPU卡数或是内存，可以修改实例的资源配置。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:201 a627493a94204442a3b7f306f12866db
+msgid "停止实例，并释放资源，在“我的资源”-“回收站”里找到实例，点击右侧的“修改配置”，在弹出窗口中选择需要的资源配置。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:203 c4bd573d16964338b03fd28ba8947100
+msgid "|change resource|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:205 df00bd8e0f0c4709a7d61f41eb3e4aa8
+msgid "change resource"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:207 e4343687e9bb44958c8ad2d725b1c1d4
+msgid "|set resource|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:209 d3024b0d0ec144e8a99e6d559e4128ff
+msgid "set resource"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:212 36826ea58892426fb1274aff6df66f9c
+msgid "修改资源配置后，为实例\\ :ref:`重新分配资源 <allocate resource>`\\ 并启动即可。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:216 52b2213fc91f45e2b72833c6e1ded864
+msgid "每个实例是否可更改资源配置以及可选的资源配置，取决于管理员对应用的设置。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:221 00a7728d309b41098596be0b588be476
+msgid "添加自定义服务"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:223 bb17a2f751be4e99bd03af5ff8ae67a5
+msgid "平台支持用户增加自定义服务，目前只支持自助添加和删除TCP端口映射。点击右上角的“添加自定义服务”。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:225 2b5aeee050144696a5f0568ece8d28c2
+msgid "|customize service|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:266 3ae5960f3d90481ca1de7adaf2d883ad
+msgid "customize service"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:227 46f6314caafa4551bbba5dfb26a20376
+msgid "在弹出窗口中输入服务名称，容器或虚拟机内部监听的服务地址，端口和所在节点。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:229 5765eaf9f4044ebd8d2bba200329965d
+msgid "|set service|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:267 45e1f298b5be41be85b5a6dc15a1953a
+msgid "set service"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:233 8eb21ad3ab9a414389a9274ebdbef216
+msgid "端口名称不可以跟保留的名称，即平台已使用的ssh, desktop, jupyter等重名。 用户也不可添加和删除spec里已经配的端口映射。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:236 e3daa0beabe847a3af6c7c0626fbe39e
+msgid "集群扩缩容"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:240 38ae891d50ba496193adc1630ea0103e
+msgid ""
+"只有\\ :ref:`独占集群 <apply private cluster>`\\ 才可以扩容缩容，\\ :ref:`独占实例 <apply "
+"private instance>`\\ 的资源分配在申请资源时设定。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:242 14432e4dd9b84bbd8107792ef465dc66
+msgid "点击集群右侧“伸缩集群”按钮。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:244 76ec06362326497e83e2283d40c786a3
+msgid "|private cluster set resource|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:268 3dc6e765d56a4a2e83fb85e61aea6c93
+msgid "private cluster set resource"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:246 c4a480d04c1347519d948d1c5a4e7908
+msgid "在弹出窗口中，选择扩缩容节点组，选择扩容还是缩容，以及相应的节点数。"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:248 a5c1beb86c9842ceb7dbe0ab8843f5a0
+msgid "|private cluster set resource window|"
+msgstr ""
+
+#: ../../docs/mode/instance.rst:269 96b02a392f5d4add88801d5d20f21cf5
+msgid "private cluster set resource window"
+msgstr ""
+

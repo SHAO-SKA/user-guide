@@ -18,9 +18,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: ../../docs/copyright/index.rst:3 7eb5596dd6594af8a6dc2dda1eddd551
-msgid "版权说明"
-msgstr "Copyright"
+#: ../../docs/login/index.rst:3 ec6f5ec5a3cb43f58435025965e395df
+msgid "登录"
+msgstr "log in"
+
+#: ../../docs/login/index.rst:5 dab05e33ed084098948b3e63c9f9e98b
+
+msgid "本章介绍如何登陆到CSRC-P"
+msgstr "This chapter provides instructions on how to log in to China SRC-P"
 
