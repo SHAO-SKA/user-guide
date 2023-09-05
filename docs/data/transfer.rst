@@ -32,7 +32,7 @@
 
 .. hint:: 
 
-   项目目录和公共集群目录的具体说明请分别查看 :ref:`project data` 和 :ref:`public cluster data` 。
+   项目目录和公共集群目录的具体说明请分别查看 :ref:`project data` 。
 
 
 Web页面数据传输

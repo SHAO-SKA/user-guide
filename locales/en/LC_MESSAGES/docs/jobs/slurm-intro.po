@@ -4,12 +4,11 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-05 08:58+0800\n"
+"POT-Creation-Date: 2023-09-05 11:49+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -29,29 +28,111 @@ msgid ""
 "ChinaSRC-P在公共集群中使用SLURM作业调度系统进行任务的调度和管理。 SLURM（Simple Linux Utility for "
 "Resource Management） "
 "是一种可用于大型计算节点集群的高度可伸缩和容错的集群管理器和作业调度系统，被世界范围内的超级计算机和计算集群广泛采用。"
-msgstr "ChinaSRC-P uses SLURM job scheduling system to schedule and manage tasks in public clusters. SLURM (Simple Linux Utility for Resource Management) is a highly scalable and fault-tolerant cluster manager and job scheduling system that can be used in large computing node clusters. It is widely used in supercomputers and computing clusters around the world."
+msgstr ""
+"ChinaSRC-P uses SLURM job scheduling system to schedule and manage tasks "
+"in public clusters. SLURM (Simple Linux Utility for Resource Management) "
+"is a highly scalable and fault-tolerant cluster manager and job "
+"scheduling system that can be used in large computing node clusters. It "
+"is widely used in supercomputers and computing clusters around the world."
 
 #: ../../docs/jobs/slurm-intro.rst:13 9c3c06c796ac408188b002a09c796096
 msgid "Slurm常用命令"
 msgstr "Slurm common commands"
 
-#: ../../docs/jobs/slurm-intro.rst:26 d7b6a1f786f14497846a6f97ac2777bc
-msgid "日常使用超算资源只需掌握简单的几条命令即可，具体详细的配置请参考\\ `SLURM官方文档`_。"
-msgstr "Simple commands are enough for daily use of supercomputing resources. For specific and detailed configuration, please refer to `SLURM official documentation`_."
+#: ../../docs/jobs/slurm-intro.rst:1 02fca1db5fa144119ab1f940cb6c22f4
+msgid "command"
+msgstr ""
 
-#: ../../docs/jobs/slurm-intro.rst:32 67ae3635c6f142778dd700baff6d6b1d
+#: ../../docs/jobs/slurm-intro.rst:1 3c4cee77a9e342509062dac8971e73a2
+msgid "Meaning"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:1 b2fef61d80ca4366ba0757dcf4bab4ac
+msgid "``sinfo``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:1 a183b3aa636f418a8ad192b211b2a2aa
+msgid "查看节点与分区状态"
+msgstr "Check node and partition status"
+
+#: ../../docs/jobs/slurm-intro.rst:1 aea6f10c22df46c1a48057c15331564c
+msgid "``squeue``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:1 7883957ee647464abdf0dc532b1238ec
+msgid "查看队列状态"
+msgstr "Check queue status"
+
+#: ../../docs/jobs/slurm-intro.rst:1 dfc56b33886443feb9c6e22ca9936ac1
+msgid "``scancel``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:1 accb17d921e34dafbc37c259d10d453a
+msgid "取消作业"
+msgstr "Cancel job"
+
+#: ../../docs/jobs/slurm-intro.rst:1 9645778b728d44d38ece976465517f1f
+msgid "``sacct``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:1 ed68ff59224740f6ba126c08fa1b9716
+msgid "查看历史作业信息"
+msgstr "Check historical job information"
+
+#: ../../docs/jobs/slurm-intro.rst:1 e1e2bce7db22493f8c2508f7be762a1f
+msgid "``salloc``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:1 6ccae18bd1484baa95f5cc244b69f58d
+msgid "分配资源"
+msgstr "Allocate resources"
+
+#: ../../docs/jobs/slurm-intro.rst:1 9f06d94cf4a344cc96790b42bb2305b6
+msgid "``sbatch``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:1 5d65ad7ddb794e64b2550eeebfbc8144
+msgid "提交批处理作业"
+msgstr "Submit batch job"
+
+#: ../../docs/jobs/slurm-intro.rst:1 94353618d857477c97a96af886e5268a
+msgid "``scontrol``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:1 53051fbd2f5f428ea3e68b54c20d8806
+msgid "系统控制"
+msgstr "System control"
+
+#: ../../docs/jobs/slurm-intro.rst:1 7930439928c045568151e451e1c9df19
+msgid "``srun``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-intro.rst:1 cee22c6c311442bdb149f72b59cdc1e7
+msgid "执行作业"
+msgstr "Execute job"
+
+#: ../../docs/jobs/slurm-intro.rst:29 d7b6a1f786f14497846a6f97ac2777bc
+msgid "日常使用超算资源只需掌握简单的几条命令即可，具体详细的配置请参考\\ `SLURM官方文档`_。"
+msgstr ""
+"Simple commands are enough for daily use of supercomputing resources. For"
+" specific and detailed configuration, please refer to `SLURM official "
+"documentation`_."
+
+#: ../../docs/jobs/slurm-intro.rst:35 67ae3635c6f142778dd700baff6d6b1d
 msgid "编写 SLURM 脚本"
 msgstr "Write SLURM script"
 
-#: ../../docs/jobs/slurm-intro.rst:34 ba92726cd171494ca2b1e2a15f7ca8a4
+#: ../../docs/jobs/slurm-intro.rst:37 ba92726cd171494ca2b1e2a15f7ca8a4
 msgid "首先请阅读 :ref:`slurm-sinfo` 章节，获取可以使用的分区信息"
-msgstr "Please read the :ref:`slurm-sinfo` section first to get the partition information that can be used"
+msgstr ""
+"Please read the :ref:`slurm-sinfo` section first to get the partition "
+"information that can be used"
 
-#: ../../docs/jobs/slurm-intro.rst:37 06bc55f8fcdf4a189fbe743fb248b050
+#: ../../docs/jobs/slurm-intro.rst:40 06bc55f8fcdf4a189fbe743fb248b050
 msgid "首先需要编写一个 SLURM 脚本。"
 msgstr "First you need to write a SLURM script."
 
-#: ../../docs/jobs/slurm-intro.rst:41 b6281b9a56fc441bb056d7e9a30e0814
+#: ../../docs/jobs/slurm-intro.rst:44 b6281b9a56fc441bb056d7e9a30e0814
 msgid "准备好 SLURM 脚本之后，使用"
 msgstr "After preparing the SLURM script, use"
 

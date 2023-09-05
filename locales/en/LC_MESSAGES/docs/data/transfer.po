@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-05 10:24+0800\n"
+"POT-Creation-Date: 2023-09-05 11:49+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -136,7 +136,7 @@ msgstr ""
 
 #: ../../docs/data/transfer.rst:35 b3ecc339745249b8b0f44c8a462bbe98
 #, fuzzy
-msgid "项目目录和公共集群目录的具体说明请分别查看 :ref:`project data` 和 :ref:`public cluster data` 。"
+msgid "项目目录和公共集群目录的具体说明请分别查看 :ref:`project data` 。"
 msgstr ""
 "check :ref:`project data` and :ref:`public cluster data` for details of "
 "project directory and public cluster directory."

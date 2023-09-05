@@ -33,7 +33,7 @@ salloc提交方式如下： 首先申请资源，执行如下命令：
 
    salloc: Granted job allocation 1813522
 
-   #通 过 squeue 查 看 相 应 的 jobID 为 1813522， 节 点 为 taishan-arm-cpu[01-02]。
+   #Check the jobID 1813522 and the nodes taishan-arm-cpu[01-02] by squeue command.
    $ squeue 
      JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
    1813522       arm     bash   sername  R       3:42      2 taishan-arm-cpu[01-02]

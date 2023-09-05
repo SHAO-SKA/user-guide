@@ -200,7 +200,7 @@ SSH服务配置
 .. code-block:: bash
 
    sudo -i
-   passwd Usename(用户名)
+   passwd Usename
 
 然后输入新密码。
 

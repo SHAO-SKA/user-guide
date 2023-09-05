@@ -12,28 +12,28 @@ GPU集群作业提交
   :linenos:
   
   #! /bin/bash
-  ### 表示这是一个bash脚本
+  ### This is a bash script
 
   #SBATCH --job-name=gpu-example
-  ### 该作业的作业名
+  ### The job name
 
   #SBATCH --nodes=1
-  ### 该作业需要1个节点
+  ### The job requires 1 compute node
 
   #SBATCH --ntasks=16
-  ### 该作业需要16个CPU
+  ### The job requires 16 CPU cores
 
   #SBATCH --gres=gpu:1
-  ### 申请1块GPU卡
+  ### Apply for 1 GPU card
   
   #SBATCH --comment project_name
-  ### 指定从哪个项目扣费。如果没有这条参数，则从个人账户扣费
+  ### Specify which project to charge. If there is no parameter, it will be charged from the personal account
 
   source ~/.bashrc
-  ### 初始化环境变量
+  ### initialize the environment variables
 
   python test.py
-  ### 程序的执行命令
+  ### The command to execute the program
 
 .. attention:: 
 
