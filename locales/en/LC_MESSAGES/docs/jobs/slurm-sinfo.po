@@ -39,11 +39,11 @@ msgstr "The meanings of various parameters are as follows:"
 
 #: ../../docs/jobs/slurm-sinfo.rst:23 dec097c05e534a2386d590bfb438cad1
 msgid "**关键词**"
-msgstr ""
+msgstr "**Keyword**"
 
 #: ../../docs/jobs/slurm-sinfo.rst:24 45d3fd903022427e99a03e0fd67e05a9
 msgid "**含义**"
-msgstr ""
+msgstr "**Meaning**"
 
 #: ../../docs/jobs/slurm-sinfo.rst:25 c9a1277e389341a39ce4b6acbb811992
 
@@ -52,7 +52,7 @@ msgstr "PARTITION represents a partition."
 
 #: ../../docs/jobs/slurm-sinfo.rst:26 9eb7edd7537748afacf278f015cc3259
 msgid "分区名，对节点的逻辑分组。不同的分区会设置不同权限、资源限制等。"
-msgstr ""
+msgstr "Partition name, logical grouping of nodes. Different partitions have different permissions, resource limits, etc."
 
 #: ../../docs/jobs/slurm-sinfo.rst:27 260ee527e3ff4f23aabbcf4e7e4fadd0
 msgid "``AVAIL``"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-sinfo.rst:28 0a425c6b9a2e468ba8f96bff681d8a93
 msgid "可用状态：``up`` 可用；``down`` 不可用"
-msgstr ""
+msgstr "Available status: ``up`` available; ``down`` unavailable"
 
 #: ../../docs/jobs/slurm-sinfo.rst:29 f65fa98a65ad4e5da325cc326765aff8
 msgid "``TIMELIMIT``"
@@ -70,7 +70,7 @@ msgstr ""
 msgid ""
 "该分区的作业最大运行时长限制, ``30:00`` 表示30分钟，如果是\\ ``2-00:00:00``\\ 表示2天，如果是\\ "
 "``infinite``\\ 表示不限时间"
-msgstr ""
+msgstr "The maximum running time limit for jobs in this partition, ``30:00`` means 30 minutes, if it is ``2-00:00:00`` means 2 days, if it is ``infinite`` means no time limit"
 
 #: ../../docs/jobs/slurm-sinfo.rst:31 0553aa25e4f84beeb7f1ada4e1d3d971
 msgid "``NODES``"
@@ -78,7 +78,7 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-sinfo.rst:32 6c1b3aa3fddf41528e71017a925d25f8
 msgid "节点数量"
-msgstr ""
+msgstr "Number of nodes"
 
 #: ../../docs/jobs/slurm-sinfo.rst:33 dc221d4bd3a84b77a186ae949bc6ab62
 msgid "``STATE``"
@@ -89,7 +89,7 @@ msgid ""
 "状态：``drain/drained``: 排空状态，表示该类节点不再分配到其他；``idle``: "
 "空闲状态；``alloc/allocated``: 被分配状态; ``mix``:部分被占用，但是仍有可用资源； ``down``\\ 宕机 "
 ";completing、comp  完成中 ; fail  失效; unknown、unk  未知原因"
-msgstr ""
+msgstr "State: ``drain/drained``: Drained state, indicating that this type of node is no longer allocated to others; ``idle``: Idle state; ``alloc/allocated``: Allocated state; ``mix``: Partially occupied, but still available resources; ``down``\\ Down; completing, comp Completing; fail Failed; unknown, unk Unknown reason"
 
 #: ../../docs/jobs/slurm-sinfo.rst:35 317eca247a2e4c45a49b868a454d9fd7
 
@@ -98,7 +98,7 @@ msgstr "NODELIST is the list of nodes"
 
 #: ../../docs/jobs/slurm-sinfo.rst:36 db41fa6591474323b352c96f46f45b64
 msgid "节点列表"
-msgstr ""
+msgstr "List of nodes"
 
 #: ../../docs/jobs/slurm-sinfo.rst:41 8539f281d58444178b593def8e193830
 msgid "如果状态带有后缀*,表示该节点没有响应。"
@@ -106,7 +106,7 @@ msgstr "If a state has a suffix *, it means the node is unresponsive."
 
 #: ../../docs/jobs/slurm-sinfo.rst:44 baec6f30b66640d29384d6d16fafb7d8
 msgid "在使用过程中，选择正确的分区对程序的运行十分重要"
-msgstr ""
+msgstr "In the process of using, it is very important to choose the right partition for the program to run"
 
 #~ msgid "AVAIL表示分区状态"
 #~ msgstr "AVAIL represents partition status."

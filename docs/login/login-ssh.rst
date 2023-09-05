@@ -135,7 +135,7 @@ Windows
 MacOS & Linux
 ~~~~~~~~~~~~~~
 
-本地机器上打开自带的终端，按照\ :ref:`上文 <ssh info>`\ 查看要登录的集群SSH IP和端口信息，输入如下命令后回车登录集群：
+本地机器上打开自带的终端，按照\ :ref:`上文 <ssh_info>`\ 查看要登录的集群SSH IP和端口信息，输入如下命令后回车登录集群：
 
 .. code-block:: bash
 
@@ -156,7 +156,7 @@ Windows
 
 此处以\ `Xshell`_\ 登录为例。
 
-点击软件左上角新建会话属性，按照\ :ref:`上文 <ssh info>`\ 查看要登录的集群SSH IP和端口信息，输入SSH IP地址和端口后点击连接。
+点击软件左上角新建会话属性，按照\ :ref:`上文 <ssh_info>`\ 查看要登录的集群SSH IP和端口信息，输入SSH IP地址和端口后点击连接。
 
 |xshell new login|
 

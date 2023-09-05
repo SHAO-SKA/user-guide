@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../docs/login/login-inter.rst:5 8ab4e39bcde145798e86d6d368f1aed4
 msgid "台内用户登录"
-msgstr "Shanghai Astronomical Observatory Unit User Login"
+msgstr "Login at Shanghai Astronomical Observatory"
 
 #: ../../docs/login/login-inter.rst:9 098650953e614b9489e6f341a7163f05
 
@@ -57,7 +57,7 @@ msgstr "Web-Based Login"
 
 #: ../../docs/login/login-inter.rst:24 c9db32e7ab864914bccd0c4f1245992f
 msgid "用户可以通过web界面 http://chinasrc.shao.ac.cn:8882 点击“通过统一认证服务登录”进入统一身份认证平台，"
-msgstr ""
+msgstr "Users can log in to the unified identity authentication platform via the web interface at http://chinasrc.shao.ac.cn:8882 by clicking on 'Login via unified authentication service'"
 
 #: ../../docs/login/login-inter.rst:27 7501d978d71c4d00adfa93dea694c57b
 
@@ -71,7 +71,7 @@ msgstr "webloginimage"
 
 #: ../../docs/login/login-inter.rst:29 e905c0554d4541c1a0c9a73191ffa8ab
 msgid "输入用户名和密码，点击“登录”进入服务平台。 登录ChinaSRC-P管理系统，如下图所示："
-msgstr ""
+msgstr "Enter your username and password, and click on 'Login' to enter the service platform. Log in to the ChinaSRC-P management system, as shown in the screenshot below:"
 
 #: ../../docs/login/login-inter.rst:32 4c89872bb2e54eeabe11b2ed50f3c136
 
@@ -89,15 +89,15 @@ msgstr "Enter your username and password to log in."
 
 #: ../../docs/login/login-inter.rst:40 15e7b9f0551445629ff8f3c8c7607a7a
 msgid "用户注册"
-msgstr ""
+msgstr "User Registration"
 
 #: ../../docs/login/login-inter.rst:42 1264f13a39884412a1e606222985dc85
 msgid "首次登录要在平台上新注册用户并填写完整用户信息，等待管理员审批通过后，才能登录进入平台。"
-msgstr ""
+msgstr "The first time you log in, you need to register a new user on the platform and fill in the complete user information. After the administrator approves it, you can log in to the platform."
 
 #: ../../docs/login/login-inter.rst:44 4733ae62a31f41b5b90f6de733bbf95d
 msgid "点击“注册”按钮,"
-msgstr ""
+msgstr "Click on the 'Register' button,"
 
 #: ../../docs/login/login-inter.rst:47 67bb20970a604c3a976fa8cc2c8d398f
 msgid "|login-register|"
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../docs/login/login-inter.rst:50 60990cfefbdf4ccfb76b76fe68e233b2
 msgid "进入到注册界面，填写用户名、密码及其他信息。"
-msgstr ""
+msgstr "Enter the registration interface, fill in the username, password and other information."
 
 #: ../../docs/login/login-inter.rst:52 3795d8aac19c46829de81b51f653acb9
 msgid "|login-submit|"
@@ -121,55 +121,55 @@ msgstr ""
 
 #: ../../docs/login/login-inter.rst:57 688520e6b81745c2b68387894e57d639
 msgid "注意通知邮箱填写正确，并且是正常可接收邮件的邮箱。后续审批通过后需要接收首次登录的验证码。"
-msgstr ""
+msgstr "Note that the notification email is filled in correctly and is a normal email that can receive emails. Subsequent approvals require the first login verification code to be received."
 
 #: ../../docs/login/login-inter.rst:60 aaeaf597b297449a8053cdbaf664ef59
 msgid "注册申请提交后，管理员会在后台进行审核，审核通过后，邮箱会收到一封邮件："
-msgstr ""
+msgstr "After the registration application is submitted, the administrator will review it in the background. After the review is passed, the email will receive an email:"
 
 #: ../../docs/login/login-inter.rst:64 2b87abbb81694fc59242349a2d123353
 msgid "亲爱的用户 xxx 您好，"
-msgstr ""
+msgstr "Dear user xxx,"
 
 #: ../../docs/login/login-inter.rst:66 a82ee1efc9804731a14d1d10cc7b9581
 msgid "您的注册申请已经审批通过，请使用用户名 xxx 、Token \\****\\* 及申请注册时所设置的密码进行登录。"
-msgstr ""
+msgstr "Your registration application has been approved. Please use the username xxx, Token \\****\\* and the password set when applying for registration to log in."
 
 #: ../../docs/login/login-inter.rst:69 9e6394b76af54e8d978a94eb9a8a2d0d
 msgid "收到这样的邮件，就表示已经通过用户审批，可以登录使用平台了。"
-msgstr ""
+msgstr "Receiving such an email means that the user has been approved and can log in to use the platform."
 
 #: ../../docs/login/login-inter.rst:72 eb696dd560c44673bee233f7991c016e
 msgid "首次登录"
-msgstr ""
+msgstr "First Login"
 
 #: ../../docs/login/login-inter.rst:74 f605d82495ee4414b4e8b357cc696820
 msgid "为了验证邮箱为该注册用户邮箱，所以，在用户进行首次登录的时候，需要采用邮箱收到的验证码进行登录。"
-msgstr ""
+msgstr "In order to verify that the email is the registered user's email, when the user logs in for the first time, the verification code received by the email needs to be used to log in."
 
 #: ../../docs/login/login-inter.rst:76 6e0cd2130c25412ba5dad04a16031868
 msgid "直接输入用户进行登录，系统会判断该用户为首次登录用户，就会自动跳转到使用用户名和验证码登录的界面。"
-msgstr ""
+msgstr "Enter the user directly to log in, the system will determine that the user is a first-time login user, and will automatically jump to the interface for logging in using the username and verification code."
 
 #: ../../docs/login/login-inter.rst:78 a936e4bfa18c473e815ddd4ba0b27a75
 msgid "输入用户名和邮件收到的验证码，点击登录即可。"
-msgstr ""
+msgstr "Enter the username and verification code received by email, and click 'Login' to log in."
 
 #: ../../docs/login/login-inter.rst:81 3536b36054604eb0905a1decaac8e2ed
 msgid "正常登录"
-msgstr ""
+msgstr "Normal Login"
 
 #: ../../docs/login/login-inter.rst:83 2519da7f5eb6429e9ac18c45e4259b27
 msgid "第一次通过用户名和验证码登录以后，后续登录使用注册时候的密码即可。"
-msgstr ""
+msgstr "After the first login using the username and verification code, the password used when registering can be used for subsequent logins."
 
 #: ../../docs/login/login-inter.rst:88 b0ce4667d7c94ec69d202871ff58d040
 msgid "重置密码"
-msgstr ""
+msgstr "Reset Password"
 
 #: ../../docs/login/login-inter.rst:90 18cc54a64ad745248d56a269b93827b5
 msgid "点击右上角的用户，选择“重置密码”："
-msgstr ""
+msgstr "Click on the user in the upper right corner and select 'Reset Password':"
 
 #: ../../docs/login/login-inter.rst:92 64125f8f9141447c810f976aa43db272
 msgid "|resetpassword|"
@@ -181,7 +181,7 @@ msgstr ""
 
 #: ../../docs/login/login-inter.rst:94 8b0adc57878f4ebbaece9744bfe915c2
 msgid "重置密码时请确认选择足够强度的密码，并保证密码安全。"
-msgstr ""
+msgstr "When resetting the password, please make sure to choose a strong enough password and ensure the security of the password."
 
 #: ../../docs/login/login-inter.rst:96 8b42602aa12f4d339eec6c36cb5489b0
 msgid "|resetpassword2|"
@@ -193,15 +193,15 @@ msgstr ""
 
 #: ../../docs/login/login-inter.rst:100 03391a23db624d63b2a76b8a1ea5b1da
 msgid "登录平台Web页面，以及使用集群登录、SSH连接和WebDAV等平台服务时用的是注册平台的用户名和密码。"
-msgstr ""
+msgstr "The username and password used to log in to the platform web page, as well as the platform services such as cluster login, SSH connection and WebDAV, are the username and password of the registered platform."
 
 #: ../../docs/login/login-inter.rst:103 7bab7a0ccaa84dec8198a4ff3c3bf451
 msgid "用户信息"
-msgstr ""
+msgstr "User Information"
 
 #: ../../docs/login/login-inter.rst:105 56c775cadc944974a65710d8f2771084
 msgid "页面右上角，点击用户名称，进入“我的信息”界面，可以查看个人信息，包括注册时填写的基本信息以及用量/限额详情。"
-msgstr ""
+msgstr "In the upper right corner of the page, click on the user name to enter the 'My Information' interface, where you can view personal information, including the basic information filled in when registering and the usage/quota details."
 
 #: ../../docs/login/login-inter.rst:107 bf0e3b22fbe448438a1be230a4161c62
 msgid "|personal info|"
@@ -213,17 +213,17 @@ msgstr ""
 
 #: ../../docs/login/login-inter.rst:110 119b0ec7a74b420c83b626033bf8e7cf
 msgid "用量/限额详情"
-msgstr ""
+msgstr "Usage/Quota Details"
 
 #: ../../docs/login/login-inter.rst:112 898766ac075b457487a5d5905116e844
 msgid ""
 "每位用户分配有一定的资源。当创建实例的时候，占用资源限额。如果所用的资源超过了限额，系统会提示资源不够。用户可以先\\ :ref:`释放资源 "
 "<release resource>`\\ ，然后再创建实例。"
-msgstr ""
+msgstr "Every user is allocated a certain amount of resources. When creating an instance, the resource quota is occupied. If the resources used exceed the quota, the system will prompt that the resources are insufficient. Users can first \\ :ref:`release resources <release resource>`\\ , and then create an instance."
 
 #: ../../docs/login/login-inter.rst:114 79c6abb4cab2415ea1d71595e01e2384
 msgid "如果需要资源很多，超过了系统默认限额，用户可以联系管理员修改个人限额。"
-msgstr ""
+msgstr "If you need a lot of resources, which exceeds the system default quota, users can contact the administrator to modify the personal quota."
 
 #: ../../docs/login/login-inter.rst:119 31b94a73cc924371a5267f4f349a5fec
 msgid "命令行登录"
@@ -237,7 +237,7 @@ msgstr ""
 
 #: ../../docs/login/login-inter.rst:129 51c5881fb6c046099205ddbf73e67de2
 msgid "其中username为用户名， IP为登陆节点的地址， port为登陆节点的端口号，该端口信息可以通过web平台获取。"
-msgstr ""
+msgstr "Where 'username' is your username, 'IP' is the login node's address, and 'port' is the login node's port number. This port information can be obtained via the web platform."
 
 #: ../../docs/login/login-inter.rst:133 407ee15e01024d1ea8fdd521c09c027a
 msgid "命令行登录的截图如下所示。"
@@ -292,7 +292,7 @@ msgstr "Please contact shaoska@shao.ac.cn & chinasrc@googlegroups.com."
 
 #: ../../docs/login/login-inter.rst:164 5cdb34ad769f48c99f2ed87b168c462b
 msgid "待移除"
-msgstr ""
+msgstr "To be removed"
 
 #: ../../docs/login/login-inter.rst:166 9d0966086a6d4a77aff3356af41295f7
 msgid ""

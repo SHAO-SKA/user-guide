@@ -28,19 +28,19 @@ msgstr "GPU cluster job submission"
 msgid ""
 "如果是GPU集群，需要在作业脚本中增加\\ ``--gres=gpu:<number of card>``\\ 参数。例如\\ ``#SBATCH"
 " --gres=gpu:2``\\ ，意味着指定2张GPU卡数。"
-msgstr ""
+msgstr "If it is a GPU cluster, you need to add the\\ ``--gres=gpu:<number of card>``\\ parameter in the job script. For example,\\ ``#SBATCH --gres=gpu:2``\\ means specifying 2 GPU cards."
 
 #: ../../docs/jobs/slurm-gpu.rst:9 b4b99d2803574fc5b5ecc67be400247e
 msgid "以下为GPU作业的一个示例："
-msgstr ""
+msgstr "The following is an example of a GPU job:"
 
 #: ../../docs/jobs/slurm-gpu.rst:40 8779483892d945a297e54c644ab17f86
 msgid ""
 "GPU集群中提交作业时，需要在\\ ``srun`` \\ 或 \\ ``sbatch``\\ 命令中增加参数\\ ``-s``\\，或者 \\ "
 "``--oversubscribe``\\。表示允许与其它作业共享资源。"
-msgstr ""
+msgstr "GPU cluster when submitting a job, you need to add the parameter\\ ``-s``\\ or \\ ``--oversubscribe``\\ in the \\ ``srun`` \\ or \\ ``sbatch``\\ command. Indicates that sharing resources with other jobs is allowed."
 
 #: ../../docs/jobs/slurm-gpu.rst:42 62adaa6c56684dc9ae54c57eb99419c3
 msgid "例如："
-msgstr ""
+msgstr "For example:"
 

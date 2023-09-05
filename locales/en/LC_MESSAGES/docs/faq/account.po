@@ -26,17 +26,17 @@ msgstr "Account FAQ"
 
 #: ../../docs/faq/account.rst:8 3e73e08657cf450a83a01671457a4d67
 msgid "账号申请"
-msgstr ""
+msgstr "Account Application"
 
 #: ../../docs/faq/account.rst:10 71ead33e67414def9d658025cd663c62
 msgid ""
 "请先阅读 userguide_ . 并通过 ChinaSRC统一身份门户 portal_  门户进行注册申请。 "
 "我们会在3个工作日内开通账号并将账号信息发送至您的邮箱， 如有其他问题请并发送邮件至至 ChinaSRC-P运维 mailto_ 。"
-msgstr ""
+msgstr "Please read userguide_ first. And apply for registration through ChinaSRC unified identity portal portal_ . We will open the account within 3 working days and send the account information to your email. If you have any other questions, please send an email to ChinaSRC-P operation and maintenance mailto_ ."
 
 #: ../../docs/faq/account.rst:15 f602f7bd9dc34035800f0dc594dd0d22
 msgid "另外，为帮助用户正确使用ChinaSRC-P超算资源，请账号使用人先通读“ChinaSRC-P用户手册”。"
-msgstr ""
+msgstr "Also, in order to help users use ChinaSRC-P supercomputing resources correctly, please read the \"ChinaSRC-P User Manual\" first."
 
 #~ msgid ""
 #~ "请先阅读 `中国SKA原型样机 <https://www.shao.ac.cn/cskap>`__ "

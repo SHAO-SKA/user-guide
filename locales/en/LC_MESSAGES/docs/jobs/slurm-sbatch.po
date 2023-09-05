@@ -86,22 +86,22 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:52 249ccb7a1f2041b7ad042949c2cabf34
 msgid "一个简单的脚本示例如下："
-msgstr ""
+msgstr "A simple script example is as follows:"
 
 #: ../../docs/jobs/slurm-sbatch.rst:80 694792fe1bc74763aa43df16d1c23632
 msgid "上述中\\ ``###``\\ 为注释行。"
-msgstr ""
+msgstr "The above ### is a comment line."
 
 #: ../../docs/jobs/slurm-sbatch.rst:82 f47c94bf9138460392eeba3222a624e5
 msgid "第一行表示这是一个bash脚本，第4-17行以\\ ``#SBATCH``\\ 开头的命令表示这些是需要slurm系统处理的参数。"
-msgstr ""
+msgstr "First line indicates that this is a bash script, and lines 4-17 starting with #SBATCH indicate that these are parameters that need to be processed by the slurm system."
 
 #: ../../docs/jobs/slurm-sbatch.rst:84 023e10b4ac1a4d2bbe96fd9bd8772a52
 msgid ""
 "如下图所示，通过\\ ``sbatch+作业脚本名``\\ 提交作业，系统会返回作业编号，通过\\ ``squeue``\\ "
 "命令可以看到作业运行状态，等作业执行完成后，默认会把程序的输出放到\\ ``slurm-作业编号.out``\\ "
 "的文件中，可通过该文件查看程序的输出。"
-msgstr ""
+msgstr "As shown in the figure below, the job number will be returned by submitting the job through sbatch+job script name. The job running status can be viewed through the squeue command. After the job is executed, the output of the program will be placed in the file slurm-job number.out by default, and the output of the program can be viewed through the file."
 
 #: ../../docs/jobs/slurm-sbatch.rst:86 49bce9367d3c40f6bb7cf9127650575a
 msgid "|image6|"
@@ -113,15 +113,15 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:91 233481c9e33943daab1f570270d2f934
 msgid "常见提交作业参数参考"
-msgstr ""
+msgstr "Frequently Used Job Submission Parameters"
 
 #: ../../docs/jobs/slurm-sbatch.rst:95 d48b630fd62849109bb1c3204a807143
 msgid "**参数**"
-msgstr ""
+msgstr "**Parameter**"
 
 #: ../../docs/jobs/slurm-sbatch.rst:96 3df9e292aa10491f9866b0aecf2d6a4a
 msgid "**说明**"
-msgstr ""
+msgstr "**Description**"
 
 #: ../../docs/jobs/slurm-sbatch.rst:97 22977194c2624adaaff24b149f9166f9
 msgid "``--job­name=<name>``"
@@ -129,17 +129,17 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:98 6f88ce156c464bca9f20d07b93bcc25d
 msgid "设定作业名称"
-msgstr ""
+msgstr "Set the job name"
 
 #: ../../docs/jobs/slurm-sbatch.rst:99 af0381eb96ed41db974d743cbd33364c
 msgid "``--nodes=<n>`` 或 ``-N``"
-msgstr ""
+msgstr "``--nodes=<n>`` or ``-N``"
 
 #: ../../docs/jobs/slurm-sbatch.rst:100 8b370bdd514446b1bef8a4fb2ae0cd94
 msgid ""
 "设定作业需要的节点数。如果没有指定，默认分配足够的节点来满足\\ ``--ntasks=<n>``\\ 和\\ ``--cpus-per-"
 "task=<ncpus>``\\ 参数的要求。"
-msgstr ""
+msgstr "Set the number of nodes required for the job. If not specified, enough nodes will be allocated by default to meet the requirements of --ntasks=<n> and --cpus-per-task=<ncpus> parameters."
 
 #: ../../docs/jobs/slurm-sbatch.rst:101 95808ca98a194093af29952a584c85a3
 msgid "``--ntasks-per-node=<ntasks>``"
@@ -147,15 +147,15 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:102 2e61ea38b84b446fa0e847ed87e21cae
 msgid "设定每个节点上的任务数。要和 ``--nodes=<n>`` 同时配合使用。"
-msgstr ""
+msgstr "Set the number of tasks per node. To be used in conjunction with --nodes=<n>."
 
 #: ../../docs/jobs/slurm-sbatch.rst:103 2b8a0095800f45cb82c68a35269087e3
 msgid "``--ntasks=<n>`` 或 ``-n``"
-msgstr ""
+msgstr "``--ntasks=<n>`` or ``-n``"
 
 #: ../../docs/jobs/slurm-sbatch.rst:104 57e994efb64c4ce6ad88853cb2b1f788
 msgid "设定最多启动的任务数。"
-msgstr ""
+msgstr "Set the maximum number of tasks to start."
 
 #: ../../docs/jobs/slurm-sbatch.rst:105 602ce67f3d80468391c0fcccc20f799e
 msgid "``--cpus-per-task=<ncpus>``"
@@ -163,7 +163,7 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:106 0b2734af8b41474c8681feeccf57b00d
 msgid "设定每个任务所需要的CPU核数。如果没有指定，默认为每个任务分配一个CPU核。一般运行OpenMP等多线程程序时需要，普通MPI程序不需要。"
-msgstr ""
+msgstr "Set the number of CPU cores required per task. If not specified, one CPU core will be allocated per task by default. Generally, it is required when running multi-threaded programs such as OpenMP, and it is not required for ordinary MPI programs."
 
 #: ../../docs/jobs/slurm-sbatch.rst:107 c546cd9d3ee74a94b2ff3eee9a8ce317
 msgid "``--gres=gpu:n``"
@@ -171,7 +171,7 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:108 1972efe992934212a739c1228f30d90a
 msgid "设定需要使用的GPU卡数量"
-msgstr ""
+msgstr "Set the number of GPU cards to be used"
 
 #: ../../docs/jobs/slurm-sbatch.rst:109 5a77a64801084fe3bdec97e7fa8770cb
 msgid "``--comment projectName``"
@@ -179,7 +179,7 @@ msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:110 3ce3aed8a8e84f638411df6fd2bfe8e1
 msgid "设定需要扣费的项目账户，将 ``projectName`` 替换为项目名称。如果项目名称错误，作业会提交失败。"
-msgstr ""
+msgstr "Set the project account to be charged, and replace projectName with the project name. If the project name is incorrect, the job will fail to be submitted."
 
 #: ../../docs/jobs/slurm-sbatch.rst:112 5432e371867c4391a066c690c828f4dc
 msgid "更多选项，用户可以通过 ``sbatch --help`` 命令来查看。"

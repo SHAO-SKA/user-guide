@@ -66,5 +66,5 @@ msgstr ""
 
 #: ../../docs/module/module-python.rst:65 fc063b60f9ae4751962f0a188119dcbb
 msgid "退出虚拟环境："
-msgstr ""
+msgstr "Quit the virtual environment:"
 

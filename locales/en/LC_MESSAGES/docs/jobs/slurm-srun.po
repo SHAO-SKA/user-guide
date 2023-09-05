@@ -28,7 +28,7 @@ msgstr "Interactive Job Submission with srun"
 msgid ""
 "Slurm作业通常分为交互式和批量式两种。 交互式作业通常用于代码编译、脚本调试、交互式计算等工作。 "
 "长期后台计算的任务通常以作业脚本的方式进行批量提交 :ref:`sbatch` 。"
-msgstr ""
+msgstr "Slurm jobs are usually divided into interactive and batch. Interactive jobs are usually used for code compilation, script debugging, interactive computing, etc. Long-term background computing tasks are usually submitted in batch by job scripts."
 
 #: ../../docs/jobs/slurm-srun.rst:12 6ba2ea02a72a4e37b2509af260cc4aac
 msgid "简介"

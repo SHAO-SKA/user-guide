@@ -32,7 +32,8 @@ msgstr ""
 msgid ""
 "ChinaSRC-P为China SKA Regional Centre Prototype的缩写， 为中国SKA原型样机， "
 "也是世界上首台专门针对SKA区域中心研发的原型样机。"
-msgstr ""
+msgstr "ChinaSRC-P is the abbreviation of China SKA Regional Centre Prototype. and it is the first prototype of SKA regional centre in the world."
+
 
 #: ../../docs/faq/abbr.rst:14 59d33b78a7b945ecba6d89faa2d17e94
 msgid "SKA"
@@ -42,7 +43,7 @@ msgstr ""
 msgid ""
 "SKA为Square Kilometre Array的缩写， 为平方公里阵列望远镜。 "
 "详细可见：https://www.skatelescope.org/"
-msgstr ""
+msgstr "SKA is the abbreviation of Square Kilometre Array. For more information, please visit https://www.skatelescope.org/"
 
 #~ msgid "ChinaSRC-P"
 #~ msgstr ""

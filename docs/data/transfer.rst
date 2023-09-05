@@ -6,9 +6,12 @@
 用户数据存储空间
 -------------------
 
+.. _project data:
+
 在ChinaSRC上，系统根据三种 :ref:`usage-mode-ref` 为用户在共享文件系统上分配三种目录，分别是个人目录，项目目录和公共集群目录。
 
 在实例或集群中，这三种目录所对应的路径不同，具体见下表：
+
 
 .. csv-table:: 
    :header: "", "个人目录", "项目目录", "公共集群目录"
@@ -29,7 +32,7 @@
 
 .. hint:: 
 
-   项目目录和公共集群目录的具体说明请分别查看 :ref:`project data` 和 :ref:`集群数据 <public cluster data>` 。
+   项目目录和公共集群目录的具体说明请分别查看 :ref:`project data` 和 :ref:`public cluster data` 。
 
 
 Web页面数据传输
@@ -45,6 +48,8 @@ ChinaSRC支持通过Web页面上传下载数据和管理文件。
 
 通过ssh账户传输
 -------------------
+
+.. _public cluster data: 
 
 由于Web传输文件功能有限，对于开放了SSH端口的集群或实例，用户可以通过SSH账户使用scp类的工具来传输数据。
 
