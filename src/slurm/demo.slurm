@@ -1,10 +1,14 @@
 #!/bin/bash
-#SBATCH -J test              # job name: test
-#SBATCH -p cpu               # submit to cpu partition
-#SBATCH -N 1                 # use 1 node
-#SBATCH --cpus-per-task=1    # use 1 cpu core per task
-#SBATCH -t 5:00              # max running time is 5 minutes
-#SBATCH -o test.out          # save the output to test.out
+#SBATCH --job-name=workshop2023 #makes it easier to find in squeue
+#SBATCH --partition=hw-32C768G #all-x86-cpu #all-x86-cpu #hw  #purley-cpu # partition name
+#SBATCH --nodes=1 # number of nodes
+#SBATCH --cpus-per-task=6 #cores per process
+#SBATCH --ntasks-per-node=1 #processes per node
+#SBATCH --output=%u-%x-%j.out
+#SBATCH --error=%u-%x-%j.err
+#SBATCH --time=infinite #10:05:00 # walltime requested
+#SBATCH --export=NONE
 #SBATCH --comment=group_name # for charging
 
-./hello                      # execute my ./hello program
+
+./hello             # execute my ./hello program
