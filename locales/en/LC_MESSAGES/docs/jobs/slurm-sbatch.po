@@ -4,12 +4,12 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
@@ -18,57 +18,170 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: ../../docs/jobs/slurm-sbatch.rst:3 95e3724ae92346378cb0629ee1ff1532
+#: ../../docs/jobs/slurm-sbatch.rst:5 f7a853232ccd4684b28a87c733d45cd3
 msgid "批处理作业sbatch"
 msgstr "Batch Jobs with sbatch"
 
-#: ../../docs/jobs/slurm-sbatch.rst:6 ac091e9ade5745eeb12c73c6d40e5835
+#: ../../docs/jobs/slurm-sbatch.rst:8 5c3b4348f45d4a37be4a5fd1307d871d
 msgid "简介"
 msgstr "Introduction"
 
-#: ../../docs/jobs/slurm-sbatch.rst:8 ebb1430051e64e399d6d20d4970c8c49
+#: ../../docs/jobs/slurm-sbatch.rst:10 c4b3fa1feffd4cd39bffb447ea88ad0b
 msgid ""
 "批处理作业是指用户编写作业脚本，指定资源需求约束，提交后台执行作业。 提交批处理作业的命令为sbatch，用户提交命令即返回命令行窗口， "
 "但此时作业在进入调度状态， 在资源满足要求时，分配完计算节点之后， 系统将在所分配的第一个计算节点（而不是登录节点）上加载执行用户的作业脚本。"
 msgstr ""
-"Batch jobs refer to user-written job scripts that specify resource requirements and are submitted for execution in the background. The command used to submit batch jobs is sbatch, and when a user submits the command, it returns to the command-line interface."
-"However, at this point, the job enters the scheduling state. When the required resources are satisfied, and after the allocation of computing nodes is complete, the system will load and execute the user's job script on the first allocated computing node (rather than the login node)."
+"Batch jobs refer to user-written job scripts that specify resource "
+"requirements and are submitted for execution in the background. The "
+"command used to submit batch jobs is sbatch, and when a user submits the "
+"command, it returns to the command-line interface.However, at this point,"
+" the job enters the scheduling state. When the required resources are "
+"satisfied, and after the allocation of computing nodes is complete, the "
+"system will load and execute the user's job script on the first allocated"
+" computing node (rather than the login node)."
 
-#: ../../docs/jobs/slurm-sbatch.rst:14 7d279b68303245cbb7dbbc601e84ddf3
+#: ../../docs/jobs/slurm-sbatch.rst:16 a063740604b6492a934ecf0cbbc59545
 msgid ""
 "批处理作业的脚本为一个文本文件， 脚本第一行以 ``#!`` 字符开头，并指定脚本文件的解释程序， 如 sh,bash。 "
 "由于计算节点为精简环境，只提供 sh 和 bash 的默认支持。"
 msgstr ""
-"The script for batch jobs is a text file, and the first line of the script starts with the characters '#!' and specifies the script file's interpreter, such as sh or bash."
-"Since the computing nodes provide default support only for sh and bash due to their streamlined environment."
+"The script for batch jobs is a text file, and the first line of the "
+"script starts with the characters '#!' and specifies the script file's "
+"interpreter, such as sh or bash.Since the computing nodes provide default"
+" support only for sh and bash due to their streamlined environment."
 
-#: ../../docs/jobs/slurm-sbatch.rst:20 370bb8fe779b4e9895012cf0c4a2fc3b
+#: ../../docs/jobs/slurm-sbatch.rst:22 3785a97fa3ff448ab4b5b1aacb9b0482
 msgid "使用示例"
 msgstr "Usage Examples"
 
-#: ../../docs/jobs/slurm-sbatch.rst:22 a559c47fd4a24f7ba8a29c7420cd55a4
+#: ../../docs/jobs/slurm-sbatch.rst:24 5b6244534f084e4499a47f36e2e1dd77
 msgid "例如用户的脚本名为myjob.sh，内容如下："
-msgstr "For instance, if the user's script is named "myjob.sh" with the following content:"
+msgstr ""
+"For instance, if the user's script is named \"myjob.sh\" with the "
+"following content:"
 
-#: ../../docs/jobs/slurm-sbatch.rst:26 27dc52edd19d479d8f784ac2ff899b27
+#: ../../docs/jobs/slurm-sbatch.rst:28 f62d9b5859d3449fb6084b63aaf9c06f
 msgid "使用该脚本用户提交批处理作业，需要明确申请的资源为 arm 分 区的 4 个节点。"
-msgstr "To submit a batch processing job using this script, it is essential to specify a request for 4 nodes in the arm partition."
+msgstr ""
+"To submit a batch processing job using this script, it is essential to "
+"specify a request for 4 nodes in the arm partition."
 
-#: ../../docs/jobs/slurm-sbatch.rst:30 06c4f09dad054f5298c148a93d82653e
+#: ../../docs/jobs/slurm-sbatch.rst:32 bc60d5eed820406686378fa4a1193a77
 msgid "需给该文本文件设置myjob.sh可执行权限，利用命令： ``chmod +x myjob.sh``"
 msgstr "To make this text file executable, use the command: chmod +x myjob.sh"
 
-#: ../../docs/jobs/slurm-sbatch.rst:32 f88b3fd4a8f444cdb56e3193c97bf6c7
+#: ../../docs/jobs/slurm-sbatch.rst:34 68e6e5b0e29641c9929243a97014428f
 msgid "用户sbatch批处理命令如下："
-msgstr "The user can submit the job using the sbatch batch processing command as follows:"
+msgstr ""
+"The user can submit the job using the sbatch batch processing command as "
+"follows:"
 
-#: ../../docs/jobs/slurm-sbatch.rst:39 9cfbfc74edc2442c9df1775b2f3de32d
+#: ../../docs/jobs/slurm-sbatch.rst:41 28fa60f20abf418da24c8432b686a3aa
 msgid "计算开始后，工作目录中会生成以slurm开头的.out 文件为输出文件。"
-msgstr "Upon the start of computation, output files beginning with "slurm" will be generated in the working directory."
+msgstr ""
+"Upon the start of computation, output files beginning with \"slurm\" will"
+" be generated in the working directory."
 
-#: ../../docs/jobs/slurm-sbatch.rst:50 9cddcfafd792456eb89f0e22c12a30cc
+#: ../../docs/jobs/slurm-sbatch.rst:52 249ccb7a1f2041b7ad042949c2cabf34
+msgid "一个简单的脚本示例如下："
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:80 694792fe1bc74763aa43df16d1c23632
+msgid "上述中\\ ``###``\\ 为注释行。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:82 f47c94bf9138460392eeba3222a624e5
+msgid "第一行表示这是一个bash脚本，第4-17行以\\ ``#SBATCH``\\ 开头的命令表示这些是需要slurm系统处理的参数。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:84 023e10b4ac1a4d2bbe96fd9bd8772a52
+msgid ""
+"如下图所示，通过\\ ``sbatch+作业脚本名``\\ 提交作业，系统会返回作业编号，通过\\ ``squeue``\\ "
+"命令可以看到作业运行状态，等作业执行完成后，默认会把程序的输出放到\\ ``slurm-作业编号.out``\\ "
+"的文件中，可通过该文件查看程序的输出。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:86 49bce9367d3c40f6bb7cf9127650575a
+msgid "|image6|"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:88 7804a6c847ab4720ac371c5c7d0e8f75
+msgid "image6"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:91 233481c9e33943daab1f570270d2f934
+msgid "常见提交作业参数参考"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:95 d48b630fd62849109bb1c3204a807143
+msgid "**参数**"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:96 3df9e292aa10491f9866b0aecf2d6a4a
+msgid "**说明**"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:97 22977194c2624adaaff24b149f9166f9
+msgid "``--job­name=<name>``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:98 6f88ce156c464bca9f20d07b93bcc25d
+msgid "设定作业名称"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:99 af0381eb96ed41db974d743cbd33364c
+msgid "``--nodes=<n>`` 或 ``-N``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:100 8b370bdd514446b1bef8a4fb2ae0cd94
+msgid ""
+"设定作业需要的节点数。如果没有指定，默认分配足够的节点来满足\\ ``--ntasks=<n>``\\ 和\\ ``--cpus-per-"
+"task=<ncpus>``\\ 参数的要求。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:101 95808ca98a194093af29952a584c85a3
+msgid "``--ntasks-per-node=<ntasks>``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:102 2e61ea38b84b446fa0e847ed87e21cae
+msgid "设定每个节点上的任务数。要和 ``--nodes=<n>`` 同时配合使用。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:103 2b8a0095800f45cb82c68a35269087e3
+msgid "``--ntasks=<n>`` 或 ``-n``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:104 57e994efb64c4ce6ad88853cb2b1f788
+msgid "设定最多启动的任务数。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:105 602ce67f3d80468391c0fcccc20f799e
+msgid "``--cpus-per-task=<ncpus>``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:106 0b2734af8b41474c8681feeccf57b00d
+msgid "设定每个任务所需要的CPU核数。如果没有指定，默认为每个任务分配一个CPU核。一般运行OpenMP等多线程程序时需要，普通MPI程序不需要。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:107 c546cd9d3ee74a94b2ff3eee9a8ce317
+msgid "``--gres=gpu:n``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:108 1972efe992934212a739c1228f30d90a
+msgid "设定需要使用的GPU卡数量"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:109 5a77a64801084fe3bdec97e7fa8770cb
+msgid "``--comment projectName``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:110 3ce3aed8a8e84f638411df6fd2bfe8e1
+msgid "设定需要扣费的项目账户，将 ``projectName`` 替换为项目名称。如果项目名称错误，作业会提交失败。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sbatch.rst:112 5432e371867c4391a066c690c828f4dc
 msgid "更多选项，用户可以通过 ``sbatch --help`` 命令来查看。"
 msgstr "For more options, users can refer to the sbatch --help command."
 

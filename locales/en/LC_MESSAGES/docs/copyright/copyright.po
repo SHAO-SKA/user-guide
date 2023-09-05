@@ -4,12 +4,12 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
@@ -18,17 +18,39 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: ../../docs/copyright/copyright.rst:2 c60734081d354d8987c1010bb32066a4
+#: ../../docs/copyright/copyright.rst:2 fd84682463ac47b9818c40b4d332138e
 msgid "版权声明"
 msgstr "Copyright "
 
-#: ../../docs/copyright/copyright.rst:6 a981cff94da447459ebee41e802ad8a6
-msgid "未经中国SKA区域中心原型机团队(以下简称ChinaSRC-P)事先书面许可的情况下，严禁以任何形式复制、传递、分发和存储本文档案中的任何内容。"
-msgstr "The reproduction, transmission, distribution and storage of any content in this archive in any form is strictly prohibited without the prior written permission of the Prototype Team of the SKA Regional Center in China (ChinaSRC-P)."
+#: ../../docs/copyright/copyright.rst:6 7e9f9cb773174656a4d0ff7ab13798f6
 
-#: ../../docs/copyright/copyright.rst:8 a7e7d9b263904b4b90fc0ec60860354e
+msgid "未经中国SKA区域中心原型机团队(以下简称ChinaSRC-P)事先书面许可的情况下，严禁以任何形式复制、传递、分发和存储本文档案中的任何内容。"
+msgstr ""
+"The reproduction, transmission, distribution and storage of any content "
+"in this archive in any form is strictly prohibited without the prior "
+"written permission of the Prototype Team of the SKA Regional Center in "
+"China (ChinaSRC-P)."
+
+#: ../../docs/copyright/copyright.rst:8 0345a53d37ae48a6baf096f29844767c
+
 msgid "ChinaSRC-P对本文档中描述的任何内容有修改和改进的权利。"
-msgstr "ChinaSRC-P reserves the right to modify or improve anything described in this document"
+msgstr ""
+"ChinaSRC-P reserves the right to modify or improve anything described in "
+"this document"
+
+#: ../../docs/copyright/copyright.rst:10 d19513d1f4c7472d8ae6ac08860a5f2b
+msgid ""
+"Without prior written permission from the China SKA Regional Center "
+"Prototype (ChinaSRC-P) team, it is strictly prohibited to reproduce, "
+"transmit, distribute, or store any content from this document in any "
+"form."
+msgstr ""
+
+#: ../../docs/copyright/copyright.rst:12 7ce96e22a17e4782abd1a68f91d3147b
+msgid ""
+"ChinaSRC-P reserves the right to modify and improve any content described"
+" in this document."
+msgstr ""
 

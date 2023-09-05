@@ -1,0 +1,379 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2023, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../docs/mode/usage-mode.rst:4 5dc4d1c1dd0a438287f072af1f27c5f1
+msgid "使用模式"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:7 1093b5c24fa34dec91b392a6b920820f
+msgid "模式对比"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:9 60e699f144bf4c908ea95b093b335be2
+msgid ""
+"为了满足复杂多样的个性化计算需求，适应新型计算模式对运行环境的复杂要求， 高性能计算平台的建设除了在硬件设备的选型上充分考虑了计算的多样性， "
+"提供了包含CPU节点、ARM节点和GPU节点等的丰富算力组合， 在软件平台的建设上也采用了区别于传统超算中心的作业调度系统的解决方案， "
+"在不损失计算性能的前提下以灵活多样的方式提供服务。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:17 ec742413df6a4e5d9f10d29b26003640
+msgid "**资源多≠速度快**，无论使用以下哪种方式申请计算资源，并不意味着申请的资源越多，计算速度就会越快。程序必须经过并行计算优化，才能取得更快的计算速度，比如，CPU程序要经过多核优化，GPU程序要利用CUDA加速。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:19 99a94b17dc154f4b9b1ca8b02513c1f2
+msgid "Usage Mode"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:23 2d5f4c3409c246b59b9612c3f83f8980
+msgid "**公共集群**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:24 c788f0f7796e47b6b0471dcaeba019fa
+msgid "**独占集群**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:25 bd4570ffeab84333bbb27e4e03b1354c
+msgid "**独占/共享实例**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:26 ce0089453ef4488fb6723a8c7795f5d4
+msgid "**适用人群**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:27 0a855f4eaacc467dbf7ca8e441ea3629
+msgid "对Linux命令行和作业调度系统比较熟悉。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:28 46fff889e3d2432d80bf18952ad230d1
+msgid "对Linux命令行和作业调度系统比较熟悉，计算量非常大。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:29 67c7848b3ac047bfaf4a819b706fe70b
+msgid "不熟悉Linux，习惯交互式图形界面，计算量相对较小，使用图形界面快速实验验证一些想法。**无计算机背景的新用户建议使用这种模式。**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:30 28647245620243489bf6b7c09f6f72f4
+msgid "**应用场景**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:31 553f6400793943dc809c49d6bc6f628f
+msgid "全体共享一个计算集群，多用户排队提交作业"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:32 e556c83e7e984e029b044d138c156a6d
+msgid "个人/院系独占集群资源，可自定义集群内部运行环境，自主安装系统应用"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:33 5742c4adcaf64d8cbdc10a615e6705ac
+msgid "个人独占/多人共享单节点资源"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:34 ebfe772c2ee84d5ebaa194012e5da613
+msgid "**执行方式**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:35 3286fb13e2654048b6515c7d7b6d83e9
+msgid "SLURM作业提交"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:36 e548bf042f0d48db93d7ab766c3fdd83
+msgid "自主安装作业调度系统或直接多节点并行"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:37 5830ad53efd949e0a69fbfb13db6e527
+msgid "交互式提交"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:38 d5f485458fae4edf89bfdc40256dfb96
+msgid "**节点数量**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:39 1f3570cd871f4dfe8a4125c956df31cc
+msgid "预分配固定节点"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:40 2de7cf44d3704428a5426ec328fd0649
+msgid "规模可伸缩"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:41 c4f8cd16c5864e0e86a77d94d482fa67
+msgid "单节点"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:42 8b9b243cfa9e4bd7910e42fe22c909e3
+msgid "**应用类型**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:43 ../../docs/mode/usage-mode.rst:44
+#: 561f7349af474043b2e7dc0b39f4db3d d5ed0a2a8b6e43b5aa86eb4be4efe5f8
+msgid "绝大多数计算任务"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:45 8477f0b313fd49a5985197c46c7f00a3
+msgid "CentOS、Ubuntu系统，Jupyter、RStudio、MATLAB等有交互界面的计算任务。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:46 cf4e84266ff542a3aaf92a9319c9e51f
+msgid "**申请资源**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:47 ad60cd98e7d2487894174aa0b509b337
+msgid "编写资源申请脚本，使用作业调度软件提交作业"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:48 df6573b33da240d69fcebe029c768d68
+msgid "Web页面申请集群，编写资源申请脚本，登录集群后提交作业"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:49 0080f073ba814301996add5870f9a0af
+msgid "在Web界面申请资源，使用Linux命令行或者VNC操作服务器"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:50 2036e8370137433fbcc046c9f7589e75
+msgid "**计费方式**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:51 4ddcb1e3fa4346908fc177001d071935
+msgid "从作业启动后开始计费，直到作业结束，作业结束后资源自动释放。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:52 ../../docs/mode/usage-mode.rst:53
+#: 615d8c357d4d453ca8637555bd847ae6 828a8faeef004def8e9106c7e850730b
+msgid "从启动计算资源开始计费，直到资源释放为止。有最长使用期限，超过最长使用期限后系统自动释放资源，用户也可以自己手动释放资源。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:54 44d841ca7f4e48f8ad26c588fb262902
+msgid "**图形界面**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:55 ../../docs/mode/usage-mode.rst:61
+#: 72f43b6fd8154d6cbe924d38e601159c 99c03d5248534f128a02ff5dd7acc807
+msgid "不支持"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:56 ../../docs/mode/usage-mode.rst:57
+#: ../../docs/mode/usage-mode.rst:59 ../../docs/mode/usage-mode.rst:60
+#: 4371c12b5c4b4292a07ae39514045708 936f1946bb7c48d9a226ed9dbf11dfe0
+#: a99f4fbd7d834fdcb964fcf56719be24 dbb3e8fd0be04126a1fa74d1ca665254
+msgid "支持"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:58 4d2c5e41c64e444786f7daea766b9a04
+msgid "**客户端ssh**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:62 a8054af9c3474c61b8bc7cd801e1270c
+msgid "**root权限**"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:63 253c1feb190e4699999131d2aea010b6
+msgid "否"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:64 ../../docs/mode/usage-mode.rst:65
+#: 6fa5ba32d1ae4eff89f12e369680f9e7 f4c8b72ee28c41d0989e1f7f804de0cc
+msgid "是"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:67 cbfb7ee9a52e4594b3c55ddda6496471
+msgid "如上表所示，平台主要支持三种模式："
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:69 9befdeea4b054057bbe916c481a7438a
+msgid ""
+"对于计算资源使用量较大、有一定Linux命令行基础的用户，可以考虑使用\\ **公共集群**\\ 或者\\ **独占集群**\\ "
+"模式。这两种模式都使用作业调度系统提交作业。不同在于\\ **公共集群**\\ 按作业运行时长来计费，\\ **独占集群**\\ "
+"的计费从分配资源开始到资源释放，如果中间并未运行作业，依然计费。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:70 30c1d7ac060544c9be56db1a382b0e2b
+msgid ""
+"如果对Linux命令行不熟悉，我们提供了\\ **独占/共享实例**\\ "
+"模式，可以在“申请资源”处申请有交互界面的计算资源，提供了Jupyter等有交互界面的工具，上手简单，无需学习Linux，适用于无计算机背景的新用户。此模式优点是学习成本低，缺点是计费方式粒度粗，不适合有大量计算任务的用户。用户也可以前期使用这类交互界面实例，如发现计算量较大，建议逐渐迁移到\\"
+" **公共集群**\\ 模式上，该模式计费更准确。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:71 be4b4613059f4e8f842b2079d61d641d
+msgid "对于想独占计算资源的用户，可以使用\\ **独占集群**\\ 模式。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:73 fd9f720bce8b4370b33b10ebc0792e8a
+msgid "综上，无计算机背景的新用户建议使用\\ **独占/共享实例**\\ 模式。下面将分别简述三种模式的使用方法。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:76 5ea4170a064d4c6fa84cd4e1e995e44e
+msgid "公共集群"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:78 51153be3ec774a34986dd6a2cb76659e
+msgid ""
+"公共集群以传统的作业调度方式提供公共共享的计算资源，所有用户无需申请即可直接登录使用。每位用户进入平台后就已经自动分配到公共集群的项目组内，“共享资源”中的"
+" ``public_cluster`` 就是公共集群。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:80 45662e3b2b3f4c29b7546348be144781
+msgid ""
+"用户在公共集群内使用资源时以作业提交的方式申请计算资源，通过作业调度系统将任务分发到计算节点上。用户在公共资源里只具有普通用户权限，可通过ssh客户端直接"
+" :ref:`登录集群 <cluster login>`。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:82 59c7f72fae394fc1bb8c13adf8daf837
+msgid "公共集群的登录节点配置了资源限制，请勿在公共集群的登录节点执行大的计算任务。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:85 a8c52d24c6c342698ac6fc2bc9022b63
+msgid "|image1|"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:149 42266679fe97415bb2d7e97b84f1da4f
+msgid "image1"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:90 18ca166352e04e0ea9c130c3a7aee567
+msgid "独占实例"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:92 dba12469b8414a92838b20a4fb36f51a
+msgid "独占实例是用户独占的单机计算资源，用户在自己的独占实例中具有虚拟超级用户权限，这种资源使用方式可以提供远程桌面以满足图形化交互计算的需求。除了可以使用到普通的物理计算节点资源，这种实例可以使用到KNL节点等计算资源。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:94 3678a07b1e5a490cba2428e9d78b85df
+msgid "独占实例的申请流程如下："
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:96 3be07286bd12406685da8a8d99a32c51
+msgid "点击“申请资源”，进入资源库，根据需要在过滤条件处选出自己所需的计算资源，比如Jupyter等，点击“创建实例”。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:98 02884eadeeae46a3a9c3db8d15655016
+msgid "|image9|"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:150 da5845b866ce4287a8cdcc6424d8d25a
+msgid "image9"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:100 8da8445cbfb54c81878dba63a91ab31c
+msgid "填写该实例的必备信息。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:102 c7e0a2a03b38447497ab78e329c4467f
+msgid "**名称**: 为该实例名称，用于分辨同一用户创建的不同实例。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:103 55f954a81af84bcda1d676f4527eaff8
+msgid "**邮箱**: 用于发送平台通知，例如使用最长到时间即将到期时，将发送邮件通知用户。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:104 53b17b60522d4141916d68dc277fa24f
+msgid "**节点资源设置**: 用于设置实例的节点资源。根据实例的不同，可选的资源也不同。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:108 9f036ef07a714a319e49ba68db5f0b57
+msgid "``CPU``\\ 是指实例要使用的CPU核数。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:110 9c2b60a6ead1437fa33930832755d425
+msgid "``GPU``\\ 是指实例要使用的GPU卡数。如果卡数为0.x的小数点，意为共享GPU。例如0.2卡，则系统会分配给实例1/5的GPU卡。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:112 cadac4c978da4f039eba892776487885
+msgid "``Memory``\\ 是指实例需要的内存数。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:115 be8df0c73af146b5a28b49555eabe9a3
+msgid ""
+"**使用周期**\\ "
+"是该实例默认最长使用期限。超过该期限后，平台会自动释放该实例的计算资源。在该期限内用户可以自由使用该实例，但该实例会一直计费。用户也可以\\ "
+":ref:`手动释放 <release resource>`\\ 该实例的计算资源，结束对该资源的计费。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:118 c8f0a7f8929c4facbf670b418ec0b769
+msgid "该模式从创建开始计费，直到自动或手动释放资源停止计费。为避免申请到资源不进行计算或者正在进行计算时超时系统自动回收资源，用户一定要注意“使用周期”和“通知邮箱”项，并定期查看邮箱中来自平台的通知邮件。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:120 a2724a118be64a7b9b0dedf635e57474
+msgid "|image10|"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:151 1bfea77e25484c55802f0997c26bbc04
+msgid "image10"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:122 f8d2978bbc34404d93c2dc1e4ac0d68f
+msgid "在“我的资源”中选择申请的实例，启动该实例。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:125 4995eb9e97a94dc8907404d5acdb81f9
+msgid "如果平台当前可用资源已经全部分配完毕，该实例申请后需要排队等待分配，此时无法启动实例。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:127 d88950d08d864061bcfd351f74fa9b29
+msgid "点击“远程桌面”图标可以登录桌面。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:129 994c45ad8824425497750f940cc923ff
+msgid "|image12|"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:154 fdd93bbc34cb4adbac810ac0af55ea85
+msgid "image12"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:131 19b6a5b0f626405490867a85423e19ba
+msgid "点击“控制台”可进入终端界面，输入\\ ``sudo -i``\\ 可切换至虚拟超级用户对系统进行修改、安装软件或开发包。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:133 8c52ef394cc04b6baa3a154ca0198a5b
+msgid "|image11|"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:152 8f9476eeb928449480714b4527505cdc
+msgid "image11"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:135 18951c5a87b148afbd68a7523dd75652
+msgid "|image13|"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:157 fba7b5161d184784aaef6bb34ba10bc7
+msgid "image13"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:138 0d9c64f90b664bedb905de7ebd666620
+msgid "**不同实例所能支持的操作不同**。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:143 5ba1f5b711bf44678ed4a3576fb1c4bf
+msgid "共享实例"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:145 cda4081a47484dcaabc6d5341d971009
+msgid "要创建共享模式使用的实例，需要先\\ :ref:`创建共享项目 <project>`。"
+msgstr ""
+
+#: ../../docs/mode/usage-mode.rst:147 8fe2575e47174075b8f978a6efd767dc
+msgid ""
+"整个申请过程和\\ :ref:`独占实例 <apply private instance>`\\ "
+"类似，不同之处在于在填写实例信息时需要选定实例所归属的项目。该实例的计费均会计入该共享项目内。"
+msgstr ""
+

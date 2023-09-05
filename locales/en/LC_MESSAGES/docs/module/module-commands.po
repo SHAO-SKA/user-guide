@@ -4,12 +4,12 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
@@ -18,59 +18,66 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: ../../docs/module/module-commands.rst:5 7e9e13fffadd43a29cee5caadbc8231b
+#: ../../docs/module/module-commands.rst:5 670f946efbd04e8e85a7f6c736cf23dc
 msgid "基本命令"
 msgstr "Basic Commands"
 
-#: ../../docs/module/module-commands.rst:8 09557749d0a64d118a74df6e5381c35e
+#: ../../docs/module/module-commands.rst:8 e65743c65c904e96b15a4c37ca0c4244
 msgid "添加模块集合"
 msgstr "Add Module Sets"
 
-#: ../../docs/module/module-commands.rst:16 1aa65a0b1bd447029fafe6517688ceae
+#: ../../docs/module/module-commands.rst:16 dbc8e4e349af4320bd4eeee92db92792
 msgid "添加模块集合-CRATIV"
 msgstr "Add Module Sets - CRATIV"
 
-#: ../../docs/module/module-commands.rst:23 092e9c8d24b345c2afeefc438cad8069
+#: ../../docs/module/module-commands.rst:23 f75d6f0e454949dab4627cf92a63ef75
 msgid "查看可用的模块列表"
 msgstr "View Available Module Lists"
 
-#: ../../docs/module/module-commands.rst:31 0236687419b8426da97cccf709404a1d
+#: ../../docs/module/module-commands.rst:31 4d8768bd3486421294bb737bca69aa96
 
 msgid "ChinaSRC-P 平台可用的软件如下所示："
 msgstr "The software available on the ChinaSRC-P platform is as follows:"
 
-#: ../../docs/module/module-commands.rst:39 298156954eab467ba75ab699d3f5e91b
+#: ../../docs/module/module-commands.rst:39 e2f069b1996743fbb817eb031e7b7d37
 msgid "CRATIV 平台可用的软件如下所示："
 msgstr "The software available on the CRATIV platform is as follows:"
 
-#: ../../docs/module/module-commands.rst:46 5884f8748b624b1bb930ccf4c8dff623
+#: ../../docs/module/module-commands.rst:46 b81960d0c225428aa42e27a945475c19
 msgid "加载需要的模块"
 msgstr "Loading Required Modules"
 
-#: ../../docs/module/module-commands.rst:53 308c498aafc64fddbf6c4539405a59d4
+#: ../../docs/module/module-commands.rst:53 6ae6a60aeb0a4926aa1e505071ad817e
 msgid ""
 "ARM 系统加载方法 `module load softwarename/arm-version`, X86 系统加载方法 `module "
 "load softwarename/cpu-version` 或 `module load softwarename/gpu-version`。 "
 "CRATIV 系统加载方法 `module load softwarename-version`,"
 msgstr ""
-"For ARM systems, load modules using the command 'module load softwarename/arm-version'. For X86 systems, load modules using the command 'module "
-"load softwarename/cpu-version' or 'module load softwarename/gpu-version'."
-"For CRATIV systems, load modules using the command 'module load softwarename-version'."
+"For ARM systems, load modules using the command 'module load softwarename"
+"/arm-version'. For X86 systems, load modules using the command 'module "
+"load softwarename/cpu-version' or 'module load softwarename/gpu-"
+"version'.For CRATIV systems, load modules using the command 'module load "
+"softwarename-version'."
 
-#: ../../docs/module/module-commands.rst:57 6a089fb25041431ea07b15cb89693f7a
+#: ../../docs/module/module-commands.rst:57 a5cd73ebf8344abc809ab372ea085b86
 msgid "以X86的gcc为例："
 msgstr "Using GCC for X86 systems as an example:"
 
-#: ../../docs/module/module-commands.rst:69 a2b18d12e0bf4c87826e193d4fdd2054
+#: ../../docs/module/module-commands.rst:69 38598037e9de408fa9125109ef5ea2bb
 msgid "在执行过程中如果出现模块的问题或者冲突，可以考虑清空载入的module，重新进行加载测试，命令如下："
-msgstr "If you encounter issues or conflicts with modules during execution, consider unloading the loaded modules and reloading them for testing using the following command:"
+msgstr ""
+"If you encounter issues or conflicts with modules during execution, "
+"consider unloading the loaded modules and reloading them for testing "
+"using the following command:"
 
-#: ../../docs/module/module-commands.rst:77 560811bed263434a9b74848a0e34672e
+#: ../../docs/module/module-commands.rst:77 4fa93fbabbf74e39a725c8364608a7c1
 msgid ""
 "module 其他用法，可以通过module --help查询。 "
 "更多详细使用方法见[module官网](http://modules.sourceforge.net)"
 msgstr ""
-"For other uses of the module command, you can refer to 'module --help' for more information."
-"For more detailed usage instructions, please visit the [module official website](http://modules.sourceforge.net)."
+"For other uses of the module command, you can refer to 'module --help' "
+"for more information.For more detailed usage instructions, please visit "
+"the [module official website](http://modules.sourceforge.net)."
+

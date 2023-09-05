@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
 #: ../../docs/computer/index.rst:3
 msgid "计算节点"
@@ -41,12 +41,13 @@ msgid ""
 "       2 x E5-2680 v4, 2.40 GHz, 14 cores      是       56      128 GB  "
 "2.28 GB/core    NVIDIA Tesla P100 x 2, CUDA 9.0"
 msgstr ""
-"Node Type    Node Count    CPU Details   Hyper-Threading     Total CPU Cores       Memory      Memory/Core   Notes Management Node"
-"    1       2 x E5-2640 v3, 2.60 GHz, 8 cores       Yes       32      64 GB"
-"   2 GB/core       Single-user memory limit 4 GB CPU Nodes  4       2 x E5-2680 v3, 2.50 GHz,"
-" 12 cores      Yes       48      128 GB  2.67 GB/core    --- GPU Nodes  1"
-"       2 x E5-2680 v4, 2.40 GHz, 14 cores      Yes       56      128 GB  "
-"2.28 GB/core    NVIDIA Tesla P100 x 2, CUDA 9.0"
+"Node Type    Node Count    CPU Details   Hyper-Threading     Total CPU "
+"Cores       Memory      Memory/Core   Notes Management Node    1       2 "
+"x E5-2640 v3, 2.60 GHz, 8 cores       Yes       32      64 GB   2 GB/core"
+"       Single-user memory limit 4 GB CPU Nodes  4       2 x E5-2680 v3, "
+"2.50 GHz, 12 cores      Yes       48      128 GB  2.67 GB/core    --- GPU"
+" Nodes  1       2 x E5-2680 v4, 2.40 GHz, 14 cores      Yes       56"
+"      128 GB  2.28 GB/core    NVIDIA Tesla P100 x 2, CUDA 9.0"
 
 #: ../../docs/computer/index.rst:15
 msgid "三个分区。"
@@ -54,21 +55,31 @@ msgstr "Three partitions."
 
 #: ../../docs/computer/index.rst:17
 msgid "/home和/ssd分区主要用于用户个人数据和结果数据存储， /o9000主要用于处理数据的长期存储。 /ibo9000主要用于存储原始观测数据。"
-msgstr "The /home and /ssd partitions are primarily used for user personal data and result data storage, while /o9000 is used for long-term data processing storage. /ibo9000 is primarily used for storing raw observation data."
+msgstr ""
+"The /home and /ssd partitions are primarily used for user personal data "
+"and result data storage, while /o9000 is used for long-term data "
+"processing storage. /ibo9000 is primarily used for storing raw "
+"observation data."
 
 #: ../../docs/computer/index.rst:21 ../../docs/data/storage.rst:44
 msgid "目前，ChinaSRC-P系统存储了约2PB左右的数据， 包括MWA、ASKAP和VLBI望远镜的观测数据。"
-msgstr "Currently, the ChinaSRC-P system stores approximately 2PB of data, including observational data from MWA, ASKAP, and VLBI telescopes."
+msgstr ""
+"Currently, the ChinaSRC-P system stores approximately 2PB of data, "
+"including observational data from MWA, ASKAP, and VLBI telescopes."
 
 #: ../../docs/computer/index.rst:24 ../../docs/data/storage.rst:22
 #: ../../docs/data/storage.rst:47
 msgid "主要数据分组情况：MWA/GLEAM组、 MWA/Pulsar组和ASKAP组。"
-msgstr "Main data groupings include MWA/GLEAM group, MWA/Pulsar group, and ASKAP group."
+msgstr ""
+"Main data groupings include MWA/GLEAM group, MWA/Pulsar group, and ASKAP "
+"group."
 
 #: ../../docs/computer/index.rst:26 ../../docs/data/storage.rst:24
 #: ../../docs/data/storage.rst:49
 msgid "如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 shaoska@shao.ac.cn  咨询。"
-msgstr "If you need to access data from these groups or upload and store a large amount of data, please contact shaoska@shao.ac.cn for assistance."
+msgstr ""
+"If you need to access data from these groups or upload and store a large "
+"amount of data, please contact shaoska@shao.ac.cn for assistance."
 
 #: ../../docs/copyright/copyright.rst:2
 msgid "版权声明"
@@ -76,11 +87,16 @@ msgstr "Copyright Statement"
 
 #: ../../docs/copyright/copyright.rst:6
 msgid "未经中国SKA区域中心原型机团队(以下简称ChinaSRC-P)事先书面许可的情况下，严禁以任何形式复制、传递、分发和存储本文档案中的任何内容。"
-msgstr "Without prior written permission from the ChinaSRC-P team, it is strictly prohibited to copy, transmit, distribute, or store any content from this document in any form."
+msgstr ""
+"Without prior written permission from the ChinaSRC-P team, it is strictly"
+" prohibited to copy, transmit, distribute, or store any content from this"
+" document in any form."
 
 #: ../../docs/copyright/copyright.rst:8
 msgid "ChinaSRC-P对本文档中描述的任何内容有修改和改进的权利。"
-msgstr "ChinaSRC-P reserves the right to modify and improve any content described in this document."
+msgstr ""
+"ChinaSRC-P reserves the right to modify and improve any content described"
+" in this document."
 
 #: ../../docs/copyright/index.rst:3
 msgid "版权说明"
@@ -126,12 +142,12 @@ msgstr "Remarks"
 msgid "1"
 msgstr "1"
 
-#: ../../docs/data/storage.rst:1
-msgid "用于用户个人数据和结果数据存储"
-msgstr "Used for personal user data and result data storage"
-
 #: ../../docs/data/storage.rst:1 ../../docs/data/transfer.rst:1
 msgid "/home/username"
+msgstr "Used for personal user data and result data storage"
+
+#: ../../docs/data/storage.rst:1
+msgid "用于用户个人数据和结果数据存储"
 msgstr "Used for personal user data and result data storage"
 
 #: ../../docs/data/storage.rst:1
@@ -148,7 +164,10 @@ msgstr "Storage for Raw Observation Data"
 
 #: ../../docs/data/storage.rst:19
 msgid "目前，ChinaSRC-P系统存储超过了2PB左右的数据， 包括MWA、ASKAP、MeerKAT、VLBI望远镜等的观测数据。"
-msgstr "Currently, the ChinaSRC-P system stores more than approximately 2PB of data, including observational data from telescopes such as MWA, ASKAP, MeerKAT, VLBI, etc."
+msgstr ""
+"Currently, the ChinaSRC-P system stores more than approximately 2PB of "
+"data, including observational data from telescopes such as MWA, ASKAP, "
+"MeerKAT, VLBI, etc."
 
 #: ../../docs/data/storage.rst:28
 msgid "旧平台 - 待移除 V1"
@@ -176,7 +195,9 @@ msgstr "Four partitions."
 
 #: ../../docs/data/storage.rst:39
 msgid "/home和/ssd分区主要用于用户个人数据和结果数据存储，"
-msgstr "/home and /ssd partitions are mainly used for personal user data and result data storage."
+msgstr ""
+"/home and /ssd partitions are mainly used for personal user data and "
+"result data storage."
 
 #: ../../docs/data/storage.rst:40
 msgid "/o9000主要用于处理数据的长期存储。"
@@ -196,15 +217,24 @@ msgstr "WebDAV Protocol Access"
 
 #: ../../docs/data/todo.rst:4
 msgid "由于不是所有实例都提供SSH端口的访问方式，对于需要批量上传或下载的用户，ChinaSRC还提供了WebDAV协议的文件访问方式。"
-msgstr "Since not all instances provide SSH port access, ChinaSRC also provides the WebDAV protocol for users who need to upload or download files in bulk."
+msgstr ""
+"Since not all instances provide SSH port access, ChinaSRC also provides "
+"the WebDAV protocol for users who need to upload or download files in "
+"bulk."
 
 #: ../../docs/data/todo.rst:6
 msgid "WebDAV是一种通信协议，支持大批量的文件传输。对于用户来说，相当于将ChinaSRC的服务器以网盘的形式挂载到用户的个人电脑，用户将个人电脑里的数据拷贝或者上传到ChinaSRC的服务器上。"
-msgstr "WebDAV is a communication protocol that supports large-scale file transfer. For users, it is equivalent to mounting ChinaSRC's server as a network drive on their personal computer, allowing users to copy or upload data from their personal computer to ChinaSRC's server."
+msgstr ""
+"WebDAV is a communication protocol that supports large-scale file "
+"transfer. For users, it is equivalent to mounting ChinaSRC's server as a "
+"network drive on their personal computer, allowing users to copy or "
+"upload data from their personal computer to ChinaSRC's server."
 
 #: ../../docs/data/todo.rst:8
 msgid "WebDAV协议访问的地址是\\ |webdav url| \\ 。用户验证请使用ChinaSRC用户名和密码。"
-msgstr "The address for accessing the WebDAV protocol is \\ |webdav url| \\ . User authentication should be done using ChinaSRC username and password."
+msgstr ""
+"The address for accessing the WebDAV protocol is \\ |webdav url| \\ . "
+"User authentication should be done using ChinaSRC username and password."
 
 #: ../../docs/data/todo.rst:10
 msgid ""
@@ -213,11 +243,16 @@ msgid ""
 "<https://cyberduck.io/>`__\\ 。Linux系统建议使用\\ `rclone "
 "<https://rclone.org/docs/>`__\\ 。"
 msgstr ""
-"For Windows systems, it is recommended to use `RaiDrive <https://www.raidrive.com/>`__. For Mac systems, it is recommended to use `Cyberduck <https://cyberduck.io/>`__. For Linux systems, it is recommended to use `rclone <https://rclone.org/docs/>`__."
+"For Windows systems, it is recommended to use `RaiDrive "
+"<https://www.raidrive.com/>`__. For Mac systems, it is recommended to use"
+" `Cyberduck <https://cyberduck.io/>`__. For Linux systems, it is "
+"recommended to use `rclone <https://rclone.org/docs/>`__."
 
 #: ../../docs/data/todo.rst:12
 msgid "为了方便，ChinaSRC提供了上述软件，请根据需要下载："
-msgstr "For your convenience, ChinaSRC provides the above-mentioned software. Please download as needed:"
+msgstr ""
+"For your convenience, ChinaSRC provides the above-mentioned software. "
+"Please download as needed:"
 
 #: ../../docs/data/todo.rst:14
 msgid "**Mac：**"
@@ -228,7 +263,8 @@ msgid ""
 "`Cyberduck for Mac "
 "<http://xx.xx.xx.xx:8080/help/files/Cyberduck-7.5.1.33324-mac.zip>`_"
 msgstr ""
-"`Cyberduck for Mac <http://xx.xx.xx.xx:8080/help/files/Cyberduck-7.5.1.33324-mac.zip>`_"
+"`Cyberduck for Mac "
+"<http://xx.xx.xx.xx:8080/help/files/Cyberduck-7.5.1.33324-mac.zip>`_"
 
 #: ../../docs/data/todo.rst:18
 msgid "**Windows：**"
@@ -268,7 +304,10 @@ msgstr "Cyberduck Usage Instructions"
 
 #: ../../docs/data/todo.rst:31
 msgid "打开Cyberduck，点击“新建连接”，按照下图所示填写连接方式，要选择“WebDAV(HTTPS)”方式。用户验证请使用ChinaSRC用户名和密码。"
-msgstr "Open Cyberduck, click 'New Connection,' and fill in the connection details as shown below. Select the 'WebDAV (HTTPS)' option. Use ChinaSRC username and password for authentication."
+msgstr ""
+"Open Cyberduck, click 'New Connection,' and fill in the connection "
+"details as shown below. Select the 'WebDAV (HTTPS)' option. Use ChinaSRC "
+"username and password for authentication."
 
 #: ../../docs/data/todo.rst:33
 msgid "|cyberduck connect|"
@@ -276,7 +315,13 @@ msgstr "|cyberduck connect|"
 
 #: ../../docs/data/todo.rst:35
 msgid "连接过程中出现任何提示，直接点“继续”。连接成功后，可以使用软件的创建文件夹、上传等功能。注意，使用共享实例，比如交互式的JupyterLab、RStudio、Stata、MATLAB的用户，目标文件夹是“MyData”文件夹。软件的“操作”按钮下有“新建文件夹”、“上传”等功能。"
-msgstr "If any prompts appear during the connection process, simply click 'Continue.' After a successful connection, you can use the software to create folders, upload files, and more. Note that for shared instances such as interactive JupyterLab, RStudio, Stata, and MATLAB users, the target folder is 'MyData.' The software offers functions like 'Create Folder' and 'Upload' under the 'Operations' button."
+msgstr ""
+"If any prompts appear during the connection process, simply click "
+"'Continue.' After a successful connection, you can use the software to "
+"create folders, upload files, and more. Note that for shared instances "
+"such as interactive JupyterLab, RStudio, Stata, and MATLAB users, the "
+"target folder is 'MyData.' The software offers functions like 'Create "
+"Folder' and 'Upload' under the 'Operations' button."
 
 #: ../../docs/data/todo.rst:38
 msgid "RaiDrive使用说明"
@@ -287,7 +332,11 @@ msgid ""
 "下载\\ `RaiDrive "
 "<http://xx.xx.xx.xx:8080/help/files/RaiDrive_2020.6.36.exe>`_\\ "
 "并安装后，点击窗口顶部的“添加”按钮，按照下图所示创建WebDAV驱动器。"
-msgstr "Download `RaiDrive <http://xx.xx.xx.xx:8080/help/files/RaiDrive_2020.6.36.exe>`_ and install it. Click the 'Add' button at the top of the window and create a WebDAV drive as shown below:"
+msgstr ""
+"Download `RaiDrive "
+"<http://xx.xx.xx.xx:8080/help/files/RaiDrive_2020.6.36.exe>`_ and install"
+" it. Click the 'Add' button at the top of the window and create a WebDAV "
+"drive as shown below:"
 
 #: ../../docs/data/todo.rst:42
 msgid "|raidrive connect|"
@@ -295,7 +344,11 @@ msgstr "|raidrive connect|"
 
 #: ../../docs/data/todo.rst:44
 msgid "点击确定后，会跳出一个Windows资源浏览器窗口。RaiDrive已经把新添加的WebDAV连接创建成了一个网络存储驱动器，可以像操作本地磁盘一样从其他驱动器里拖拽文件或者拷贝到这个驱动器下的子目录中。"
-msgstr "After clicking 'OK,' a Windows File Explorer window will appear. RaiDrive has created the newly added WebDAV connection as a network storage drive. You can drag and drop files or copy them from other drives to subdirectories within this drive, just like working with a local disk."
+msgstr ""
+"After clicking 'OK,' a Windows File Explorer window will appear. RaiDrive"
+" has created the newly added WebDAV connection as a network storage "
+"drive. You can drag and drop files or copy them from other drives to "
+"subdirectories within this drive, just like working with a local disk."
 
 #: ../../docs/data/todo.rst:48
 msgid "RaiDrive WebDAV驱动器功能有局限"
@@ -303,11 +356,15 @@ msgstr "RaiDrive WebDAV Drive Limitations"
 
 #: ../../docs/data/todo.rst:50
 msgid "WebDAV驱动器里的文件不支持编辑，只支持创建和删除。"
-msgstr "Files within the WebDAV drive do not support editing; they only support creation and deletion."
+msgstr ""
+"Files within the WebDAV drive do not support editing; they only support "
+"creation and deletion."
 
 #: ../../docs/data/todo.rst:51
 msgid "根目录下不能创建目录或文件，只能在列出的顶层目录下操作。"
-msgstr "Directories or files cannot be created in the root directory; operations can only be performed in the listed top-level directories."
+msgstr ""
+"Directories or files cannot be created in the root directory; operations "
+"can only be performed in the listed top-level directories."
 
 #: ../../docs/data/todo.rst:54
 msgid "WinSCP使用说明"
@@ -317,7 +374,11 @@ msgstr "WinSCP Usage Instructions"
 msgid ""
 "打开 WinSCP ，在登录对话框中“新建站点”。按下图所示，选择“WebDAV”-“TLS/SSL隐式加密”、填入主机名和端口\\ "
 "|webdav url| \\ ，使用ChinaSRC用户名和密码进行登录"
-msgstr "Open WinSCP and in the login dialog, select 'New Site.' As shown below, choose 'WebDAV' - 'TLS/SSL Implicit Encryption,' enter the hostname and port \\ |webdav url| \\ , and log in using ChinaSRC username and password."
+msgstr ""
+"Open WinSCP and in the login dialog, select 'New Site.' As shown below, "
+"choose 'WebDAV' - 'TLS/SSL Implicit Encryption,' enter the hostname and "
+"port \\ |webdav url| \\ , and log in using ChinaSRC username and "
+"password."
 
 #: ../../docs/data/todo.rst:58
 msgid "|winscp connect|"
@@ -333,11 +394,15 @@ msgstr "1. Download the rclone archive"
 
 #: ../../docs/data/todo.rst:64
 msgid "官方链接地址 https://downloads.rclone.org/v1.55.1/rclone-v1.55.1-linux-amd64.zip"
-msgstr "Official download link: https://downloads.rclone.org/v1.55.1/rclone-v1.55.1-linux-amd64.zip"
+msgstr ""
+"Official download link: "
+"https://downloads.rclone.org/v1.55.1/rclone-v1.55.1-linux-amd64.zip"
 
 #: ../../docs/data/todo.rst:67
 msgid "2.解压，并将rclone程序拷贝到 $PATH 中，给予相应权限"
-msgstr "2. Unzip and copy the rclone program to $PATH, granting appropriate permissions."
+msgstr ""
+"2. Unzip and copy the rclone program to $PATH, granting appropriate "
+"permissions."
 
 #: ../../docs/data/todo.rst:78
 msgid "3.配置 rclone config"
@@ -345,7 +410,9 @@ msgstr "3. Configure rclone config"
 
 #: ../../docs/data/todo.rst:97
 msgid "以上操作结束后，可以在/root/.config/rclone/rclone.conf 中看到相应配置文件"
-msgstr "After completing the above steps, you can find the corresponding configuration file at /root/.config/rclone/rclone.conf"
+msgstr ""
+"After completing the above steps, you can find the corresponding "
+"configuration file at /root/.config/rclone/rclone.conf"
 
 #: ../../docs/data/todo.rst:100
 msgid "4.关闭证书检查"
@@ -353,7 +420,9 @@ msgstr "4. Disable certificate check"
 
 #: ../../docs/data/todo.rst:103
 msgid "注意：此项必须关闭，不然远程操作会报错。"
-msgstr "Note: This option must be disabled, or remote operations will result in errors."
+msgstr ""
+"Note: This option must be disabled, or remote operations will result in "
+"errors."
 
 #: ../../docs/data/todo.rst:105
 msgid "有两种关闭检查的方式，如下："
@@ -363,11 +432,15 @@ msgstr "There are two ways to disable the check as follows:"
 msgid ""
 "1.在执行命令时带上\\ ``--no-check-certificate``\\ 参数，如：``rclone ls remote: --no-"
 "check-certificate``"
-msgstr "1. Include the ``--no-check-certificate`` parameter when executing commands, e.g., ``rclone ls remote: --no-check-certificate``."
+msgstr ""
+"1. Include the ``--no-check-certificate`` parameter when executing "
+"commands, e.g., ``rclone ls remote: --no-check-certificate``."
 
 #: ../../docs/data/todo.rst:108
 msgid "2.在环境变量里指定，如：``export RCLONE_NO_CHECK_CERTIFICATE=true``"
-msgstr "2. Specify it in the environment variable, e.g., ``export RCLONE_NO_CHECK_CERTIFICATE=true``."
+msgstr ""
+"2. Specify it in the environment variable, e.g., ``export "
+"RCLONE_NO_CHECK_CERTIFICATE=true``."
 
 #: ../../docs/data/todo.rst:111
 msgid "5.rclone常用操作"
@@ -375,7 +448,9 @@ msgstr "5. Common rclone Operations"
 
 #: ../../docs/data/todo.rst:125
 msgid "6.其它操作可参考官方文档：https://rclone.org/docs/"
-msgstr "6. For other operations, please refer to the official documentation: https://rclone.org/docs/"
+msgstr ""
+"6. For other operations, please refer to the official documentation: "
+"https://rclone.org/docs/"
 
 #: ../../docs/data/todo.rst:128
 msgid "虚拟机实例内访问Home目录"
@@ -383,25 +458,39 @@ msgstr "Accessing the Home Directory Inside Virtual Machine Instances"
 
 #: ../../docs/data/todo.rst:130
 msgid "ChinaSRC内的虚拟机实例访问共享文件系统上的Home目录的机制类似于用户从外部访问WebDAV服务。目前ChinaSRC提供Windows和Linux虚拟机，连接方法分别如下:"
-msgstr "The mechanism for virtual machine instances inside ChinaSRC to access the Home directory on the shared file system is similar to users accessing WebDAV services from outside. Currently, ChinaSRC provides Windows and Linux virtual machines, and the connection methods are as follows:"
+msgstr ""
+"The mechanism for virtual machine instances inside ChinaSRC to access the"
+" Home directory on the shared file system is similar to users accessing "
+"WebDAV services from outside. Currently, ChinaSRC provides Windows and "
+"Linux virtual machines, and the connection methods are as follows:"
 
 #: ../../docs/data/todo.rst:132
 msgid ""
 "Linux虚拟机：在Linux虚拟机镜像中已经预先做好了WebDAV卷的自动挂载，挂载点是/webdav，可以直接访问 "
 "/webdav/MyData/ 目录下的文件。"
-msgstr "Linux virtual machines: WebDAV volumes are automatically mounted in the Linux virtual machine image, with the mount point being /webdav. You can directly access files under /webdav/MyData/."
+msgstr ""
+"Linux virtual machines: WebDAV volumes are automatically mounted in the "
+"Linux virtual machine image, with the mount point being /webdav. You can "
+"directly access files under /webdav/MyData/."
 
 #: ../../docs/data/todo.rst:134
 msgid ""
 "Windows虚拟机：在Windows虚拟机中也预先做好了WebDAV卷的自动挂载，原理是使用Windows自带的WebDAV "
 "Client工具挂载了WebDAV服务端提供的网络存储。"
-msgstr "Windows virtual machines: WebDAV volumes are also pre-mounted in Windows virtual machines. The principle is to use Windows' built-in WebDAV Client tool to mount the network storage provided by the WebDAV server."
+msgstr ""
+"Windows virtual machines: WebDAV volumes are also pre-mounted in Windows "
+"virtual machines. The principle is to use Windows' built-in WebDAV Client"
+" tool to mount the network storage provided by the WebDAV server."
 
 #: ../../docs/data/todo.rst:136
 msgid ""
 "其中，\\ ``MyData``\\ 存放的是个人数据，\\ ``ProjectGroup(public_cluster)``\\ 存放的是\\ "
 "``public_cluster``\\ 项目组中的数据，其它项目组同理。如下图:"
-msgstr "Among them, 'MyData' stores personal data, and 'ProjectGroup(public_cluster)' stores data from the 'public_cluster' project group, with similar arrangements for other project groups. As shown below:"
+msgstr ""
+"Among them, 'MyData' stores personal data, and "
+"'ProjectGroup(public_cluster)' stores data from the 'public_cluster' "
+"project group, with similar arrangements for other project groups. As "
+"shown below:"
 
 #: ../../docs/data/todo.rst:138
 msgid "|windows webdav client|"
@@ -409,15 +498,26 @@ msgstr "|windows webdav client|"
 
 #: ../../docs/data/todo.rst:140
 msgid "算例数据可以通过这种方式拷贝到C盘目录去处理，处理完再从C盘拷贝到网络存储的目录中，然后从实例的数据“管理页面”下载到自己的电脑。"
-msgstr "You can use this method to copy simulation data to the C drive for processing. After processing, copy it back to the network storage directory. Then, download it to your computer from the instance's data management page."
+msgstr ""
+"You can use this method to copy simulation data to the C drive for "
+"processing. After processing, copy it back to the network storage "
+"directory. Then, download it to your computer from the instance's data "
+"management page."
 
 #: ../../docs/data/todo.rst:144
 msgid "通过系统ChinaSRC的数据管理页面下载时，对下载的文件数量有限制，建议先在虚拟机中对处理结果打包后再传输。"
-msgstr "When downloading through the ChinaSRC system's data management page, there is a limitation on the number of files that can be downloaded. It is recommended to first package the processing results in a virtual machine before transferring."
+msgstr ""
+"When downloading through the ChinaSRC system's data management page, "
+"there is a limitation on the number of files that can be downloaded. It "
+"is recommended to first package the processing results in a virtual "
+"machine before transferring."
 
 #: ../../docs/data/todo.rst:146
 msgid "Windows系统自带的WebDAV Client可以满足大多数文件拷贝需求，但是对单个文件的大小限制为4G，文件如果大于4G会报错。"
-msgstr "The built-in WebDAV Client in Windows systems can meet most file copying needs, but it has a size limitation of 4GB for individual files. If a file is larger than 4GB, an error will occur."
+msgstr ""
+"The built-in WebDAV Client in Windows systems can meet most file copying "
+"needs, but it has a size limitation of 4GB for individual files. If a "
+"file is larger than 4GB, an error will occur."
 
 #: ../../docs/data/todo.rst:148
 msgid "|transfer error|"
@@ -425,7 +525,10 @@ msgstr "|transfer error|"
 
 #: ../../docs/data/todo.rst:150
 msgid "此时，需要在虚拟机里安装WinSCP工具来拷贝文件，参考前面软件下载部分。以下分别以RaiDrive软件和WinSCP为例："
-msgstr "In this case, you need to install the WinSCP tool in the virtual machine to copy files. Refer to the earlier section on software download. The following are examples using RaiDrive software and WinSCP:"
+msgstr ""
+"In this case, you need to install the WinSCP tool in the virtual machine "
+"to copy files. Refer to the earlier section on software download. The "
+"following are examples using RaiDrive software and WinSCP:"
 
 #: ../../docs/data/todo.rst:153
 msgid "RaiDrive"
@@ -436,14 +539,21 @@ msgid ""
 "首先下载RaiDrive并上传到虚拟机中，安装RaiDrive需要\\ ``.net framework``\\ "
 "的支持，会提示下载安装，默认安装即可。另外，可能会要求重启虚拟机系统，重启即可。"
 msgstr ""
-"First, download RaiDrive and upload it to the virtual machine. Installing RaiDrive requires\\ ``.net framework``\\ support and will prompt you to download and install it, with the default installation being sufficient. Additionally, it may require restarting the virtual machine, which can be done after installation."
+"First, download RaiDrive and upload it to the virtual machine. Installing"
+" RaiDrive requires\\ ``.net framework``\\ support and will prompt you to "
+"download and install it, with the default installation being sufficient. "
+"Additionally, it may require restarting the virtual machine, which can be"
+" done after installation."
 
 #: ../../docs/data/todo.rst:157
 msgid ""
 "安装完成后，新建站点并输入以下信息进行连接，“文件协议”-“WebDAV”，不加密，连接地址为\\ "
 "``http://10.0.255.254:4918``\\ ，Account即ChinaSRC的用户名、密码。"
 msgstr ""
-"After installation is complete, create a new site and enter the following information for the connection: \"File Protocol\" - \"WebDAV\", no encryption, connection address is\\ ``http://10.0.255.254:4918``\\ , Account is your ChinaSRC username and password."
+"After installation is complete, create a new site and enter the following"
+" information for the connection: \"File Protocol\" - \"WebDAV\", no "
+"encryption, connection address is\\ ``http://10.0.255.254:4918``\\ , "
+"Account is your ChinaSRC username and password."
 
 #: ../../docs/data/todo.rst:159
 msgid "|winscp vm connect|"
@@ -455,7 +565,9 @@ msgstr "|winscp vm connect 2|"
 
 #: ../../docs/data/todo.rst:163 ../../docs/data/todo.rst:174
 msgid "连接建立成功后，会自动打开数据目录，再进行文件传输即可。"
-msgstr "After the connection is successfully established, the data directory will open automatically, and you can proceed with file transfer."
+msgstr ""
+"After the connection is successfully established, the data directory will"
+" open automatically, and you can proceed with file transfer."
 
 #: ../../docs/data/todo.rst:165
 msgid "|winscp vm connect 3|"
@@ -467,7 +579,10 @@ msgstr "WinSCP"
 
 #: ../../docs/data/todo.rst:170
 msgid "在虚拟机内安装WinSCP，安装后重启虚拟机系统。 按如下新建会话后点击登录。"
-msgstr "Install WinSCP in the virtual machine and restart the virtual machine system after installation. Create a new session as follows and click on login."
+msgstr ""
+"Install WinSCP in the virtual machine and restart the virtual machine "
+"system after installation. Create a new session as follows and click on "
+"login."
 
 #: ../../docs/data/todo.rst:172
 msgid "|winscp vm connect 4|"
@@ -490,11 +605,16 @@ msgid ""
 "在ChinaSRC上，系统根据三种 :ref:`usage-mode-ref` "
 "为用户在共享文件系统上分配三种目录，分别是个人目录，项目目录和公共集群目录。"
 msgstr ""
-"On ChinaSRC, the system allocates three types of directories to users on the shared file system based on three :ref:`usage modes <usage-mode-ref>`: personal directory, project directory, and public cluster directory."
+"On ChinaSRC, the system allocates three types of directories to users on "
+"the shared file system based on three :ref:`usage modes <usage-mode-"
+"ref>`: personal directory, project directory, and public cluster "
+"directory."
 
 #: ../../docs/data/transfer.rst:11
 msgid "在实例或集群中，这三种目录所对应的路径不同，具体见下表："
-msgstr "In instances or clusters, these three types of directories correspond to different paths, as detailed in the table below:"
+msgstr ""
+"In instances or clusters, these three types of directories correspond to "
+"different paths, as detailed in the table below:"
 
 #: ../../docs/data/transfer.rst:1
 msgid "个人目录"
@@ -566,22 +686,31 @@ msgstr "Shared Instance Data - Public Cluster"
 
 #: ../../docs/data/transfer.rst:24
 msgid "username请替换为自己的用户名（这个信息可以在“我的信息”-“基本信息”中查询）。"
-msgstr "Replace 'username' with your own username (You can find this information in 'My Information' -> 'Basic Information')."
+msgstr ""
+"Replace 'username' with your own username (You can find this information "
+"in 'My Information' -> 'Basic Information')."
 
 #: ../../docs/data/transfer.rst:26
 msgid "<project id>请替换为\"g+项目ID\"（项目基本信息中查询项目ID），例：项目ID为700008，则替换为“g700008”。"
-msgstr "Replace '<project id>' with 'g+Project ID' (You can find the Project ID in the Project's basic information). For example, if the Project ID is 700008, replace it with 'g700008'."
+msgstr ""
+"Replace '<project id>' with 'g+Project ID' (You can find the Project ID "
+"in the Project's basic information). For example, if the Project ID is "
+"700008, replace it with 'g700008'."
 
 #: ../../docs/data/transfer.rst:28
 msgid "<project>请替换为项目名（项目基本信息中查询。）"
-msgstr "Replace '<project>' with the project name (You can find this information in the Project's basic information)."
+msgstr ""
+"Replace '<project>' with the project name (You can find this information "
+"in the Project's basic information)."
 
 #: ../../docs/data/transfer.rst:32
 msgid ""
 "项目目录和公共集群目录的具体说明请分别查看 :ref:`project data` 和 :ref:`集群数据 <public cluster "
 "data>` 。"
 msgstr ""
-"For specific instructions on project directories and public cluster directories, please refer to :ref:`project data` and :ref:`public cluster data`."
+"For specific instructions on project directories and public cluster "
+"directories, please refer to :ref:`project data` and :ref:`public cluster"
+" data`."
 
 #: ../../docs/data/transfer.rst:36
 msgid "Web页面数据传输"
@@ -589,15 +718,22 @@ msgstr "Web Page Data Transfer"
 
 #: ../../docs/data/transfer.rst:38
 msgid "ChinaSRC支持通过Web页面上传下载数据和管理文件。"
-msgstr "ChinaSRC supports data upload, download, and file management through the web page."
+msgstr ""
+"ChinaSRC supports data upload, download, and file management through the "
+"web page."
 
 #: ../../docs/data/transfer.rst:40
 msgid "通过Web页面上传和下载文件有数量限制，每次最多上传\\ **10**\\ 个文件，下载\\ **1**\\ 个文件。"
-msgstr "There is a limit to the number of files that can be uploaded and downloaded through the web page. You can upload a maximum of **10** files at a time and download **1** file at a time."
+msgstr ""
+"There is a limit to the number of files that can be uploaded and "
+"downloaded through the web page. You can upload a maximum of **10** files"
+" at a time and download **1** file at a time."
 
 #: ../../docs/data/transfer.rst:42
 msgid "进入“工作台”-“数据总览”，选择相应的数据位置，就可以对个人、项目和公共集群中的数据进行管理。"
-msgstr "To manage data for individuals, projects, and public clusters, go to 'Dashboard' -> 'Data Overview' and select the appropriate data location."
+msgstr ""
+"To manage data for individuals, projects, and public clusters, go to "
+"'Dashboard' -> 'Data Overview' and select the appropriate data location."
 
 #: ../../docs/data/transfer.rst:44
 msgid "|web data management|"
@@ -613,7 +749,10 @@ msgstr "Transfer via SSH Account"
 
 #: ../../docs/data/transfer.rst:49
 msgid "由于Web传输文件功能有限，对于开放了SSH端口的集群或实例，用户可以通过SSH账户使用scp类的工具来传输数据。"
-msgstr "Since the web file transfer function has limitations, users can transfer data via SSH accounts using tools like scp for clusters or instances with open SSH ports."
+msgstr ""
+"Since the web file transfer function has limitations, users can transfer "
+"data via SSH accounts using tools like scp for clusters or instances with"
+" open SSH ports."
 
 #: ../../docs/data/transfer.rst:51 ../../docs/jobs/slurm-salloc.rst:19
 #: ../../docs/login/login-ssh.rst:14
@@ -630,7 +769,10 @@ msgid ""
 "以公共集群项目为例，用户在 **项目** -> *public cluster* 的页面里，选择 **实例** "
 "，点击实例最右侧的SSH服务地址按钮，会弹出ChinaSRC对外开放的IP地址和端口："
 msgstr ""
-"As an example, for public cluster projects, users can go to **Projects** -> *Public Cluster* and select an instance. Click on the SSH service address button on the right to reveal the externally accessible IP address and port provided by ChinaSRC:"
+"As an example, for public cluster projects, users can go to **Projects** "
+"-> *Public Cluster* and select an instance. Click on the SSH service "
+"address button on the right to reveal the externally accessible IP "
+"address and port provided by ChinaSRC:"
 
 #: ../../docs/data/transfer.rst:55
 msgid "|ssh ip|"
@@ -642,7 +784,9 @@ msgstr "SSH IP"
 
 #: ../../docs/data/transfer.rst:60
 msgid "首次使用SSH登录的用户需要 :ref:`重置ChinaSRC密码 <reset password>`"
-msgstr "Users logging in via SSH for the first time need to :ref:`reset their ChinaSRC password <reset password>`."
+msgstr ""
+"Users logging in via SSH for the first time need to :ref:`reset their "
+"ChinaSRC password <reset password>`."
 
 #: ../../docs/data/transfer.rst:62
 msgid "|reset_pw|"
@@ -653,26 +797,31 @@ msgid "reset_pw"
 msgstr "reset_pw"
 
 #: ../../docs/data/transfer.rst:64
+
 msgid ""
-"Users who can directly access the ChinaSRC service IP address can use scp, "
-"`WinSCP <https://winscp.net/eng/docs/lang:chs>`__, or `Xmanager "
-"<https://www.netsarang.com/en/xmanager/>`__ and other scp tools to transfer data:"
+"用户在能够直接访问ChinaSRC服务IP地址的情况下，可以使用scp、\\ `WinSCP "
+"<https://winscp.net/eng/docs/lang:chs>`__\\ 或\\ `Xmanager "
+"<https://www.netsarang.com/en/xmanager/>`__\\ 等scp工具来传输数据："
 msgstr ""
-"Users who can directly access the ChinaSRC service IP address can use scp, "
-"`WinSCP <https://winscp.net/eng/docs/lang:chs>`__, or `Xmanager "
-"<https://www.netsarang.com/en/xmanager/>`__ and other scp tools to transfer data:"
+"Users who can directly access the ChinaSRC service IP address can use "
+"scp, `WinSCP <https://winscp.net/eng/docs/lang:chs>`__, or `Xmanager "
+"<https://www.netsarang.com/en/xmanager/>`__ and other scp tools to "
+"transfer data:"
 
 #: ../../docs/data/transfer.rst:71
 msgid "使用XFTP传输"
 msgstr "Using XFTP for Transfer"
 
 #: ../../docs/data/transfer.rst:73
-msgid "Windows users can also use `XFTP <https://www.xshellcn.com/xftp.html>`__ client for transfer."
-msgstr "Windows users can also use `XFTP <https://www.xshellcn.com/xftp.html>`__ client for transfer."
+
+msgid "Windows用户也可以使用\\ `XFTP <https://www.xshellcn.com/xftp.html>`__\\ 客户端进行传输。"
+msgstr ""
+"Windows users can also use `XFTP <https://www.xshellcn.com/xftp.html>`__ "
+"client for transfer."
 
 #: ../../docs/data/transfer.rst:75
-msgid "After downloading and installing XFTP software, open it and click on 'File' - 'New'."
-msgstr "After downloading and installing XFTP software, open it and click on 'File' - 'New'."
+msgid "下载并安装XFTP软件后打开，点击“文件”-“新建”。"
+msgstr ""
 
 #: ../../docs/data/transfer.rst:77
 msgid "|new xftp connection|"
@@ -683,8 +832,8 @@ msgid "new xftp connection"
 msgstr "new xftp connection"
 
 #: ../../docs/data/transfer.rst:81
-msgid "You can customize the name, enter the external service address displayed in 'service ssh' in the Host field, fill in the port number from 'service ssh,' use the default SFTP protocol, and enter your ChinaSRC username and password. Click 'Connect'."
-msgstr "You can customize the name, enter the external service address displayed in 'service ssh' in the Host field, fill in the port number from 'service ssh,' use the default SFTP protocol, and enter your ChinaSRC username and password. Click 'Connect'."
+msgid "名称用户可以自定义，主机选项中输入“服务ssh“显示的服务外部地址，端口号填写“服务ssh”中的端口号，协议使用默认的SFTP，用户名和密码填写ChinaSRC的用户名和密码。点击”连接“。"
+msgstr ""
 
 #: ../../docs/data/transfer.rst:83
 msgid "|set xftp connection|"
@@ -696,9 +845,9 @@ msgstr "set xftp connection"
 
 #: ../../docs/data/transfer.rst:87
 msgid ""
-"After connecting, the left side shows the view of your local computer, and the right side shows the view of the remote computer. The path to the remote computer that you access is ``/home/username``, which is your current user's home directory. You can transfer files from your personal computer to the shared folder. The transfer bar at the bottom displays detailed transfer information."
+"连接后左侧为当前用户计算机的视图，右侧为远程计算机的视图，用户访问的远程计算机路径为\\ ``/home/username``\\ "
+"，即当前用户的家目录，用户可将文件从个人电脑上传输到共享文件夹内，下方传输栏会显示传输任务详细信息。"
 msgstr ""
-"After connecting, the left side shows the view of your local computer, and the right side shows the view of the remote computer. The path to the remote computer that you access is ``/home/username``, which is your current user's home directory. You can transfer files from your personal computer to the shared folder. The transfer bar at the bottom displays detailed transfer information."
 
 #: ../../docs/data/transfer.rst:89
 msgid "|xftp windows|"
@@ -709,8 +858,8 @@ msgid "xftp windows"
 msgstr "xftp windows"
 
 #: ../../docs/data/transfer.rst:93
-msgid "After the transfer is complete, you can see the transferred files in the user's home directory in the public cluster or instance console."
-msgstr "After the transfer is complete, you can see the transferred files in the user's home directory in the public cluster or instance console."
+msgid "传输完成后即可在公共集群或实例控制台的用户家目录中看到刚才传输的文件。"
+msgstr ""
 
 #: ../../docs/data/transfer.rst:95
 msgid "|file in terminal|"
@@ -777,7 +926,9 @@ msgid ""
 "ChinaSRC-P为China SKA Regional Centre Prototype的缩写， 为中国SKA原型样机， "
 "也是世界上首台专门针对SKA区域中心研发的原型样机。"
 msgstr ""
-"ChinaSRC-P stands for China SKA Regional Centre Prototype, which is the prototype machine for the Chinese SKA and the world's first prototype machine specifically developed for SKA regional centers."
+"ChinaSRC-P stands for China SKA Regional Centre Prototype, which is the "
+"prototype machine for the Chinese SKA and the world's first prototype "
+"machine specifically developed for SKA regional centers."
 
 #: ../../docs/faq/abbr.rst:14
 msgid "SKA"
@@ -788,7 +939,8 @@ msgid ""
 "SKA为Square Kilometre Array的缩写， 为平方公里阵列望远镜。 "
 "详细可见：https://www.skatelescope.org/"
 msgstr ""
-"SKA stands for Square Kilometre Array, which is a square kilometer array telescope. For more details, please visit: https://www.skatelescope.org/"
+"SKA stands for Square Kilometre Array, which is a square kilometer array "
+"telescope. For more details, please visit: https://www.skatelescope.org/"
 
 #: ../../docs/faq/account.rst:5
 msgid "账号常见问题"
@@ -803,11 +955,18 @@ msgid ""
 "请先阅读 userguide_ . 并通过 ChinaSRC统一身份门户 portal_  门户进行注册申请。 "
 "我们会在3个工作日内开通账号并将账号信息发送至您的邮箱， 如有其他问题请并发送邮件至至 ChinaSRC-P运维 mailto_ 。"
 msgstr ""
-"Please first read the userguide_ . And register your application through the ChinaSRC unified identity portal_ . We will activate your account within 3 working days and send your account information to your email. If you have any other questions, please email ChinaSRC-P Operations at mailto_ ."
+"Please first read the userguide_ . And register your application through "
+"the ChinaSRC unified identity portal_ . We will activate your account "
+"within 3 working days and send your account information to your email. If"
+" you have any other questions, please email ChinaSRC-P Operations at "
+"mailto_ ."
 
 #: ../../docs/faq/account.rst:15
 msgid "另外，为帮助用户正确使用ChinaSRC-P超算资源，请账号使用人先通读“ChinaSRC-P用户手册”。"
-msgstr "In addition, to help users use ChinaSRC-P supercomputing resources correctly, please read the 'ChinaSRC-P User Manual' before using your account."
+msgstr ""
+"In addition, to help users use ChinaSRC-P supercomputing resources "
+"correctly, please read the 'ChinaSRC-P User Manual' before using your "
+"account."
 
 #: ../../docs/faq/index.rst:5
 msgid "常见问题集锦"
@@ -819,23 +978,36 @@ msgstr "This chapter lists common problems and solutions encountered during usag
 
 #: ../../docs/faq/index.rst:13
 msgid "由于手册篇幅限制，只列出了对于绝大多是用户比较重要的相关内容，如您有其他需求也可以联系数据中心技术人员。 重要提示："
-msgstr "Due to the manual's length limitations, only the most important content for the majority of users is listed here. If you have other requirements, you can also contact the data center technical staff. Important Notes:"
+msgstr ""
+"Due to the manual's length limitations, only the most important content "
+"for the majority of users is listed here. If you have other requirements,"
+" you can also contact the data center technical staff. Important Notes:"
 
 #: ../../docs/faq/index.rst:16
 msgid "请不要在登录节点直接运行可执行程序（极大的影响其他用户的登录和使用效率）。"
-msgstr "Please do not run executable programs directly on the login node (it greatly affects the login and usage efficiency of other users)."
+msgstr ""
+"Please do not run executable programs directly on the login node (it "
+"greatly affects the login and usage efficiency of other users)."
 
 #: ../../docs/faq/index.rst:17
 msgid "如无特殊需要，请使用批处理方式（sbatch）提交任务，如果有任何问题请联系数据中心技术人员。"
-msgstr "If there are no special requirements, please submit tasks using batch processing (sbatch). If you have any questions, please contact the data center technical staff."
+msgstr ""
+"If there are no special requirements, please submit tasks using batch "
+"processing (sbatch). If you have any questions, please contact the data "
+"center technical staff."
 
 #: ../../docs/faq/index.rst:18
 msgid "请保存好运行程序的log文件，从而方便数据中心技术人员在作业出问题后，协助解决问题。"
-msgstr "Please save the log files of running programs so that data center technical staff can assist in problem resolution if issues arise during the job."
+msgstr ""
+"Please save the log files of running programs so that data center "
+"technical staff can assist in problem resolution if issues arise during "
+"the job."
 
 #: ../../docs/faq/index.rst:19
 msgid "若需登录计算节点运行和调试程序，可以先分配独占计算节点，方可ssh登录计算节"
-msgstr "If you need to log in to compute nodes to run and debug programs, you can first allocate dedicated compute nodes and then SSH into them."
+msgstr ""
+"If you need to log in to compute nodes to run and debug programs, you can"
+" first allocate dedicated compute nodes and then SSH into them."
 
 #: ../../docs/faq/login.rst:5
 msgid "登陆常见问题"
@@ -854,14 +1026,20 @@ msgid ""
 "ChinaSRC-P目前不支持公网直接访问，此处需要VPN或访问地址添加到SHAO防火墙。 "
 "若遇到连接问题，请先检查网络，在确认是否使用VPN或已经将IP备案。"
 msgstr ""
-"Currently, ChinaSRC-P does not support direct public network access. VPN or adding the access address to SHAO firewall is required here. If you encounter connection issues, please check your network, confirm whether you are using a VPN, and ensure that your IP is registered."
+"Currently, ChinaSRC-P does not support direct public network access. VPN "
+"or adding the access address to SHAO firewall is required here. If you "
+"encounter connection issues, please check your network, confirm whether "
+"you are using a VPN, and ensure that your IP is registered."
 
 #: ../../docs/faq/login.rst:16
 msgid ""
 "建议加入“中国SKA原型机”用户微信群，ChinaSRC-P的通知会及时发布在微信群里。 若需加入用户微信群，请发邮件至 ChinaSRC-P运维"
 " mailto_ ."
 msgstr ""
-"It is recommended to join the 'China SKA Prototype Machine' user WeChat group, where ChinaSRC-P notifications are regularly posted. If you want to join the user WeChat group, please send an email to ChinaSRC-P Operations at mailto_ ."
+"It is recommended to join the 'China SKA Prototype Machine' user WeChat "
+"group, where ChinaSRC-P notifications are regularly posted. If you want "
+"to join the user WeChat group, please send an email to ChinaSRC-P "
+"Operations at mailto_ ."
 
 #: ../../docs/faq/login.rst:20
 msgid "为什么WSClean和CASA冲突"
@@ -881,58 +1059,83 @@ msgstr "Welcome to the China SKA Regional Centre Prototype (ChinaSRC-P) system."
 
 #: ../../docs/introduction/intro.rst:10
 msgid "该文档为ChinaSRC-P用户使用文档，内容包括如何登录、运行作业和使用软件等。"
-msgstr "This document is the ChinaSRC-P user manual, which includes information on how to log in, run jobs, and use software."
+msgstr ""
+"This document is the ChinaSRC-P user manual, which includes information "
+"on how to log in, run jobs, and use software."
 
 #: ../../docs/introduction/intro.rst:12
 msgid "发表论文成果并致谢平台的可获得对应的机时奖励，具体可邮件 shaoska@shao.ac.cn  咨询 。"
-msgstr "Publishing research papers and acknowledging the platform can earn you corresponding computing time rewards. For details, please email shaoska@shao.ac.cn  for inquiries."
+msgstr ""
+"Publishing research papers and acknowledging the platform can earn you "
+"corresponding computing time rewards. For details, please email "
+"shaoska@shao.ac.cn  for inquiries."
 
 #: ../../docs/introduction/intro.rst:15
 msgid ""
 "ChinaSRC-P的CPU计算节点资源使用方式为机时或核·小时分配，即作业使用的核数乘以运行时间，分配机时给 "
 "用户以后即可使用。例如，某次作业使用了28核，运行了1小时，机 时为28*1=28(核·小时)。"
 msgstr ""
-"The resource allocation method for ChinaSRC-P's CPU compute nodes is in core-hours or core-hours allocation, which means multiplying the number of cores used in a job by the running time. For example, if a job uses 28 cores and runs for 1 hour, the core-hours would be 28*1=28 (core-hours)."
+"The resource allocation method for ChinaSRC-P's CPU compute nodes is in "
+"core-hours or core-hours allocation, which means multiplying the number "
+"of cores used in a job by the running time. For example, if a job uses 28"
+" cores and runs for 1 hour, the core-hours would be 28*1=28 (core-hours)."
 
 #: ../../docs/introduction/intro.rst:16
 msgid ""
 "目前ChinaSRC-P系统CPU节点有4种类型:华为 taishan ARM、Intel Purley X86 CPU、Intel "
 "KNL和Intel KNM，每 个节点的核数分别是96、28、72和68。GPU计算节点资源使用方式是 以小时分配，分配账户后即可使用。"
 msgstr ""
-"Currently, ChinaSRC-P's CPU nodes come in four types: Huawei Taishan ARM, Intel Purley X86 CPU, Intel KNL, and Intel KNM, with core counts of 96, 28, 72, and 68, respectively. GPU compute node resources are allocated by the hour and can be used after account allocation."
+"Currently, ChinaSRC-P's CPU nodes come in four types: Huawei Taishan ARM,"
+" Intel Purley X86 CPU, Intel KNL, and Intel KNM, with core counts of 96, "
+"28, 72, and 68, respectively. GPU compute node resources are allocated by"
+" the hour and can be used after account allocation."
 
 #: ../../docs/introduction/intro.rst:17
 msgid "资源开通方式:填写用户及资源申请表并发送到邮箱 shaoska@shao.ac.cn 。"
-msgstr "Resource activation method: Fill out the user and resource application form and send it to shaoska@shao.ac.cn ."
+msgstr ""
+"Resource activation method: Fill out the user and resource application "
+"form and send it to shaoska@shao.ac.cn ."
 
 #: ../../docs/introduction/intro.rst:18
 msgid ""
 "数据中心不提供商业软件的安装适配、售后及应用支持服务。您 可以自行安装和使用商业软件，或与该软件的售后服务团队联系寻求 "
 "协助。用户自行安装软件带来的版权问题请自负责任。"
 msgstr ""
-"The data center does not provide installation adaptation, after-sales, and application support services for commercial software. You can install and use commercial software on your own or contact the software's after-sales service team for assistance. Please take responsibility for any copyright issues that may arise from your installation of software."
+"The data center does not provide installation adaptation, after-sales, "
+"and application support services for commercial software. You can install"
+" and use commercial software on your own or contact the software's after-"
+"sales service team for assistance. Please take responsibility for any "
+"copyright issues that may arise from your installation of software."
 
 #: ../../docs/introduction/intro.rst:19
 msgid ""
 "数据中心根据实际情况对基于原型系统部署的开源软件的安装进 行一定程度上的协助，但软件的算法合理性、精度、并行效率、使用 "
 "方法等软件自身问题需要自行解决。"
 msgstr ""
-"The data center provides some assistance in the installation of open-source software deployed on the prototype system based on actual circumstances. However, issues related to the software's algorithm rationality, accuracy, parallel efficiency, and usage methods are to be resolved by users themselves."
+"The data center provides some assistance in the installation of open-"
+"source software deployed on the prototype system based on actual "
+"circumstances. However, issues related to the software's algorithm "
+"rationality, accuracy, parallel efficiency, and usage methods are to be "
+"resolved by users themselves."
 
 #: ../../docs/introduction/intro.rst:20
 msgid "如您的任何行为对数据中心的财产和声誉等方面造成了任何损 失，数据中心将依法追究相关责任。以上条例解释权归数据中心所有。"
 msgstr ""
-"If any of your actions cause damage to the data center's property, reputation, or other aspects, the data center will pursue relevant legal responsibilities. The interpretation of these regulations belongs to the data center."
+"If any of your actions cause damage to the data center's property, "
+"reputation, or other aspects, the data center will pursue relevant legal "
+"responsibilities. The interpretation of these regulations belongs to the "
+"data center."
 
 #: ../../docs/introduction/intro.rst:24
 msgid "中国SKA区域中心原型机致谢模板"
-msgstr ""
-"China SKA Regional Centre Prototype Acknowledgment Template"
+msgstr "China SKA Regional Centre Prototype Acknowledgment Template"
 
 #: ../../docs/introduction/intro.rst:28
 msgid "本研究使用了由中华人民共和国科学技术部和中国科学院资助研制的中国SKA区域中心原型机的资源。"
 msgstr ""
-"This work used resources of China SKA Regional Centre prototype funded by the Ministry of Science and Technology of the People's Republic of China and the Chinese Academy of Sciences."
+"This work used resources of China SKA Regional Centre prototype funded by"
+" the Ministry of Science and Technology of the People's Republic of China"
+" and the Chinese Academy of Sciences."
 
 #: ../../docs/introduction/intro.rst:30
 msgid ""
@@ -940,7 +1143,9 @@ msgid ""
 "by Ministry of Science and Technology of the People’s Republic of China "
 "and Chinese Academy of Sciences."
 msgstr ""
-"This work used resources of China SKA Regional Centre prototype funded by the Ministry of Science and Technology of the People's Republic of China and the Chinese Academy of Sciences."
+"This work used resources of China SKA Regional Centre prototype funded by"
+" the Ministry of Science and Technology of the People's Republic of China"
+" and the Chinese Academy of Sciences."
 
 #: ../../docs/introduction/intro.rst:32
 msgid "Reference :"
@@ -951,14 +1156,16 @@ msgid ""
 "An, Wu, Hong. SKA data take centre stage in China. Nat Astron, 2019, Vol."
 " 3, p. 1030"
 msgstr ""
-"An, Wu, Hong. SKA data take center stage in China. Nat Astron, 2019, Vol. 3, p. 1030"
+"An, Wu, Hong. SKA data take center stage in China. Nat Astron, 2019, Vol."
+" 3, p. 1030"
 
 #: ../../docs/introduction/intro.rst:36
 msgid ""
 "An, et al. Status and progress of China SKA Regional Centre prototype. "
 "Sci. China-Phys. Mech. Astron. 65: 129501 (2022)"
 msgstr ""
-"An, et al. Status and progress of China SKA Regional Centre prototype. Sci. China-Phys. Mech. Astron. 65: 129501 (2022)"
+"An, et al. Status and progress of China SKA Regional Centre prototype. "
+"Sci. China-Phys. Mech. Astron. 65: 129501 (2022)"
 
 #: ../../docs/introduction/intro.rst:47
 msgid "@ARTICLE{2019NatAs...3.1030A,"
@@ -1073,12 +1280,15 @@ msgid ""
 "ChinaSRC-P平台还包括一台CRATIV系统，主要用于前期的数据处理与软件开发。 远程登录可以使用VNC软件，软件使用module系统。 "
 "详细信息可邮件 shaoska@shao.ac.cn  咨询 。"
 msgstr ""
-"ChinaSRC-P platform also includes a CRATIV system, mainly used for preliminary data processing and software development. Remote login can be done using VNC software, and software is managed using the module system. For more information, please email shaoska@shao.ac.cn for inquiries."
+"ChinaSRC-P platform also includes a CRATIV system, mainly used for "
+"preliminary data processing and software development. Remote login can be"
+" done using VNC software, and software is managed using the module "
+"system. For more information, please email shaoska@shao.ac.cn for "
+"inquiries."
 
 #: ../../docs/introduction/intro-crativ.rst:12
 msgid "CRATIV具有256G RAM/50TB Storage/Intel(R) Xeon(R) CPU E5-2698."
-msgstr ""
-"CRATIV has 256G RAM/50TB Storage/Intel(R) Xeon(R) CPU E5-2698."
+msgstr "CRATIV has 256G RAM/50TB Storage/Intel(R) Xeon(R) CPU E5-2698."
 
 #: ../../docs/jobs/index.rst:3
 msgid "作业系统"
@@ -1089,17 +1299,25 @@ msgid ""
 "ChinaSRC-P通过Slurm调度系统进行资源和作业管理，提高运行效率，以此来完成程序的规范运行，最新文档参考 "
 "[Slurm官网](https://slurm.schedmd.com/documentation.html)。"
 msgstr ""
-"ChinaSRC-P uses the Slurm scheduling system for resource and job management to enhance operational efficiency, ensuring the proper execution of programs. For the latest documentation, refer to the [Slurm official website](https://slurm.schedmd.com/documentation.html)."
+"ChinaSRC-P uses the Slurm scheduling system for resource and job "
+"management to enhance operational efficiency, ensuring the proper "
+"execution of programs. For the latest documentation, refer to the [Slurm "
+"official website](https://slurm.schedmd.com/documentation.html)."
 
 #: ../../docs/jobs/index.rst:7
 msgid "所有需要运行的作业，无论是程序调试还是业务计算，都必须通过交互式并行srun、批量提交sbatch或分布式salloc命令提交，提交后可以使用相关命令查询作业状态。"
 msgstr ""
-"All jobs that need to be run, whether for program debugging or business calculations, must be submitted through interactive parallel 'srun', batch submission 'sbatch', or distributed 'salloc' commands. You can use relevant commands to query the job status after submission."
+"All jobs that need to be run, whether for program debugging or business "
+"calculations, must be submitted through interactive parallel 'srun', "
+"batch submission 'sbatch', or distributed 'salloc' commands. You can use "
+"relevant commands to query the job status after submission."
 
 #: ../../docs/jobs/index.rst:11
 msgid "本章节介绍了作业系统的基本使用方法，如果你是第一次接触作业系统，建议你先阅读 :ref:`slurm_intro` 章节。"
 msgstr ""
-"This chapter introduces the basic usage of the job system. If you are new to job systems, it is recommended to start by reading the :ref:`slurm_intro` section."
+"This chapter introduces the basic usage of the job system. If you are new"
+" to job systems, it is recommended to start by reading the "
+":ref:`slurm_intro` section."
 
 #: ../../docs/jobs/index.rst:13
 msgid ""
@@ -1110,29 +1328,49 @@ msgid ""
 "我们需要使用作业调度系统SLURM，它给我们提供了若干运行程序的方式， 在本章节里我们简要介绍最常用的方式：提交 SLURM "
 "作业脚本的批处理方式。"
 msgstr ""
-"If you have successfully completed the above steps, can you directly run your programs on the server? The answer is no. If you run programs directly after logging in, they will be terminated. This is because login nodes do not allow program execution. You need to use the job scheduling system SLURM to run your programs. If you notice the hostname displayed after logging in, the machine named 'workstation' only provides a platform for user login operations. However, program execution needs to be handled by the computing nodes behind it. So, how do we instruct the workstation to run our programs? We need to use the SLURM job scheduling system, which provides us with several ways to run programs. In this chapter, we briefly introduce the most commonly used method: submitting SLURM job scripts in batch mode."
+"If you have successfully completed the above steps, can you directly run "
+"your programs on the server? The answer is no. If you run programs "
+"directly after logging in, they will be terminated. This is because login"
+" nodes do not allow program execution. You need to use the job scheduling"
+" system SLURM to run your programs. If you notice the hostname displayed "
+"after logging in, the machine named 'workstation' only provides a "
+"platform for user login operations. However, program execution needs to "
+"be handled by the computing nodes behind it. So, how do we instruct the "
+"workstation to run our programs? We need to use the SLURM job scheduling "
+"system, which provides us with several ways to run programs. In this "
+"chapter, we briefly introduce the most commonly used method: submitting "
+"SLURM job scripts in batch mode."
 
 #: ../../docs/jobs/index.rst:22
 msgid "请不要在登录节点上直接运行作业，以免影响其他用户的正常使用。"
 msgstr ""
-"Please do not directly run jobs (except compiling) on the login node, so as not to affect the normal use of other users."
+"Please do not directly run jobs (except compiling) on the login node, so "
+"as not to affect the normal use of other users."
 
 #: ../../docs/jobs/jobs-bk.rst:2
 msgid "ChinaSRC-P JOBS system"
 msgstr "ChinaSRC-P JOBS system"
 
 #: ../../docs/jobs/jobs-bk.rst:4
+
 msgid ""
 "China SKA Regional Centre Prototype (ChinaSRC-P) systems can use Slurm "
 "for resource and job management to avoid mutual interference and improve "
 "operational efficiency. All jobs that need to be run, whether for program"
 " debugging or business calculations, must be submitted through "
-"interactive parallel srun, batch submission sbatch, or distributed salloc"
+"interactive parallel srun, batch submittion sbatch, or distributed salloc"
 " commands, and related commands can be used to query the job status after"
 " submission. Please do not directly run jobs (except compiling) on the "
 "login node, so as not to affect the normal use of other users."
 msgstr ""
-"China SKA Regional Centre Prototype (ChinaSRC-P) systems can utilize Slurm for resource and job management to prevent mutual interference and enhance operational efficiency. All jobs that need to be run, whether for program debugging or business calculations, must be submitted through interactive parallel 'srun', batch submission 'sbatch', or distributed 'salloc' commands. You can use related commands to inquire about the job status after submission. Please avoid running jobs directly (except for compiling) on the login node to ensure the normal use of other users."
+"China SKA Regional Centre Prototype (ChinaSRC-P) systems can utilize "
+"Slurm for resource and job management to prevent mutual interference and "
+"enhance operational efficiency. All jobs that need to be run, whether for"
+" program debugging or business calculations, must be submitted through "
+"interactive parallel 'srun', batch submission 'sbatch', or distributed "
+"'salloc' commands. You can use related commands to inquire about the job "
+"status after submission. Please avoid running jobs directly (except for "
+"compiling) on the login node to ensure the normal use of other users."
 
 #: ../../docs/jobs/jobs-bk.rst:14
 msgid "`Querying SLURM Partitions <#Querying-SLURM-Partitions>`__"
@@ -1172,7 +1410,9 @@ msgid ""
 " by a single SLURM daemon. ## Querying SLURM Partitions To list the "
 "partition when logged into a machine:"
 msgstr ""
-"A SLURM partition is a queue that is managed by a single SLURM daemon. ## Querying SLURM Partitions To list the partitions when logged into a machine:"
+"A SLURM partition is a queue that is managed by a single SLURM daemon. ##"
+" Querying SLURM Partitions To list the partitions when logged into a "
+"machine:"
 
 #: ../../docs/jobs/jobs-bk.rst:26
 msgid "``sinfo``"
@@ -1196,11 +1436,12 @@ msgid ""
 " Node list. STATE represents the running state of the node."
 msgstr ""
 "Where PARTITION represents the partition name. AVAIL represents the "
-"status of the partition, where 'up' indicates it is available, and 'down' "
-"indicates it is not available. TIMELIMIT represents the maximum time the program runs, and "
-"'infinite' represents unlimited. The format for the time limit is days-"
-"hours:minutes:seconds. NODES represents the number of nodes. NODELIST is"
-" the list of nodes. STATE represents the running state of the node."
+"status of the partition, where 'up' indicates it is available, and 'down'"
+" indicates it is not available. TIMELIMIT represents the maximum time the"
+" program runs, and 'infinite' represents unlimited. The format for the "
+"time limit is days-hours:minutes:seconds. NODES represents the number of "
+"nodes. NODELIST is the list of nodes. STATE represents the running state "
+"of the node."
 
 #: ../../docs/jobs/jobs-bk.rst:68
 msgid ""
@@ -1215,8 +1456,8 @@ msgid ""
 msgstr ""
 "It is important to use the correct system and partition for each part of "
 "a workflow: \\| Partition \\| Purpose \\| \\| :————- \\| :——— \\| \\| "
-"``arm`` \\| Many-core workflows, many serial shared memory (OpenMP) "
-"jobs, and large distributed memory (MPI) jobs\\| \\|\\ ``sugon-gpu``, "
+"``arm`` \\| Many-core workflows, many serial shared memory (OpenMP) jobs,"
+" and large distributed memory (MPI) jobs\\| \\|\\ ``sugon-gpu``, "
 "``inspur-gpu-opa``, ``inspur-gpu-ib``, ``all-gpu`` \\| GPU-accelerated "
 "jobs, artificial intelligence jobs\\| \\|\\ ``purley-cpu``,\\ ``hw``,\\ "
 "``all-x86-cpu`` \\| Many serial shared memory (OpenMP) jobs, and large "
@@ -1263,7 +1504,8 @@ msgid "JOBID: ID of job."
 msgstr "JOBID: Job ID."
 
 #: ../../docs/jobs/jobs-bk.rst:98
-msgid "PARTITION: partition name used for the job."
+
+msgid "PARTITION: partition name used of the job."
 msgstr "PARTITION: Partition name used for the job."
 
 #: ../../docs/jobs/jobs-bk.rst:99
@@ -1375,15 +1617,17 @@ msgid "Directive lines start with ``#SBATCH``"
 msgstr "Directive lines start with ``#SBATCH``"
 
 #: ../../docs/jobs/jobs-bk.rst:171
-msgid "These are equivalent to sbatch command-line arguments."
+
+msgid "These are quivalent to sabtch command-line arguments."
 msgstr "These are equivalent to sbatch command-line arguments."
 
 #: ../../docs/jobs/jobs-bk.rst:172
+
 msgid ""
 "Directives are usually more convenient and reproducible than command-line"
 " arguments. Put your resource request into the ``jobscript``. The "
 "``jobscript`` will execute on one of the allocated compute node ``#SBATCH"
-" directives are comments, so only subsequent commands are executed."
+" directives are comments, so only subsequent commands are executed.``"
 msgstr ""
 "Directives are usually more convenient and reproducible than command-line"
 " arguments. Put your resource request into the ``jobscript``. The "
@@ -1425,18 +1669,16 @@ msgid ""
 "the job finishes/dies."
 msgstr ""
 "Standard output and standard error from your job script are collected by "
-"SLURM and written to a file in the directory where you submitted the job when "
-"the job finishes or terminates."
+"SLURM and written to a file in the directory where you submitted the job "
+"when the job finishes or terminates."
 
 #: ../../docs/jobs/jobs-bk.rst:212
 msgid "``slurm-jobid.out``"
-msgstr ""
-"``slurm-jobid.out``"
+msgstr "``slurm-jobid.out``"
 
 #: ../../docs/jobs/jobs-bk.rst:213
 msgid "``cat slurm-jobid.out``"
-msgstr ""
-"``cat slurm-jobid.out``"
+msgstr "``cat slurm-jobid.out``"
 
 #: ../../docs/jobs/jobs-bk.rst:216
 msgid "Serial python example (hello-serial.sh)"
@@ -1460,7 +1702,8 @@ msgid "``sbatch hello-serial.sh``"
 msgstr "``sbatch hello-serial.sh``"
 
 #: ../../docs/jobs/jobs-bk.rst:241
-msgid "Launching Parallel Programs"
+
+msgid "Lauching Paralle Programs"
 msgstr "Launching Parallel Programs"
 
 #: ../../docs/jobs/jobs-bk.rst:244
@@ -1488,13 +1731,14 @@ msgid ""
 "While these are already provided in the SBATCH directives, they should be"
 " provided again in the srun arguments."
 msgstr ""
-"While these are already provided in the SBATCH directives, they should also be"
-" provided in the srun arguments."
+"While these are already provided in the SBATCH directives, they should "
+"also be provided in the srun arguments."
 
 #: ../../docs/jobs/jobs-bk.rst:251
+
 msgid ""
 "**OpenMP example (hello-openmp.sh)** This will run 1 process with 24 "
-"threads on 1 Purley-CPU compute node, using 24 cores for up to 5 minutes:"
+"threads on 1 purley-cpu compute node, using 24 cores for up to 5 minutes:"
 msgstr ""
 "**OpenMP example (hello-openmp.sh)** This will run 1 process with 24 "
 "threads on 1 Purley-CPU compute node, using 24 cores for up to 5 minutes:"
@@ -1524,7 +1768,8 @@ msgid "**MPI example**"
 msgstr "**MPI example**"
 
 #: ../../docs/jobs/jobs-bk.rst:281
-msgid "This will run 24 MPI processes on 1 node on Purley-CPU:"
+
+msgid "This will run 24 MPI processes on 1 node on purley-cpu:"
 msgstr "This will run 24 MPI processes on 1 node on Purley-CPU:"
 
 #: ../../docs/jobs/jobs-bk.rst:303
@@ -1611,7 +1856,8 @@ msgid ""
 "``salloc --tasks=16 --partition purley-cpu --time=00:10:00`` ``srun make "
 "-j 16``"
 msgstr ""
-"To run a compile job interactively with 16 tasks on the 'purley-cpu' partition for 10 minutes, use the following commands:\n"
+"To run a compile job interactively with 16 tasks on the 'purley-cpu' "
+"partition for 10 minutes, use the following commands:\n"
 "1. Allocate resources:\n"
 "   ```salloc --tasks=16 --partition purley-cpu --time=00:10:00```\n"
 "2. Compile the code using 'make' with 16 parallel jobs:\n"
@@ -1626,7 +1872,8 @@ msgid ""
 "Start an interactive session (you may need to wait while it is in the "
 "queue):"
 msgstr ""
-"To start an interactive session (note that you may need to wait while it's in the queue), use the following command:\n"
+"To start an interactive session (note that you may need to wait while "
+"it's in the queue), use the following command:\n"
 "```salloc --partition=purley-cpu --tasks=1 --time=00:10:00```"
 
 #: ../../docs/jobs/jobs-bk.rst:359
@@ -1666,7 +1913,8 @@ msgid ""
 "You can also run a hello-serial interactively only using srun: Prepare "
 "the environment:"
 msgstr ""
-"You can also run 'hello-serial' interactively using 'srun' only. Prepare the environment:"
+"You can also run 'hello-serial' interactively using 'srun' only. Prepare "
+"the environment:"
 
 #: ../../docs/jobs/jobs-bk.rst:376
 msgid "``srun --export=all -N 1 -n 1 -p purley-cpu python3 hello-serial.py``"
@@ -1686,7 +1934,9 @@ msgstr "Submit OMP Hello World Single Node Job"
 
 #: ../../docs/jobs/slurm-bk.rst:10
 msgid "以单节点的 OpenMP Hello world 为例，演示  集群作业提交过程。"
-msgstr "Demonstrate the process of submitting a cluster job using a single-node OpenMP Hello World example."
+msgstr ""
+"Demonstrate the process of submitting a cluster job using a single-node "
+"OpenMP Hello World example."
 
 #: ../../docs/jobs/slurm-bk.rst:12
 msgid "撰写名为 hello_world.c 代码如下"
@@ -1725,8 +1975,9 @@ msgid ""
 "如果是GPU集群，需要在作业脚本中增加\\ ``--gres=gpu:<number of card>``\\ 参数。例如\\ ``#SBATCH"
 " --gres=gpu:2``\\ ，意味着指定2张GPU卡数。"
 msgstr ""
-"If it's a GPU cluster, you need to add the parameter \\ ``--gres=gpu:<number of card>``\\ in the job script. For example,\\ ``#SBATCH"
-" --gres=gpu:2``\\ means specifying 2 GPU cards."
+"If it's a GPU cluster, you need to add the parameter \\ "
+"``--gres=gpu:<number of card>``\\ in the job script. For example,\\ "
+"``#SBATCH --gres=gpu:2``\\ means specifying 2 GPU cards."
 
 #: ../../docs/jobs/slurm-gpu.rst:9
 msgid "以下为GPU作业的一个示例："
@@ -1737,8 +1988,9 @@ msgid ""
 "GPU集群中提交作业时，需要在\\ ``srun`` \\ 或 \\ ``sbatch``\\ 命令中增加参数\\ ``-s``\\，或者 \\ "
 "``--oversubscribe``\\。表示允许与其它作业共享资源。"
 msgstr ""
-"When submitting jobs in a GPU cluster, you need to add the parameter \\ ``-s``\\ or \\ "
-"``--oversubscribe``\\ in the \\ ``srun`` \\ or \\ ``sbatch``\\ command to allow sharing resources with other jobs."
+"When submitting jobs in a GPU cluster, you need to add the parameter \\ "
+"``-s``\\ or \\ ``--oversubscribe``\\ in the \\ ``srun`` \\ or \\ "
+"``sbatch``\\ command to allow sharing resources with other jobs."
 
 #: ../../docs/jobs/slurm-gpu.rst:42
 msgid "例如："
@@ -1754,7 +2006,11 @@ msgid ""
 "Resource Management） "
 "是一种可用于大型计算节点集群的高度可伸缩和容错的集群管理器和作业调度系统，被世界范围内的超级计算机和计算集群广泛采用。"
 msgstr ""
-"ChinaSRC-P uses the SLURM job scheduling system for task scheduling and management in public clusters. SLURM (Simple Linux Utility for Resource Management) is a highly scalable and fault-tolerant cluster manager and job scheduling system that is widely adopted in supercomputers and computing clusters worldwide."
+"ChinaSRC-P uses the SLURM job scheduling system for task scheduling and "
+"management in public clusters. SLURM (Simple Linux Utility for Resource "
+"Management) is a highly scalable and fault-tolerant cluster manager and "
+"job scheduling system that is widely adopted in supercomputers and "
+"computing clusters worldwide."
 
 #: ../../docs/jobs/slurm-intro.rst:13
 msgid "Slurm常用命令"
@@ -1762,7 +2018,10 @@ msgstr "Common Slurm Commands"
 
 #: ../../docs/jobs/slurm-intro.rst:26
 msgid "日常使用超算资源只需掌握简单的几条命令即可，具体详细的配置请参考\\ `SLURM官方文档`_。"
-msgstr "Daily use of supercomputing resources only requires mastering a few simple commands. For detailed configurations, please refer to the `SLURM official documentation`_."
+msgstr ""
+"Daily use of supercomputing resources only requires mastering a few "
+"simple commands. For detailed configurations, please refer to the `SLURM "
+"official documentation`_."
 
 #: ../../docs/jobs/slurm-intro.rst:32
 msgid "编写 SLURM 脚本"
@@ -1770,7 +2029,9 @@ msgstr "Writing SLURM Scripts"
 
 #: ../../docs/jobs/slurm-intro.rst:34
 msgid "首先请阅读 :ref:`slurm-sinfo` 章节，获取可以使用的分区信息"
-msgstr "First, please read the :ref:`slurm-sinfo` section to obtain information about available partitions."
+msgstr ""
+"First, please read the :ref:`slurm-sinfo` section to obtain information "
+"about available partitions."
 
 #: ../../docs/jobs/slurm-intro.rst:37
 msgid "首先需要编写一个 SLURM 脚本。"
@@ -1786,15 +2047,20 @@ msgstr "Node Resource Preemption Command salloc"
 
 #: ../../docs/jobs/slurm-salloc.rst:7
 msgid "集群的登录节点设置有资源限制，请勿在登录节点进行大量计算。"
-msgstr "The cluster's login nodes have resource limitations, so please avoid heavy computations on them."
+msgstr ""
+"The cluster's login nodes have resource limitations, so please avoid "
+"heavy computations on them."
 
 #: ../../docs/jobs/slurm-salloc.rst:9
+
 msgid ""
-"集群的计算节点默认不允许用户直接登录，对需要交互式处理的程序，在登录到集群后，使用\\ ``salloc``\\ "
+"集群的计算节点默认不允许用户直接登录，对需要交互式处理的程序， 在登录到集群后，使用\\ ``salloc``\\ "
 "命令分配节点，然后再ssh到分配的节点上进行处理："
 msgstr ""
-"Cluster compute nodes do not allow direct user login by default. For programs requiring interactive processing, after logging into the cluster, use the\\ ``salloc``\\ "
-"command to allocate nodes, and then ssh into the allocated nodes for processing:"
+"Cluster compute nodes do not allow direct user login by default. For "
+"programs requiring interactive processing, after logging into the "
+"cluster, use the\\ ``salloc``\\ command to allocate nodes, and then ssh "
+"into the allocated nodes for processing:"
 
 #: ../../docs/jobs/slurm-salloc.rst:12 ../../docs/login/login-inter.rst:143
 msgid "|image3|"
@@ -1806,90 +2072,85 @@ msgstr "image3"
 
 #: ../../docs/jobs/slurm-salloc.rst:16
 msgid ""
-"After computation is complete, use the \\ ``exit``\\ command to exit the node. "
-"Note that you need to use \\ ``exit``\\ twice: the first \\ ``exit``\\ takes you "
-"from the compute node back to the login node, and the second \\ ``exit``\\ "
-"releases the allocated resources."
+"计算完成后，使用\\ ``exit``\\ 命令推出节点，注意需要\\ ``exit``\\ 两次， 第一次\\ ``exit``\\ "
+"是从计算节点退出到登录节点，第二次\\ ``exit``\\ 是释放所申请的资源。"
 msgstr ""
-"After computation is complete, use the \\ ``exit``\\ command to exit the node. "
-"Note that you need to use \\ ``exit``\\ twice: the first \\ ``exit``\\ takes you "
-"from the compute node back to the login node, and the second \\ ``exit``\\ "
-"releases the allocated resources."
 
 #: ../../docs/jobs/slurm-salloc.rst:23
-msgid "This command allows users to preemptively reserve the required computing resources (starting the job's compute time)."
-msgstr "This command allows users to preemptively reserve the required computing resources (starting the job's compute time)."
+msgid "该命令支持用户在提交作业前，抢占所需计算资源（此时开始计算所用机时）。"
+msgstr ""
 
 #: ../../docs/jobs/slurm-salloc.rst:26 ../../docs/jobs/slurm-sbatch.rst:22
 #: ../../docs/jobs/slurm-srun.rst:40
-msgid "Usage Examples"
-msgstr "Usage Examples"
+msgid "使用示例"
+msgstr ""
 
 #: ../../docs/jobs/slurm-salloc.rst:28
-msgid "The salloc submission is as follows: First, request resources with the following command:"
-msgstr "The salloc submission is as follows: First, request resources with the following command:"
+msgid "salloc提交方式如下： 首先申请资源，执行如下命令："
+msgstr ""
 
 #: ../../docs/jobs/slurm-salloc.rst:42 ../../docs/jobs/slurm-scancel.rst:23
-msgid "For more options, users can use the ``scancel --help`` command to check."
-msgstr "For more options, users can use the ``scancel --help`` command to check."
+msgid "更多选项，用户可以通过 ``scancel --help`` 命令来查看。"
+msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:5
-msgid "Batch Processing with sbatch"
-msgstr "Batch Processing with sbatch"
+msgid "批处理作业sbatch"
+msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:8 ../../docs/jobs/slurm-srun.rst:12
-msgid "Introduction"
-msgstr "Introduction"
+msgid "简介"
+msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:10
 msgid ""
-"Batch processing refers to users writing job scripts, specifying resource requirements and constraints, and submitting background jobs. The command to submit batch jobs is sbatch. When users submit the command, it returns to the command line, but the job enters the scheduling state. When the resource requirements are met, after allocating the computing nodes, the system loads and executes the user's job script on the first allocated computing node (not the login node)."
+"批处理作业是指用户编写作业脚本，指定资源需求约束，提交后台执行作业。 提交批处理作业的命令为sbatch，用户提交命令即返回命令行窗口， "
+"但此时作业在进入调度状态， 在资源满足要求时，分配完计算节点之后， 系统将在所分配的第一个计算节点（而不是登录节点）上加载执行用户的作业脚本。"
 msgstr ""
-"Batch processing refers to users writing job scripts, specifying resource requirements and constraints, and submitting background jobs. The command to submit batch jobs is sbatch. When users submit the command, it returns to the command line, but the job enters the scheduling state. When the resource requirements are met, after allocating the computing nodes, the system loads and executes the user's job script on the first allocated computing node (not the login node)."
 
 #: ../../docs/jobs/slurm-sbatch.rst:16
 msgid ""
-"The batch job script is a text file with the script's first line starting with ``#!`` and specifying the script file's interpreter, such as sh or bash. Since the compute nodes provide default support for only sh and bash due to their minimal environment."
+"批处理作业的脚本为一个文本文件， 脚本第一行以 ``#!`` 字符开头，并指定脚本文件的解释程序， 如 sh,bash。 "
+"由于计算节点为精简环境，只提供 sh 和 bash 的默认支持。"
 msgstr ""
-"The batch job script is a text file with the script's first line starting with ``#!`` and specifying the script file's interpreter, such as sh or bash. Since the compute nodes provide default support for only sh and bash due to their minimal environment."
 
 #: ../../docs/jobs/slurm-sbatch.rst:24
-msgid "For example, if a user's script is named myjob.sh and its contents are as follows:"
-msgstr "For example, if a user's script is named myjob.sh and its contents are as follows:"
+msgid "例如用户的脚本名为myjob.sh，内容如下："
+msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:28
-msgid "To submit a batch job using this script, users need to explicitly request 4 nodes in the arm partition."
-msgstr "To submit a batch job using this script, users need to explicitly request 4 nodes in the arm partition."
+msgid "使用该脚本用户提交批处理作业，需要明确申请的资源为 arm 分 区的 4 个节点。"
+msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:32
-msgid "The text file must be given executable permission using the command: ``chmod +x myjob.sh``"
-msgstr "The text file must be given executable permission using the command: ``chmod +x myjob.sh``"
+msgid "需给该文本文件设置myjob.sh可执行权限，利用命令： ``chmod +x myjob.sh``"
+msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:34
-msgid "The user's sbatch batch command is as follows:"
-msgstr "The user's sbatch batch command is as follows:"
+msgid "用户sbatch批处理命令如下："
+msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:41
-msgid "After the computation starts, output files with names starting with slurm will be generated in the working directory."
-msgstr "After the computation starts, output files with names starting with slurm will be generated in the working directory."
+msgid "计算开始后，工作目录中会生成以slurm开头的.out 文件为输出文件。"
+msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:52
-msgid "A simple script example is shown below:"
-msgstr "A simple script example is shown below:"
+msgid "一个简单的脚本示例如下："
+msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:80
-msgid "In the above, \\ ``###``\\ indicates comments."
-msgstr "In the above, \\ ``###``\\ indicates comments."
+msgid "上述中\\ ``###``\\ 为注释行。"
+msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:82
-msgid "The first line indicates that this is a bash script. Lines 4-17 starting with \\ ``#SBATCH``\\ are commands that need to be processed by the slurm system."
-msgstr "The first line indicates that this is a bash script. Lines 4-17 starting with \\ ``#SBATCH``\\ are commands that need to be processed by the slurm system."
+msgid "第一行表示这是一个bash脚本，第4-17行以\\ ``#SBATCH``\\ 开头的命令表示这些是需要slurm系统处理的参数。"
+msgstr ""
 
 #: ../../docs/jobs/slurm-sbatch.rst:84
 msgid ""
-"As shown in the figure below, by using \\ ``sbatch+job script name``\\ to submit the job, the system will return a job number. You can use the \\ ``squeue``\\ command to see the job's running status. After the job is executed, the program's output is placed in the \\ ``slurm-job number.out``\\ file by default, and you can check the program's output using this file."
+"如下图所示，通过\\ ``sbatch+作业脚本名``\\ 提交作业，系统会返回作业编号，通过\\ ``squeue``\\ "
+"命令可以看到作业运行状态，等作业执行完成后，默认会把程序的输出放到\\ ``slurm-作业编号.out``\\ "
+"的文件中，可通过该文件查看程序的输出。"
 msgstr ""
-"As shown in the figure below, by using \\ ``sbatch+job script name``\\ to submit the job, the system will return a job number. You can use the \\ ``squeue``\\ command to see the job's running status. After the job is executed, the program's output is placed in the \\ ``slurm-job number.out``\\ file by default, and you can check the program's output using this file."
 
 #: ../../docs/jobs/slurm-sbatch.rst:86
 msgid "|image6|"
@@ -2699,34 +2960,47 @@ msgstr ""
 
 #: ../../docs/login/login-ssh.rst:32
 msgid "SSH免密码登录"
-msgstr ""
+msgstr "SSH login without password"
 
 #: ../../docs/login/login-ssh.rst:34
+
 msgid ""
 "SSH免密码登录需要一对密钥对，包括一个公钥和一个私钥，其中私钥放在用户本机，公钥放在集群的\\ "
 "``~/.ssh/authorized_keys``\\ "
 "目录。下次登录时，用户本机的私钥和远程集群的公钥通过加密协议验证配对，验证成功后将不需要密码直接登录成功。所以这里需要生成公私钥，并将公钥上传到目标实例的指定位置。"
 msgstr ""
+"SSH passwordless login requires a pair of key pairs, including a public "
+"key and a private key, where the private key is placed on the user's "
+"local machine, and the public key is placed in the cluster's \\ "
+"``~/.ssh/authorized_keys``\\ directory. The next time you log in, the "
+"private key on the user's local machine and the public key on the remote "
+"cluster will be verified through the encryption protocol. After "
+"successful verification, you will be able to log in directly without a "
+"password. So here we need to generate public and private keys, and upload"
+" the public key to the specified location of the target instance."
 
 #: ../../docs/login/login-ssh.rst:36
+
 msgid "使用SSH客户端免密码登录主要需要两步："
-msgstr ""
+msgstr "Using the SSH client for passwordless login requires two main steps:"
 
 #: ../../docs/login/login-ssh.rst:38
 msgid "在用户本机生成公私钥。"
-msgstr ""
+msgstr "Generate public and private keys on the local user machine."
 
 #: ../../docs/login/login-ssh.rst:40
 msgid "将公钥添加到计算云目标实例的\\ ``~/.ssh/authorized_keys``\\ 文件末尾。"
 msgstr ""
+"Add the public key to the end of the \\ ``~/.ssh/authorized_keys``\\ file"
+" on the target cloud computing instance."
 
 #: ../../docs/login/login-ssh.rst:43
 msgid "生成密钥对"
-msgstr ""
+msgstr "Generate key pair"
 
 #: ../../docs/login/login-ssh.rst:46 ../../docs/login/login-ssh.rst:136
 msgid "MacOS & Linux"
-msgstr ""
+msgstr "MacOS & Linux"
 
 #: ../../docs/login/login-ssh.rst:48
 msgid "直接使用终端在用户本机生成公钥和私钥。"
@@ -3978,11 +4252,11 @@ msgstr ""
 
 #: ../../docs/module/module-python.rst:65
 msgid "退出虚拟环境："
-msgstr ""
+msgstr "Quit virtual environment:"
 
 #: ../../docs/module/module-system.rst:5
 msgid "系统命令的使用"
-msgstr ""
+msgstr "Using system commands"
 
 #: ../../docs/module/module-system.rst:7
 msgid "部分命令是系统级别的命令，如果希望以Slurm的方式运行， 需要导入需要的module文件，具体的使用方法如下："
@@ -3998,7 +4272,7 @@ msgstr ""
 
 #: ../../docs/module/module-system.rst:26
 msgid "加载系统模块"
-msgstr ""
+msgstr "Load system module"
 
 #: ../../docs/module/module-system.rst:33
 msgid "然后就可以使用各个命令了。"
@@ -4006,7 +4280,7 @@ msgstr ""
 
 #: ../../docs/module/module-wsclean.rst:5
 msgid "wsclean使用"
-msgstr ""
+msgstr "wsclan usage"
 
 #: ../../docs/module/module-wsclean.rst:7
 msgid "**WSClean** 是w-stack clean的缩写，为w投影算法的一种方法，这种方法在对uv数据做FFT之后在进行w项的校正，速度较快。"
@@ -4031,4 +4305,256 @@ msgstr ""
 #: ../../docs/module/module-wsclean.rst:46
 msgid "在与casa联合使用的过程中，会涉及到环境变量的冲突问题， 具体使用方法如下："
 msgstr ""
+
+#~ msgid ""
+#~ "After downloading and installing XFTP "
+#~ "software, open it and click on "
+#~ "'File' - 'New'."
+#~ msgstr ""
+#~ "After downloading and installing XFTP "
+#~ "software, open it and click on "
+#~ "'File' - 'New'."
+
+#~ msgid ""
+#~ "You can customize the name, enter "
+#~ "the external service address displayed "
+#~ "in 'service ssh' in the Host "
+#~ "field, fill in the port number "
+#~ "from 'service ssh,' use the default "
+#~ "SFTP protocol, and enter your ChinaSRC"
+#~ " username and password. Click 'Connect'."
+#~ msgstr ""
+#~ "You can customize the name, enter "
+#~ "the external service address displayed "
+#~ "in 'service ssh' in the Host "
+#~ "field, fill in the port number "
+#~ "from 'service ssh,' use the default "
+#~ "SFTP protocol, and enter your ChinaSRC"
+#~ " username and password. Click 'Connect'."
+
+#~ msgid ""
+#~ "After connecting, the left side shows"
+#~ " the view of your local computer, "
+#~ "and the right side shows the view"
+#~ " of the remote computer. The path "
+#~ "to the remote computer that you "
+#~ "access is ``/home/username``, which is "
+#~ "your current user's home directory. You"
+#~ " can transfer files from your "
+#~ "personal computer to the shared folder."
+#~ " The transfer bar at the bottom "
+#~ "displays detailed transfer information."
+#~ msgstr ""
+#~ "After connecting, the left side shows"
+#~ " the view of your local computer, "
+#~ "and the right side shows the view"
+#~ " of the remote computer. The path "
+#~ "to the remote computer that you "
+#~ "access is ``/home/username``, which is "
+#~ "your current user's home directory. You"
+#~ " can transfer files from your "
+#~ "personal computer to the shared folder."
+#~ " The transfer bar at the bottom "
+#~ "displays detailed transfer information."
+
+#~ msgid ""
+#~ "After the transfer is complete, you "
+#~ "can see the transferred files in "
+#~ "the user's home directory in the "
+#~ "public cluster or instance console."
+#~ msgstr ""
+#~ "After the transfer is complete, you "
+#~ "can see the transferred files in "
+#~ "the user's home directory in the "
+#~ "public cluster or instance console."
+
+#~ msgid ""
+#~ "After computation is complete, use the"
+#~ " \\ ``exit``\\ command to exit the"
+#~ " node. Note that you need to "
+#~ "use \\ ``exit``\\ twice: the first "
+#~ "\\ ``exit``\\ takes you from the "
+#~ "compute node back to the login "
+#~ "node, and the second \\ ``exit``\\ "
+#~ "releases the allocated resources."
+#~ msgstr ""
+#~ "After computation is complete, use the"
+#~ " \\ ``exit``\\ command to exit the"
+#~ " node. Note that you need to "
+#~ "use \\ ``exit``\\ twice: the first "
+#~ "\\ ``exit``\\ takes you from the "
+#~ "compute node back to the login "
+#~ "node, and the second \\ ``exit``\\ "
+#~ "releases the allocated resources."
+
+#~ msgid ""
+#~ "This command allows users to "
+#~ "preemptively reserve the required computing"
+#~ " resources (starting the job's compute "
+#~ "time)."
+#~ msgstr ""
+#~ "This command allows users to "
+#~ "preemptively reserve the required computing"
+#~ " resources (starting the job's compute "
+#~ "time)."
+
+#~ msgid "Usage Examples"
+#~ msgstr "Usage Examples"
+
+#~ msgid ""
+#~ "The salloc submission is as follows: "
+#~ "First, request resources with the "
+#~ "following command:"
+#~ msgstr ""
+#~ "The salloc submission is as follows: "
+#~ "First, request resources with the "
+#~ "following command:"
+
+#~ msgid ""
+#~ "For more options, users can use "
+#~ "the ``scancel --help`` command to check."
+#~ msgstr ""
+#~ "For more options, users can use "
+#~ "the ``scancel --help`` command to check."
+
+#~ msgid "Batch Processing with sbatch"
+#~ msgstr "Batch Processing with sbatch"
+
+#~ msgid "Introduction"
+#~ msgstr "Introduction"
+
+#~ msgid ""
+#~ "Batch processing refers to users writing"
+#~ " job scripts, specifying resource "
+#~ "requirements and constraints, and submitting"
+#~ " background jobs. The command to "
+#~ "submit batch jobs is sbatch. When "
+#~ "users submit the command, it returns "
+#~ "to the command line, but the job"
+#~ " enters the scheduling state. When "
+#~ "the resource requirements are met, after"
+#~ " allocating the computing nodes, the "
+#~ "system loads and executes the user's "
+#~ "job script on the first allocated "
+#~ "computing node (not the login node)."
+#~ msgstr ""
+#~ "Batch processing refers to users writing"
+#~ " job scripts, specifying resource "
+#~ "requirements and constraints, and submitting"
+#~ " background jobs. The command to "
+#~ "submit batch jobs is sbatch. When "
+#~ "users submit the command, it returns "
+#~ "to the command line, but the job"
+#~ " enters the scheduling state. When "
+#~ "the resource requirements are met, after"
+#~ " allocating the computing nodes, the "
+#~ "system loads and executes the user's "
+#~ "job script on the first allocated "
+#~ "computing node (not the login node)."
+
+#~ msgid ""
+#~ "The batch job script is a text "
+#~ "file with the script's first line "
+#~ "starting with ``#!`` and specifying the"
+#~ " script file's interpreter, such as "
+#~ "sh or bash. Since the compute "
+#~ "nodes provide default support for only"
+#~ " sh and bash due to their "
+#~ "minimal environment."
+#~ msgstr ""
+#~ "The batch job script is a text "
+#~ "file with the script's first line "
+#~ "starting with ``#!`` and specifying the"
+#~ " script file's interpreter, such as "
+#~ "sh or bash. Since the compute "
+#~ "nodes provide default support for only"
+#~ " sh and bash due to their "
+#~ "minimal environment."
+
+#~ msgid ""
+#~ "For example, if a user's script is"
+#~ " named myjob.sh and its contents are"
+#~ " as follows:"
+#~ msgstr ""
+#~ "For example, if a user's script is"
+#~ " named myjob.sh and its contents are"
+#~ " as follows:"
+
+#~ msgid ""
+#~ "To submit a batch job using this"
+#~ " script, users need to explicitly "
+#~ "request 4 nodes in the arm "
+#~ "partition."
+#~ msgstr ""
+#~ "To submit a batch job using this"
+#~ " script, users need to explicitly "
+#~ "request 4 nodes in the arm "
+#~ "partition."
+
+#~ msgid ""
+#~ "The text file must be given "
+#~ "executable permission using the command: "
+#~ "``chmod +x myjob.sh``"
+#~ msgstr ""
+#~ "The text file must be given "
+#~ "executable permission using the command: "
+#~ "``chmod +x myjob.sh``"
+
+#~ msgid "The user's sbatch batch command is as follows:"
+#~ msgstr "The user's sbatch batch command is as follows:"
+
+#~ msgid ""
+#~ "After the computation starts, output "
+#~ "files with names starting with slurm "
+#~ "will be generated in the working "
+#~ "directory."
+#~ msgstr ""
+#~ "After the computation starts, output "
+#~ "files with names starting with slurm "
+#~ "will be generated in the working "
+#~ "directory."
+
+#~ msgid "A simple script example is shown below:"
+#~ msgstr "A simple script example is shown below:"
+
+#~ msgid "In the above, \\ ``###``\\ indicates comments."
+#~ msgstr "In the above, \\ ``###``\\ indicates comments."
+
+#~ msgid ""
+#~ "The first line indicates that this "
+#~ "is a bash script. Lines 4-17 "
+#~ "starting with \\ ``#SBATCH``\\ are "
+#~ "commands that need to be processed "
+#~ "by the slurm system."
+#~ msgstr ""
+#~ "The first line indicates that this "
+#~ "is a bash script. Lines 4-17 "
+#~ "starting with \\ ``#SBATCH``\\ are "
+#~ "commands that need to be processed "
+#~ "by the slurm system."
+
+#~ msgid ""
+#~ "As shown in the figure below, by"
+#~ " using \\ ``sbatch+job script name``\\ "
+#~ "to submit the job, the system will"
+#~ " return a job number. You can "
+#~ "use the \\ ``squeue``\\ command to "
+#~ "see the job's running status. After "
+#~ "the job is executed, the program's "
+#~ "output is placed in the \\ "
+#~ "``slurm-job number.out``\\ file by default,"
+#~ " and you can check the program's "
+#~ "output using this file."
+#~ msgstr ""
+#~ "As shown in the figure below, by"
+#~ " using \\ ``sbatch+job script name``\\ "
+#~ "to submit the job, the system will"
+#~ " return a job number. You can "
+#~ "use the \\ ``squeue``\\ command to "
+#~ "see the job's running status. After "
+#~ "the job is executed, the program's "
+#~ "output is placed in the \\ "
+#~ "``slurm-job number.out``\\ file by default,"
+#~ " and you can check the program's "
+#~ "output using this file."
 

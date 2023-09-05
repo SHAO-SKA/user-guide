@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2023, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../docs/jobs/slurm-web.rst:4 12ca1ebe4c16436ab02b3ef292463528
+msgid "系统页面提交"
+msgstr "System web submission"
+
+#: ../../docs/jobs/slurm-web.rst:6 d72604eaf4204683a0bea8766cce27a9
+msgid "系统支持直接在页面提交作业。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:8 d5804baaf0f24f3d8e43f2a6ee3a325c
+msgid "点击上方“集群”按钮，选择“提交作业”。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:10 fe324646d42f4861a73b33dd8ca3f3a0
+msgid "|submit job web|"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:12 a70d40abf69545dcbb4062a9099d512f
+msgid "submit job web"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:14 474224ee2cce4669ab5bd7d76ba899b9
+msgid "选择需要使用的集群和作业模板，填写作业名称，在脚本编辑器里填入作业脚本，点击右上方的“提交作业”按钮。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:16 fc0c266a4d7a40b3a9a30bb61f4efa96
+msgid "|submit job|"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:18 6e461da8d39f4bcca1e054c4529a3942
+msgid "submit job"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:20 244b588fa1a74cc0971f3871682a31cc
+msgid "提交作业后，可以在“作业”页面查看是否提交成功。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:22 5904a4bf61da48ad99bda87d8b3d9cea
+msgid "|job status|"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:24 2d2e75392f4346d0a51e5ee6035f855d
+msgid "job status"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:26 92d517616b9e45bab0b1484ef853b396
+msgid "如果提交的作业有输出，需要下载，等待作业运行完成后，点击作业名称，进入作业详情。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:28 ade57a0d3be54637b0c50b9f8ef10dfc
+msgid "|enter job info|"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:30 5e35dd4c80e04477876599a21c07a76f
+msgid "enter job info"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:32 c0fd4cb3258e45e68c60effe12eaa63e
+msgid "在“作业输出”页面，点击“下载输出日志”。"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:34 f9c91cff66a9400d9387165d7e966309
+msgid "|download job output|"
+msgstr ""
+
+#: ../../docs/jobs/slurm-web.rst:36 4a01f81c259f4d8a9b242ffc264c9f39
+msgid "download job output"
+msgstr ""
+

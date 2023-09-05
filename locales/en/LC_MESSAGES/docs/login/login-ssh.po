@@ -1,0 +1,371 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2023, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../docs/login/login-ssh.rst:4 72b29ae9a73d484b92451921d1a1cd45
+msgid "查看SSH登录信息"
+msgstr "Check SSH login information"
+
+#: ../../docs/login/login-ssh.rst:6 d93038e2fc1d4cb09cad545a6f603855
+msgid ""
+"对于共享集群和独占集群，以及自带SSH服务的实例可以通过本地机器直接登录。如果实例没有自带SSH服务，可以\\ :ref:`自行配置 <start"
+" ssh service>`。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:10 08149f0317a845c5a98ea192267a99b0
+msgid "在首次使用SSH登录之前，需要通过平台管理界面\\ :ref:`重置密码 <reset password>`。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:12 400b62b9f05b46a3b378f9fbd4c35d20
+msgid "每套虚拟集群有自己的访问端口，在“工作台”-“资源总览”中通过点击如图所示图标可显示集群的IP和端口信息。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:14 286b24ada7464e09affb366b738fd59c
+msgid "|image4|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:210 29655e66dc164f46bc7ebcbb7ede5655
+msgid "image4"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:16 27c14cb4f73d40f69dd871e1f57edb1f
+msgid "请使用红框框选出的地址。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:18 fbba4f68822446488d9349776e059ab4
+msgid "|ssh address|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:211 692389d2a0b2471ca244254dd4a2c379
+msgid "ssh address"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:20 7b4af685ced04e62a81ebf384ec1d85b
+msgid ""
+"Windows推荐使用\\ `PuTTY`_，`SecureCRT`_，`Xmanager`_\\ "
+"等客户端访问集群的服务端口，Linux/Mac直接使用终端即可。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:27 f2209f118cad4787a7ffa94fe83c2799
+msgid "|image5|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:212 8e151a15599b40529bf6b16f2a3a387c
+msgid "image5"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:32 748a76bb8bb64da782a5b7de05829564
+msgid "SSH免密码登录"
+msgstr "SSH login without password"
+
+#: ../../docs/login/login-ssh.rst:34 35fadbcefa8d47149c1aa35ebe388f1d
+msgid ""
+"SSH免密码登录需要一对密钥对，包括一个公钥和一个私钥，其中私钥放在用户本机，公钥放在集群的\\ "
+"``~/.ssh/authorized_keys``\\ "
+"目录。下次登录时，用户本机的私钥和远程集群的公钥通过加密协议验证配对，验证成功后将不需要密码直接登录成功。所以这里需要生成公私钥，并将公钥上传到目标实例的指定位置。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:36 6fc063bb1c4d4ce49dd1f906ffb90286
+msgid "使用SSH客户端免密码登录主要需要两步："
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:38 f3c38f00db284699a8bd7839215799b4
+msgid "在用户本机生成公私钥。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:40 d69a95daae3d4c1cb1ca66c0d0ea5312
+msgid "将公钥添加到计算云目标实例的\\ ``~/.ssh/authorized_keys``\\ 文件末尾。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:43 07902eb0a4854b1fa4a205de6aa57f03
+msgid "生成密钥对"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:46 ../../docs/login/login-ssh.rst:136
+#: 45c7264141ae492abf1658947ed98c30 9077b48c2380496981aa5d4af0960d26
+msgid "MacOS & Linux"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:48 7b76588aff984b778dfce4b669a2d6c3
+msgid "直接使用终端在用户本机生成公钥和私钥。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:50 cd1b92929e844aca857c572a1c4d6e31
+msgid "输入命令\\ ``ssh-keygen -t rsa``："
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:56 1d66c1e838ce4e5589bdb52bddbdc339
+msgid "终端会提示："
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:63 bc06e0b8f7e34787b393f0d94d273f51
+msgid "括号内为生成的公私钥的默认目录位置，直接回车就会使用这个默认位置。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:65 a4e9a4258ecc4f9b9dab2f0ea1d3d7a4
+msgid "|mac ssh keygen|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:213 82571eb28af34ff79621a3626f3f9f86
+msgid "mac ssh keygen"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:67 e1944529bba84de2961fbd634f6c8526
+msgid "如果默认位置已经生成过公私钥，则终端会提示是否需要覆盖，这时可不用再次生成公私钥。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:74 e8c0d98c20144389bed548505030560b
+msgid ""
+"终端会提示输入密码 "
+"passphrase，这个密码为生成私钥的密码，将来防止私钥被其他人盗用。这里可以不输入任何密码，直接回车，再次提示输入密码，再次回车。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:76 f87312fa9b934d34bc4e644b5babbc0e
+msgid "|mac set keygen passphrase|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:214 a4fc8413f2614e1fa1e4a33f63e8a05d
+msgid "mac set keygen passphrase"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:78 790259677bd74bab84b3a75474751ca7
+msgid ""
+"这时公钥存储在\\ ``/Users/~your-local-username~/.ssh/id_rsa.pub``\\ 文件里，私钥存储在\\ "
+"``/Users/~your-local-username~/.ssh/id_rsa``\\ 文件里。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:80 94d7b9b69540404db76e7410e7279682
+msgid "|mac list keygen|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:215 e09a2041392c4bd1b4dfb517c9a89da9
+msgid "mac list keygen"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:82 d12dc5ddd5864443af8b5cc06409b5cd
+msgid "获取公钥，将返回值拷贝到剪贴板。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:88 e44eda63c11e4550a58c1f8f0ab593b0
+msgid "|mac copy public key|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:216 562acae8b55e4d708a2ad36c8446b453
+msgid "mac copy public key"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:91 ../../docs/login/login-ssh.rst:155
+#: 3fb198784d6044128b75e9bf5a74ca76 f3167127fe594836bde99bd22607b054
+msgid "Windows"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:93 a5fd88f598f84086a2daa5a65c42f148
+msgid "可以通过\\ `PuTTY`_\\ 或\\ `Xshell`_\\ 生成公私钥。下面以Xshell软件为例，介绍公私钥生成。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:95 0f10bd1bc58f4e198f0e94ab1d969a46
+msgid "打开Xshell工具，工具栏有一个工具选项，点开选择新建用户密钥生成向导。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:97 92d13d9d3ac840baa7ceaf56f03ffa9f
+msgid "|xshell new user key|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:217 7aeb5691a17f42869c168aba9dcd8a00
+msgid "xshell new user key"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:99 037b107b3e39449eab8ad1c63e134cae
+msgid "密钥类型默认使用RSA，密钥长度默认2048位，点击下一步。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:101 e095c10e29db4cbe8af112e50c4f5529
+msgid "|xshell generate key|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:218 86ff5283553c45a9a9ce72e31989b46d
+msgid "xshell generate key"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:103 a410716e9cdf47cab91cb689489c855b
+msgid "等待软件自动生成密钥对后点击下一步。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:105 980c2c0a70eb4e10a6b593e26eadddde
+msgid "|xshell waiting for key|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:219 79a628c966fe432bb91e0207de91d2a1
+msgid "xshell waiting for key"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:107 fb5175f0c27b47448d2fc1df4c792309
+msgid "按照软件指引配置密钥名称和密码后点击下一步。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:111 808954096be94791aba2c1b50e18c0c3
+msgid "该密码加密您的私钥文件，若遗忘，则需要重新生成公私钥并重新添加至集群，请牢记！"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:113 b2542f48614f41da9a43bc47378bb2dd
+msgid "|xshell set key information|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:220 88db4a1565cf4593939440cf88066dd9
+msgid "xshell set key information"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:115 ce3fa5002ae54afaac91b233460f32ec
+msgid "软件会显示生成的公钥，选中公钥复制到剪贴板，然后点击结束，将公钥另存为文件。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:117 c25036f44f094bf4b9fce03ed9cad540
+msgid "|xshell copy public key|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:221 adb8f34c8df743d18445e5a8d2bef982
+msgid "xshell copy public key"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:119 a83ebaaaa87d4b2da666d034c81ca790
+msgid "|xshell save public key|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:222 88344e843cbb4b9d823f56af13b88511
+msgid "xshell save public key"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:122 3b9f6e744f4241a6b57e7534b0c2c9a8
+msgid "将公钥添加到集群"
+msgstr "Add public key to cluster"
+
+#: ../../docs/login/login-ssh.rst:124 ff466d6513b04e779036c813adbcad90
+msgid ""
+"接下来需要将刚刚复制的公钥追加到集群内\\ ``~/.ssh/authorized_keys``。先使用\\ :ref:`Web SSH登录 "
+"<web login>`\\ 到集群，在Web终端中输入如下命令："
+msgstr "Next, you need to append the copied public key to the cluster\\ ``~/.ssh/authorized_keys``. First use\\ :ref:`Web SSH login <web login>`\\ to the cluster, enter the following command in the Web terminal:"
+
+#: ../../docs/login/login-ssh.rst:130 f5eaa36aa73f411b8ec003349e6acef9
+msgid "其中，将``ssh-rsa AAAA..``\\ 替换为刚才复制的公钥。"
+msgstr "Where, replace ``ssh-rsa AAAA..``\\ with the public key just copied."
+
+#: ../../docs/login/login-ssh.rst:133 9c78c776f3be4c9d8e5ecea2a88c3458
+msgid "用密钥登录集群"
+msgstr "Login to cluster with key"
+
+#: ../../docs/login/login-ssh.rst:138 c116c856dbd149a980c2cda14929425a
+msgid ""
+"本地机器上打开自带的终端，按照\\ :ref:`上文 <ssh info>`\\ 查看要登录的集群SSH "
+"IP和端口信息，输入如下命令后回车登录集群："
+msgstr "Open the built-in terminal on the local machine, follow\\ :ref:`previous <ssh info>`\\ to view the cluster SSH IP and port information to be logged in, enter the following command and press Enter to log in to the cluster:"
+
+#: ../../docs/login/login-ssh.rst:144 eac16a3a291c47c380d0f1b9be499ff0
+msgid ""
+"其中，\\ ``202.201.1.198``\\ 和\\ ``20139``\\ 分别替换为集群的SSH IP地址和端口， \\ "
+"``username``\\ 替换为自己的平台用户名。"
+msgstr "Where,\\ ``202.201.1.198``\\ and \\ ``20139``\\ are replaced with the SSH IP address and port of the cluster, and \\ ``username``\\ is replaced with your own platform username."
+
+#: ../../docs/login/login-ssh.rst:146 a52797f09a654b58b9f67fd59278b506
+msgid "如果显示类似如下提示，输入\\ ``yes``\\ 后回车，即可正常登录。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:157 67ea31f9017e41db8f91d400f82defc4
+msgid "此处以\\ `Xshell`_\\ 登录为例。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:159 bce71b96953846f0aa7ff245e9de1a9b
+msgid ""
+"点击软件左上角新建会话属性，按照\\ :ref:`上文 <ssh info>`\\ 查看要登录的集群SSH IP和端口信息，输入SSH "
+"IP地址和端口后点击连接。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:161 2cadde86e67547ed9369cc724a26386e
+msgid "|xshell new login|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:223 13a82a53448d46aab5210827df56911f
+msgid "xshell new login"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:163 0c561617e3454edb81f98e8a8855ad4e
+msgid "输入平台用户名后点击OK。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:165 1147aca869214e4992156bd79142805b
+msgid "|xshell enter username|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:224 5cd8ab20bc374d6e91a591aee12b114e
+msgid "xshell enter username"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:167 b730ded9cdd643d484bf68d8ec67361c
+msgid "在用户身份验证界面选择“Public Key” 选择上文中保存在本地的公钥文件。如果之前在生成密钥对时设置了密钥密码，还需要一并输入密码。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:169 f876893fb5a245b583e27bb334e04771
+msgid "|xshell import public key|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:225 ff2a10cd20d440ce95485ed34f5b8cc4
+msgid "xshell import public key"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:171 4d69d6056d8d432ba50150a9c17ffd01
+msgid "点击确认，成功登录。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:173 06d451f19e55431ab335c9c1945bf0e1
+msgid "|xshell login successfully|"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:226 2137e6b02ccc44d68f875980fd7efb23
+msgid "xshell login successfully"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:178 5c02b4dff26c45afa34acd20323e6604
+msgid "SSH服务配置"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:180 556076b7ac534392bc3aafbeac979dbb
+msgid "启动实例，打开终端安装ssh服务"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:186 fe7c18f20105480e8061471809ab2260
+msgid "开启ssh服务"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:192 df28831602444e038917bfd26b02fbb9
+msgid "如果提示\\ ``service command not found``\\，执行如下命令："
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:198 b173b95a329f4682bc4553d60e5823f5
+msgid "更改用户密码"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:205 eecd9e6ef80347df9c3cc787039764ea
+msgid "然后输入新密码。"
+msgstr ""
+
+#: ../../docs/login/login-ssh.rst:207 2608bf2eebdf43d48c2823155995b7a4
+msgid "用ssh工具远程登陆实例。"
+msgstr ""
+

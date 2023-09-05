@@ -4,12 +4,12 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
@@ -18,57 +18,137 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: ../../docs/jobs/slurm-squeue.rst:3 4b190e7e6f694ac9819d6faba4dc3e75
+#: ../../docs/jobs/slurm-squeue.rst:3 23ed6c28fed441359706911522f265ef
 msgid "作业状态信息查看squeue"
 msgstr "Viewing Job Status Information with squeue"
 
-#: ../../docs/jobs/slurm-squeue.rst:5 cf54a3c6f897432baa22e993e166db24
+#: ../../docs/jobs/slurm-squeue.rst:5 ae8d9287b21c4e0390ab615edf5e2285
 msgid "用户用 ``squeue -u username`` 查看自己作业的运行情况。"
 msgstr "Users can check the status of their jobs by using squeue -u username."
 
-#: ../../docs/jobs/slurm-squeue.rst:19 ee1acfc2d90b4d549878d1d23b696855
-msgid ""
-"其中 JOBID表示任务ID， NAME表示任务名称， USER为用户， ST表示运行状态， TIME为已运行时间， NODES表示占用节点数， "
-"NODELIST为任务运行的节点列表。"
+#: ../../docs/jobs/slurm-squeue.rst:18 5df1cb64bd3b44ae9adc44080de329df
+msgid "squeue的输出信息解释："
 msgstr ""
-"Here, JOBID represents the task ID, NAME represents the task name, USER is the user, ST represents the running status, TIME is the elapsed time, NODES indicates the number of occupied nodes"
-"NODELIST is the list of nodes where the task is running."
 
-#: ../../docs/jobs/slurm-squeue.rst:37 0073911683aa41c5b181a0c2c147d699
+#: ../../docs/jobs/slurm-squeue.rst:23 dc92ad5f5b884c6f9c027443aa03ac8a
+msgid "**关键词**"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:24 cd3b36397920480e876bfb113bfd9f02
+msgid "**含义**"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:25 87f15f54cc04429e96a575c1d684650c
+msgid "``JOBID``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:26 f2c4284a9378490a800f4b269db6c603
+msgid "作业的id号，每个成功提交的任务都会有唯一的id"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:27 88e62d1499a047188e9e1c53feb8d46e
+msgid "``PARTITION``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:28 435ad82cc78044d9ad1d3d0bfe0e20ab
+msgid "分区名"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:29 f63c8e6bafc849fe9b98d733a04d717a
+msgid "``NAME``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:30 cd9bc9da0ab94a559f56e8ebc7e7fd3c
+msgid "作业名称，默认为提交脚本的名称"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:31 f04ec2050cd34f69b7e1c8424f93405d
+msgid "``USER``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:32 70594f744e3d4a18af92598c954b1dc6
+msgid "用户名，提交该作业的用户名"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:33 6adc0a8796dc4b9aa96b59f146d2ed92
+msgid "``ST``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:34 d9da302dd7574090bcbb166dfdc73309
+msgid "作业状态：``PD``\\ 排队；``R``\\ 运行；``S``\\ 挂起；``CG``\\ 正在退出"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:35 d3cc0b84d27d4bf4b3c5a4974b28ff6d
+msgid "``TIME``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:36 822811389bae4536a132a7bc4ed743e8
+msgid "作业运行时间"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:37 a9ac008c314b4fc39619aafdbf569e40
+msgid "``NODES``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:38 79a370bee13947179f37709874cd96cb
+msgid "作业占节点数"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:39 53611f57eeff49d3a0bc72400aadd612
+msgid "``NODELIST(REASON)``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:40 f667448455af4426b5dcbeb1cb60dfc9
+msgid "作业所占节点列表，如果是排队状态的任务，则会给出排队原因"
+msgstr ""
+
+#: ../../docs/jobs/slurm-squeue.rst:52 73a27f537ca547a5b3d7cba5320ee5be
 msgid "ST：状态，常见的状态包括："
 msgstr "ST: Status, common statuses include:"
 
-#: ../../docs/jobs/slurm-squeue.rst:29 b65584ba0cc343b49e113d7551d6fd29
+#: ../../docs/jobs/slurm-squeue.rst:44 6c16c290f11f49e99ac784f9a01fd96c
 msgid "PD、Q：排队中 ，PENDING"
 msgstr "PD, Q: Queued, PENDING"
 
-#: ../../docs/jobs/slurm-squeue.rst:30 6011837ac88f47b9b79e6b733b1c640b
+#: ../../docs/jobs/slurm-squeue.rst:45 731ab3d897d047cda9f3a1a79542360b
 msgid "R：运行中 ，RUNNING"
 msgstr "R: Running, RUNNING"
 
-#: ../../docs/jobs/slurm-squeue.rst:31 2219863e763e4683a0b583f242f38e6e
+#: ../../docs/jobs/slurm-squeue.rst:46 7f9f9e5248a6483fa6e9a2f379308225
 msgid "CA：已取消，CANCELLED"
 msgstr "CA: Canceled, CANCELLED"
 
-#: ../../docs/jobs/slurm-squeue.rst:32 956d610cb9924140ac45e68f63d6debe
+#: ../../docs/jobs/slurm-squeue.rst:47 fb708e4a084e4615b9100541eac544f9
 msgid "CG：完成中，COMPLETIONG"
 msgstr "CG: Completing, COMPLETIONG"
 
-#: ../../docs/jobs/slurm-squeue.rst:33 5521a09291b84c4a945ac72588894ef1
+#: ../../docs/jobs/slurm-squeue.rst:48 716be181262e46db89e5a677b2209e8c
 msgid "F：已失败，FAILED"
 msgstr "F: Failed, FAILED"
 
-#: ../../docs/jobs/slurm-squeue.rst:34 e386c82e518c46d189b15d02671f1b28
+#: ../../docs/jobs/slurm-squeue.rst:49 19c7baf3780b418191e9ddaafd6b9118
 msgid "TO：超时，TIMEOUT"
 msgstr "TO: Timed Out, TIMEOUT"
 
-#: ../../docs/jobs/slurm-squeue.rst:35 79e2886f644041c2a6f9d79dbdde94e3
+#: ../../docs/jobs/slurm-squeue.rst:50 1abe978924e9426daf188839b28eb498
 msgid "NF：节点失效，NODE FAILURE"
 msgstr "NF: Node Failure, NODE FAILURE"
 
-#: ../../docs/jobs/slurm-squeue.rst:36 c4ca29402fa4442dad86437f0562793e
+#: ../../docs/jobs/slurm-squeue.rst:51 edeaaf1a7cea447eb30743be12ec0687
 msgid "CD：已完成，COMPLETED"
 msgstr "CD: Completed, COMPLETED"
+
+#~ msgid ""
+#~ "其中 JOBID表示任务ID， NAME表示任务名称， USER为用户， ST表示运行状态，"
+#~ " TIME为已运行时间， NODES表示占用节点数， NODELIST为任 务运行的节点列表。"
+#~ msgstr ""
+#~ "Here, JOBID represents the task ID, "
+#~ "NAME represents the task name, USER "
+#~ "is the user, ST represents the "
+#~ "running status, TIME is the elapsed "
+#~ "time, NODES indicates the number of "
+#~ "occupied nodesNODELIST is the list of"
+#~ " nodes where the task is running."
 

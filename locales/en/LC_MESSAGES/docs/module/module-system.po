@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2023, ChinaSRC TEAM
+# This file is distributed under the same license as the ChinaSRC-P User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../docs/module/module-system.rst:5 01f36ca986594d44812768e11343b523
+msgid "系统命令的使用"
+msgstr "System command usage"
+
+#: ../../docs/module/module-system.rst:7 e2da50b4aa0a46b2aec225ca512223da
+msgid "部分命令是系统级别的命令，如果希望以Slurm的方式运行， 需要导入需要的module文件，具体的使用方法如下："
+msgstr ""
+
+#: ../../docs/module/module-system.rst:20 95c5b47f8f6f4d238c97b425ce04fa1e
+msgid "此时应该可以看到system的各个版本"
+msgstr ""
+
+#: ../../docs/module/module-system.rst:22 e09c9d6c72e749f297ff7adea2f7504e
+msgid "当前支持的命令如下所示："
+msgstr ""
+
+#: ../../docs/module/module-system.rst:26 2341cd92bd4445a39c311a22ffb2ec12
+msgid "加载系统模块"
+msgstr ""
+
+#: ../../docs/module/module-system.rst:33 9200dcce1dcf4194a006f5404977e079
+msgid "然后就可以使用各个命令了。"
+msgstr ""
+

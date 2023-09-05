@@ -4,12 +4,12 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
@@ -18,24 +18,45 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: ../../docs/faq/account.rst:5 009962aad4b74d5a95d59bfe69cdeb01
+#: ../../docs/faq/account.rst:5 74c7c65b2fd34119b5a1d1904d0234c0
 msgid "账号常见问题"
-msgstr ""
+msgstr "Account FAQ"
 
-#: ../../docs/faq/account.rst:8 0c9b81a1828442a89e251adf66a35316
+#: ../../docs/faq/account.rst:8 3e73e08657cf450a83a01671457a4d67
 msgid "账号申请"
 msgstr ""
 
-#: ../../docs/faq/account.rst:10 af19a773015b472fa27f81fd5b35938f
+#: ../../docs/faq/account.rst:10 71ead33e67414def9d658025cd663c62
 msgid ""
-"请先阅读 `中国SKA原型样机 <https://www.shao.ac.cn/cskap>`__ ，填写《上海天文台原型样机申请表》，并发送至 "
-"`ChinaSRC-P运维 <mailto:shaoska@shao.ac.cn & chinasrc@googlegroups.com>`__\\ 。 "
-"我们将会在3个工作日内开通账号并将账号信息发送至您的邮箱。"
+"请先阅读 userguide_ . 并通过 ChinaSRC统一身份门户 portal_  门户进行注册申请。 "
+"我们会在3个工作日内开通账号并将账号信息发送至您的邮箱， 如有其他问题请并发送邮件至至 ChinaSRC-P运维 mailto_ 。"
 msgstr ""
 
-#: ../../docs/faq/account.rst:15 b9bdc8bf56e242f483671af969638201
-msgid "另外，为帮助用户正确使用ChinaSRC-P超算资源，请账号使用人先通读“ChinaSRC-P简明手册”。"
+#: ../../docs/faq/account.rst:15 f602f7bd9dc34035800f0dc594dd0d22
+msgid "另外，为帮助用户正确使用ChinaSRC-P超算资源，请账号使用人先通读“ChinaSRC-P用户手册”。"
 msgstr ""
+
+#~ msgid ""
+#~ "请先阅读 `中国SKA原型样机 <https://www.shao.ac.cn/cskap>`__ "
+#~ "，填写《上海天文台原型样机申请表》，并发送至 `ChinaSRC-P运维 "
+#~ "<mailto:shaoska@shao.ac.cn & "
+#~ "chinasrc@googlegroups.com>`__\\ 。 "
+#~ "我们将会在3个工作日内开通账号并将账号信息发送至您的邮箱。"
+#~ msgstr ""
+
+#~ msgid "另外，为帮助用户正确使用ChinaSRC-P超算资源，请账号使用人先通读“ChinaSRC-P简明手册”。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "请先阅读 `中国SKA原型样机 <https://www.shao.ac.cn/cskap>`__ "
+#~ "，填写《上海天文台原型样机申请表》，并发送至 `CSRC-P运维 "
+#~ "<mailto:shaoska@shao.ac.cn & "
+#~ "chinasrc@googlegroups.com>`__\\ 。 "
+#~ "我们将会在3个工作日内开通账号并将账号信息发送至您的邮箱。"
+#~ msgstr ""
+
+#~ msgid "另外，为帮助用户正确使用CSRC-P超算资源，请账号使用人先通读“CSRC-P简明手册”。"
+#~ msgstr ""
 

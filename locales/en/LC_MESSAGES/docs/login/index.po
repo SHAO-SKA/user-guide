@@ -4,12 +4,12 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
@@ -18,14 +18,20 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: ../../docs/login/index.rst:3 ec6f5ec5a3cb43f58435025965e395df
+#: ../../docs/login/index.rst:3 d6bae142379e4bd684ed7735d3ba8797
 msgid "登录"
 msgstr "login"
 
-#: ../../docs/login/index.rst:5 dab05e33ed084098948b3e63c9f9e98b
+#: ../../docs/login/index.rst:7 6c3820dac55148dcae061dee9770a352
 
 msgid "本章介绍如何登陆到ChinaSRC-P"
 msgstr "This chapter provides instructions on how to log in to China SRC-P"
+
+#: ../../docs/login/index.rst:10 ee507eb4a88a4970b21b9b9ecf375c86
+msgid ""
+"ChinaSRC-P平台的登录地址为：http://chinasrc.shao.ac.cn:8882 "
+"，可通过Chrome、Firefox等浏览器直接访问, 台外用户请使用 VPN 或者联系shaoska@shao.ac.cn 获取访问权限。"
+msgstr ""
 

@@ -4,12 +4,12 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"POT-Creation-Date: 2023-09-05 08:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
@@ -18,97 +18,147 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: ../../docs/jobs/slurm-sinfo.rst:3 179f9bf102d84dfba62dc2e9cba3137a
+#: ../../docs/jobs/slurm-sinfo.rst:5 1c337a35176a48f7996d514fc7660c5b
 msgid "计算节点状态查看sinfo"
 msgstr "Viewing Compute Node Status with sinfo"
 
-#: ../../docs/jobs/slurm-sinfo.rst:5 41910f5b83e3420cba3c718cdcd8f2d2
-msgid "可以通过sinfo来查看计算节点的状态"
-msgstr "You can check the status of computing nodes using the "sinfo" command."
+#: ../../docs/jobs/slurm-sinfo.rst:7 0e485119e6ab456c83a5d08e1df6df4e
 
-#: ../../docs/jobs/slurm-sinfo.rst:11 a44ca3e8e167407f922a5d767dd04986
+msgid "可以通过 `sinfo` 来查看计算节点的状态"
+msgstr "You can check the status of computing nodes using the \"sinfo\" command."
+
+#: ../../docs/jobs/slurm-sinfo.rst:13 fb9e2947622641158c2419fa3d3d513e
 msgid "输出如下："
 msgstr "Output as follows"
 
-#: ../../docs/jobs/slurm-sinfo.rst:16 3690d6efccd942b9840c02941e42f692
+#: ../../docs/jobs/slurm-sinfo.rst:18 8949e617e62448dba54c9eed60f43205
 msgid "其中各项参数的含义如下："
 msgstr "The meanings of various parameters are as follows:"
 
-#: ../../docs/jobs/slurm-sinfo.rst:18 f424740c846243e3b458bddb0da0260c
-msgid "PARTITION表示分区"
+#: ../../docs/jobs/slurm-sinfo.rst:23 dec097c05e534a2386d590bfb438cad1
+msgid "**关键词**"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:24 45d3fd903022427e99a03e0fd67e05a9
+msgid "**含义**"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:25 c9a1277e389341a39ce4b6acbb811992
+
+msgid "``PARTITION``"
 msgstr "PARTITION represents a partition."
 
-#: ../../docs/jobs/slurm-sinfo.rst:19 2a1848962f404b33a218316b0a8ce187
-msgid "AVAIL表示分区状态"
-msgstr "AVAIL represents partition status."
+#: ../../docs/jobs/slurm-sinfo.rst:26 9eb7edd7537748afacf278f015cc3259
+msgid "分区名，对节点的逻辑分组。不同的分区会设置不同权限、资源限制等。"
+msgstr ""
 
-#: ../../docs/jobs/slurm-sinfo.rst:20 496936f8500f4541b8662b7484e07ff1
-msgid "up标识可用"
-msgstr "up indicates available"
+#: ../../docs/jobs/slurm-sinfo.rst:27 260ee527e3ff4f23aabbcf4e7e4fadd0
+msgid "``AVAIL``"
+msgstr ""
 
-#: ../../docs/jobs/slurm-sinfo.rst:21 9615276df95a43c19f975b29249ea7ea
-msgid "down标识不可用"
-msgstr "down indicates unavailable"
+#: ../../docs/jobs/slurm-sinfo.rst:28 0a425c6b9a2e468ba8f96bff681d8a93
+msgid "可用状态：``up`` 可用；``down`` 不可用"
+msgstr ""
 
-#: ../../docs/jobs/slurm-sinfo.rst:22 eef61de60aa643eba09c7f80bf7640df
-msgid "TIMELIMIT表示程序运行最大时长"
-msgstr "TIMELIMIT represents the maximum running time of the program"
+#: ../../docs/jobs/slurm-sinfo.rst:29 f65fa98a65ad4e5da325cc326765aff8
+msgid "``TIMELIMIT``"
+msgstr ""
 
-#: ../../docs/jobs/slurm-sinfo.rst:23 560768530f09444596dd960eefa5e623
-msgid "infinite表示不限制,如果限制格式为days-houres:minutes:seconds"
-msgstr "infinite represents no limitation; if limited, the format is days-hours:minutes:seconds"
+#: ../../docs/jobs/slurm-sinfo.rst:30 26c0133643e446a7939df1540547f890
+msgid ""
+"该分区的作业最大运行时长限制, ``30:00`` 表示30分钟，如果是\\ ``2-00:00:00``\\ 表示2天，如果是\\ "
+"``infinite``\\ 表示不限时间"
+msgstr ""
 
-#: ../../docs/jobs/slurm-sinfo.rst:24 46cabf94211649839d3d65190606c656
-msgid "NODES表示节点数"
-msgstr "NODES represents the number of nodes"
+#: ../../docs/jobs/slurm-sinfo.rst:31 0553aa25e4f84beeb7f1ada4e1d3d971
+msgid "``NODES``"
+msgstr ""
 
-#: ../../docs/jobs/slurm-sinfo.rst:25 9b1f64f2ef3c492e8391432cbb9e0868
-msgid "NODELIST为节点列表"
+#: ../../docs/jobs/slurm-sinfo.rst:32 6c1b3aa3fddf41528e71017a925d25f8
+msgid "节点数量"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:33 dc221d4bd3a84b77a186ae949bc6ab62
+msgid "``STATE``"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:34 56d68524408b4a8ea435a3355e72b999
+msgid ""
+"状态：``drain/drained``: 排空状态，表示该类节点不再分配到其他；``idle``: "
+"空闲状态；``alloc/allocated``: 被分配状态; ``mix``:部分被占用，但是仍有可用资源； ``down``\\ 宕机 "
+";completing、comp  完成中 ; fail  失效; unknown、unk  未知原因"
+msgstr ""
+
+#: ../../docs/jobs/slurm-sinfo.rst:35 317eca247a2e4c45a49b868a454d9fd7
+
+msgid "``NODELIST``"
 msgstr "NODELIST is the list of nodes"
 
-#: ../../docs/jobs/slurm-sinfo.rst:26 1a69524dcc0f4d10812879f307053ea9
-msgid "STATE表示节点运行状态。可能的状态包括"
-msgstr "STATE represents the node's operational status. Possible states include"
+#: ../../docs/jobs/slurm-sinfo.rst:36 db41fa6591474323b352c96f46f45b64
+msgid "节点列表"
+msgstr ""
 
-#: ../../docs/jobs/slurm-sinfo.rst:27 4eb21e6085914f88af0a8ad814a8ca93
-msgid "allocated、alloc ：已分配"
-msgstr "allocated, alloc: Allocated"
-
-#: ../../docs/jobs/slurm-sinfo.rst:28 110a827014554bbebe4e65fd9f8ceb5b
-msgid "completing、comp : 完成中"
-msgstr "completing, comp: Completing"
-
-#: ../../docs/jobs/slurm-sinfo.rst:29 c12a4a3cdb2f4d60a95d8a32230d25dd
-msgid "down : 宕机"
-msgstr "down: Down"
-
-#: ../../docs/jobs/slurm-sinfo.rst:30 336af4f9079943a6ad75a12892e102db
-msgid "drained、drain : 已失去活力"
-msgstr "drained, drain: Drained"
-
-#: ../../docs/jobs/slurm-sinfo.rst:31 e081e2c94906432684765821402acfab
-msgid "fail : 失效"
-msgstr "fail: Failed"
-
-#: ../../docs/jobs/slurm-sinfo.rst:32 62dcfb7542d54fdabf13f49fef8dedb4
-msgid "idle : 空闲"
-msgstr "idle: Idle"
-
-#: ../../docs/jobs/slurm-sinfo.rst:33 a07a6aa2d1544f1f90c01e74b00ea6bd
-msgid "mix : 混合, 节点在运行作业, 但有些空闲CPU核, 可接受新作业"
-msgstr "mix: Mixed, nodes are running jobs but have some idle CPU cores and can accept new jobs"
-
-#: ../../docs/jobs/slurm-sinfo.rst:34 425bc56b964e412eb5bc64fdc12b86a2
-msgid "reserved、resv : 资源预留"
-msgstr "reserved, resv: Resource Reserved"
-
-#: ../../docs/jobs/slurm-sinfo.rst:35 153c4de787d641a3a22bc24e3ed21952
-msgid "unknown、unk : 未知原因"
-msgstr "unknown, unk: Unknown reason"
-
-#: ../../docs/jobs/slurm-sinfo.rst:39 c98a31e2dedf4c69ad42ec27587b4797
+#: ../../docs/jobs/slurm-sinfo.rst:41 8539f281d58444178b593def8e193830
 msgid "如果状态带有后缀*,表示该节点没有响应。"
 msgstr "If a state has a suffix *, it means the node is unresponsive."
+
+#: ../../docs/jobs/slurm-sinfo.rst:44 baec6f30b66640d29384d6d16fafb7d8
+msgid "在使用过程中，选择正确的分区对程序的运行十分重要"
+msgstr ""
+
+#~ msgid "AVAIL表示分区状态"
+#~ msgstr "AVAIL represents partition status."
+
+#~ msgid "up标识可用"
+#~ msgstr "up indicates available"
+
+#~ msgid "down标识不可用"
+#~ msgstr "down indicates unavailable"
+
+#~ msgid "TIMELIMIT表示程序运行最大时长"
+#~ msgstr "TIMELIMIT represents the maximum running time of the program"
+
+#~ msgid "infinite表示不限制,如果限制格式为days-houres:minutes:seconds"
+#~ msgstr ""
+#~ "infinite represents no limitation; if "
+#~ "limited, the format is days-"
+#~ "hours:minutes:seconds"
+
+#~ msgid "NODES表示节点数"
+#~ msgstr "NODES represents the number of nodes"
+
+#~ msgid "STATE表示节点运行状态。可能的状态包括"
+#~ msgstr "STATE represents the node's operational status. Possible states include"
+
+#~ msgid "allocated、alloc ：已分配"
+#~ msgstr "allocated, alloc: Allocated"
+
+#~ msgid "completing、comp : 完成中"
+#~ msgstr "completing, comp: Completing"
+
+#~ msgid "down : 宕机"
+#~ msgstr "down: Down"
+
+#~ msgid "drained、drain : 已失去活力"
+#~ msgstr "drained, drain: Drained"
+
+#~ msgid "fail : 失效"
+#~ msgstr "fail: Failed"
+
+#~ msgid "idle : 空闲"
+#~ msgstr "idle: Idle"
+
+#~ msgid "mix : 混合, 节点在运行作业, 但有些空闲CPU核, 可接受新作业"
+#~ msgstr ""
+#~ "mix: Mixed, nodes are running jobs "
+#~ "but have some idle CPU cores and"
+#~ " can accept new jobs"
+
+#~ msgid "reserved、resv : 资源预留"
+#~ msgstr "reserved, resv: Resource Reserved"
+
+#~ msgid "unknown、unk : 未知原因"
+#~ msgstr "unknown, unk: Unknown reason"
 
