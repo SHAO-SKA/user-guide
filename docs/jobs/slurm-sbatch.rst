@@ -35,7 +35,7 @@
 
 .. code:: bash
    
-   $sbatch -N 4 -p arm ./myjob.sh 
+   $sbatch -N 4 -p hw-32C768G ./myjob.sh 
    Submitted batch job 1813520
 
 计算开始后，工作目录中会生成以slurm开头的.out 文件为输出文件。
@@ -43,10 +43,10 @@
 .. code:: bash
 
    $cat slurm-1813520.out 
-   taishan-arm-cpu03
-   taishan-arm-cpu01
-   taishan-arm-cpu02
-   taishan-arm-cpu04
+  cpu1
+  cpu4
+  cpu2
+  cpu3
 
 
 一个简单的脚本示例如下：
