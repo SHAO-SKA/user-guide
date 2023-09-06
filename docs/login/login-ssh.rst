@@ -135,20 +135,20 @@ Windows
 MacOS & Linux
 ~~~~~~~~~~~~~~
 
-本地机器上打开自带的终端，按照\ :ref:`上文 <ssh_info>`\ 查看要登录的集群SSH IP和端口信息，输入如下命令后回车登录集群：
+本地机器上打开自带的终端，按照\ :ref:`ssh_info`\ 查看要登录的集群SSH IP和端口信息，输入如下命令后回车登录集群：
 
 .. code-block:: bash
 
-   ssh -p 20139 username@202.201.1.198
+   ssh -p PORT username@IP 
 
-其中，\ ``202.201.1.198``\ 和\ ``20139``\ 分别替换为集群的SSH IP地址和端口， \ ``username``\ 替换为自己的平台用户名。
+其中，\ ``IP``\ 和\ ``PORT``\ 分别替换为集群的SSH IP地址和端口， \ ``username``\ 替换为自己的平台用户名。
 
 如果显示类似如下提示，输入\ ``yes``\ 后回车，即可正常登录。
 
 .. code-block:: bash
 
-   The authenticity of host '202.201.1.198 (202.201.1.198)' can't be established.
-   ECDSA key fingerprint is 3f:80:ce:88:9c:b9:72:f1:26:71:d0:8e:a4:91:e0:01.
+   The authenticity of host 'IP (IP)' can't be established.
+   ECDSA key fingerprint is xx:xx:xx:xx:......:xx.
    Are you sure you want to continue connecting (yes/no)
 
 Windows
@@ -156,7 +156,7 @@ Windows
 
 此处以\ `Xshell`_\ 登录为例。
 
-点击软件左上角新建会话属性，按照\ :ref:`上文 <ssh_info>`\ 查看要登录的集群SSH IP和端口信息，输入SSH IP地址和端口后点击连接。
+点击软件左上角新建会话属性，按照\ :ref:`ssh_info`\ 查看要登录的集群SSH IP和端口信息，输入SSH IP地址和端口后点击连接。
 
 |xshell new login|
 

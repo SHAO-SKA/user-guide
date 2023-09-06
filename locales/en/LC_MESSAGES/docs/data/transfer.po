@@ -19,15 +19,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
 
-#: ../../docs/data/transfer.rst:4 612662f43cca48d4b1fc91a6402a6ebd
+#: ../../docs/data/transfer.rst:4 e5214bec69ed409889ceebc06873f763
 msgid "文件传输"
 msgstr "File Transfer"
 
-#: ../../docs/data/transfer.rst:7 1b5d3229dfe24976bcbf014501bf62d1
+#: ../../docs/data/transfer.rst:7 56b67cfc17224d18b7129bb559f388de
 msgid "用户数据存储空间"
 msgstr "User Data Storage Space"
 
-#: ../../docs/data/transfer.rst:11 be9cad2d85c94eabbb3f4305023c39d2
+#: ../../docs/data/transfer.rst:11 fd44ce350a014697ade6541f1794a557
 msgid ""
 "在ChinaSRC上，系统根据三种 :ref:`usage-mode-ref` "
 "为用户在共享文件系统上分配三种目录，分别是个人目录，项目目录和公共集群目录。"
@@ -36,163 +36,162 @@ msgstr ""
 "according to the three usage modes of ChinaSRC, namely personal "
 "directory, project directory and public cluster directory."
 
-#: ../../docs/data/transfer.rst:13 8ba0b924a3c24c6eb5f837b12b961553
+#: ../../docs/data/transfer.rst:13 ec087a386bff466aacb7de2d975cabe6
 msgid "在实例或集群中，这三种目录所对应的路径不同，具体见下表："
 msgstr ""
 "In the instance or cluster, the paths corresponding to these three "
 "directories are different, as shown in the following table:"
 
-#: ../../docs/data/transfer.rst:1 152fd5349ba94180b8bf5955b604f07c
+#: ../../docs/data/transfer.rst:1 08685ab9404e43d4856ee6302bb43a87
 msgid "个人目录"
 msgstr "Personal Directory"
 
-#: ../../docs/data/transfer.rst:1 4f92c2d34e1240818c6a6be1dd9d06d3
+#: ../../docs/data/transfer.rst:1 fe94eb9960f0443a92b55f89f7e48fc1
 msgid "项目目录"
 msgstr "Project Directory"
 
-#: ../../docs/data/transfer.rst:1 f00132d7938f4a29aa7a9fc7d1c6329a
+#: ../../docs/data/transfer.rst:1 7d817f3df2684aa2b6a1ed00663e31cc
 msgid "公共集群目录"
 msgstr "Public Cluster Directory"
 
-#: ../../docs/data/transfer.rst:1 7ba34a20d72a48a1be2c086d0ce1c24a
+#: ../../docs/data/transfer.rst:1 98ee8dadaa224f9aa50629e6a2952b9b
 msgid "容器实例"
 msgstr "Container Instance"
 
-#: ../../docs/data/transfer.rst:1 7f1c402c8ba94279b052fc12c3d54fad
-#: 84cd6951660e46e2aa66ecb59d2c6444
+#: ../../docs/data/transfer.rst:1 28c1bb59733f4d77ac223e93f3f99be7
+#: d949a212b76c4304aec8499dc4026411
 msgid "/home/username"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:1 2ee41fb298a6491eacc6140f367da2ca
+#: ../../docs/data/transfer.rst:1 c526496b5f9c4089b2f7444c61254251
 msgid "/group_homes/<project>/home/username"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:1 75c65298cf984c57aedcc594f35e6ff8
+#: ../../docs/data/transfer.rst:1 b1aed575196c414ca142cdc52868294b
 msgid "/group_homes/public_cluster/home/username"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:1 6caa8d2ee0fb4160bd0459a783fe67e4
+#: ../../docs/data/transfer.rst:1 2ba23309a6f44e71b2018ec34a5f9bd5
 msgid "虚拟机实例"
 msgstr "Virtual Machine Instance"
 
-#: ../../docs/data/transfer.rst:1 675919eb222a421b9dbc606ae5201ae6
+#: ../../docs/data/transfer.rst:1 2415fd72ab3f427bba4762d9c142f765
 msgid "/webdav/MyData"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:1 cb9bc6efeeae44ab89e199a59720725d
+#: ../../docs/data/transfer.rst:1 c0c709f4af5e4ae7ad2ae61f25200b08
 msgid "/webdav/ProjectGroup(<project>)"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:1 590cc50ff13146d296c8a9ed07465fea
+#: ../../docs/data/transfer.rst:1 29d562e79e2546e5acb887882e244327
 msgid "/webdav/ProjectGroup(public_cluster)"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:1 e54ed41e65b943e5925101cb88dd5678
+#: ../../docs/data/transfer.rst:1 5729cc00677b43d696c7466e45c08d92
 msgid "公共集群"
 msgstr "Public Cluster"
 
-#: ../../docs/data/transfer.rst:1 f48fc00a4671480da7bdd2be20e653b4
+#: ../../docs/data/transfer.rst:1 5729c54b54b44238971233ef3aeadcc1
 msgid "/users/username"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:1 224cf04ba3ac44d8b0b4e5cb3f4bd7af
+#: ../../docs/data/transfer.rst:1 85d66417519b4d74add13172283dfcaa
 msgid "/groups/<project id>/home/username"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:1 918cfe842be9408d9f359038d6662010
+#: ../../docs/data/transfer.rst:1 29edcce1baab47f796673a524c0151ae
 msgid "WEB页面"
 msgstr "Web Page"
 
-#: ../../docs/data/transfer.rst:1 36a1bbaf17d447e8b7bd97814e0c9771
+#: ../../docs/data/transfer.rst:1 ff3fb727a8104c2ca157641cd0820608
 msgid "独占实例数据-username"
 msgstr "private instance data-username"
 
-#: ../../docs/data/transfer.rst:1 9da3cbc3df7e45a68bb3246b19fd22f5
+#: ../../docs/data/transfer.rst:1 d680854cacb1418e81a66c124fb07c7d
 msgid "共享实例数据-<project显示名>"
 msgstr "shared instance data-<project display name>"
 
-#: ../../docs/data/transfer.rst:1 8d4ea2c57b2445ff8d289d0f6f70d037
+#: ../../docs/data/transfer.rst:1 68145af7b5914951ad4e25c480d3b4bf
 msgid "共享实例数据-public_cluster"
 msgstr "shared instance data-public_cluster"
 
-#: ../../docs/data/transfer.rst:27 e33d8a7476cd4918a1e8234a783bace5
+#: ../../docs/data/transfer.rst:27 936fae4dabde48228fab408d23c84eac
 msgid "username请替换为自己的用户名（这个信息可以在“我的信息”-“基本信息”中查询）。"
 msgstr ""
 "change username to your own username (this information can be found in "
 "\"my information\"-\"basic information\")."
 
-#: ../../docs/data/transfer.rst:29 be6fcf5d18af4def8bfb4228cfaa9e0f
+#: ../../docs/data/transfer.rst:29 f6beb81dfc34499ca9851f9c534457db
 msgid "<project id>请替换为\"g+项目ID\"（项目基本信息中查询项目ID），例：项目ID为700008，则替换为“g700008”。"
 msgstr ""
 "change <project id> to \"g+project id\" (project id can be found in "
 "project basic information), for example: if project id is 700008, then "
 "change it to \"g700008\"."
 
-#: ../../docs/data/transfer.rst:31 385ffbb1e0de4be0b738bd925a85f86a
+#: ../../docs/data/transfer.rst:31 12e151daa99f4c1d9e4d768db718f0e8
 msgid "<project>请替换为项目名（项目基本信息中查询。）"
 msgstr ""
 "change <project> to project name (can be found in project basic "
 "information)."
 
-#: ../../docs/data/transfer.rst:35 b3ecc339745249b8b0f44c8a462bbe98
+#: ../../docs/data/transfer.rst:35 e7341d3e40284702ad0b6df1d8b6a3da
 #, fuzzy
-msgid "项目目录和公共集群目录的具体说明请分别查看 :ref:`project data` 。"
+msgid "项目目录和公共集群目录的具体说明请分别查看 :ref:`project-data` 。"
 msgstr ""
-"check :ref:`project data` and :ref:`public cluster data` for details of "
-"project directory and public cluster directory."
+"check :ref:`project-data` for details of project directory and public cluster directory."
 
-#: ../../docs/data/transfer.rst:39 7113ccd5a2ff42f5a65988015859cebe
+#: ../../docs/data/transfer.rst:39 07c1cc3e25d346f29e25755797f48142
 msgid "Web页面数据传输"
 msgstr "web page data transfer"
 
-#: ../../docs/data/transfer.rst:41 678b320cc19448ccbe1116cab029fc7b
+#: ../../docs/data/transfer.rst:41 3dc213f086a44c59bcd5c4109d42bbf2
 msgid "ChinaSRC支持通过Web页面上传下载数据和管理文件。"
 msgstr ""
 "ChinaSRC supports data upload and download and file management through "
 "web pages."
 
-#: ../../docs/data/transfer.rst:43 41d4d4c5fb8040b882660f185b8b296a
+#: ../../docs/data/transfer.rst:43 e8c73e56fab947279b43c43fddd4b05f
 msgid "通过Web页面上传和下载文件有数量限制，每次最多上传\\ **10**\\ 个文件，下载\\ **1**\\ 个文件。"
 msgstr ""
 "there are quantity limits for uploading and downloading files through web"
 " pages, at most **10** files can be uploaded each time, and **1** file "
 "can be downloaded."
 
-#: ../../docs/data/transfer.rst:45 5d0fd7749c444f1fb02c152c0307b2ba
+#: ../../docs/data/transfer.rst:45 0f4ff5eab8f24b2c89a07d1a8fd136f6
 msgid "进入“工作台”-“数据总览”，选择相应的数据位置，就可以对个人、项目和公共集群中的数据进行管理。"
 msgstr ""
 "Enter \"workbench\"-\"data overview\", select the corresponding data "
 "location, and then you can manage the data in personal, project and "
 "public cluster."
 
-#: ../../docs/data/transfer.rst:47 94f80fa30233439eb89fa37ce3c03bb3
+#: ../../docs/data/transfer.rst:47 6b0ae45814e84483878bd3f7f69b8f86
 msgid "|web data management|"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:106 be924cf29c734087b983a50dbaa93968
+#: ../../docs/data/transfer.rst:106 3dddf375adcc42d68f6a3b9b9eae0ec8
 msgid "web data management"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:50 eb5f792976434604b7e0b5962e56a93c
+#: ../../docs/data/transfer.rst:50 fcaeb8890b5d47db86d43a1b05f99dcc
 msgid "通过ssh账户传输"
 msgstr "transfer through ssh account"
 
-#: ../../docs/data/transfer.rst:54 7e2bfc57861046409338d798163bbfb5
+#: ../../docs/data/transfer.rst:54 20cf1228e5064058bb0fce8fddaac1b7
 msgid "由于Web传输文件功能有限，对于开放了SSH端口的集群或实例，用户可以通过SSH账户使用scp类的工具来传输数据。"
 msgstr ""
 "Because the web file transfer function is limited, for the cluster or "
 "instance with open SSH port, users can use scp tools to transfer data "
 "through SSH account."
 
-#: ../../docs/data/transfer.rst:56 0f238f8611014536a072168ae8998b16
+#: ../../docs/data/transfer.rst:56 6bbcc3d8c0cd44619aa78bc764420e29
 msgid "|image4|"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:107 03bc0dbb355844809033095066fdae0b
+#: ../../docs/data/transfer.rst:107 6d788c66fd084bc3bf6bfd5ac3c3a198
 msgid "image4"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:58 a06ce8689824444ba76329d179e7e453
+#: ../../docs/data/transfer.rst:58 f56b77099eba424b94007aff49fcb7dc
 msgid ""
 "以公共集群项目为例，用户在 **项目** -> *public cluster* 的页面里，选择 **实例** "
 "，点击实例最右侧的SSH服务地址按钮，会弹出ChinaSRC对外开放的IP地址和端口："
@@ -202,29 +201,29 @@ msgstr ""
 " button on the right side of the instance, and ChinaSRC will pop up the "
 "IP address and port open to the outside:"
 
-#: ../../docs/data/transfer.rst:60 565bd64f3b034070a23fd77758945b2a
+#: ../../docs/data/transfer.rst:60 d88f3c39a47c46f1b19a133dc2f8d29b
 msgid "|ssh ip|"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:62 dfb7801da08747bb896ad46ae8041d50
+#: ../../docs/data/transfer.rst:62 472cd9a5f921406f8f8f1bbd5de3412b
 msgid "ssh ip"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:65 d0126578dc1d4933ae892f5be8b6a18a
+#: ../../docs/data/transfer.rst:65 c1be0502b3e742deb763b1dad67aefe9
 msgid "首次使用SSH登录的用户需要 :ref:`重置ChinaSRC密码 <reset password>`"
 msgstr ""
 "When using SSH login for the first time, users need to :ref:`reset "
 "ChinaSRC password <reset password>`"
 
-#: ../../docs/data/transfer.rst:67 04e7c3fc4b764acbb9c8eab6ee4b50fb
+#: ../../docs/data/transfer.rst:67 435df88f29d74c1a86342b74b0d9b77e
 msgid "|reset_pw|"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:109 cc343f0d60a14063a11c7ff330f02c77
+#: ../../docs/data/transfer.rst:109 5808d70f4c364191bc1592ad1edb6763
 msgid "reset_pw"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:69 7c7a9d6d54014b38a2eaaf9662cc3db9
+#: ../../docs/data/transfer.rst:69 1bc3ca9d8ff246cbbccf908234083329
 msgid ""
 "用户在能够直接访问ChinaSRC服务IP地址的情况下，可以使用scp、\\ `WinSCP "
 "<https://winscp.net/eng/docs/lang:chs>`__\\ 或\\ `Xmanager "
@@ -235,29 +234,29 @@ msgstr ""
 "scp tools to transfer data when they can directly access the ChinaSRC "
 "service IP address:"
 
-#: ../../docs/data/transfer.rst:76 c78efe83d8c94748b3c8de930b2f7eb6
+#: ../../docs/data/transfer.rst:76 5e2baa1568be4b5fafb27e49f3199763
 msgid "使用XFTP传输"
 msgstr "Transfer with XFTP"
 
-#: ../../docs/data/transfer.rst:78 241632c915e048919122c6ca187493b9
+#: ../../docs/data/transfer.rst:78 63424f64f86a4f8584dabf6e68681c59
 msgid "Windows用户也可以使用\\ `XFTP <https://www.xshellcn.com/xftp.html>`__\\ 客户端进行传输。"
 msgstr ""
 "Windows users can also use \\ `XFTP "
 "<https://www.xshellcn.com/xftp.html>`__\\ client for transmission."
 
-#: ../../docs/data/transfer.rst:80 635226b7024149c39fbe7c422abc078d
+#: ../../docs/data/transfer.rst:80 8a9b9e1530654f6a955217e8ce921f0f
 msgid "下载并安装XFTP软件后打开，点击“文件”-“新建”。"
 msgstr "Download and install XFTP software, open it, click \"file\"-\"new\"."
 
-#: ../../docs/data/transfer.rst:82 8a4d3688f66f4a7eb61cc9b139d9d508
+#: ../../docs/data/transfer.rst:82 e1fbf8bdf099462abad333487ddd484c
 msgid "|new xftp connection|"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:84 4450aa8733b842a6b8a13fe6a8610d7e
+#: ../../docs/data/transfer.rst:84 9ff24c0bec194581b5ea477d6951969f
 msgid "new xftp connection"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:86 22f2f76f881847e4990e890774ded532
+#: ../../docs/data/transfer.rst:86 7eef1ad895bc427fb7b7e1992156e764
 msgid "名称用户可以自定义，主机选项中输入“服务ssh“显示的服务外部地址，端口号填写“服务ssh”中的端口号，协议使用默认的SFTP，用户名和密码填写ChinaSRC的用户名和密码。点击”连接“。"
 msgstr ""
 "Users can customize the name, enter the service external address "
@@ -265,15 +264,15 @@ msgstr ""
 "in \"service ssh\", use the default SFTP for protocol, and fill in the "
 "ChinaSRC username and password. Click \"connect\"."
 
-#: ../../docs/data/transfer.rst:88 64b08412c90a4b71a6c4c029ebafd3ae
+#: ../../docs/data/transfer.rst:88 e21ec5b5f77a4ef1bf99c1dc578f53ae
 msgid "|set xftp connection|"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:90 5f593c22ffaa495785c684d21ea774b3
+#: ../../docs/data/transfer.rst:90 04c01f49085a46bc82d09265ce3803dd
 msgid "set xftp connection"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:92 a060b2e352d74394bcd3b74c39d26848
+#: ../../docs/data/transfer.rst:92 195c096ca85348e8b5ee9717e3fabbde
 msgid ""
 "连接后左侧为当前用户计算机的视图，右侧为远程计算机的视图，用户访问的远程计算机路径为\\ ``/home/username``\\ "
 "，即当前用户的家目录，用户可将文件从个人电脑上传输到共享文件夹内，下方传输栏会显示传输任务详细信息。"
@@ -286,25 +285,25 @@ msgstr ""
 "transmission bar below will display the detailed information of the "
 "transmission task."
 
-#: ../../docs/data/transfer.rst:94 9a44928f298f437393b2317b95208f0b
+#: ../../docs/data/transfer.rst:94 187e8f9193a04ff4963d0ee2058d0607
 msgid "|xftp windows|"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:96 968e12c921564f71bba0c141f7626521
+#: ../../docs/data/transfer.rst:96 6b55a6fd952b4431ae3ef3f1f11089f8
 msgid "xftp windows"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:98 9be1ad70fb3f40c58b703fcd34d262d1
+#: ../../docs/data/transfer.rst:98 2b2b73de7b4745f19c83831575adfd04
 msgid "传输完成后即可在公共集群或实例控制台的用户家目录中看到刚才传输的文件。"
 msgstr ""
 "After the transmission is completed, you can see the transferred file in "
 "the user's home directory of the public cluster or instance console."
 
-#: ../../docs/data/transfer.rst:100 fcd67ae8eae24769a584d309a5152dc0
+#: ../../docs/data/transfer.rst:100 704a2ae944164ac7ae31f523a654af57
 msgid "|file in terminal|"
 msgstr ""
 
-#: ../../docs/data/transfer.rst:102 89d8f669f611481cae690b2cafedc9a4
+#: ../../docs/data/transfer.rst:102 ec00dca1c42047e082a852dbf4037b8a
 msgid "file in terminal"
 msgstr ""
 
