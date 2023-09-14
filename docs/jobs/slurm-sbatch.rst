@@ -35,7 +35,7 @@
 
 .. code:: bash
    
-   $sbatch -N 4 -p hw-32C768G ./myjob.sh 
+   $sbatch -N 4 -p arm ./myjob.sh 
    Submitted batch job 1813520
 
 计算开始后，工作目录中会生成以slurm开头的.out 文件为输出文件。
@@ -43,10 +43,10 @@
 .. code:: bash
 
    $cat slurm-1813520.out 
-  cpu1
-  cpu4
-  cpu2
-  cpu3
+   taishan-arm-cpu03
+   taishan-arm-cpu01
+   taishan-arm-cpu02
+   taishan-arm-cpu04
 
 
 一个简单的脚本示例如下：
@@ -55,33 +55,25 @@
    :linenos:
    
    #! /bin/bash
-   ### This is a sample script file for slurm
+   ### 表示这是一个bash脚本
 
    #SBATCH --job-name=JOBNAME
-   ### set the job name
+   ### 设置该作业的作业名
 
-   #SBATCH --partition=PARTITION_NAME
-   ### set the partition name : can be hw-32C768G/insp-4V100/insp-8V100
-
-   #SBATCH --nodes=1
-   ### set the number of nodes
+   #SBATCH --nodes=2
+   ### 指定该作业需要2个节点数
    
-   #SBATCH --ntasks-per-node=1
-   ### setting ntasks-per-node=1 is equivalent to setting
-   
-   #SBATCH --output=%u-%x-%j.out
-   ### set the output file name
-
-   #SBATCH --error=%u-%x-%j.err
-   ### set the error file name
+   #SBATCH --ntasks-per-node=40
+   ### 每个节点所运行的进程数为40
 
    #SBATCH --time=2:00:00
-   ### maximum time allowed for job to run, if it exceeds this time, the job will be terminated
+   ### 作业最大的运行时间，超过时间后作业资源会被SLURM回收
 
    #SBATCH --comment project_name
-   ### point out which project to charge. If this parameter is not specified, it will be charged from the personal account
+   ### 指定从哪个项目扣费。如果没有这条参数，则从个人账户扣费
    
-   mpirun hostname ### execute the program
+   mpirun hostname
+   ### 程序的执行命令
 
 .. attention:: 
 
