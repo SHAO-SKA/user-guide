@@ -70,17 +70,17 @@ msgstr ""
 
 #: ../../docs/storage/index.rst:21 30d4734c778f43be8b533c10da76246d
 msgid "目前，CSRC-P系统存储了约2PB左右的数据， 包括MWA、ASKAP和VLBI望远镜的观测数据。"
-msgstr "At present, the CSRC-P system stores about 2PB of data, including MWA, ASKAP and VLBI telescope observation data."
+msgstr ""
 
 #: ../../docs/storage/index.rst:24 31b554a26b504034bce1196a4a76e603
 msgid "主要数据分组情况：MWA/GLEAM组、 MWA/Pulsar组和ASKAP组。"
-msgstr "Main data grouping situation: MWA/GLEAM group, MWA/Pulsar group and ASKAP group."
+msgstr ""
 
 #: ../../docs/storage/index.rst:26 310c15aea73c49edb2d8436362244e11
 msgid ""
-"如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 shaoska@shao.ac.cn 咨询。"
-msgstr "If you need to use the data in these groups, or need to upload and store a large amount of data, please send an email to"
-"shaoska@shao.ac.cn"
+"如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 shaoska@shao.ac.cn & "
+"chinasrc@googlegroups.com 咨询。"
+msgstr ""
 
 #~ msgid "本章介绍ChinaSRC-P存储情况"
 #~ msgstr ""
