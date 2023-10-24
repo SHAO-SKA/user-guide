@@ -62,7 +62,7 @@ msgstr "Users can log in to the unified identity authentication platform via the
 #: ../../docs/login/login-inter.rst:27 7501d978d71c4d00adfa93dea694c57b
 
 msgid "|loginin|"
-msgstr "|webloginimage|"
+msgstr "|loginin|"
 
 #: ../../docs/login/login-inter.rst:180 10206006370340e3a872ba05c6877aa4
 
@@ -76,9 +76,7 @@ msgstr "Enter your username and password, and click on 'Login' to enter the serv
 #: ../../docs/login/login-inter.rst:32 4c89872bb2e54eeabe11b2ed50f3c136
 
 msgid "|iam|"
-msgstr "|image3|"
-
-#: ../../docs/login/login-inter.rst:181 5a91576be9f847bdbcbfb09a225028dd
+msgstr "|iam|"
 
 msgid "iam"
 msgstr "ARM"
@@ -304,42 +302,6 @@ msgstr ""
 "operating system or Mac operating system users, you can log in directly "
 "using SSH. Specific instructions can be found below."
 
-#: ../../docs/login/login-inter.rst:169 81fd15c32aa3435281d2d5b75b25f3c2
-msgid "数据中心共有两个登录节点：ARM和X86，它们的IP地址分别是："
-msgstr ""
-"There are two login nodes in the data center: ARM and X86, with the "
-"following IP addresses:"
-
-#: ../../docs/login/login-inter.rst:172 2698bb6d0025446e9632391b9b6a84fd
-msgid "登陆节点"
-msgstr "Login Node"
-
-#: ../../docs/login/login-inter.rst:172 4080aea8f9f640ff91a539c5e8eecf75
-msgid "IP"
-msgstr "IP"
-
-#: ../../docs/login/login-inter.rst:172 8583762c98a047cd8f591edf2b7844d4
-msgid "备注"
-msgstr "Remarks"
-
-#: ../../docs/login/login-inter.rst:174 6cc205c9fee7409c97aa592f69549375
-#: a9749f75dd5f498882ff9fbf10f9b81b
-msgid "ARM"
-msgstr "ARM"
-
-#: ../../docs/login/login-inter.rst:174 64ba6cf0a4b8492cb08b8abda7ebce1c
-msgid "202.127.3.156"
-msgstr "202.127.3.156"
-
-#: ../../docs/login/login-inter.rst:176 466ff99eed744980912978447964a304
-#: ecada7188fd84a048e90eac7db4d0f62
-msgid "X86"
-msgstr "X86"
-
-#: ../../docs/login/login-inter.rst:176 688be980d700438da0328f328a4dd505
-msgid "202.127.3.157"
-msgstr "202.127.3.157"
-
 #~ msgid "用户可以通过web界面 https://202.127.3.156/ 登录CSRC-P管理系统，如下图所示："
 #~ msgstr ""
 #~ "Users can log in to the CSRC-P "
@@ -354,4 +316,58 @@ msgstr "202.127.3.157"
 
 #~ msgid "image4"
 #~ msgstr "image4"
+
+#~ msgid "数据中心共有两个登录节点：ARM和X86，它们的IP地址分别是："
+#~ msgstr ""
+#~ "There are two login nodes in the"
+#~ " data center: ARM and X86, with "
+#~ "the following IP addresses:"
+
+#~ msgid "登陆节点"
+#~ msgstr "Login Node"
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "备注"
+#~ msgstr "Remarks"
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "202.127.3.156"
+#~ msgstr "202.127.3.156"
+
+#~ msgid "X86"
+#~ msgstr "X86"
+
+#~ msgid "202.127.3.157"
+#~ msgstr "202.127.3.157"
+
+#~ msgid "loginin"
+#~ msgstr "webloginimage"
+
+#~ msgid "iam"
+#~ msgstr "ARM"
+
+#~ msgid "login-register"
+#~ msgstr ""
+
+#~ msgid "login-submit"
+#~ msgstr ""
+
+#~ msgid "resetpassword"
+#~ msgstr ""
+
+#~ msgid "resetpassword2"
+#~ msgstr ""
+
+#~ msgid "personal info"
+#~ msgstr ""
+
+#~ msgid "image2"
+#~ msgstr "image2"
+
+#~ msgid "image3"
+#~ msgstr "image3"
 

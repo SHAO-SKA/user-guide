@@ -168,23 +168,9 @@ MacOSX通过终端登录
 Windows操作系统用户可以使用ssh客户端软件 （如Xshell、Xmanager、Putty、SecureCRT）来登录系统。
 Linux操作系统或Mac操作系统用户直接使用ssh登录。具体操作可参考下例。
 
-数据中心共有两个登录节点：ARM和X86，它们的IP地址分别是：
-
-+----------+---------------+------+
-| 登陆节点 | IP            | 备注 |
-+==========+===============+======+
-| ARM      | 202.127.3.156 | ARM  |
-+----------+---------------+------+
-| X86      | 202.127.3.157 | X86  |
-+----------+---------------+------+
-
 
 .. |loginin| image:: ../../_static/login.jpg
 .. |iam| image:: ../../_static/iam.jpg
-.. |webloginimage| image:: ../../_static/weblogin.png
-.. |image2| image:: ../../_static/windowslogin.png
-.. |image3| image:: ../../_static/linuxlogin2.png
-.. |image4| image:: ../../_static/macosxlogin.png
 
 .. |resetpassword| image:: ../../_static/reset_password.png
   :scale: 50
