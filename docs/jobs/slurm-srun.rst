@@ -28,7 +28,7 @@ srun包括多个选项，其中最常用的选项主要有以下几个：
 - -N, --nodes=minnodes[-maxnodes] 
  - 请求为作业至少分配minnodes个节点。调度器可能觉得在多于 minnodes个节点上运行作业。可以通过maxnodes限制最多分配的节点数目（例如“-N 2-4”或“--nodes=2-4”）。最少和最多节点数目 可以相同以指定特定的节点数目（例如，“-N 2”或“--nodes=2-2” 将请求两个且仅两个节点）。分区的节点数目限制将覆盖作业的请求。 如果作业的节点限制超出了分区中配置的节点数目，作业将被拒绝。 如果没有指定-N，缺省行为是分配足够多的节点以满足-n和-c参数的 需求。在允许的限制范围内以及不延迟作业开始运行的前提下，作业将被分配尽可能多的节点。
 - -p, --partition=partition name 在指定分区中分配资源。如未指定，则由控制进程在系统默认分区中分配资源。
-- -w, --nodelist=node name list 请求指定的节点名字列表。作业分配资源中将至少包含这些节点。列 表可以用逗号分隔的节点名或节点范围（如taishan-arm-cpu [01-05,07,...]，其中taishan-arm-cpu为节点名称）指定，或者用 文件名指定。如果参数中包含“/”字符，则会被当作文件名。如果指定了最大节点数如-N 1-2，但是文件中有多余2个节点，则请求列 表中只使用前2个节点。
+- -w, --nodelist=node name list 请求指定的节点名字列表。作业分配资源中将至少包含这些节点。列表可以用逗号分隔的节点名或节点范围（如cpu[01-05,07,...]，其中cpu为节点名称）指定，或者用 文件名指定。如果参数中包含“/”字符，则会被当作文件名。如果指定了最大节点数如-N 1-2，但是文件中有多余2个节点，则请求列 表中只使用前2个节点。
 - -x, --exclude=node name list 
  - 不要将指定的节点分配给作业。如果包含“/”字符，参数将被当作 文件名。srun将把作业请求提交到控制进程，然后在远程节点上启动 所有进程。如果资源请求不能立即被满足，srun将阻塞等待，直到资源可用以运行作业。如果指定了--immediate选项，则srun将在资源 不是立即可用时终止。
 - -h, --help 若需使用srun更多选项，可通过“srun –h”或“srun --help”查看.
@@ -39,70 +39,53 @@ srun包括多个选项，其中最常用的选项主要有以下几个：
 使用示例
 *******************
 
-在分区arm上指定任务数运行hostname：
+在分区hw-32C768G上指定任务数运行hostname：
 
 .. code:: bash
 
-   $srun -n 6 -p arm hostname
-   
-   taishan-arm-cpu01
-   taishan-arm-cpu01
-   taishan-arm-cpu01
-   taishan-arm-cpu01
-   taishan-arm-cpu01
-   taishan-arm-cpu01
+   $ srun -n 4 -p hw-32C768G --comment=group_name hostname
+   cpu1
+   cpu1
+   cpu1
+   cpu1
 
 
-在分区arm，节点taishan-arm-cpu[01-05]上运行hostname：
+在分区hw-32C768G，节点cpu[4-7]上运行hostname：
 
 .. code:: bash
 
-   $srun -n 5 -w taishan-arm-cpu[01-05] -p arm hostname
+   $srun -n 4 -w cpu[4-7] -p hw-32C768G --comment=group_name hostname
+   cpu7
+   cpu6
+   cpu5
+   cpu4
 
-   taishan-arm-cpu01
-   taishan-arm-cpu03
-   taishan-arm-cpu04
-   taishan-arm-cpu05
-   taishan-arm-cpu02
-
-   # 多个任务
-   $srun -n 10 -w taishan-arm-cpu[01-05] -p arm hostname
-
-   taishan-arm-cpu03
-   taishan-arm-cpu03
-   taishan-arm-cpu02
-   taishan-arm-cpu02
-   taishan-arm-cpu01
-   taishan-arm-cpu01
-   taishan-arm-cpu04
-   taishan-arm-cpu04
-   taishan-arm-cpu05
-   taishan-arm-cpu05
+   # multiple tasks per node
+   $srun -n 8 -w cpu[4-7] -p hw-32C768G --comment=group_name hostname
+   cpu5
+   cpu6
+   cpu7
+   cpu4
+   cpu4
+   cpu4
+   cpu4
+   cpu4
 
 
 
-在arm分区，运行4 任务的hostname，每个节点一个任务，分配的 节点中至少包含节点taishan-arm-cpu[03-05]：
-
-.. code:: bash
- 
-   $srun -n 4 -N 4 -w taishan-arm-cpu[03-05] -p arm hostname
-
-   taishan-arm-cpu03
-   taishan-arm-cpu04
-   taishan-arm-cpu05
-   taishan-arm-cpu06
-
-
-在arm分区，运行4 任务的hostname，每个节点一个任务，分配的节点中不包含节点taishan-arm-cpu[03-05]：
+在hw-32C768G分区，运行8个任务的hostname，每个节点一个任务，分配的节点中不包含节点cpu[4-7]：
 
 .. code:: bash
 
-   $srun -n 4 -N 4 -x taishan-arm-cpu[03-05] -p arm hostname
-
-   taishan-arm-cpu06
-   taishan-arm-cpu09
-   taishan-arm-cpu08
-   taishan-arm-cpu07
+   $ srun -n 8 -x cpu[4-7] -p hw-32C768G --comment=group_name hostname
+   cpu8
+   cpu8
+   cpu8
+   cpu8
+   cpu8
+   cpu8
+   cpu8
+   cpu8
 
 
 

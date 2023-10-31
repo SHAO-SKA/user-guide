@@ -52,7 +52,7 @@ wsclean使用
 
 	$ module load casa/6.4.1-12 
 	$ module load wsclean/cpu-3.0-gcc-7.3.0 
-	# CASA默认自带Python环境，可以将旧版本移除，保证为Python3
+	# CASA include Python environment, you can remove the old version to ensure that it is Python3
  	$ module unload python/cpu-2.7.14-gcc-7.3.0 
 
 	$ module list

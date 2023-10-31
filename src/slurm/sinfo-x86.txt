@@ -1,0 +1,5 @@
+PARTITION   AVAIL  TIMELIMIT  NODES  STATE NODELIST
+insp-4V100     up   infinite      1   idle gpu1
+insp-8V100     up   infinite      1   idle gpu2
+hw-32C768G*    up   infinite      2    mix cpu[1,6]
+hw-32C768G*    up   infinite     10   idle cpu[2-5,7-12]

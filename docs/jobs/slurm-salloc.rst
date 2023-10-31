@@ -29,14 +29,15 @@ salloc提交方式如下： 首先申请资源，执行如下命令：
 
 .. code:: bash
 
-   $salloc -N 2 -p arm
+   $ salloc -n 8 -p hw-32C768G --comment=group_name
+    salloc: Granted job allocation 10780
+    salloc: Waiting for resource configuration
+    salloc: Nodes cpu1 are ready for job
 
-   salloc: Granted job allocation 1813522
-
-   #通 过 squeue 查 看 相 应 的 jobID 为 1813522， 节 点 为 taishan-arm-cpu[01-02]。
-   $ squeue 
-     JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-   1813522       arm     bash   sername  R       3:42      2 taishan-arm-cpu[01-02]
+   #Check the jobID 10780 and the nodes cpu1 by squeue command.
+  $squeue 
+            JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            10780 hw-32C768 interact      leo  R       0:09      1 cpu1
 
 
 更多选项，用户可以通过 ``scancel --help`` 命令来查看。
