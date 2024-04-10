@@ -12,7 +12,7 @@
 
 输出如下：
 
-.. literalinclude:: ../../src/slurm/sinfo-x86.txt
+.. literalinclude:: ../../src/slurm/sinfo.txt
 
 
 其中各项参数的含义如下：

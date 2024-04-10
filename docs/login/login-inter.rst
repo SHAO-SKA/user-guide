@@ -124,11 +124,12 @@ Linux和MacOSX用户可以使用terminal终端，Windows用户建议使用xshell
 
 .. code:: bash
 
-   $ ssh -p 20002 username@chinasrcyun.shao.ac.cn
+   $ ssh username@IP:port
 
 ..
 
 其中username为用户名，
+IP为登陆节点的地址，
 port为登陆节点的端口号，该端口信息可以通过web平台获取。
 
 命令行登录的截图如下所示。
@@ -148,18 +149,24 @@ MacOSX通过终端登录
 
 .. code:: bash
 
-   $ ssh -p 20002 username@chinasrcyun.shao.ac.cn
+   $ ssh username@IP:port
 
 
 .. note:: 
    
-   普通用户默认情况下分配500GB的存储空间，如有其它需求，请联系管理员进行调额
+   普通用户默认情况下分配100G的空间，如有其它需求，请联系管理员进行调额
    （请联系shaoska@shao.ac.cn ）。
 
    用户名和密码等账户信息请通过申请表进行申请。
 
    请联系shaoska@shao.ac.cn 。
 
+
+待移除
+-------------------
+
+Windows操作系统用户可以使用ssh客户端软件 （如Xshell、Xmanager、Putty、SecureCRT）来登录系统。
+Linux操作系统或Mac操作系统用户直接使用ssh登录。具体操作可参考下例。
 
 
 .. |loginin| image:: ../../_static/login.jpg

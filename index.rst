@@ -14,6 +14,8 @@
    docs/introduction/intro.rst
    docs/introduction/intro-crativ.rst
    docs/login/index.rst
+   docs/computer/index.rst
+   docs/storage/index.rst
    docs/mode/index.rst
    docs/data/index.rst
    docs/module/index.rst
