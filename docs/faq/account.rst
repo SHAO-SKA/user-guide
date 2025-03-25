@@ -17,6 +17,6 @@
 
 .. _userguide: https://shaoska-user-guide.readthedocs.io/zh_CN/latest/
 
-.. _portal: http://chinasrc.shao.ac.cn:8882
+.. _portal: https://chinasrcyun.shao.ac.cn:7443
 
 .. _mailto: shaoska@shao.ac.cn
