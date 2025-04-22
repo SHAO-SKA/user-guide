@@ -14,7 +14,7 @@
 
 .. danger::
    用户密码方面，管理员发给用户的是随机密码，为了用户访问安全，账户开通后需要立即修改密码。
-   可以通过访问以下网址，在网页 右上角用户信息修改密码：http://chinasrc.shao.ac.cn:8882
+   可以通过访问以下网址，在网页 右上角用户信息修改密码：https://chinasrcyun.shao.ac.cn:7443
 
 用户登录有两种方式，分别为网页版登录和命令行登录。
 
@@ -23,7 +23,7 @@
 
 .. _web login:
 
-用户可以通过web界面 http://chinasrc.shao.ac.cn:8882
+用户可以通过web界面 https://chinasrcyun.shao.ac.cn:7443
 点击“通过统一认证服务登录”进入统一身份认证平台，
 
 |loginin|
