@@ -1,16 +1,16 @@
 .. _login-outer:
 
-################
-台外用户登录
-################
+########################
+Outside User Login
+########################
 
 
-台内用户需要台里开通VPN账户，可以邮件给shaoska@shao.ac.cn ，为你开通相关权限。
-登录ChinaSRC-P系统时，先开启VPN，然后根据 :ref:`login-inter` 提供的方法登录。
+The internal users need to open a VPN account through the institute, and send an email to shaoska@shao.ac.cn to request the relevant permissions.
+When logging in to the ChinaSRC-P system, first open the VPN, then log in according to the method provided in :ref:`login-inter`.
 
-台外用户需要提供您办公地点的一个固定（静态）IP地址或IP网段，开通IP白名单的方式来访问。
-开通之后， 根据 :ref:`login-inter` 提供的方法登录。
+External users need to provide a fixed (static) IP address or IP range of your office location, and access through the way of opening the IP whitelist.
+After开通, log in according to the method provided in :ref:`login-inter`.
   
-新用户申请参考 :ref:`user-register` 部分进行申请。
+New user application reference :ref:`user-register` section.
 
-其他问题参考 :ref:`faq` 请联系shaoska@shao.ac.cn 。
+For other questions, please refer to :ref:`faq` and contact shaoska@shao.ac.cn.

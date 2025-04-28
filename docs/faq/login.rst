@@ -1,24 +1,24 @@
 .. _faq_login:
 
 ================
-登陆常见问题
+Login FAQ
 ================
 
 
-我为什么连不上ChinaSRC-P？
+Why can't I connect to ChinaSRC-P?
 ***************************************
 
-首先请阅读 :ref:`login` 章节。 
+Please read the :ref:`login` section.
 
-ChinaSRC-P目前不支持公网直接访问，此处需要VPN或访问地址添加到SHAO防火墙。
-若遇到连接问题，请先检查网络，在确认是否使用VPN或已经将IP备案。
+ChinaSRC-P currently does not support direct public network access, here you need VPN or access address added to SHAO firewall.
+If you encounter connection issues, please first check the network and confirm whether you are using VPN or have already on the whitelist.
 
-建议加入“中国SKA原型机”用户微信群，ChinaSRC-P的通知会及时发布在微信群里。
-若需加入用户微信群，请发邮件至 ChinaSRC-P运维 mailto_ .
+It is recommended to join the "ChinaSKA Prototype User Group" WeChat group, the notification of ChinaSRC-P will be released in the WeChat group in time.
+If you need to join the user WeChat group, please send an email to ChinaSRC-P mailto_ .
 
-为什么WSClean和CASA冲突
-*************************
+Why is there a conflict between WSClean and CASA?
+*************************************************
 
-请阅读 :ref:`module_wsclean_casa` 章节。 
+Please read the :ref:`module_wsclean_casa` section.
 
 .. _mailto: shaoska@shao.ac.cn

@@ -1,14 +1,14 @@
 ##################
-登录
+Login
 ##################
 
 .. note:: 
     
-    本章介绍如何登陆到ChinaSRC-P
+    This chapter introduces how to log in to ChinaSRC-P.
 
 
-ChinaSRC-P平台的登录地址为：http://chinasrc.shao.ac.cn:8882 ，可通过Chrome、Firefox等浏览器直接访问,
-台外用户请使用 VPN 或者联系shaoska@shao.ac.cn 获取访问权限。
+The login address of the ChinaSRC-P platform is: https://chinasrc.shao.ac.cn:2443, which can be accessed directly through Chrome, Firefox, etc.
+External users please use VPN or contact shaoska@shao.ac.cn for access permission.
 
 
 
