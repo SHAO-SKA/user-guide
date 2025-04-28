@@ -1,23 +1,25 @@
 .. _ssh_info:
 
-查看SSH登录信息
+Check SSH login information
 ===========================
 
-对于共享集群和独占集群，以及自带SSH服务的实例可以通过本地机器直接登录。如果实例没有自带SSH服务，可以\ :ref:`自行配置 <start ssh service>`。
+For shared clusters and exclusive clusters, and instances with built-in SSH services, 
+you can log in directly using your local machine. 
+If the instance does not have built-in SSH services, you can \ :ref:`start ssh service`\ .
 
 .. attention:: 
    
-   在首次使用SSH登录之前，需要通过平台管理界面\ :ref:`重置密码 <reset password>`。
+   Before using SSH to log in for the first time, you need to \ :ref:`reset password <reset password>`\  through the platform management interface.
 
-每套虚拟集群有自己的访问端口，在“工作台”-“资源总览”中通过点击如图所示图标可显示集群的IP和端口信息。
+Each virtual cluster has its own access port, which can be displayed by clicking the icon in the "Workbench" - "Resource Overview" section.
 
 |image4|
 
-请使用红框框选出的地址。
+Please use the address highlighted in the red box.
 
 |ssh address|
 
-Windows推荐使用\ `PuTTY`_，`SecureCRT`_，`Xmanager`_\ 等客户端访问集群的服务端口，Linux/Mac直接使用终端即可。
+Windows recommends using \ `PuTTY`_,\ `SecureCRT`_,\ `Xmanager`_\ to access the cluster service port, Linux/Mac directly use the terminal.
 
 .. _PuTTY: https://www.chiark.greenend.org.uk/~sgtatham/putty/
 .. _SecureCRT: https://www.vandyke.com/products/securecrt/
@@ -28,58 +30,65 @@ Windows推荐使用\ `PuTTY`_，`SecureCRT`_，`Xmanager`_\ 等客户端访问�
 
 .. _ssh login without password:
 
-SSH免密码登录
+SSH login without password
 ===========================
 
-SSH免密码登录需要一对密钥对，包括一个公钥和一个私钥，其中私钥放在用户本机，公钥放在集群的\ ``~/.ssh/authorized_keys``\ 目录。下次登录时，用户本机的私钥和远程集群的公钥通过加密协议验证配对，验证成功后将不需要密码直接登录成功。所以这里需要生成公私钥，并将公钥上传到目标实例的指定位置。
+SSH login without password requires a pair of keys, including a public key and a private key, where the private key is placed on the user's local machine, and the public key is placed on the cluster's\ ``~/.ssh/authorized_keys``\ directory. 
+When logging in next time, the private key on the user's local machine and the public key on the remote cluster will be verified through the encryption protocol. 
+If the verification is successful, the login will be successful without the need for a password. 
+So here we need to generate a pair of keys, and upload the public key to the specified position of the target instance.
 
-使用SSH客户端免密码登录主要需要两步：
+SSH login without password mainly needs two steps:
 
-1. 在用户本机生成公私钥。
+1. Generate a pair of keys on the user's local machine.
 
-2. 将公钥添加到计算云目标实例的\ ``~/.ssh/authorized_keys``\ 文件末尾。
+2. Add the public key to the\ ``~/.ssh/authorized_keys``\ file at the end of the target instance.
 
-生成密钥对
-+++++++++++++++++
+Generating a key pair
+++++++++++++++++++++++++
 
 MacOS & Linux
 ~~~~~~~~~~~~~~~~~~
 
-直接使用终端在用户本机生成公钥和私钥。
+Directly use the terminal to generate the public and private keys on the user's local machine.
 
-输入命令\ ``ssh-keygen -t rsa``：
+Type the command\ ``ssh-keygen -t rsa``:
 
 .. code-block:: bash
 
    ssh-keygen -t rsa
 
-终端会提示：
+The terminal will prompt:
 
 .. code-block:: bash
 
    Generating public/private rsa key pair.
    Enter file in which to save the key (/Users/~your-local-username~/.ssh/id_rsa):
 
-括号内为生成的公私钥的默认目录位置，直接回车就会使用这个默认位置。
+The parentheses contain the default directory location of the generated public and private keys, directly press Enter to use this default location.
 
 |mac ssh keygen|
 
-如果默认位置已经生成过公私钥，则终端会提示是否需要覆盖，这时可不用再次生成公私钥。
+If the default location has already generated a public and private key, the terminal will prompt whether to overwrite, 
+in this case, you can skip the generation of the public and private keys.
 
 .. code-block:: bash
 
    /Users/~your-local-username~/.ssh/id_rsa already exists.
    Overwrite (y/n)?
 
-终端会提示输入密码 passphrase，这个密码为生成私钥的密码，将来防止私钥被其他人盗用。这里可以不输入任何密码，直接回车，再次提示输入密码，再次回车。
+The terminal will prompt you to enter the password passphrase, this password is the password for generating the private key, 
+to prevent the private key from being used by others. Here you can enter any password, press Enter, 
+and then prompt you to enter the password again, press Enter again.
 
 |mac set keygen passphrase|
 
-这时公钥存储在\ ``/Users/~your-local-username~/.ssh/id_rsa.pub``\ 文件里，私钥存储在\ ``/Users/~your-local-username~/.ssh/id_rsa``\ 文件里。
+The public key is stored in the\ ``/Users/~your-local-username~/.ssh/id_rsa.pub``\ file, 
+the private key is stored in the\ ``/Users/~your-local-username~/.ssh/id_rsa``\ file.
 
 |mac list keygen|
 
-获取公钥，将返回值拷贝到剪贴板。
+Get the public key, copy the return value to the clipboard.
 
 .. code-block:: bash
 
@@ -90,60 +99,63 @@ MacOS & Linux
 Windows
 ~~~~~~~~~~~~~~
 
-可以通过\ `PuTTY`_\ 或\ `Xshell`_\ 生成公私钥。下面以Xshell软件为例，介绍公私钥生成。
+You can generate a public and private key using\ `PuTTY`_\ or\ `Xshell`_\. 
+Below is an example of using the Xshell software to generate a public and private key.
 
-打开Xshell工具，工具栏有一个工具选项，点开选择新建用户密钥生成向导。
+Open the Xshell tool, there is a tool option in the toolbar, click to open and select the new user key generation wizard.
 
 |xshell new user key|
 
-密钥类型默认使用RSA，密钥长度默认2048位，点击下一步。
+The key type defaults to RSA, the key length defaults to 2048 bits, click Next.
 
 |xshell generate key|
 
-等待软件自动生成密钥对后点击下一步。
+Wait for the software to automatically generate the key pair and click Next.
 
 |xshell waiting for key|
 
-按照软件指引配置密钥名称和密码后点击下一步。
+Follow the software instructions to configure the key name and password, then click Next.
 
 .. attention:: 
 
-   该密码加密您的私钥文件，若遗忘，则需要重新生成公私钥并重新添加至集群，请牢记！
+   This password encrypts your private key file, if you forget it, you need to regenerate the public and private keys and add them to the cluster again, please remember!
 
 |xshell set key information|
 
-软件会显示生成的公钥，选中公钥复制到剪贴板，然后点击结束，将公钥另存为文件。
+The software will display the generated public key, select the public key and copy it to the clipboard, then click Finish, and save the public key as a file.
 
 |xshell copy public key|
 
 |xshell save public key|
 
-将公钥添加到集群
-+++++++++++++++++
+Add the public key to the cluster
+++++++++++++++++++++++++++++++++++++
 
-接下来需要将刚刚复制的公钥追加到集群内\ ``~/.ssh/authorized_keys``。先使用\ :ref:`Web SSH登录 <web login>`\ 到集群，在Web终端中输入如下命令：
+Next, you need to append the public key you just copied to the\ ``~/.ssh/authorized_keys``\ file in the cluster. 
+First use\ :ref:`Web SSH login <web login>`\ to log in to the cluster, and then input the following command in the Web terminal:
 
 .. code-block:: bash
 
    echo "ssh-rsa AAAA..." >> ~/.ssh/authorized_keys
 
-其中，将``ssh-rsa AAAA..``\ 替换为刚才复制的公钥。
+Replace ``ssh-rsa AAAA..``\ with the public key you just copied.
 
-用密钥登录集群
-++++++++++++++++
+Use the key to log in to the cluster
+++++++++++++++++++++++++++++++++++++
 
 MacOS & Linux
 ~~~~~~~~~~~~~~
 
-本地机器上打开自带的终端，按照\ :ref:`ssh_info`\ 查看要登录的集群SSH IP和端口信息，输入如下命令后回车登录集群：
+Open the built-in terminal on your local machine, according to\ :ref:`ssh_info`\ to view the SSH IP and port information of the cluster to be logged in, 
+input the following command and press Enter to log in to the cluster:
 
 .. code-block:: bash
 
    ssh -p PORT username@IP 
 
-其中，\ ``IP``\ 和\ ``PORT``\ 分别替换为集群的SSH IP地址和端口， \ ``username``\ 替换为自己的平台用户名。
+Replace \ ``IP``\ and \ ``PORT``\ with the SSH IP address and port of the cluster, and \ ``username``\ with your platform username.
 
-如果显示类似如下提示，输入\ ``yes``\ 后回车，即可正常登录。
+If you see a similar prompt, enter\ ``yes``\ and press Enter, then you can log in normally.
 
 .. code-block:: bash
 
@@ -154,57 +166,59 @@ MacOS & Linux
 Windows
 ~~~~~~~~~~~~~~
 
-此处以\ `Xshell`_\ 登录为例。
+Here is an example of using\ `Xshell`_\ to log in.
 
-点击软件左上角新建会话属性，按照\ :ref:`ssh_info`\ 查看要登录的集群SSH IP和端口信息，输入SSH IP地址和端口后点击连接。
+Click the new session property in the upper left corner of the software, according to\ :ref:`ssh_info`\ to view the SSH IP and port information of the cluster to be logged in, 
+input the SSH IP address and port, then click Connect.
 
 |xshell new login|
 
-输入平台用户名后点击OK。
+Input the platform username and click OK.
 
 |xshell enter username|
 
-在用户身份验证界面选择“Public Key” 选择上文中保存在本地的公钥文件。如果之前在生成密钥对时设置了密钥密码，还需要一并输入密码。
+In the user authentication interface, select "Public Key" and select the public key file saved locally in the previous section. 
+If a key password was set when generating the key pair, you also need to input the password.
 
 |xshell import public key|
 
-点击确认，成功登录。
+Click Confirm, successfully login.
 
 |xshell login successfully|
 
 .. _start ssh service:
 
-SSH服务配置
---------------
+SSH service configuration
+--------------------------
 
-启动实例，打开终端安装ssh服务
+Start the instance, open the terminal to install the ssh service
 
 .. code-block:: bash
 
    sudo yum install openssh-server
 
-开启ssh服务
+Start the ssh service
 
 .. code-block:: bash
 
    sudo service sshd start
 
-如果提示\ ``service command not found``\，执行如下命令：
+If you see the prompt\ ``service command not found``\，execute the following command:
 
 .. code-block:: bash
 
    sudo yum install initscripts -y
 
-更改用户密码
+Change the user password
 
 .. code-block:: bash
 
    sudo -i
    passwd Usename
 
-然后输入新密码。
+Then input the new password.
 
-用ssh工具远程登陆实例。
+Use the ssh tool to remotely log in to the instance.
 
 
 .. |image4| image:: ../../_static/cluster_login_image5.png

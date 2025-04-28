@@ -14,7 +14,7 @@ Internal User Login
 
 .. danger::
 
-   Regarding user password, the administrator sends a random password to the user. For user access security, the account must be modified immediately after开通.
+   Regarding user password, the administrator sends a random password to the user. For user access security, the account must be modified immediately after opening.
    Please visit the following website to modify the password in the web page: https://chinasrcyun.shao.ac.cn:7443
 
 There are two ways to log in to cnSRC: web login and command line login.
