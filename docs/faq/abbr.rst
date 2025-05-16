@@ -4,10 +4,10 @@
 Abbreviation
 ==============
 
-ChinaSRC-P
+cnSRC
 ******************
 
-ChinaSRC-P is the abbreviation of China SKA Regional Centre Prototype,  
+cnSRC is the abbreviation of China SKA Regional Centre Prototype,  
 it is the first prototype machine specially developed for the SKA regional center in the world.
 
 SKA

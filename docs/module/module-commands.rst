@@ -28,7 +28,7 @@
 
 
 
-ChinaSRC-P 平台可用的软件如下所示：
+cnSRC 平台可用的软件如下所示：
 
 .. literalinclude:: ../../src/module/modulefiles
 

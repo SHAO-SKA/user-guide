@@ -30,7 +30,7 @@ Click "Login through the Unified Authentication Service" to enter the Unified Id
 |loginin|
 
 Enter the username and password, click "Login" to enter the service platform.
-Login to the ChinaSRC-P management system, as shown below:
+Login to the cnSRC management system, as shown below:
 
 |iam|
 

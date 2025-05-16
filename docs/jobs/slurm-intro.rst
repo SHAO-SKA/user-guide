@@ -5,7 +5,7 @@ Slurm系统简介
 #################################
 
 
-ChinaSRC-P在公共集群中使用SLURM作业调度系统进行任务的调度和管理。
+cnSRC在公共集群中使用SLURM作业调度系统进行任务的调度和管理。
 SLURM（Simple Linux Utility for Resource Management）
 是一种可用于大型计算节点集群的高度可伸缩和容错的集群管理器和作业调度系统，被世界范围内的超级计算机和计算集群广泛采用。
 

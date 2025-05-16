@@ -2,7 +2,7 @@
 作业系统
 #####################
 
-ChinaSRC-P通过Slurm调度系统进行资源和作业管理，提高运行效率，以此来完成程序的规范运行，最新文档参考 [Slurm官网](https://slurm.schedmd.com/documentation.html)。
+cnSRC通过Slurm调度系统进行资源和作业管理，提高运行效率，以此来完成程序的规范运行，最新文档参考 [Slurm官网](https://slurm.schedmd.com/documentation.html)。
 
 所有需要运行的作业，无论是程序调试还是业务计算，都必须通过交互式并行srun、批量提交sbatch或分布式salloc命令提交，提交后可以使用相关命令查询作业状态。
 

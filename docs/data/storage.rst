@@ -2,13 +2,13 @@
 数据存储
 ##################
 
-.. note:: 本章介绍ChinaSRC-P存储情况
+.. note:: 本章介绍cnSRC存储情况
 
 
-ChinaSRC平台存储情况
+cnSRC平台存储情况
 ==========================
 
-ChinaSRC-P 文件系统包括：
+cnSRC 文件系统包括：
 
 .. csv-table:: 
    :header: "序号", "目录", "备注"
@@ -16,7 +16,7 @@ ChinaSRC-P 文件系统包括：
    1,/home/username,用于用户个人数据和结果数据存储
    2,/p9550, 用于存储原始观测数据
 
-目前，ChinaSRC-P系统存储超过了2PB左右的数据，
+目前，cnSRC系统存储超过了2PB左右的数据，
 包括MWA、ASKAP、MeerKAT、VLBI望远镜等的观测数据。
 
 主要数据分组情况：MWA/GLEAM组、 MWA/Pulsar组和ASKAP组。
@@ -27,7 +27,7 @@ ChinaSRC-P 文件系统包括：
 旧平台 - 待移除 V1
 ==========================
 
-ChinaSRC-P 文件系统包括：
+cnSRC 文件系统包括：
 
 - /ssd
 - /o9000
@@ -41,7 +41,7 @@ ChinaSRC-P 文件系统包括：
 - /ibo9000主要用于存储处理数据数据。
 - /p9500主要用于存储原始观测数据。
 
-目前，ChinaSRC-P系统存储了约2PB左右的数据，
+目前，cnSRC系统存储了约2PB左右的数据，
 包括MWA、ASKAP和VLBI望远镜的观测数据。
 
 主要数据分组情况：MWA/GLEAM组、 MWA/Pulsar组和ASKAP组。
