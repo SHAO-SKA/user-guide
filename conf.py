@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'ChinaSRC-P User Guide'
-copyright = '2018-2023, ChinaSRC TEAM'
-author = 'ChinaSRC Team'
+project = 'cnSRC User Guide'
+copyright = '2018-2025, cnSRC'
+author = 'cnSRC'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = 'v2.0'
+release = 'v3.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -110,7 +110,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ChinaSRCUserGuidedoc'
+htmlhelp_basename = 'cnSRCUserGuidedoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -137,7 +137,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'ChinaSRCPUserGuide.tex', 'ChinaSRC-User-Guide',
+    (master_doc, 'cnSRCPUserGuide.tex', 'cnSRC-User-Guide',
      'CSKA TEAM', 'manual'),
 ]
 
@@ -147,7 +147,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'ChinaSRCuserguide', 'ChinaSRC-User-Guide',
+    (master_doc, 'cnSRCuserguide', 'cnSRC-User-Guide',
      [author], 1)
 ]
 
@@ -158,8 +158,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'ChinaSRCPUserGuide', 'ChinaSRC-User-Guide',
-     author, 'ChinaSRCPUserGuide', 'One line description of project.',
+    (master_doc, 'cnSRCPUserGuide', 'cnSRC-User-Guide',
+     author, 'cnSRCPUserGuide', 'One line description of project.',
      'Miscellaneous'),
 ]
 

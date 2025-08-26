@@ -1,65 +1,66 @@
 .. _login-inter:
 
-################
-台内用户登录
-################
+########################
+Internal User Login
+########################
 
 .. warning::
 
-   以上成功与数据中心建立了网络连接后，为了进一步保证用户的数据安全，
-   中心不允许telnet等方式登录服务器，必须通过ssh登录方式来使用中心资源。
+   After successfully establishing a network connection with cnSRC , in order to further ensure the security of user data,
+   cnSRC does not allow users to log in to the server using telnet, etc., and must use the ssh login method to use the center's resources.
 
 
 
 
 .. danger::
-   用户密码方面，管理员发给用户的是随机密码，为了用户访问安全，账户开通后需要立即修改密码。
-   可以通过访问以下网址，在网页 右上角用户信息修改密码：http://chinasrc.shao.ac.cn:8882
 
-用户登录有两种方式，分别为网页版登录和命令行登录。
+   Regarding user password, the administrator sends a random password to the user. For user access security, the account must be modified immediately after opening.
+   Please visit the following website to modify the password in the web page: https://chinasrcyun.shao.ac.cn:7443
 
-网页登录
+There are two ways to log in to cnSRC: web login and command line login.
+
+Web Login
 -------------------
 
 .. _web login:
 
-用户可以通过web界面 http://chinasrc.shao.ac.cn:8882
-点击“通过统一认证服务登录”进入统一身份认证平台，
+Users can log in to cnSRC through the web interface: https://chinasrcyun.shao.ac.cn:2443
+Click "Login through the Unified Authentication Service" to enter the Unified Identity Authentication Platform,
 
 |loginin|
 
-输入用户名和密码，点击“登录”进入服务平台。
-登录ChinaSRC-P管理系统，如下图所示：
+Enter the username and password, click "Login" to enter the service platform.
+Login to the cnSRC management system, as shown below:
 
 |iam|
 
-输入用户名和密码即可登录。
+Enter the username and password to log in.
 
 
 .. _user-register:
 
-用户注册
---------
+User Registration
+-----------------
 
-首次登录要在平台上新注册用户并填写完整用户信息，等待管理员审批通过后，才能登录进入平台。
+The first login requires registering a new user and filling in complete user information on the platform, and then waiting for the administrator to approve the registration before entering the platform.
 
-点击“注册”按钮,
+Click the "Register" button,
 
 
 |login-register|
 
 
-进入到注册界面，填写用户名、密码及其他信息。
+Enter the registration interface, fill in the username, password and other information.
 
 |login-submit|
 
 
 .. attention:: 
 
-  注意通知邮箱填写正确，并且是正常可接收邮件的邮箱。后续审批通过后需要接收首次登录的验证码。
+   Note that the notification email is filled in correctly and is a normal email that can receive mail. After the subsequent approval, you need to receive the verification code for the first login.
 
 
-注册申请提交后，管理员会在后台进行审核，审核通过后，邮箱会收到一封邮件：
+After submitting the registration application, the administrator will review it in the background. After approval, the email will receive a message:
 
 .. note:: 
 
@@ -70,81 +71,81 @@
 
    收到这样的邮件，就表示已经通过用户审批，可以登录使用平台了。
 
-首次登录
+First login
 ------------
 
-为了验证邮箱为该注册用户邮箱，所以，在用户进行首次登录的时候，需要采用邮箱收到的验证码进行登录。
+In order to verify that the email is the email of the registered user, so, when the user first logs in, they need to use the verification code received by email to log in.
 
-直接输入用户进行登录，系统会判断该用户为首次登录用户，就会自动跳转到使用用户名和验证码登录的界面。
+Enter the username directly, the system will judge that the user is a first-time login user, and automatically jump to the interface for using the username and verification code to log in.
 
-输入用户名和邮件收到的验证码，点击登录即可。
+Enter the username and the verification code received by email, click "Login" to log in.
 
-正常登录
+Normal login
 ------------
 
-第一次通过用户名和验证码登录以后，后续登录使用注册时候的密码即可。
+After the first login through the username and verification code, the subsequent login uses the password registered during the registration.
 
 .. _reset password:
 
-重置密码
+Reset Password
 -----------
 
-点击右上角的用户，选择“重置密码”：
+Click the user in the upper right corner, select "Reset Password":
 
 |resetpassword|
 
-重置密码时请确认选择足够强度的密码，并保证密码安全。
+Please confirm that the password selected is strong enough and secure.
 
 |resetpassword2|
 
 .. important:: 
    
-   登录平台Web页面，以及使用集群登录、SSH连接和WebDAV等平台服务时用的是注册平台的用户名和密码。
+   Login to the platform Web page, and use the cluster login, SSH connection and WebDAV platform services with the username and password registered on the platform.
    
-用户信息
+User Information
 ------------
 
-页面右上角，点击用户名称，进入“我的信息”界面，可以查看个人信息，包括注册时填写的基本信息以及用量/限额详情。
+Click the user in the upper right corner, enter the "My Information" interface to view personal information, including the basic information filled in during registration and the usage/quota details.
 
 |personal info|
 
-用量/限额详情
+Usage/Quota Details
 ~~~~~~~~~~~~~~~~
 
-每位用户分配有一定的资源。当创建实例的时候，占用资源限额。如果所用的资源超过了限额，系统会提示资源不够。用户可以先\ :ref:`释放资源 <release resource>`\ ，然后再创建实例。
+Each user is allocated a certain amount of resources. When creating an instance, the resource limit is occupied. If the resources used exceed the limit, the system will prompt that the resources are insufficient. Users can first \ :ref:`release resource <release resource>`\ , and then create an instance.
 
-如果需要资源很多，超过了系统默认限额，用户可以联系管理员修改个人限额。
+If you need more resources, and exceed the system default limit, users can contact the administrator to modify the personal limit.
 
 
 
-命令行登录
+Command Line Login
 *****************
 
-Linux和MacOSX用户可以使用terminal终端，Windows用户建议使用xshell，输入命令：
+Linux and MacOSX users can use the terminal terminal, Windows users are recommended to use xshell, enter the command:
 
 .. code:: bash
 
    $ ssh -p 20002 username@chinasrcyun.shao.ac.cn
 
-..
+.. note:: 
 
-其中username为用户名，
-port为登陆节点的端口号，该端口信息可以通过web平台获取。
+   username is the username,
+   port is the port number of the login node, which can be obtained from the web platform.
 
-命令行登录的截图如下所示。
+The screenshot of the command line login is as follows.
 
-Windows通过xshell登录
-~~~~~~~~~~~~~~~~~~~~~
+Windows login using xshell
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image2|
 
-Linux通过终端登录
-~~~~~~~~~~~~~~~~~
+Linux login using terminal
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image3|
 
-MacOSX通过终端登录
-~~~~~~~~~~~~~~~~~~
+MacOSX login using terminal
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: bash
 
@@ -153,12 +154,12 @@ MacOSX通过终端登录
 
 .. note:: 
    
-   普通用户默认情况下分配500GB的存储空间，如有其它需求，请联系管理员进行调额
-   （请联系shaoska@shao.ac.cn ）。
+   The default storage space for ordinary users is 500GB. If you have other needs, please contact the administrator to adjust the quota
+   (Please contact shaoska@shao.ac.cn).
 
-   用户名和密码等账户信息请通过申请表进行申请。
+   The account information such as username and password please apply through the application form.
 
-   请联系shaoska@shao.ac.cn 。
+   Please contact shaoska@shao.ac.cn.
 
 
 

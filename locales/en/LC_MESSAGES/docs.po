@@ -2612,7 +2612,7 @@ msgstr ""
 
 #: ../../docs/login/index.rst:10
 msgid ""
-"ChinaSRC-P平台的登录地址为：http://chinasrc.shao.ac.cn:8882 "
+"ChinaSRC-P平台的登录地址为：https://chinasrcyun.shao.ac.cn:7443 "
 "，可通过Chrome、Firefox等浏览器直接访问, 台外用户请使用 VPN 或者联系shaoska@shao.ac.cn 获取访问权限。"
 msgstr ""
 
@@ -2627,7 +2627,7 @@ msgstr ""
 #: ../../docs/login/login-inter.rst:16
 msgid ""
 "用户密码方面，管理员发给用户的是随机密码，为了用户访问安全，账户开通后需要立即修改密码。 可以通过访问以下网址，在网页 "
-"右上角用户信息修改密码：http://chinasrc.shao.ac.cn:8882"
+"右上角用户信息修改密码：https://chinasrcyun.shao.ac.cn:7443"
 msgstr ""
 
 #: ../../docs/login/login-inter.rst:19
@@ -2639,7 +2639,7 @@ msgid "网页登录"
 msgstr ""
 
 #: ../../docs/login/login-inter.rst:24
-msgid "用户可以通过web界面 http://chinasrc.shao.ac.cn:8882 点击“通过统一认证服务登录”进入统一身份认证平台，"
+msgid "用户可以通过web界面 https://chinasrcyun.shao.ac.cn:7443 点击“通过统一认证服务登录”进入统一身份认证平台，"
 msgstr ""
 
 #: ../../docs/login/login-inter.rst:27

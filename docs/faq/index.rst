@@ -1,22 +1,22 @@
 .. _faq:
 
-##################
-常见问题集锦
-##################
+##############################
+Frequently Asked Questions
+##############################
 
 
-本章列举使用过程中经常遇到的问题及解决方法。
+This chapter lists frequently asked questions and solutions during the use process.
 
 
 .. caution::
 
-    由于手册篇幅限制，只列出了对于绝大多是用户比较重要的相关内容，如您有其他需求也可以联系数据中心技术人员。 
-    重要提示：
+    Due to the length of the manual, only the most important content for most users is listed. If you have other needs, please contact the data center technicians.
+    Important tips:
     
-    1. 请不要在登录节点直接运行可执行程序（极大的影响其他用户的登录和使用效率）。
-    2. 如无特殊需要，请使用批处理方式（sbatch）提交任务，如果有任何问题请联系数据中心技术人员。
-    3. 请保存好运行程序的log文件，从而方便数据中心技术人员在作业出问题后，协助解决问题。
-    4. 若需登录计算节点运行和调试程序，可以先分配独占计算节点，方可ssh登录计算节
+    1. Please do not run executable programs directly on the login node (it greatly affects the login and use efficiency of other users).
+    2. If there is no special need, please submit tasks using batch processing (sbatch). If you have any questions, please contact the data center technicians.
+    3. Please save the log file of the running program to facilitate the problem-solving assistance of the data center technicians when the job is out of order.
+    4. If you need to run and debug programs on the calculation node, you can first allocate a dedicated calculation node, then ssh to the calculation node.
 
 
 .. toctree::
@@ -25,3 +25,4 @@
     account.rst
     login.rst
     abbr.rst
+    download.rst

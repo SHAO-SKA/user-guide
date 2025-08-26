@@ -8,7 +8,7 @@
 
 .. _project-data:
 
-在ChinaSRC上，系统根据三种 :ref:`usage-mode-ref` 为用户在共享文件系统上分配三种目录，分别是个人目录，项目目录和公共集群目录。
+在cnSRC上，系统根据三种 :ref:`usage-mode-ref` 为用户在共享文件系统上分配三种目录，分别是个人目录，项目目录和公共集群目录。
 
 在实例或集群中，这三种目录所对应的路径不同，具体见下表：
 
@@ -38,7 +38,7 @@
 Web页面数据传输
 --------------------
 
-ChinaSRC支持通过Web页面上传下载数据和管理文件。
+cnSRC支持通过Web页面上传下载数据和管理文件。
 
 .. caution:: 通过Web页面上传和下载文件有数量限制，每次最多上传\ **10**\ 个文件，下载\ **1**\ 个文件。
 
@@ -55,18 +55,18 @@ ChinaSRC支持通过Web页面上传下载数据和管理文件。
 
 |image4|
 
-以公共集群项目为例，用户在 **项目** -> *public cluster* 的页面里，选择 **实例** ，点击实例最右侧的SSH服务地址按钮，会弹出ChinaSRC对外开放的IP地址和端口：
+以公共集群项目为例，用户在 **项目** -> *public cluster* 的页面里，选择 **实例** ，点击实例最右侧的SSH服务地址按钮，会弹出cnSRC对外开放的IP地址和端口：
 
 |ssh ip|
 
 .. |ssh ip| image:: ../../_static/transfer_ssh_ip.png
    :scale: 50%
 
-首次使用SSH登录的用户需要 :ref:`重置ChinaSRC密码 <reset password>`
+首次使用SSH登录的用户需要 :ref:`重置cnSRC密码 <reset password>`
 
 |reset_pw|
 
-用户在能够直接访问ChinaSRC服务IP地址的情况下，可以使用scp、\ `WinSCP <https://winscp.net/eng/docs/lang:chs>`__\ 或\ `Xmanager <https://www.netsarang.com/en/xmanager/>`__\ 等scp工具来传输数据：
+用户在能够直接访问cnSRC服务IP地址的情况下，可以使用scp、\ `WinSCP <https://winscp.net/eng/docs/lang:chs>`__\ 或\ `Xmanager <https://www.netsarang.com/en/xmanager/>`__\ 等scp工具来传输数据：
 
 .. code:: bash
 
@@ -83,7 +83,7 @@ Windows用户也可以使用\ `XFTP <https://www.xshellcn.com/xftp.html>`__\ 客
 
    .. |new xftp connection| image:: ../../_static/transfer_new_xftp_connection.png
 
-2. 名称用户可以自定义，主机选项中输入“服务ssh“显示的服务外部地址，端口号填写“服务ssh”中的端口号，协议使用默认的SFTP，用户名和密码填写ChinaSRC的用户名和密码。点击”连接“。
+2. 名称用户可以自定义，主机选项中输入“服务ssh“显示的服务外部地址，端口号填写“服务ssh”中的端口号，协议使用默认的SFTP，用户名和密码填写cnSRC的用户名和密码。点击”连接“。
 
    |set xftp connection|
 
