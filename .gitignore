@@ -276,3 +276,5 @@ TSWLatexianTemp*
 *.lpz
 
 _build
+
+.doctrees
