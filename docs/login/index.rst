@@ -15,9 +15,6 @@ External users please use VPN or contact shaoska@shao.ac.cn for access permissio
 .. toctree::
     :maxdepth: 1
 
-    login-inter.rst
-    login-ssh.rst
-    login-outer.rst
     register.rst
     login.rst
     workbench.rst
