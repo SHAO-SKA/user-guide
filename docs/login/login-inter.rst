@@ -132,12 +132,11 @@ Linux and MacOSX users can use the terminal terminal, Windows users are recommen
 
 .. code:: bash
 
-   $ ssh -p 20002 username@chinasrcyun.shao.ac.cn
+   $ ssh username@kylin.cnsrc.shao.ac.cn
 
 .. note:: 
 
-   username is the username,
-   port is the port number of the login node, which can be obtained from the web platform.
+   ``username`` is your platform username.
 
 The screenshot of the command line login is as follows.
 
@@ -156,7 +155,7 @@ MacOSX login using terminal
 
 .. code:: bash
 
-   $ ssh -p 20002 username@chinasrcyun.shao.ac.cn
+   $ ssh username@kylin.cnsrc.shao.ac.cn
 
 
 .. note:: 

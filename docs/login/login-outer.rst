@@ -1,16 +1,15 @@
 .. _login-outer:
 
+站外用户登录
 ########################
-Outside User Login
-########################
 
 
-The internal users need to open a VPN account through the institute, and send an email to shaoska@shao.ac.cn to request the relevant permissions.
-When logging in to the cnSRC system, first open the VPN, then log in according to the method provided in :ref:`login-inter`.
+对于非台站内网用户，登录 cnSRC 前需要先完成外网访问开通。
 
-External users need to provide a fixed (static) IP address or IP range of your office location, and access through the way of opening the IP whitelist.
-After开通, log in according to the method provided in :ref:`login-inter`.
-  
-New user application reference :ref:`user-register` section.
+站外接入流程参考 SRCNet 平台常见方式，通常包含 VPN 或固定出口 IP 白名单两类方案。
 
-For other questions, please refer to :ref:`faq` and contact shaoska@shao.ac.cn.
+开通完成后，请按 :ref:`login-inter` 完成统一认证登录和 SSH 登录。
+
+新用户申请请参考 :ref:`user-register` 章节。
+
+如需协助，请联系 shaoska@shao.ac.cn。

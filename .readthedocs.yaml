@@ -1,6 +1,10 @@
 # Read the Docs configuration file for Sphinx projects
 # See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
 
+# Parent (Chinese) project uses this file.
+# English is a separate RTD project on the same repo, Language=en,
+# linked via Admin → Translations. See docs/superpowers/docs/rtd-i18n-setup.md
+
 # Required
 version: 2
 

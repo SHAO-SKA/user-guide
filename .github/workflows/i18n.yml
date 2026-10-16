@@ -1,0 +1,60 @@
+name: i18n
+
+on:
+  pull_request:
+    paths:
+      - "**/*.rst"
+      - "locales/en/**"
+      - "conf.py"
+      - "update_language.sh"
+      - "Makefile"
+      - "scripts/report_po_stats.sh"
+      - "requirements.txt"
+      - ".github/workflows/i18n.yml"
+  push:
+    branches: [main, master]
+    paths:
+      - "**/*.rst"
+      - "locales/en/**"
+      - "conf.py"
+      - "update_language.sh"
+      - "Makefile"
+      - "scripts/report_po_stats.sh"
+      - "requirements.txt"
+      - ".github/workflows/i18n.yml"
+
+jobs:
+  check:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Ensure scripts are executable
+        run: chmod +x update_language.sh scripts/report_po_stats.sh
+
+      - name: Refresh locales/en from sources
+        run: make update-po
+
+      - name: Fail if .po catalogs drifted
+        run: |
+          if ! git diff --exit-code -- locales/en; then
+            echo "::error::locales/en is out of date. Run 'make update-po' locally and commit the .po changes."
+            exit 1
+          fi
+
+      - name: Report untranslated / fuzzy
+        run: |
+          ./scripts/report_po_stats.sh | tee -a "${GITHUB_STEP_SUMMARY}"
+
+      - name: Build Chinese HTML
+        run: make html
+
+      - name: Build English HTML
+        run: make html-en

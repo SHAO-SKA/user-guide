@@ -275,6 +275,11 @@ TSWLatexianTemp*
 # Makeindex log files
 *.lpz
 
-_build
+_build/
+.doctrees/
+.venv/
+venv/
 
-.doctrees
+# Sphinx gettext / compiled catalogs
+docs/gettext/
+locales/**/*.mo
