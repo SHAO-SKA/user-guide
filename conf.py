@@ -119,32 +119,62 @@ html_static_path = ['_static']
 htmlhelp_basename = 'cnSRCUserGuidedoc'
 
 
-# -- Options for LaTeX output ------------------------------------------------
+# -- Options for LaTeX / PDF output ------------------------------------------
+# Note: sphinx_rtd_theme is HTML-only. PDF uses LaTeX; style it to roughly
+# match Read the Docs (blue links, light code blocks, A4).
+
+latex_engine = 'xelatex'
 
 latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    #
-    # 'papersize': 'letterpaper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    #
-    # 'pointsize': '10pt',
-
-    # Additional stuff for the LaTeX preamble.
-    #
-    # 'preamble': '',
-
-    # Latex figure (float) alignment
-    #
-    # 'figure_align': 'htbp',
+    'papersize': 'a4paper',
+    'pointsize': '11pt',
+    'extraclassoptions': 'openany',
+    # Cleaner chapter headings than the default "Bjarne" style
+    'fncychap': r'\usepackage[Sonny]{fncychap}',
+    # Colors inspired by sphinx_rtd_theme (#2980B9)
+    'sphinxsetup': ','.join([
+        'TitleColor={RGB}{41,128,185}',
+        'InnerLinkColor={RGB}{41,128,185}',
+        'OuterLinkColor={RGB}{41,128,185}',
+        'VerbatimColor={RGB}{246,248,250}',
+        'VerbatimBorderColor={RGB}{232,236,239}',
+        'noteBorderColor={RGB}{41,128,185}',
+        'warningBorderColor={RGB}{230,126,34}',
+        'attentionborder=2pt',
+        'noteborder=2pt',
+        'warningborder=2pt',
+    ]),
+    'preamble': r'''
+\usepackage{xcolor}
+\usepackage{fontspec}
+\setlength{\headheight}{14pt}
+% CJK for Chinese PDF / leftover Chinese glyphs in English builds
+\usepackage{xeCJK}
+\IfFontExistsTF{PingFang SC}{%
+  \setCJKmainfont{PingFang SC}[BoldFont=PingFang SC]%
+}{%
+  \IfFontExistsTF{Noto Sans CJK SC}{%
+    \setCJKmainfont{Noto Sans CJK SC}%
+  }{%
+    \IfFontExistsTF{Source Han Sans SC}{%
+      \setCJKmainfont{Source Han Sans SC}%
+    }{%
+      \IfFontExistsTF{WenQuanYi Micro Hei}{%
+        \setCJKmainfont{WenQuanYi Micro Hei}%
+      }{}%
+    }%
+  }%
+}
+''',
+    'figure_align': 'H',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'cnSRCPUserGuide.tex', 'cnSRC-User-Guide',
-     'CSKA TEAM', 'manual'),
+    (master_doc, 'cnSRCPUserGuide.tex', 'cnSRC User Guide',
+     'cnSRC', 'manual'),
 ]
 
 
