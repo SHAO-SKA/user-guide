@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = 'cnSRC User Guide'
-copyright = '2018-2025, cnSRC'
+copyright = '2018-2026, cnSRC'
 author = 'cnSRC'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = 'v3.0'
+release = 'v4.0'
 
 
 # -- General configuration ---------------------------------------------------
