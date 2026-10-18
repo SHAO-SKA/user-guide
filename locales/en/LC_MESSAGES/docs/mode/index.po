@@ -4,7 +4,6 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"

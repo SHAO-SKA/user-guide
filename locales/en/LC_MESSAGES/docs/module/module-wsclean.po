@@ -4,7 +4,6 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
@@ -25,12 +24,19 @@ msgid "wsclean使用"
 msgstr "Using wsclean"
 
 #: ../../docs/module/module-wsclean.rst:7 477e2a213a4741238f804ad40e8dfb3c
-msgid "**WSClean** 是w-stack clean的缩写，为w投影算法的一种方法，这种方法在对uv数据做FFT之后在进行w项的校正，速度较快。"
-msgstr "WSClean is short for w-stack clean, which is a method for w-projection algorithms. This method involves correcting the w-term after performing an FFT on the uv data, resulting in faster processing."
+msgid ""
+"**WSClean** 是w-stack clean的缩写，为w投影算法的一种方法，这种方法在对uv数据"
+"做FFT之后在进行w项的校正，速度较快。"
+msgstr ""
+"WSClean is short for w-stack clean, which is a method for w-projection "
+"algorithms. This method involves correcting the w-term after performing an "
+"FFT on the uv data, resulting in faster processing."
 
 #: ../../docs/module/module-wsclean.rst:9 c39b0809bc224807be09a3526fd0ef12
 msgid "当前广泛用于LOFAR，MWA等宽视场阵列的数据处理中。"
-msgstr "It is currently widely used in data processing for wide-field array telescopes like LOFAR and MWA."
+msgstr ""
+"It is currently widely used in data processing for wide-field array "
+"telescopes like LOFAR and MWA."
 
 #: ../../docs/module/module-wsclean.rst:11 af6a2f42bf87466bac9ccd415043c8a1
 msgid "使用方法如下："
@@ -45,6 +51,8 @@ msgid "与casa的配合使用"
 msgstr "Integration with casa"
 
 #: ../../docs/module/module-wsclean.rst:46 1903df6a7f154e9c83985e60755c4c44
-msgid "在与casa联合使用的过程中，会涉及到环境变量的冲突问题， 具体使用方法如下："
-msgstr "When using wsclean in conjunction with casa, you may encounter environment variable conflicts. Here are the specific usage instructions:"
-
+msgid ""
+"在与casa联合使用的过程中，会涉及到环境变量的冲突问题， 具体使用方法如下："
+msgstr ""
+"When using wsclean in conjunction with casa, you may encounter environment "
+"variable conflicts. Here are the specific usage instructions:"

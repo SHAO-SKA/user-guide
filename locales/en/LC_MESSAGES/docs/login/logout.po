@@ -56,8 +56,7 @@ msgstr ""
 
 #: ../../docs/login/logout.rst:21 c1283b557eb74485bae9dcb09fb6028e
 msgid "点击右上角头像打开下拉菜单。"
-msgstr ""
-"Click the avatar in the upper-right corner to open the drop-down menu."
+msgstr "Click the avatar in the upper-right corner to open the drop-down menu."
 
 #: ../../docs/login/logout.rst:22 2d4c41df41ed4da5b184bf23092b2b17
 msgid "在下拉菜单中点击 ``退出登录``。"
@@ -72,7 +71,9 @@ msgid "退出登录菜单"
 msgstr "Logout menu"
 
 #: ../../docs/login/logout.rst:29 8d8b451d5d554d9a9958842005d00c5b
-msgid "点击右上角头像后弹出的下拉菜单，包含 ``个人信息`` ``修改密码`` ``退出登录`` 等。"
+msgid ""
+"点击右上角头像后弹出的下拉菜单，包含 ``个人信息`` ``修改密码`` ``退出登录`` "
+"等。"
 msgstr ""
 "Dropdown after clicking the top-right avatar, including ``Profile``, "
 "``Change Password``, ``Log Out``, etc."
@@ -82,10 +83,12 @@ msgid "注意事项"
 msgstr "Notes"
 
 #: ../../docs/login/logout.rst:37 f3e89d3d0ab24b1d99d43b7c94a2a623
-msgid "关闭浏览器窗口不一定等同停止应用或释放作业资源，必须回到 ``应用列表`` 页面点击 ``关 闭`` 才能真正结束应用并释放资源。"
+msgid ""
+"关闭浏览器窗口不一定等同停止应用或释放作业资源，必须回到 ``应用列表`` 页面点"
+"击 ``关 闭`` 才能真正结束应用并释放资源。"
 msgstr ""
-"Closing the browser does not necessarily stop apps or release job resources;"
-" return to ``Application List`` and click ``Close`` to end the app and free "
+"Closing the browser does not necessarily stop apps or release job resources; "
+"return to ``Application List`` and click ``Close`` to end the app and free "
 "resources."
 
 #: ../../docs/login/logout.rst:41 3ff1c279662f4ef6a8db662d25cbe325
@@ -93,7 +96,9 @@ msgid "常见问题"
 msgstr "Common questions"
 
 #: ../../docs/login/logout.rst:43 beee1c3c67614c1081c35db4a4a8c315
-msgid "**退出登录后应用是否会自动关闭？** 不会。必须先在 ``应用列表`` 页面点击 ``关 闭``，然后再退出登录。"
+msgid ""
+"**退出登录后应用是否会自动关闭？** 不会。必须先在 ``应用列表`` 页面点击 ``关 "
+"闭``，然后再退出登录。"
 msgstr ""
 "**Do apps close automatically after logout?** No. Click ``Close`` on "
 "``Application List`` first, then log out."

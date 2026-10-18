@@ -60,16 +60,17 @@ msgstr "Page Contents"
 
 #: ../../docs/faq/notifications.rst:23 53168c520bfd4833b5e8c5a640227da7
 msgid ""
-"通知中心页面顶部显示四个统计：``全部通知``、``未读通知``、``重要通 知``、``重要``。下方是筛选条件 ``类型`` ``分类`` "
-"``状态``。"
+"通知中心页面顶部显示四个统计：``全部通知``、``未读通知``、``重要通 知``、``重"
+"要``。下方是筛选条件 ``类型`` ``分类`` ``状态``。"
 msgstr ""
-"The notification center shows four counts at the top: ``All Notifications``,"
-" ``Unread Notifications``, ``Important Notifications``, and ``Important``. "
+"The notification center shows four counts at the top: ``All Notifications``, "
+"``Unread Notifications``, ``Important Notifications``, and ``Important``. "
 "Below are filters ``Type``, ``Category``, and ``Status``."
 
 #: ../../docs/faq/notifications.rst:26 6282c33e32e644608b8696050b332930
 msgid ""
-"主体是通知列表表格，列包含 ``状态`` ``标题`` ``类型`` ``分类`` ``发布 时间``。每行右上角的圆形按钮可用于标记已读/未读。"
+"主体是通知列表表格，列包含 ``状态`` ``标题`` ``类型`` ``分类`` ``发布 时间"
+"``。每行右上角的圆形按钮可用于标记已读/未读。"
 msgstr ""
 "The main area is a notification table with columns ``Status``, ``Title``, "
 "``Type``, ``Category``, and ``Published Time``. The round button at the top "
@@ -130,7 +131,9 @@ msgid "常见问题"
 msgstr "Frequently Asked Questions"
 
 #: ../../docs/faq/notifications.rst:53 6d8ba4b1ff764b338abedafd29450e3b
-msgid "**没有收到通知怎么办？** 检查通知中心 ``全部通知`` 列表确认是否已发布；如确认未收到，请提交 工单联系管理员。"
+msgid ""
+"**没有收到通知怎么办？** 检查通知中心 ``全部通知`` 列表确认是否已发布；如确认"
+"未收到，请提交 工单联系管理员。"
 msgstr ""
 "**Did not receive a notification?** Check ``All Notifications`` in the "
 "notification center to confirm it was published. If you still did not "

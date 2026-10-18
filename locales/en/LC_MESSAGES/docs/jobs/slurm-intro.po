@@ -25,8 +25,10 @@ msgstr "Slurm system introduction"
 
 #: ../../docs/jobs/slurm-intro.rst:8 aef9ab67817d4b90a8a80a1e54d975ea
 msgid ""
-"cnSRC在公共集群中使用SLURM作业调度系统进行任务的调度和管理。 SLURM（Simple Linux Utility for Resource "
-"Management） 是一种可用于大型计算节点集群的高度可伸缩和容错的集群管理器和作业调度系统，被世界范围内的超级计算机和计算集群广泛采用。"
+"cnSRC在公共集群中使用SLURM作业调度系统进行任务的调度和管理。 SLURM（Simple "
+"Linux Utility for Resource Management） 是一种可用于大型计算节点集群的高度可"
+"伸缩和容错的集群管理器和作业调度系统，被世界范围内的超级计算机和计算集群广泛"
+"采用。"
 msgstr ""
 "cnSRC uses the SLURM job scheduler on the public cluster to schedule and "
 "manage tasks. SLURM (Simple Linux Utility for Resource Management) is a "
@@ -111,7 +113,9 @@ msgid "执行作业"
 msgstr "Run jobs"
 
 #: ../../docs/jobs/slurm-intro.rst:29 3881cb77a10841659eae82a1f7ca56d8
-msgid "日常使用超算资源只需掌握简单的几条命令即可，具体详细的配置请参考\\ `SLURM官方文档`_。"
+msgid ""
+"日常使用超算资源只需掌握简单的几条命令即可，具体详细的配置请参考\\ `SLURM官方"
+"文档`_。"
 msgstr ""
 "Simple commands are enough for daily use of supercomputing resources. For "
 "specific and detailed configuration, please refer to `SLURM official "

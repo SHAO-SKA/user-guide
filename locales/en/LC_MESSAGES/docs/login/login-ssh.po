@@ -18,27 +18,29 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
+
 #: ../../docs/login/login-ssh.rst:4 50476f8c26214813872ccc56cfa8d3aa
 msgid "Check SSH login information"
 msgstr "Check SSH login information"
+
 #: ../../docs/login/login-ssh.rst:6 136a7597a9ac480d95b88e79c5a76d2b
 msgid ""
-"For shared clusters and exclusive clusters, and instances with built-in "
-"SSH services, you can log in directly using your local machine. If the "
-"instance does not have built-in SSH services, you can \\ :ref:`start ssh "
-"service`\\ ."
+"For shared clusters and exclusive clusters, and instances with built-in SSH "
+"services, you can log in directly using your local machine. If the instance "
+"does not have built-in SSH services, you can \\ :ref:`start ssh service`\\ ."
 msgstr ""
-"For shared clusters and exclusive clusters, and instances with built-in "
-"SSH services, you can log in directly using your local machine. If the "
-"instance does not have built-in SSH services, you can \\ :ref:`start ssh "
-"service`\\ ."
+"For shared clusters and exclusive clusters, and instances with built-in SSH "
+"services, you can log in directly using your local machine. If the instance "
+"does not have built-in SSH services, you can \\ :ref:`start ssh service`\\ ."
+
 #: ../../docs/login/login-ssh.rst:12 cc37097013b14dc9b7989288fa291a37
 msgid ""
-"Before using SSH to log in for the first time, you need to \\ :ref:`reset"
-" password <reset password>`\\  through the platform management interface."
+"Before using SSH to log in for the first time, you need to \\ :ref:`reset "
+"password <reset password>`\\  through the platform management interface."
 msgstr ""
-"Before using SSH to log in for the first time, you need to \\ :ref:`reset"
-" password <reset password>`\\  through the platform management interface."
+"Before using SSH to log in for the first time, you need to \\ :ref:`reset "
+"password <reset password>`\\  through the platform management interface."
+
 #: ../../docs/login/login-ssh.rst:14 5c0cf84b89534c8b981100f7b4a537fd
 msgid ""
 "Each virtual cluster has its own access port, which can be displayed by "
@@ -46,23 +48,29 @@ msgid ""
 msgstr ""
 "Each virtual cluster has its own access port, which can be displayed by "
 "clicking the icon in the \"Workbench\" - \"Resource Overview\" section."
+
 #: ../../docs/login/login-ssh.rst:16 dfc756f8c52349eab0b6bc19bb834970
 msgid "|image4|"
 msgstr "|image4|"
+
 #: ../../docs/login/login-ssh.rst:224 937920249e1e495bb0dbf510f25057c7
 #: df8ee52122b44377a59901d276d5ca39
 msgid "image4"
 msgstr "image4"
+
 #: ../../docs/login/login-ssh.rst:18 998e6f50f7e8423abb800795725ea615
 msgid "Please use the address highlighted in the red box."
 msgstr "Please use the address highlighted in the red box."
+
 #: ../../docs/login/login-ssh.rst:20 55628ce6ebbc4b5c91e4a95ce423c5e2
 msgid "|ssh address|"
 msgstr "|ssh address|"
+
 #: ../../docs/login/login-ssh.rst:225 1437aa5d8b2e4f7592caa48a26b37204
 #: b87e949a00d74ca99d423ef2ab86bb9c
 msgid "ssh address"
 msgstr "ssh address"
+
 #: ../../docs/login/login-ssh.rst:22 9ed566bad30149b2a4cd563ff03835f0
 msgid ""
 "Windows recommends using \\ `PuTTY`_,\\ `SecureCRT`_,\\ `Xmanager`_\\ to "
@@ -70,57 +78,67 @@ msgid ""
 msgstr ""
 "Windows recommends using \\ `PuTTY`_,\\ `SecureCRT`_,\\ `Xmanager`_\\ to "
 "access the cluster service port, Linux/Mac directly use the terminal."
+
 #: ../../docs/login/login-ssh.rst:29 c8e9b9fd7f954a85b93aa65a9dbed554
 msgid "|image5|"
 msgstr "|image5|"
+
 #: ../../docs/login/login-ssh.rst:226 8a1194fed1f74cab91fbdfcb544991c6
 #: a6c92e87366643da9bcec035996075ec
 msgid "image5"
 msgstr "image5"
+
 #: ../../docs/login/login-ssh.rst:34 fec2507622084362b66dcbcc23b1db41
 msgid "SSH login without password"
 msgstr "SSH login without password"
+
 #: ../../docs/login/login-ssh.rst:36 4a819864f78140dc9df63b2e7b210c65
 msgid ""
-"SSH login without password requires a pair of keys, including a public "
-"key and a private key, where the private key is placed on the user's "
-"local machine, and the public key is placed on the cluster's\\ "
-"``~/.ssh/authorized_keys``\\ directory. When logging in next time, the "
-"private key on the user's local machine and the public key on the remote "
-"cluster will be verified through the encryption protocol. If the "
-"verification is successful, the login will be successful without the need"
-" for a password. So here we need to generate a pair of keys, and upload "
-"the public key to the specified position of the target instance."
+"SSH login without password requires a pair of keys, including a public key "
+"and a private key, where the private key is placed on the user's local "
+"machine, and the public key is placed on the cluster's\\ ``~/.ssh/"
+"authorized_keys``\\ directory. When logging in next time, the private key on "
+"the user's local machine and the public key on the remote cluster will be "
+"verified through the encryption protocol. If the verification is successful, "
+"the login will be successful without the need for a password. So here we "
+"need to generate a pair of keys, and upload the public key to the specified "
+"position of the target instance."
 msgstr ""
-"SSH login without password requires a pair of keys, including a public "
-"key and a private key, where the private key is placed on the user's "
-"local machine, and the public key is placed on the cluster's\\ "
-"``~/.ssh/authorized_keys``\\ directory. When logging in next time, the "
-"private key on the user's local machine and the public key on the remote "
-"cluster will be verified through the encryption protocol. If the "
-"verification is successful, the login will be successful without the need"
-" for a password. So here we need to generate a pair of keys, and upload "
-"the public key to the specified position of the target instance."
+"SSH login without password requires a pair of keys, including a public key "
+"and a private key, where the private key is placed on the user's local "
+"machine, and the public key is placed on the cluster's\\ ``~/.ssh/"
+"authorized_keys``\\ directory. When logging in next time, the private key on "
+"the user's local machine and the public key on the remote cluster will be "
+"verified through the encryption protocol. If the verification is successful, "
+"the login will be successful without the need for a password. So here we "
+"need to generate a pair of keys, and upload the public key to the specified "
+"position of the target instance."
+
 #: ../../docs/login/login-ssh.rst:41 438cb89389d74b2fb876a5b587a7fc64
 msgid "SSH login without password mainly needs two steps:"
 msgstr "SSH login without password mainly needs two steps:"
+
 #: ../../docs/login/login-ssh.rst:43 f0744df56aae47578498a22fd54ba27b
 msgid "Generate a pair of keys on the user's local machine."
 msgstr "Generate a pair of keys on the user's local machine."
+
 #: ../../docs/login/login-ssh.rst:45 9b0f17b600d645a6866b97d397a3340f
 msgid ""
-"Add the public key to the\\ ``~/.ssh/authorized_keys``\\ file at the end "
-"of the target instance."
+"Add the public key to the\\ ``~/.ssh/authorized_keys``\\ file at the end of "
+"the target instance."
 msgstr ""
-"Add the public key to the\\ ``~/.ssh/authorized_keys``\\ file at the end "
-"of the target instance."
+"Add the public key to the\\ ``~/.ssh/authorized_keys``\\ file at the end of "
+"the target instance."
+
 #: ../../docs/login/login-ssh.rst:48 def7793da7ab41f288ada0df206197c5
 msgid "Generating a key pair"
 msgstr "Generating a key pair"
+
 #: ../../docs/login/login-ssh.rst:51 ../../docs/login/login-ssh.rst:147
 #: b1dc0d14b9184261a0661ea99832e3c4 b4fc9b657109454497991fe40199133c
 msgid "MacOS & Linux"
 msgstr "MacOS & Linux"
+
 #: ../../docs/login/login-ssh.rst:53 879ecbd9dfc14841a681aad4749a197b
 msgid ""
 "Directly use the terminal to generate the public and private keys on the "
@@ -128,138 +146,159 @@ msgid ""
 msgstr ""
 "Directly use the terminal to generate the public and private keys on the "
 "user's local machine."
+
 #: ../../docs/login/login-ssh.rst:55 6fa3cb939820424daa4cc428478de2c2
 msgid "Type the command\\ ``ssh-keygen -t rsa``:"
 msgstr "Type the command\\ ``ssh-keygen -t rsa``:"
+
 #: ../../docs/login/login-ssh.rst:61 a3062a321c314f76babe077ea8da9a3e
 msgid "The terminal will prompt:"
 msgstr "The terminal will prompt:"
+
 #: ../../docs/login/login-ssh.rst:68 c732abe36f5a41cd9b406a80e300e98b
 msgid ""
 "The parentheses contain the default directory location of the generated "
-"public and private keys, directly press Enter to use this default "
-"location."
+"public and private keys, directly press Enter to use this default location."
 msgstr ""
 "The parentheses contain the default directory location of the generated "
-"public and private keys, directly press Enter to use this default "
-"location."
+"public and private keys, directly press Enter to use this default location."
+
 #: ../../docs/login/login-ssh.rst:70 c1286041813f434da4f8fc7e86147dac
 msgid "|mac ssh keygen|"
 msgstr "|mac ssh keygen|"
+
 #: ../../docs/login/login-ssh.rst:227 33d2e07193f24c8ab52a840811c0ed8f
 #: 807a8abab2f44911a60144ff7e0a990f
 msgid "mac ssh keygen"
 msgstr "mac ssh keygen"
+
 #: ../../docs/login/login-ssh.rst:72 37f5195ec5ef435a8d4521614600faa7
 msgid ""
-"If the default location has already generated a public and private key, "
-"the terminal will prompt whether to overwrite, in this case, you can skip"
-" the generation of the public and private keys."
+"If the default location has already generated a public and private key, the "
+"terminal will prompt whether to overwrite, in this case, you can skip the "
+"generation of the public and private keys."
 msgstr ""
-"If the default location has already generated a public and private key, "
-"the terminal will prompt whether to overwrite, in this case, you can skip"
-" the generation of the public and private keys."
+"If the default location has already generated a public and private key, the "
+"terminal will prompt whether to overwrite, in this case, you can skip the "
+"generation of the public and private keys."
+
 #: ../../docs/login/login-ssh.rst:80 5d7efe125f6f42c3acbda79065b41928
 msgid ""
-"The terminal will prompt you to enter the password passphrase, this "
-"password is the password for generating the private key, to prevent the "
-"private key from being used by others. Here you can enter any password, "
-"press Enter, and then prompt you to enter the password again, press Enter"
-" again."
+"The terminal will prompt you to enter the password passphrase, this password "
+"is the password for generating the private key, to prevent the private key "
+"from being used by others. Here you can enter any password, press Enter, and "
+"then prompt you to enter the password again, press Enter again."
 msgstr ""
-"The terminal will prompt you to enter the password passphrase, this "
-"password is the password for generating the private key, to prevent the "
-"private key from being used by others. Here you can enter any password, "
-"press Enter, and then prompt you to enter the password again, press Enter"
-" again."
+"The terminal will prompt you to enter the password passphrase, this password "
+"is the password for generating the private key, to prevent the private key "
+"from being used by others. Here you can enter any password, press Enter, and "
+"then prompt you to enter the password again, press Enter again."
+
 #: ../../docs/login/login-ssh.rst:84 da6e25d838874197867f39e719c2cb8f
 msgid "|mac set keygen passphrase|"
 msgstr "|mac set keygen passphrase|"
+
 #: ../../docs/login/login-ssh.rst:228 826a142c5d9d4531b162f06ac842e3c2
 #: a6287e51f9b54f628b3a21e9f384a83d
 msgid "mac set keygen passphrase"
 msgstr "mac set keygen passphrase"
+
 #: ../../docs/login/login-ssh.rst:86 940d46cd62a746b58428a958e40c48e8
 msgid ""
-"The public key is stored in the\\ ``/Users/~your-local-"
-"username~/.ssh/id_rsa.pub``\\ file, the private key is stored in the\\ "
-"``/Users/~your-local-username~/.ssh/id_rsa``\\ file."
+"The public key is stored in the\\ ``/Users/~your-local-username~/.ssh/"
+"id_rsa.pub``\\ file, the private key is stored in the\\ ``/Users/~your-local-"
+"username~/.ssh/id_rsa``\\ file."
 msgstr ""
-"The public key is stored in the\\ ``/Users/~your-local-"
-"username~/.ssh/id_rsa.pub``\\ file, the private key is stored in the\\ "
-"``/Users/~your-local-username~/.ssh/id_rsa``\\ file."
+"The public key is stored in the\\ ``/Users/~your-local-username~/.ssh/"
+"id_rsa.pub``\\ file, the private key is stored in the\\ ``/Users/~your-local-"
+"username~/.ssh/id_rsa``\\ file."
+
 #: ../../docs/login/login-ssh.rst:89 7a3b280658fa4160aed7f00da28f4b8c
 msgid "|mac list keygen|"
 msgstr "|mac list keygen|"
+
 #: ../../docs/login/login-ssh.rst:229 46ba0ad03191498c90d0f2f0ab7631af
 #: 5d30c103392c4027b2e59a96910b6181
 msgid "mac list keygen"
 msgstr "mac list keygen"
+
 #: ../../docs/login/login-ssh.rst:91 ae1486269b0640d482bf5757c022af65
 msgid "Get the public key, copy the return value to the clipboard."
 msgstr "Get the public key, copy the return value to the clipboard."
+
 #: ../../docs/login/login-ssh.rst:97 bc4434442b6b4bcebc9781872af52817
 msgid "|mac copy public key|"
 msgstr "|mac copy public key|"
+
 #: ../../docs/login/login-ssh.rst:230 5c32556d81ad4dd89482a46379572530
 #: a75af69af2174fb49e70711708062d7f
 msgid "mac copy public key"
 msgstr "mac copy public key"
+
 #: ../../docs/login/login-ssh.rst:100 ../../docs/login/login-ssh.rst:167
 #: 3afa0d6bd6c24d75adcf4c2dff0cda6c a42dfdcbc15a4244a48bd555a4638c46
 msgid "Windows"
 msgstr "Windows"
+
 #: ../../docs/login/login-ssh.rst:102 f22e8e8f85d146e29309657babd8722c
 msgid ""
 "You can generate a public and private key using\\ `PuTTY`_\\ or\\ "
-"`Xshell`_\\. Below is an example of using the Xshell software to generate"
-" a public and private key."
+"`Xshell`_\\. Below is an example of using the Xshell software to generate a "
+"public and private key."
 msgstr ""
 "You can generate a public and private key using\\ `PuTTY`_\\ or\\ "
-"`Xshell`_\\. Below is an example of using the Xshell software to generate"
-" a public and private key."
+"`Xshell`_\\. Below is an example of using the Xshell software to generate a "
+"public and private key."
+
 #: ../../docs/login/login-ssh.rst:105 04c74d5af04d465d87013e4125b986e3
 msgid ""
-"Open the Xshell tool, there is a tool option in the toolbar, click to "
-"open and select the new user key generation wizard."
+"Open the Xshell tool, there is a tool option in the toolbar, click to open "
+"and select the new user key generation wizard."
 msgstr ""
-"Open the Xshell tool, there is a tool option in the toolbar, click to "
-"open and select the new user key generation wizard."
+"Open the Xshell tool, there is a tool option in the toolbar, click to open "
+"and select the new user key generation wizard."
+
 #: ../../docs/login/login-ssh.rst:107 8dc05e25ab1e40f08c0cf5f8a29303e1
 msgid "|xshell new user key|"
 msgstr "|xshell new user key|"
+
 #: ../../docs/login/login-ssh.rst:231 1683b5532e11489291f80f1b8dc1719a
 #: 189aa4b7260a498390693242c98d64fe
 msgid "xshell new user key"
 msgstr "xshell new user key"
+
 #: ../../docs/login/login-ssh.rst:109 c268233e90b84e11a5483800408a4845
 msgid ""
-"The key type defaults to RSA, the key length defaults to 2048 bits, click"
-" Next."
+"The key type defaults to RSA, the key length defaults to 2048 bits, click "
+"Next."
 msgstr ""
-"The key type defaults to RSA, the key length defaults to 2048 bits, click"
-" Next."
+"The key type defaults to RSA, the key length defaults to 2048 bits, click "
+"Next."
+
 #: ../../docs/login/login-ssh.rst:111 edebd4d135b84caea9155a1d0c13bcac
 msgid "|xshell generate key|"
 msgstr "|xshell generate key|"
+
 #: ../../docs/login/login-ssh.rst:232 4f04cec229d74c63a9d78176ecdf7912
 #: a4da1e01c3084941a7802fea5dbd71fd
 msgid "xshell generate key"
 msgstr "xshell generate key"
+
 #: ../../docs/login/login-ssh.rst:113 a0b71a7278c54f7c823edf9c7b7dc7ec
 msgid ""
-"Wait for the software to automatically generate the key pair and click "
-"Next."
+"Wait for the software to automatically generate the key pair and click Next."
 msgstr ""
-"Wait for the software to automatically generate the key pair and click "
-"Next."
+"Wait for the software to automatically generate the key pair and click Next."
+
 #: ../../docs/login/login-ssh.rst:115 ca22ab44afb043ce87b21c5bd009fb19
 msgid "|xshell waiting for key|"
 msgstr "|xshell waiting for key|"
+
 #: ../../docs/login/login-ssh.rst:233 00cede9229984476978fdcab911c4eb6
 #: 506c73a664a646a98df3bb6aab08a0b8
 msgid "xshell waiting for key"
 msgstr "xshell waiting for key"
+
 #: ../../docs/login/login-ssh.rst:117 6217a1b526d040829d78ed244297d3b0
 msgid ""
 "Follow the software instructions to configure the key name and password, "
@@ -267,158 +306,188 @@ msgid ""
 msgstr ""
 "Follow the software instructions to configure the key name and password, "
 "then click Next."
+
 #: ../../docs/login/login-ssh.rst:121 221efa3138d445d99347c81a9149969a
 msgid ""
-"This password encrypts your private key file, if you forget it, you need "
-"to regenerate the public and private keys and add them to the cluster "
-"again, please remember!"
+"This password encrypts your private key file, if you forget it, you need to "
+"regenerate the public and private keys and add them to the cluster again, "
+"please remember!"
 msgstr ""
-"This password encrypts your private key file, if you forget it, you need "
-"to regenerate the public and private keys and add them to the cluster "
-"again, please remember!"
+"This password encrypts your private key file, if you forget it, you need to "
+"regenerate the public and private keys and add them to the cluster again, "
+"please remember!"
+
 #: ../../docs/login/login-ssh.rst:123 087d51d1bfe44a1fa9391d814b8fe659
 msgid "|xshell set key information|"
 msgstr "|xshell set key information|"
+
 #: ../../docs/login/login-ssh.rst:234 0875bc2b9e4b428a9a331ce3c3d6ef83
 #: cd94a18b3a1c40379914ddb180f0e80b
 msgid "xshell set key information"
 msgstr "xshell set key information"
+
 #: ../../docs/login/login-ssh.rst:125 81a9afa66f2649489fa4240ed1e55fd0
 msgid ""
-"The software will display the generated public key, select the public key"
-" and copy it to the clipboard, then click Finish, and save the public key"
-" as a file."
+"The software will display the generated public key, select the public key "
+"and copy it to the clipboard, then click Finish, and save the public key as "
+"a file."
 msgstr ""
-"The software will display the generated public key, select the public key"
-" and copy it to the clipboard, then click Finish, and save the public key"
-" as a file."
+"The software will display the generated public key, select the public key "
+"and copy it to the clipboard, then click Finish, and save the public key as "
+"a file."
+
 #: ../../docs/login/login-ssh.rst:127 401c62bc45fc4ceab7fe0ee8a7735419
 msgid "|xshell copy public key|"
 msgstr "|xshell copy public key|"
+
 #: ../../docs/login/login-ssh.rst:235 695a79772f1a4f7e935c8254a679e2d0
 #: eba25966bdfe441f9d47c748c1fc9fc1
 msgid "xshell copy public key"
 msgstr "xshell copy public key"
+
 #: ../../docs/login/login-ssh.rst:129 2016828ccc4e4d688294a5d3997b5f4a
 msgid "|xshell save public key|"
 msgstr "|xshell save public key|"
+
 #: ../../docs/login/login-ssh.rst:236 4519816a06cc4fc5989d8f20cbf848ad
 #: cadf32b5277f4daa80660a630ce2b75f
 msgid "xshell save public key"
 msgstr "xshell save public key"
+
 #: ../../docs/login/login-ssh.rst:132 003e3090241d42a2910c2075f08ce485
 msgid "Add the public key to the cluster"
 msgstr "Add the public key to the cluster"
+
 #: ../../docs/login/login-ssh.rst:134 1fa90f2aef744aa8b46e8d307853b708
 msgid ""
-"Next, you need to append the public key you just copied to the\\ "
-"``~/.ssh/authorized_keys``\\ file in the cluster. First use\\ :ref:`Web "
-"SSH login <web login>`\\ to log in to the cluster, and then input the "
-"following command in the Web terminal:"
+"Next, you need to append the public key you just copied to the\\ ``~/.ssh/"
+"authorized_keys``\\ file in the cluster. First use\\ :ref:`Web SSH login "
+"<web login>`\\ to log in to the cluster, and then input the following "
+"command in the Web terminal:"
 msgstr ""
-"Next, you need to append the public key you just copied to the\\ "
-"``~/.ssh/authorized_keys``\\ file in the cluster. First use\\ :ref:`Web "
-"SSH login <web login>`\\ to log in to the cluster, and then input the "
-"following command in the Web terminal:"
+"Next, you need to append the public key you just copied to the\\ ``~/.ssh/"
+"authorized_keys``\\ file in the cluster. First use\\ :ref:`Web SSH login "
+"<web login>`\\ to log in to the cluster, and then input the following "
+"command in the Web terminal:"
+
 #: ../../docs/login/login-ssh.rst:141 a9be9729bc53403cb21defdb8ba28421
 msgid "Replace ``ssh-rsa AAAA..``\\ with the public key you just copied."
 msgstr "Replace ``ssh-rsa AAAA..``\\ with the public key you just copied."
+
 #: ../../docs/login/login-ssh.rst:144 1d4513fc75884a65b5a59c614a6d9aa3
 msgid "Use the key to log in to the cluster"
 msgstr "Use the key to log in to the cluster"
+
 #: ../../docs/login/login-ssh.rst:149 643b60f9df604c908dc4c4869a606fe6
 msgid ""
-"Open the built-in terminal on your local machine, according to\\ "
-":ref:`ssh_info`\\ to view the SSH IP and port information of the cluster "
-"to be logged in, input the following command and press Enter to log in to"
-" the cluster:"
+"Open the built-in terminal on your local machine, according "
+"to\\ :ref:`ssh_info`\\ to view the SSH IP and port information of the "
+"cluster to be logged in, input the following command and press Enter to log "
+"in to the cluster:"
 msgstr ""
-"Open the built-in terminal on your local machine, according to\\ "
-":ref:`ssh_info`\\ to view the SSH IP and port information of the cluster "
-"to be logged in, input the following command and press Enter to log in to"
-" the cluster:"
+"Open the built-in terminal on your local machine, according "
+"to\\ :ref:`ssh_info`\\ to view the SSH IP and port information of the "
+"cluster to be logged in, input the following command and press Enter to log "
+"in to the cluster:"
+
 #: ../../docs/login/login-ssh.rst:156 2ee4e85a2ef34618a81f23d55678f3ae
 msgid ""
-"Replace \\ ``IP``\\ and \\ ``PORT``\\ with the SSH IP address and port of"
-" the cluster, and \\ ``username``\\ with your platform username."
+"Replace \\ ``IP``\\ and \\ ``PORT``\\ with the SSH IP address and port of "
+"the cluster, and \\ ``username``\\ with your platform username."
 msgstr ""
-"Replace \\ ``IP``\\ and \\ ``PORT``\\ with the SSH IP address and port of"
-" the cluster, and \\ ``username``\\ with your platform username."
+"Replace \\ ``IP``\\ and \\ ``PORT``\\ with the SSH IP address and port of "
+"the cluster, and \\ ``username``\\ with your platform username."
+
 #: ../../docs/login/login-ssh.rst:158 5b4c74a46ed249e390c80445c258577c
 msgid ""
-"If you see a similar prompt, enter\\ ``yes``\\ and press Enter, then you "
-"can log in normally."
+"If you see a similar prompt, enter\\ ``yes``\\ and press Enter, then you can "
+"log in normally."
 msgstr ""
-"If you see a similar prompt, enter\\ ``yes``\\ and press Enter, then you "
-"can log in normally."
+"If you see a similar prompt, enter\\ ``yes``\\ and press Enter, then you can "
+"log in normally."
+
 #: ../../docs/login/login-ssh.rst:169 5efe8642829d4a549a9f9be749af3821
 msgid "Here is an example of using\\ `Xshell`_\\ to log in."
 msgstr "Here is an example of using\\ `Xshell`_\\ to log in."
+
 #: ../../docs/login/login-ssh.rst:171 72f46b64809244b499455e9957e1a143
 msgid ""
 "Click the new session property in the upper left corner of the software, "
-"according to\\ :ref:`ssh_info`\\ to view the SSH IP and port information "
-"of the cluster to be logged in, input the SSH IP address and port, then "
-"click Connect."
+"according to\\ :ref:`ssh_info`\\ to view the SSH IP and port information of "
+"the cluster to be logged in, input the SSH IP address and port, then click "
+"Connect."
 msgstr ""
 "Click the new session property in the upper left corner of the software, "
-"according to\\ :ref:`ssh_info`\\ to view the SSH IP and port information "
-"of the cluster to be logged in, input the SSH IP address and port, then "
-"click Connect."
+"according to\\ :ref:`ssh_info`\\ to view the SSH IP and port information of "
+"the cluster to be logged in, input the SSH IP address and port, then click "
+"Connect."
+
 #: ../../docs/login/login-ssh.rst:174 667187952ac94b5fbab904bd484eb9de
 msgid "|xshell new login|"
 msgstr "|xshell new login|"
+
 #: ../../docs/login/login-ssh.rst:237 e176b939279c4e6f8996b50eda9b61ab
 #: edcdfc537d724f52b598fd5f84b3c176
 msgid "xshell new login"
 msgstr "xshell new login"
+
 #: ../../docs/login/login-ssh.rst:176 9c824c24073e4a18b4137a8ed28d1527
 msgid "Input the platform username and click OK."
 msgstr "Input the platform username and click OK."
+
 #: ../../docs/login/login-ssh.rst:178 2a48c40ba4104ca1bda4bd9b983283df
 msgid "|xshell enter username|"
 msgstr "|xshell enter username|"
+
 #: ../../docs/login/login-ssh.rst:238 343fc6b3b1cb4e1ab440c9a4389b15a2
 #: e5e760da43814e5b92863a9188c33c93
 msgid "xshell enter username"
 msgstr "xshell enter username"
+
 #: ../../docs/login/login-ssh.rst:180 2beb235d00304fb7b69ea67f2b5f0404
 msgid ""
-"In the user authentication interface, select \"Public Key\" and select "
-"the public key file saved locally in the previous section. If a key "
-"password was set when generating the key pair, you also need to input the"
-" password."
+"In the user authentication interface, select \"Public Key\" and select the "
+"public key file saved locally in the previous section. If a key password was "
+"set when generating the key pair, you also need to input the password."
 msgstr ""
-"In the user authentication interface, select \"Public Key\" and select "
-"the public key file saved locally in the previous section. If a key "
-"password was set when generating the key pair, you also need to input the"
-" password."
+"In the user authentication interface, select \"Public Key\" and select the "
+"public key file saved locally in the previous section. If a key password was "
+"set when generating the key pair, you also need to input the password."
+
 #: ../../docs/login/login-ssh.rst:183 b8baa29b76424bdd8672edf58b28af55
 msgid "|xshell import public key|"
 msgstr "|xshell import public key|"
+
 #: ../../docs/login/login-ssh.rst:239 736dd3886c5c4681a19af3604de2f7c0
 #: be6b9679a6074edc829fa987685359cd
 msgid "xshell import public key"
 msgstr "xshell import public key"
+
 #: ../../docs/login/login-ssh.rst:185 43e00effe3d141678fa5a286810dfd9b
 msgid "Click Confirm, successfully login."
 msgstr "Click Confirm, successfully login."
+
 #: ../../docs/login/login-ssh.rst:187 57f7ff7eb914491fb32eaf155431700b
 msgid "|xshell login successfully|"
 msgstr "|xshell login successfully|"
+
 #: ../../docs/login/login-ssh.rst:240 757e73a08dc546ffa6d0a49eaddd9e4e
 #: d739d6c1d9c74d1a8cd2b7bd2b5fe58e
 msgid "xshell login successfully"
 msgstr "xshell login successfully"
+
 #: ../../docs/login/login-ssh.rst:192 be202a95721f4f168dbaab61675e0f7d
 msgid "SSH service configuration"
 msgstr "SSH service configuration"
+
 #: ../../docs/login/login-ssh.rst:194 5d3bcb62de264285a701f4d21dd1e5b1
 msgid "Start the instance, open the terminal to install the ssh service"
 msgstr "Start the instance, open the terminal to install the ssh service"
+
 #: ../../docs/login/login-ssh.rst:200 db5ff003ac4a4c45990f499a3b6b2e9d
 msgid "Start the ssh service"
 msgstr "Start the ssh service"
+
 #: ../../docs/login/login-ssh.rst:206 e8364d1fd15e4d9c83a02dc36c69a447
 msgid ""
 "If you see the prompt\\ ``service command not found``\\，execute the "
@@ -426,13 +495,15 @@ msgid ""
 msgstr ""
 "If you see the prompt\\ ``service command not found``\\，execute the "
 "following command:"
+
 #: ../../docs/login/login-ssh.rst:212 7c530e55b39c4c50b275e7590fff97b0
 msgid "Change the user password"
 msgstr "Change the user password"
+
 #: ../../docs/login/login-ssh.rst:219 28da9eefd503474fa701522660f81f1a
 msgid "Then input the new password."
 msgstr "Then input the new password."
+
 #: ../../docs/login/login-ssh.rst:221 6a2d58b739f64748810ff7b1e6941644
 msgid "Use the ssh tool to remotely log in to the instance."
 msgstr "Use the ssh tool to remotely log in to the instance."
-

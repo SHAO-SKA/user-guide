@@ -8,23 +8,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 19:58+0800\n"
+"POT-Creation-Date: 2026-10-18 19:13+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: en <LL@li.org>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../docs/data/index.rst:3 b65803a679764cf09b554c86ed38fe75
+#: ../../docs/data/index.rst:3 f8500a5275964bfb99b64ab1665e4d0d
 msgid "数据传输与存储"
 msgstr "Data Transmission and Storage"
 
-#: ../../docs/data/index.rst:7 d6e2901bfa2244ffb8254eb5fb8304f3
-msgid ""
-"本章介绍cnSRC的数据传输和存储 This chapter introduces data transmission and storage for "
-"cnSRC."
-msgstr "This chapter introduces data transmission and storage for cnSRC."
+#: ../../docs/data/index.rst:7 a7c513ad839c41b6a78548cd76085077
+msgid "本章介绍cnSRC的数据传输和存储"
+msgstr ""
+
+#~ msgid ""
+#~ "本章介绍cnSRC的数据传输和存储 This chapter introduces data"
+#~ " transmission and storage for cnSRC."
+#~ msgstr "This chapter introduces data transmission and storage for cnSRC."
+

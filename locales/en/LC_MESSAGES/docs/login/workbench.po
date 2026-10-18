@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cnSRC User Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 19:55+0800\n"
+"POT-Creation-Date: 2026-10-18 18:26+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -19,51 +19,51 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../docs/login/workbench.rst:4 e6dee53f40a649eda7818d0a0d331670
+#: ../../docs/login/workbench.rst:4 3b9ae224f1a24c0d89f87e381d190028
 msgid "认识用户工作台"
 msgstr "Getting to know the workbench"
 
-#: ../../docs/login/workbench.rst:7 823b5976fef7419fada6d8b8008fe909
+#: ../../docs/login/workbench.rst:7 275344c24bb54ab2b00522ab46529c90
 msgid "流程目标"
 msgstr "Purpose"
 
-#: ../../docs/login/workbench.rst:9 f38d9424f3bf42578ecfeb902efc8534
+#: ../../docs/login/workbench.rst:9 d527a7073b7e4041ab59ca35884e9d1a
 msgid "让用户登录后知道从哪里开始，以及如何快速判断平台是否正常。"
 msgstr ""
 "After login, show users where to start and how to quickly tell whether the "
 "platform is running normally."
 
-#: ../../docs/login/workbench.rst:12 eaf417bffdae4a9a930a83e0cf309a5a
+#: ../../docs/login/workbench.rst:12 2aaa5e9d2be44e0db929eca5566bf2cd
 msgid "进入方式"
 msgstr "How to access"
 
-#: ../../docs/login/workbench.rst:14 42a6238f56d9413499aafd57bc80b63d
+#: ../../docs/login/workbench.rst:14 74f6fd1985cd438ea34daca7c592df44
 msgid "登录成功后自动进入工作台；也可以点击左侧菜单 ``工作台`` 随时回到该页 面。"
 msgstr ""
 "After login you enter the workbench automatically; you can also click "
 "``Workbench`` in the left menu anytime."
 
-#: ../../docs/login/workbench.rst:18 6d33616d63224a70aa23447e752b4cd6
+#: ../../docs/login/workbench.rst:18 e5a907d70480418dbc056faec2252fb2
 msgid "页面内容"
 msgstr "Page contents"
 
-#: ../../docs/login/workbench.rst:20 01f48831eb06477dbea4e504f6083bbb
+#: ../../docs/login/workbench.rst:20 7195299607d9405f9f732eab959db4d9
 msgid "工作台由若干卡片组成，依次为："
 msgstr "The workbench consists of several cards, in order:"
 
-#: ../../docs/login/workbench.rst:22 8fc75797fa734464bd97d3fe50a155a4
+#: ../../docs/login/workbench.rst:22 d0ec465cea3745e6918eabd5a5e83169
 msgid "``快捷操作``：三个常用入口按钮 ``应用管理`` ``通知中心`` ``帮助文档``。"
 msgstr ""
 "``Quick Actions``: three common entry buttons ``Application Management``, "
 "``Notification Center``, and ``Help Docs``."
 
-#: ../../docs/login/workbench.rst:24 91b756eff40c4f8ab5d67fa843ffd51f
+#: ../../docs/login/workbench.rst:24 3ff51def291c4b0ca263301e86652482
 msgid "``账户概览``：显示用户名、状态、显示名称、用户余额、项目数量、未读通 知数。"
 msgstr ""
 "``Account Overview``: username, status, display name, balance, project "
 "count, and unread notifications."
 
-#: ../../docs/login/workbench.rst:26 644c3357ba58416193c55a81f732ce8e
+#: ../../docs/login/workbench.rst:26 8634a8032c984e2f9c1728f654f827b8
 msgid ""
 "``作业统计``：近 7 天作业数量，含 ``运行中`` ``排队中`` ``24h完成`` ``24h失败`` 四个计数；下方是 ``最近作业`` "
 "表格。"
@@ -72,62 +72,62 @@ msgstr ""
 "``Queued``, ``Completed in 24h``, and ``Failed in 24h``; below is the "
 "``Recent Jobs`` table."
 
-#: ../../docs/login/workbench.rst:28 e7ee6fe04cfd4f7997434128952cb1e9
+#: ../../docs/login/workbench.rst:28 35dc33586684452fbe3394911fe1da43
 msgid "``平台通知``：显示最近若干条通知摘要，每条含标题、类型、发布时间， 右上角 ``查看全部`` 进入完整通知列表。"
 msgstr ""
 "``Platform Notifications``: recent notification summaries with title, type, "
 "and time; ``View All`` opens the full list."
 
-#: ../../docs/login/workbench.rst:30 4a57b87f681e45118503eb5c4900457e
+#: ../../docs/login/workbench.rst:30 cd43b8b72e744b80aa79956aaf0bce5c
 msgid "``平台状态``：显示集群在线状态，``2 / 2`` 表示 2 个可用集群共 2 个， ``0`` 异常节点。"
 msgstr ""
 "``Platform Status``: cluster online status; ``2 / 2`` means 2 of 2 clusters "
 "available, ``0`` abnormal nodes."
 
-#: ../../docs/login/workbench.rst:32 8a6d14bac52a4f5695edaece76bb05c5
+#: ../../docs/login/workbench.rst:32 ca1b52b6cbf04585a2f3a101f7aa0bf2
 msgid "``我的项目组``：列出所属项目组卡片，含组名、ID、CPU/GPU/内存配额。"
 msgstr ""
 "``My Project Groups``: cards for your groups with name, ID, and "
 "CPU/GPU/memory quotas."
 
-#: ../../docs/login/workbench.rst:35 95a49eccfacd4781a0eb3d464097b6b0
+#: ../../docs/login/workbench.rst:35 2c986fad8a454d16af7dd7306e42dee4
 msgid "正常结果"
 msgstr "Expected result"
 
-#: ../../docs/login/workbench.rst:37 e4aa3122947f4e49ae67ba51291b0292
+#: ../../docs/login/workbench.rst:37 a9b634c569ce4149a03262add4d0f48f
 msgid "进入工作台后可以看到自己的账号信息、最近作业和通知，不需要任何额外操 作。"
 msgstr ""
 "On the workbench you see your account information, recent jobs, and "
-"notifications—no extra steps required."
+"notifications--no extra steps required."
 
-#: ../../docs/login/workbench.rst:44 630861e8c3494d639ed0df4e392c441c
+#: ../../docs/login/workbench.rst:44 0b118290f7b941a5955dd9cb0b734fa4
 msgid "普通用户工作台"
 msgstr "Regular user workbench"
 
-#: ../../docs/login/workbench.rst:44 2a2c167295454190a65f2bf8485fb68f
+#: ../../docs/login/workbench.rst:44 392f900f7839455ebd2c883cd6fe2057
 msgid "普通用户工作台全景，包含快捷操作、账户概览、作业统计、平台通知、平 台状态和我的项目组。"
 msgstr ""
 "Overview of the regular user workbench: shortcuts, account overview, job "
 "statistics, notifications, platform status, and my project groups."
 
-#: ../../docs/login/workbench.rst:48 bdebd77ad0b84e009a7c200f6475a0e7
+#: ../../docs/login/workbench.rst:48 52764a341eb1475ea4ffc808a0c019d3
 msgid "使用建议"
 msgstr "Tips"
 
-#: ../../docs/login/workbench.rst:50 23ee658b28ab44d8b845fa11769382b6
+#: ../../docs/login/workbench.rst:50 ff75f12fff414af78115e9478ecb51ba
 msgid "想启动应用 → 点击 ``快捷操作`` 中的 ``应用管理``，或左侧菜单 ``应用列表``。"
 msgstr ""
-"To start an app → click ``Application Management`` under ``Quick Actions``, "
-"or ``Application List`` in the left menu."
+"To start an app -> click ``Application Management`` under ``Quick Actions``,"
+" or ``Application List`` in the left menu."
 
-#: ../../docs/login/workbench.rst:52 b8a97558bde64172bb408d72f1a2d0dc
+#: ../../docs/login/workbench.rst:52 23de6244203d466cbd924bd5bbc28798
 msgid "想看通知 → 点击 ``快捷操作`` 中的 ``通知中心``。"
 msgstr ""
-"To view notifications → click ``Notification Center`` under ``Quick "
+"To view notifications -> click ``Notification Center`` under ``Quick "
 "Actions``."
 
-#: ../../docs/login/workbench.rst:53 dd0536869c734e069194921fbfadd509
+#: ../../docs/login/workbench.rst:53 413a9dc72f1248cfb8d501271a7c999f
 msgid "想看项目组 → 滚动到工作台最下方的 ``我的项目组`` 卡片，或点击左 侧菜单 ``项目组管理``。"
 msgstr ""
-"To view project groups → scroll to ``My Project Groups`` at the bottom of "
+"To view project groups -> scroll to ``My Project Groups`` at the bottom of "
 "the workbench, or click ``Project Group Management`` in the left menu."

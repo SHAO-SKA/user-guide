@@ -36,7 +36,9 @@ msgid "进入方式"
 msgstr "How to access"
 
 #: ../../docs/login/login.rst:14 0418b881e3194930a1decd245594b842
-msgid "在浏览器中打开平台地址 ``https://kylin.cnsrc.shao.ac.cn/Login/``，进入登录页 面。"
+msgid ""
+"在浏览器中打开平台地址 ``https://kylin.cnsrc.shao.ac.cn/Login/``，进入登录页 "
+"面。"
 msgstr ""
 "Open ``https://kylin.cnsrc.shao.ac.cn/Login/`` in your browser to reach the "
 "login page."
@@ -46,7 +48,8 @@ msgid "操作步骤"
 msgstr "Steps"
 
 #: ../../docs/login/login.rst:20 0904783dea9f4f32bb91025bb28408b7
-msgid "在浏览器中打开平台地址 ``https://kylin.cnsrc.shao.ac.cn/Login/``，按回车。"
+msgid ""
+"在浏览器中打开平台地址 ``https://kylin.cnsrc.shao.ac.cn/Login/``，按回车。"
 msgstr ""
 "Open ``https://kylin.cnsrc.shao.ac.cn/Login/`` in your browser and press "
 "Enter."
@@ -82,8 +85,8 @@ msgstr "Login page"
 
 #: ../../docs/login/login.rst:35 7f644e4133f14e74980a66181e0568d0
 msgid ""
-"登录页面。含 ``用户名``、``密码``、``验证码`` 输入框，``注册账号``、 ``登 录``、``Login with SSO`` "
-"按钮和底部版本号。"
+"登录页面。含 ``用户名``、``密码``、``验证码`` 输入框，``注册账号``、 ``登 录"
+"``、``Login with SSO`` 按钮和底部版本号。"
 msgstr ""
 "Login page with ``Username``, ``Password``, and ``Captcha`` fields; "
 "``Register``, ``Login``, and ``Login with SSO`` buttons; and the version at "
@@ -96,19 +99,21 @@ msgstr "Unified identity authentication system"
 
 #: ../../docs/login/login.rst:41 b297cf8f7b3a47648b77f07e83d8cdbb
 msgid ""
-"如果所在单位已接入平台 SSO 系统，可跳过账号密码流程，点击登录页 ``Login with SSO`` 按钮（位于 ``登 录`` "
-"按钮下方）。浏览器会自动跳转 到统一身份认证系统登录页面。"
+"如果所在单位已接入平台 SSO 系统，可跳过账号密码流程，点击登录页 ``Login with "
+"SSO`` 按钮（位于 ``登 录`` 按钮下方）。浏览器会自动跳转 到统一身份认证系统登"
+"录页面。"
 msgstr ""
 "If your organization is connected to platform SSO, skip username/password "
-"and click ``Login with SSO`` (below ``Login``). The browser redirects to the"
-" unified identity login page."
+"and click ``Login with SSO`` (below ``Login``). The browser redirects to the "
+"unified identity login page."
 
 #: ../../docs/login/login.rst:49 9149f138768c41ab93dd48a54bd61122
-msgid "统一身份认证系统登录页面。可使用账号密码登 录，或通过所属机构（SKAO / GOSC / 中国科技云通行证 等）登录。"
+msgid ""
+"统一身份认证系统登录页面。可使用账号密码登 录，或通过所属机构（SKAO / GOSC / "
+"中国科技云通行证 等）登录。"
 msgstr ""
 "Unified identity login page. Sign in with username/password, or via your "
-"organization (SKAO / GOSC / China Science & Technology Cloud Passport, "
-"etc.)."
+"organization (SKAO / GOSC / China Science & Technology Cloud Passport, etc.)."
 
 #: ../../docs/login/login.rst:54 224c67e2f400490699855e32e09a2777
 msgid "统一身份认证系统由平台所属单位统一维护；如不确定账号请咨询 单位管理员。"
@@ -134,8 +139,8 @@ msgstr "Notes"
 #: ../../docs/login/login.rst:62 cb17c42f84af4227aff6f36deb0d21c2
 msgid "验证码区分大小写，按页面显示内容输入；如显示不清晰可刷新页面换一张。"
 msgstr ""
-"Verification codes are case-sensitive; enter exactly what is shown. If it is"
-" hard to read, refresh the page for a new code."
+"Verification codes are case-sensitive; enter exactly what is shown. If it is "
+"hard to read, refresh the page for a new code."
 
 #: ../../docs/login/login.rst:63 a28dbe395ac74941808e0f42d94cd1a6
 msgid "如页面提示 ``验证码错误！``，重新输入当前验证码后再提交。"
@@ -154,14 +159,18 @@ msgid "常见问题"
 msgstr "Common questions"
 
 #: ../../docs/login/login.rst:69 9f0f655500084839837ce0f071b81529
-msgid "**登录后一直停留在登录页怎么办？** 检查浏览器当前是否仍显示登录页。如是，说明登录未成功，请重 复本节操作步骤，特别留意验证码。"
+msgid ""
+"**登录后一直停留在登录页怎么办？** 检查浏览器当前是否仍显示登录页。如是，说明"
+"登录未成功，请重 复本节操作步骤，特别留意验证码。"
 msgstr ""
 "**What if I stay on the login page after signing in?** Check whether the "
-"browser still shows the login page. If so, login did not succeed—repeat the "
+"browser still shows the login page. If so, login did not succeed--repeat the "
 "steps in this section, especially the verification code."
 
 #: ../../docs/login/login.rst:73 67de970c36ca4fbb9d60e8ef3d592e12
-msgid "**页面无法打开怎么办？** 确认浏览器已联网，平台地址正确无误。如仍无法访问，请联系管理员。"
+msgid ""
+"**页面无法打开怎么办？** 确认浏览器已联网，平台地址正确无误。如仍无法访问，请"
+"联系管理员。"
 msgstr ""
 "**What if the page will not open?** Confirm that the browser is online and "
 "the platform URL is correct. If you still cannot access it, contact an "

@@ -142,12 +142,3 @@ msgstr "NF: Node Failure, NODE FAILURE"
 #: ../../docs/jobs/slurm-squeue.rst:51 edeaaf1a7cea447eb30743be12ec0687
 msgid "CD：已完成，COMPLETED"
 msgstr "CD: Completed, COMPLETED"
-
-#~ msgid ""
-#~ "其中 JOBID表示任务ID， NAME表示任务名称， USER为用户， ST表示运行状态， TIME为已运行时间， NODES表示占用节点数， "
-#~ "NODELIST为任 务运行的节点列表。"
-#~ msgstr ""
-#~ "Here, JOBID represents the task ID, NAME represents the task name, USER is "
-#~ "the user, ST represents the running status, TIME is the elapsed time, NODES "
-#~ "indicates the number of occupied nodesNODELIST is the list of nodes where "
-#~ "the task is running."

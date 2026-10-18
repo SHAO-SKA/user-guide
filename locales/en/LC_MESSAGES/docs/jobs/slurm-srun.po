@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 19:58+0800\n"
+"POT-Creation-Date: 2026-10-18 18:26+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../docs/jobs/slurm-srun.rst:5 347ddbc37e0847889df3ac88e1562fd2
+#: ../../docs/jobs/slurm-srun.rst:5 11e7de0cdbf14138a1638373172de860
 msgid "交互式作业提交srun"
 msgstr "Interactive Job Submission with srun"
 
-#: ../../docs/jobs/slurm-srun.rst:7 8f920dee91b14d4c9f65dae0e7a9d92d
+#: ../../docs/jobs/slurm-srun.rst:7 30725839a71d4ee6b63b786eac1256de
 msgid ""
 "Slurm作业通常分为交互式和批量式两种。 交互式作业通常用于代码编译、脚本调试、交互式计算等工作。 长期后台计算的任务通常以作业脚本的方式进行批量提交"
 " :ref:`sbatch` 。"
@@ -33,34 +33,34 @@ msgstr ""
 "computing, etc. Long-term background computing tasks are usually submitted "
 "in batch by job scripts."
 
-#: ../../docs/jobs/slurm-srun.rst:12 100e0d44462b4d3d89cac33e059e16ce
+#: ../../docs/jobs/slurm-srun.rst:12 dea03e705cf64fd09ea21316c3a456eb
 msgid "简介"
 msgstr "Introduction"
 
-#: ../../docs/jobs/slurm-srun.rst:14 86060224213b4a2fb5865dadf01673e7
+#: ../../docs/jobs/slurm-srun.rst:14 da2424ee7ca541f5a0bbe44e0521135c
 msgid "交互式提交作业：在shell窗口中执行 ``srun`` 命令，主要命令格式如下："
 msgstr ""
 "Interactive Job Submission: Execute the srun command in a shell window. The "
 "main command format is as follows:"
 
-#: ../../docs/jobs/slurm-srun.rst:22 a410ce2d4b894a47a83e73ba092e5960
+#: ../../docs/jobs/slurm-srun.rst:22 67063e76721649baa4f45bab0cf55238
 msgid "srun常用选项"
 msgstr "Common srun Options"
 
-#: ../../docs/jobs/slurm-srun.rst:24 d05817583f5347338a8344d89b344191
+#: ../../docs/jobs/slurm-srun.rst:24 629a2a64d80d4f478d1bb8209a6932bb
 msgid "srun包括多个选项，其中最常用的选项主要有以下几个："
 msgstr ""
 "srun has several options, with the most commonly used options including the "
 "following:"
 
-#: ../../docs/jobs/slurm-srun.rst:26 de10bb17ec8c47ac81e72e0fde8c8b4f
+#: ../../docs/jobs/slurm-srun.rst:26 5dd4ed0be99c4fcdb6b269e33596e074
 msgid "-n, --ntasks=number 指定要运行的任务数。请求为number 个任务分配资源，默认为每个任务一个处理器核"
 msgstr ""
 "-n, --ntasks=number Specifies the number of tasks to run. Requests "
 "allocation of resources for 'number' tasks, with the default being one "
 "processor core per task"
 
-#: ../../docs/jobs/slurm-srun.rst:27 ff8e18f24ddc472ea9d1e68feb1fc774
+#: ../../docs/jobs/slurm-srun.rst:27 c8365c7be20c4441928d5307dad58e2e
 msgid ""
 "-c, --cpus-per-task=ncpus 告知资源管理系统控制进程，作业步的每个任务需要ncpus "
 "个处理器核。若未指定此选项，则控制进程默认为每个任务分配一个处理器核。"
@@ -70,11 +70,11 @@ msgstr ""
 "specified, the control process defaults to allocating one processor core per"
 " task."
 
-#: ../../docs/jobs/slurm-srun.rst:28 31eec3cadf704483a1f37141d3bcbbdd
+#: ../../docs/jobs/slurm-srun.rst:28 870ce2107c9b44e8af95d67364bb2b66
 msgid "-N, --nodes=minnodes[-maxnodes]"
 msgstr "-N, --nodes=minnodes[-maxnodes]"
 
-#: ../../docs/jobs/slurm-srun.rst:29 9a7aa6dc2ed5464fb74f2f353c442f1b
+#: ../../docs/jobs/slurm-srun.rst:29 730cfb3879194ef09ff8462ca54de764
 msgid ""
 "请求为作业至少分配minnodes个节点。调度器可能觉得在多于 "
 "minnodes个节点上运行作业。可以通过maxnodes限制最多分配的节点数目（例如“-N 2-4”或“--nodes=2-4”）。最少和最多节点数目"
@@ -95,14 +95,14 @@ msgstr ""
 "start of the job, maximizing the number of nodes allocated as much as "
 "possible."
 
-#: ../../docs/jobs/slurm-srun.rst:30 4ac98c37717643ae81c7cc96ade434cc
+#: ../../docs/jobs/slurm-srun.rst:30 c78bf53f6d234adbb871fa25c38b74d6
 msgid "-p, --partition=partition name 在指定分区中分配资源。如未指定，则由控制进程在系统默认分区中分配资源。"
 msgstr ""
 "-p, --partition=partition name Allocates resources within the specified "
 "partition. If not specified, the control process allocates resources in the "
 "system's default partition."
 
-#: ../../docs/jobs/slurm-srun.rst:31 077cc5c0ec334a0eb5af416d5d99d180
+#: ../../docs/jobs/slurm-srun.rst:31 e1540954e5e24a9ba91c3187e8daecab
 msgid ""
 "-w, --nodelist=node name list "
 "请求指定的节点名字列表。作业分配资源中将至少包含这些节点。列表可以用逗号分隔的节点名或节点范围（如cpu[01-05,07,...]，其中cpu为节点名称）指定，或者用"
@@ -116,11 +116,11 @@ msgstr ""
 "specified (e.g., ``-N 1-2``) but the file lists more than two nodes, only "
 "the first two nodes in the request list are used."
 
-#: ../../docs/jobs/slurm-srun.rst:32 16e63b18655d4cb891071490efa631c1
+#: ../../docs/jobs/slurm-srun.rst:32 79956030b6dc48518ab07fd168a990ee
 msgid "-x, --exclude=node name list"
 msgstr "-x, --exclude=node name list"
 
-#: ../../docs/jobs/slurm-srun.rst:33 3259a3db701a430ea93c06f2aa16ee21
+#: ../../docs/jobs/slurm-srun.rst:33 3a5402295d064dc0b94d74852cc73c30
 msgid ""
 "不要将指定的节点分配给作业。如果包含“/”字符，参数将被当作 文件名。srun将把作业请求提交到控制进程，然后在远程节点上启动 "
 "所有进程。如果资源请求不能立即被满足，srun将阻塞等待，直到资源可用以运行作业。如果指定了--immediate选项，则srun将在资源 "
@@ -134,32 +134,27 @@ msgstr ""
 "--immediate option is specified,srun will terminate when resources are not "
 "immediately available."
 
-#: ../../docs/jobs/slurm-srun.rst:34 39b3829ee42f44289933cc3561372b00
+#: ../../docs/jobs/slurm-srun.rst:34 68cd9e63791e46c3badc0c1db7fad97d
 msgid "-h, --help 若需使用srun更多选项，可通过“srun –h”或“srun --help”查看."
 msgstr ""
 "-h, --help For more srun options, you can view them by running 'srun -h' or "
 "'srun --help' "
 
-#: ../../docs/jobs/slurm-srun.rst:40 2d346a1b9c2a44d88f14f5168a8d84b5
+#: ../../docs/jobs/slurm-srun.rst:40 f2d850faf56744418d161250b7c02d84
 msgid "使用示例"
 msgstr "Usage Examples:"
 
-#: ../../docs/jobs/slurm-srun.rst:42 cc1a3129b373436a8fb8df690b4ec4d3
+#: ../../docs/jobs/slurm-srun.rst:42 0cea66daa9d349d2843b72cad9dd8432
 msgid "在分区hw-32C768G上指定任务数运行hostname："
 msgstr ""
 "Run hostname with a specified number of tasks on partition hw-32C768G:"
 
-#: ../../docs/jobs/slurm-srun.rst:53 c692adbea45a4d53b2378da00e28fbc6
+#: ../../docs/jobs/slurm-srun.rst:53 db7b641c647d43eea7e22416c57509a8
 msgid "在分区hw-32C768G，节点cpu[4-7]上运行hostname："
 msgstr "Run hostname on nodes cpu[4-7] in partition hw-32C768G:"
 
-#: ../../docs/jobs/slurm-srun.rst:76 d8f9929635fa475e8e3e75489cb33dfd
+#: ../../docs/jobs/slurm-srun.rst:76 c3969c06beee45b8adb5c033349e9b46
 msgid "在hw-32C768G分区，运行8个任务的hostname，每个节点一个任务，分配的节点中不包含节点cpu[4-7]："
 msgstr ""
 "In partition hw-32C768G, run hostname with 8 tasks, one task per node, "
 "excluding nodes cpu[4-7] from the allocation:"
-
-#~ msgid "在arm分区，运行4 任务的hostname，每个节点一个任务，分配的 节点中至少包含节点taishan-arm-cpu[03-05]："
-#~ msgstr ""
-#~ "Run hostname with 4 tasks in the arm partition, one task per node, with the "
-#~ "allocated nodes containing at least taishan-arm-cpu[03-05] nodes:"

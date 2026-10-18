@@ -18,21 +18,21 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
+
 #: ../../docs/login/index.rst:3 f07d5868b5d14c869700ffbf2a609045
 msgid "Login"
 msgstr "Login"
+
 #: ../../docs/login/index.rst:7 8b6e3958dbc641ff94473afc119611fa
 msgid "This chapter introduces how to log in to cnSRC."
 msgstr "This chapter introduces how to log in to cnSRC."
+
 #: ../../docs/login/index.rst:10 5fc521e4b45c4e11898e44cda8b97f99
 msgid ""
-"The login address of the cnSRC platform is: "
-"https://kylin.cnsrc.shao.ac.cn/, which can be accessed directly through "
-"Chrome, Firefox, etc. External users please use VPN or contact "
-"shaoska@shao.ac.cn for access permission."
+"The login address of the cnSRC platform is: https://kylin.cnsrc.shao.ac.cn/, "
+"which can be accessed directly through Chrome, Firefox, etc. External users "
+"please use VPN or contact shaoska@shao.ac.cn for access permission."
 msgstr ""
-"The login address of the cnSRC platform is: "
-"https://kylin.cnsrc.shao.ac.cn/, which can be accessed directly through "
-"Chrome, Firefox, etc. External users please use VPN or contact "
-"shaoska@shao.ac.cn for access permission."
-
+"The login address of the cnSRC platform is: https://kylin.cnsrc.shao.ac.cn/, "
+"which can be accessed directly through Chrome, Firefox, etc. External users "
+"please use VPN or contact shaoska@shao.ac.cn for access permission."

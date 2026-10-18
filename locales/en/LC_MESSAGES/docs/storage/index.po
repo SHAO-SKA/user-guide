@@ -29,9 +29,10 @@ msgstr "This chapter describes cnSRC storage nodes."
 
 #: ../../docs/storage/index.rst:7 22d15cdb46be40e4a42e9f8908028a96
 msgid ""
-"经过多次升级，cnSRC 目前具备约10PB的分布式存储， 具备高性能、高可靠性、高可扩展性的特点， 既有SSD高性能存储，也有HDD大容量存储， "
-"其中/home主要用于用户个人数据和结果数据存储， /o9000主要用于处理数据的长期存储， /ibo9000主要用于存储原始观测数据， "
-"/p9550主要用于存储处理数据处理的中间结果。"
+"经过多次升级，cnSRC 目前具备约10PB的分布式存储， 具备高性能、高可靠性、高可扩"
+"展性的特点， 既有SSD高性能存储，也有HDD大容量存储， 其中/home主要用于用户个人"
+"数据和结果数据存储， /o9000主要用于处理数据的长期存储， /ibo9000主要用于存储"
+"原始观测数据， /p9550主要用于存储处理数据处理的中间结果。"
 msgstr ""
 "After several upgrades, cnSRC provides about 10 PB of distributed storage "
 "with high performance, reliability, and scalability, including SSD and HDD "
@@ -40,7 +41,9 @@ msgstr ""
 "processing results."
 
 #: ../../docs/storage/index.rst:15 58d2ae18cc954319b300eea0df4355e9
-msgid "目前，cnSRC系统存储了超过 2PB 的数据， 包括MWA、ASKAP、MeerKAT 和 VLBI 望远镜的观测数据。"
+msgid ""
+"目前，cnSRC系统存储了超过 2PB 的数据， 包括MWA、ASKAP、MeerKAT 和 VLBI 望远镜"
+"的观测数据。"
 msgstr ""
 "cnSRC currently stores over 2 PB of data, including observations from MWA, "
 "ASKAP, MeerKAT, and VLBI telescopes."
@@ -74,63 +77,9 @@ msgid "etc"
 msgstr "etc"
 
 #: ../../docs/storage/index.rst:27 6936a540e66a4f0e8dbb062f9391808d
-msgid "如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 shaoska@shao.ac.cn  咨询。"
+msgid ""
+"如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 "
+"shaoska@shao.ac.cn  咨询。"
 msgstr ""
-"To use data in these groups or upload and store large amounts of data, email"
-" shaoska@shao.ac.cn for assistance."
-
-#~ msgid "本章介绍ChinaSRC-P存储情况"
-#~ msgstr ""
-
-#~ msgid "ChinaSRC-P 文件系统包括："
-#~ msgstr ""
-
-#~ msgid "目前，ChinaSRC-P系统存储了约2PB左右的数据， 包括MWA、ASKAP和VLBI望远镜的观测数据。"
-#~ msgstr ""
-
-#~ msgid "数据存储"
-#~ msgstr "Data Storage"
-
-#~ msgid "本章介绍CSRC-P存储情况"
-#~ msgstr "This chapter introduces the storage situation of CSRC-P"
-
-#~ msgid "CSRC-P 文件系统包括："
-#~ msgstr ""
-
-#~ msgid "/ssd"
-#~ msgstr ""
-
-#~ msgid "/o9000"
-#~ msgstr ""
-
-#~ msgid "/ibo9000"
-#~ msgstr ""
-
-#~ msgid "/p9500"
-#~ msgstr ""
-
-#~ msgid "四个分区。"
-#~ msgstr ""
-
-#~ msgid "/home和/ssd分区主要用于用户个人数据和结果数据存储，"
-#~ msgstr ""
-
-#~ msgid "/o9000主要用于处理数据的长期存储。"
-#~ msgstr ""
-
-#~ msgid "/ibo9000主要用于存储处理数据数据。"
-#~ msgstr ""
-
-#~ msgid "/p9500主要用于存储原始观测数据。"
-#~ msgstr ""
-
-#~ msgid "目前，CSRC-P系统存储了约2PB左右的数据， 包括MWA、ASKAP和VLBI望远镜的观测数据。"
-#~ msgstr ""
-
-#~ msgid "主要数据分组情况：MWA/GLEAM组、 MWA/Pulsar组和ASKAP组。"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 shaoska@shao.ac.cn & "
-#~ "chinasrc@googlegroups.com 咨询。"
-#~ msgstr ""
+"To use data in these groups or upload and store large amounts of data, email "
+"shaoska@shao.ac.cn for assistance."

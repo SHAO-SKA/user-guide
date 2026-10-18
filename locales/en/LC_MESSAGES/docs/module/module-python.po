@@ -25,18 +25,18 @@ msgstr "Using the Python Environment"
 
 #: ../../docs/module/module-python.rst:8 dccec897ec294cf69b329b0575140a50
 msgid ""
-"cnSRC不部署Python module，用户可以通过上述方法加载Python软件后， "
-"创建Python虚拟环境到自己的HOME路径下，然后自行安装所需的Python module。"
+"cnSRC不部署Python module，用户可以通过上述方法加载Python软件后， 创建Python虚"
+"拟环境到自己的HOME路径下，然后自行安装所需的Python module。"
 msgstr ""
 "cnSRC does not deploy Python modules. After loading Python software using "
-"the methods above, users can create a Python virtual environment under "
-"their HOME directory and install the required Python modules themselves."
+"the methods above, users can create a Python virtual environment under their "
+"HOME directory and install the required Python modules themselves."
 
 #: ../../docs/module/module-python.rst:11 7e245ffa307648798044150abd56c2cd
 msgid "具体方法如下： 加载Python软件,以X86系统为例："
 msgstr ""
-"Here are the specific steps: Loading Python software, using X86 system as"
-" an example:"
+"Here are the specific steps: Loading Python software, using X86 system as an "
+"example:"
 
 #: ../../docs/module/module-python.rst:26 82b85b4ef33e468592fd927568722857
 msgid "创建Python虚拟环境："
@@ -44,7 +44,8 @@ msgstr "Creating a Python virtual environment:"
 
 #: ../../docs/module/module-python.rst:37 9ca00cf158464bce83a40f0c03149d55
 msgid "添加环境变量,把下面语句添加到~/.bashrc中："
-msgstr "Add environment variables by adding the following statement to ~/.bashrc:"
+msgstr ""
+"Add environment variables by adding the following statement to ~/.bashrc:"
 
 #: ../../docs/module/module-python.rst:43 8bc01ddfb4ab4caba80ca2c1f850300a
 msgid "启用Python虚拟环境："
@@ -52,15 +53,13 @@ msgstr "Activate the Python virtual environment:"
 
 #: ../../docs/module/module-python.rst:50 0aee3f7ec85a439a8a84a4843d756dab
 msgid ""
-"此时，可以在终端使用`pip install`安装Python module， 或者下载Python module 源码，使用`python "
-"setup.py install`安装。 以安装zstd为例"
+"此时，可以在终端使用`pip install`安装Python module， 或者下载Python module 源"
+"码，使用`python setup.py install`安装。 以安装zstd为例"
 msgstr ""
-"At this point, you can use 'pip install' in the terminal to install "
-"Python modules or download the source code of Python modules and use "
-"'python setup.py install' for installation. To exit the virtual "
-"environment:"
+"At this point, you can use 'pip install' in the terminal to install Python "
+"modules or download the source code of Python modules and use 'python "
+"setup.py install' for installation. To exit the virtual environment:"
 
 #: ../../docs/module/module-python.rst:65 11127ba558314002889a080b36f19e4d
 msgid "退出虚拟环境："
 msgstr "Quit the virtual environment:"
-

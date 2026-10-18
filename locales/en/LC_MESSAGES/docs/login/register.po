@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cnSRC User Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 19:55+0800\n"
+"POT-Creation-Date: 2026-10-18 18:26+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -19,158 +19,158 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../docs/login/register.rst:4 4ee5813b9db742258543fab902d5685d
+#: ../../docs/login/register.rst:4 9682baae9595482a8e0f61aedb58ef7b
 msgid "用户注册"
 msgstr "User registration"
 
-#: ../../docs/login/register.rst:7 cc085f62028b45fe8516d962c94e0ff2
+#: ../../docs/login/register.rst:7 a4ab4f67dece42d095e4b25dde9f4adc
 msgid "流程目标"
 msgstr "Purpose"
 
-#: ../../docs/login/register.rst:9 1e6bb0867c504643891b09bfab21f3f7
+#: ../../docs/login/register.rst:9 4897db128d7c435ebf3dc96a44a59a95
 msgid "为首次使用平台、还没有账号的科研人员说明如何注册。已有账号的用户 请直接阅读下一章。"
 msgstr ""
 "Explain how researchers who are using the platform for the first time and do"
 " not yet have an account can register. If you already have an account, go to"
 " the next chapter."
 
-#: ../../docs/login/register.rst:13 da98f99d37d54b5f929665caa69db733
+#: ../../docs/login/register.rst:13 9509df4f35f14db38ffc9a07aaedf896
 msgid "进入方式"
 msgstr "How to access"
 
-#: ../../docs/login/register.rst:15 fc135e2041a84fa6bda7acadbb9339f0
+#: ../../docs/login/register.rst:15 a75425d9baed445199ed3ccb2c1619a7
 msgid "在浏览器中打开平台网址 ``https://kylin.cnsrc.shao.ac.cn/Login/``， 进入登录页面。"
 msgstr ""
 "Open ``https://kylin.cnsrc.shao.ac.cn/Login/`` in your browser to reach the "
 "login page."
 
-#: ../../docs/login/register.rst:18 c90155c747274af5af8efef5ef7dd79f
+#: ../../docs/login/register.rst:18 4bd571b30ed4440fa134d5f47d0d8b87
 msgid "在登录页点击 ``注册账号`` 按钮（位于页面底部，``登 录`` 和 ``Login with SSO`` 按钮下方）。"
 msgstr ""
 "On the login page, click ``Register`` (at the bottom, below ``Login`` and "
 "``Login with SSO``)."
 
-#: ../../docs/login/register.rst:25 43e329158a2343c685bf9f06c22cdac4
+#: ../../docs/login/register.rst:25 47954ae9af7145b28b0c0134ba59f683
 msgid "登录页"
 msgstr "Login page"
 
-#: ../../docs/login/register.rst:25 aa79309bf0a24f388b1cec63f168173a
+#: ../../docs/login/register.rst:25 76813533a291412180a4270c5378fb69
 msgid "登录页面。点击 ``注册账号`` 按钮进入注册流程。"
 msgstr "Login page. Click ``Register`` to start registration."
 
-#: ../../docs/login/register.rst:28 4ec7c80d5733436b90bbe43ac1aa6699
+#: ../../docs/login/register.rst:28 6e583a76990044b4a197a4e3caf7f3db
 msgid "页面内容"
 msgstr "Page contents"
 
-#: ../../docs/login/register.rst:30 eaa5a42b9a8b4d30936416aeed7a7710
+#: ../../docs/login/register.rst:30 72043ef98fd14005ae164bda8dc8930d
 msgid "注册页需要填写以下信息："
 msgstr "On the registration page, fill in the following:"
 
-#: ../../docs/login/register.rst:32 d162cbefa6c145f784ae45ef72709877
+#: ../../docs/login/register.rst:32 04f7e41dc22a4b289581206370168375
 msgid "``登录名``：用于登录的用户名，注册后不可修改。"
 msgstr ""
 "``Login name``: username for login; cannot be changed after registration."
 
-#: ../../docs/login/register.rst:33 9e9759c2185c4200b96553d3400d8657
+#: ../../docs/login/register.rst:33 aaa5d9f86300455f93ee94f881622a1d
 msgid "``姓名``：真实姓名。"
 msgstr "``Full name``: your real name."
 
-#: ../../docs/login/register.rst:34 36a0aa4ddc3840888951087c5cc31373
+#: ../../docs/login/register.rst:34 0cdd4dac9e1041129066177e717c8c44
 msgid "``邮箱``：用于接收平台通知、找回密码等。"
 msgstr "``Email``: for platform notices and password recovery."
 
-#: ../../docs/login/register.rst:35 08618462d98d44b98f365412f21501d6
+#: ../../docs/login/register.rst:35 e6a4af23b56742c192118d007cbfc0e2
 msgid "``类型``：下拉选择 ``学生`` 或 ``职工``。"
 msgstr "``Type``: choose ``Student`` or ``Staff`` from the dropdown."
 
-#: ../../docs/login/register.rst:36 9e2ebb3d767b4006b0acc77381886229
+#: ../../docs/login/register.rst:36 9704a95fa0634ea589b9a41975e100c9
 msgid "``密码``：至少 8 位，必须同时包含大写字母、小写字母和数字。"
 msgstr ""
 "``Password``: at least 8 characters, with uppercase, lowercase, and digits."
 
-#: ../../docs/login/register.rst:37 43df022d2e0341f8a99a8db7f45949ae
+#: ../../docs/login/register.rst:37 2a153d9544264090b1f66349505361d4
 msgid "``再次输入密码``：与上面密码一致。"
 msgstr "``Confirm password``: must match the password above."
 
-#: ../../docs/login/register.rst:43 efde49f6697d4edd9b59d488c771954e
+#: ../../docs/login/register.rst:43 39cb0d7d511f48a5acceebe47ae8c108
 msgid "注册页面"
 msgstr "Registration page"
 
-#: ../../docs/login/register.rst:43 f0db86638a7843ae94addc0780049618
+#: ../../docs/login/register.rst:43 b94df10eff644fe4ad89a70ceffa8e15
 msgid "注册页面，含登录名、姓名、邮箱、类型、密码、确认密码字段。"
 msgstr ""
 "Registration page with login name, name, email, type, password, and confirm-"
 "password fields."
 
-#: ../../docs/login/register.rst:46 3ea5b9bd8dc94682bba6c3b392bb463b
+#: ../../docs/login/register.rst:46 5cc37c6cea33416da69298913f9ffa29
 msgid "注册流程"
 msgstr "Registration steps"
 
-#: ../../docs/login/register.rst:48 e5dfaac7105443a7a72523f99739a3e3
+#: ../../docs/login/register.rst:48 7d4771822125438581cc7ecc4e5ac52f
 msgid "在登录页底部点击 ``注册账号`` 按钮。"
 msgstr "Click ``Register`` at the bottom of the login page."
 
-#: ../../docs/login/register.rst:49 9cfd6444bb594a3597f3763c8f401e66
+#: ../../docs/login/register.rst:49 45ac184583df49e287e14ef59ca71945
 msgid "在注册页填写 ``登录名``、``姓名``、``邮箱``。"
 msgstr ""
 "On the registration page, fill in ``Login name``, ``Full name``, and "
 "``Email``."
 
-#: ../../docs/login/register.rst:50 017134e054f743a7ac102b8bf71b32b3
+#: ../../docs/login/register.rst:50 e62bcf3360e84eafad9416fd8b5989a6
 msgid "在 ``类型`` 下拉中选择 ``学生`` 或 ``职工``。"
 msgstr "In ``Type``, select ``Student`` or ``Staff``."
 
-#: ../../docs/login/register.rst:51 860a0892f33440c1aacad636a108c8f2
+#: ../../docs/login/register.rst:51 0709ae124861486d9af850ec78fecbd4
 msgid "在 ``密码`` 框中输入符合要求的密码（≥8 位、含大小写字母和数字）。"
 msgstr ""
-"In ``Password``, enter a valid password (≥8 chars, with upper/lowercase and "
-"digits)."
+"In ``Password``, enter a valid password (>=8 chars, with upper/lowercase and"
+" digits)."
 
-#: ../../docs/login/register.rst:52 835f7f999dbe48849100bf5792aa9cee
+#: ../../docs/login/register.rst:52 d8cd142287d144eba9e9f7a6d6c89159
 msgid "在 ``再次输入密码`` 框中再次输入相同密码。"
 msgstr "In ``Confirm password``, enter the same password again."
 
-#: ../../docs/login/register.rst:53 c9b6694c87af4356962e8bb311ab4982
+#: ../../docs/login/register.rst:53 d6f23e6de39e4d7488d4d74c618bb307
 msgid "点击 ``注 册`` 按钮提交。"
 msgstr "Click ``Register`` to submit."
 
-#: ../../docs/login/register.rst:54 82926fef1a6e466591c35a549965f79d
+#: ../../docs/login/register.rst:54 2b57f0552e8f4811ac2a6a480f70fba7
 msgid "注册成功后，页面提示注册成功；如需立即登录可点击 ``返回登录`` 跳 回登录页，使用新账号登录。"
 msgstr ""
 "After successful registration, the page confirms success; click ``Back to "
 "Login`` to return and sign in with the new account."
 
-#: ../../docs/login/register.rst:58 1507e214b96046cc82861b9ae9458eb7
+#: ../../docs/login/register.rst:58 8291771da85c4edf911c8e25e9018597
 msgid "注意事项"
 msgstr "Notes"
 
-#: ../../docs/login/register.rst:62 a633d34d3d15487a8c1ed0aa5b14a634
+#: ../../docs/login/register.rst:62 2347c95c6b2f4d7a9e5c20ec4de98621
 msgid "登录名是您后续登录和被其他用户识别的唯一标识，请谨慎选择。注册 后登录名通常不可修改。"
 msgstr ""
 "Your login name is your unique identifier for signing in and for other users"
 " to recognize you; choose it carefully. It usually cannot be changed after "
 "registration."
 
-#: ../../docs/login/register.rst:64 bff7089424134cb5b3048e3888a6905f
+#: ../../docs/login/register.rst:64 f2a04a011a0e48f4954e0b9343ba8323
 msgid "密码需符合强度要求（至少 8 位、含大小写字母和数字），否则无法 提交。"
 msgstr ""
 "The password must meet the strength requirements (at least 8 characters with"
 " uppercase, lowercase, and digits); otherwise submission will fail."
 
-#: ../../docs/login/register.rst:66 7b9ea18eed0d455baebf7f2401be5e2b
+#: ../../docs/login/register.rst:66 5be976b33f3a4b5c8bba0951bd2afe5f
 msgid "注册成功后账号需要管理员审核（``启用``）后才能登录使用。如提 示 ``账号未启用`` 或 ``账号不存在``，请联系管理员处理。"
 msgstr ""
 "After registration, an admin must ``Enable`` the account before login. If "
 "you see ``Account not enabled`` or ``Account does not exist``, contact an "
 "administrator."
 
-#: ../../docs/login/register.rst:68 ce192d9c479443718f20a6bdaceb2e55
+#: ../../docs/login/register.rst:68 f45a7da4eb924ec4b44e354ab13cce78
 msgid "如忘记密码，可使用登录页的密码重置功能（如果平台开放），或联 系管理员重置。"
 msgstr ""
 "If you forget your password, use the reset feature on the login page (if "
 "available), or contact an administrator to reset it."
 
-#: ../../docs/login/register.rst:73 e2707d6f064d45648510a55338ddb12b
+#: ../../docs/login/register.rst:73 87dd2f556a6c4c4bb5934a582f80ca3a
 msgid "请使用真实邮箱注册，便于接收平台通知和密码找回邮件。"
 msgstr ""
 "Register with a valid email address so you can receive platform "

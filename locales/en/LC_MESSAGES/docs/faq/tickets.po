@@ -37,10 +37,11 @@ msgid "进入方式"
 msgstr "How to Access"
 
 #: ../../docs/faq/tickets.rst:14 2e609d395b2a47969b5faa0d83f12a5c
-msgid "点击左侧菜单 ``工单管理``，进入工单页面。页面 默认显示 ``提交工单`` 表单。"
+msgid ""
+"点击左侧菜单 ``工单管理``，进入工单页面。页面 默认显示 ``提交工单`` 表单。"
 msgstr ""
-"Click ``Ticket Management`` in the left menu. The page opens to the ``Submit"
-" Ticket`` form by default."
+"Click ``Ticket Management`` in the left menu. The page opens to the ``Submit "
+"Ticket`` form by default."
 
 #: ../../docs/faq/tickets.rst:18 c51a692f36c54cf6a67a2d7ac6a117a5
 msgid "页面内容"
@@ -189,13 +190,17 @@ msgid "常见问题"
 msgstr "Frequently Asked Questions"
 
 #: ../../docs/faq/tickets.rst:79 358264a4c9104999a97bae3a0e3738b4
-msgid "**工单提交失败怎么办？** 检查 ``工单标题`` 是否已填写、``工单描述`` 是否超出 5000 字符限制； 修正后重新提交。"
+msgid ""
+"**工单提交失败怎么办？** 检查 ``工单标题`` 是否已填写、``工单描述`` 是否超出 "
+"5000 字符限制； 修正后重新提交。"
 msgstr ""
-"**Ticket submission failed?** Ensure ``Ticket Title`` is filled and ``Ticket"
-" Description`` is within 5,000 characters, then submit again."
+"**Ticket submission failed?** Ensure ``Ticket Title`` is filled and ``Ticket "
+"Description`` is within 5,000 characters, then submit again."
 
 #: ../../docs/faq/tickets.rst:83 c4b60220ba9f49fc990109cac186441b
-msgid "**页面提示权限不足怎么办？** 确认当前登录账号是普通用户角色；如账号异常请提交另一个工单联系管理 员处理。"
+msgid ""
+"**页面提示权限不足怎么办？** 确认当前登录账号是普通用户角色；如账号异常请提交"
+"另一个工单联系管理 员处理。"
 msgstr ""
 "**Insufficient permissions?** Confirm you are logged in as a regular user. "
 "If the account looks wrong, submit another ticket for administrator help."

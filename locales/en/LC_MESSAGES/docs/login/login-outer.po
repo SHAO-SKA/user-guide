@@ -18,25 +18,35 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
+
 #: ../../docs/login/login-outer.rst:4 e8e776808eeb4595a9a180d1d10ddfe8
 msgid "站外用户登录"
 msgstr "External user login"
+
 #: ../../docs/login/login-outer.rst:7 785f517f8b954b31b27bef527bdac0ba
 msgid "对于非台站内网用户，登录 cnSRC 前需要先完成外网访问开通。"
 msgstr ""
-"For users outside the SHAO intranet, external access must be enabled before logging in to cnSRC."
+"For users outside the SHAO intranet, external access must be enabled before "
+"logging in to cnSRC."
+
 #: ../../docs/login/login-outer.rst:9 24768d8aa8c24c599294c3c677355b45
-msgid "站外接入流程参考 SRCNet 平台常见方式，通常包含 VPN 或固定出口 IP 白名单两类方案。"
+msgid ""
+"站外接入流程参考 SRCNet 平台常见方式，通常包含 VPN 或固定出口 IP 白名单两类方"
+"案。"
 msgstr ""
-"External access follows common SRCNet-style methods, usually including VPN access or fixed egress-IP whitelisting."
+"External access follows common SRCNet-style methods, usually including VPN "
+"access or fixed egress-IP whitelisting."
+
 #: ../../docs/login/login-outer.rst:11 215a328a06744ce18724d4666302fd42
 msgid "开通完成后，请按 :ref:`login-inter` 完成统一认证登录和 SSH 登录。"
 msgstr ""
-"After access is enabled, follow :ref:`login-inter` for unified authentication login and SSH login."
+"After access is enabled, follow :ref:`login-inter` for unified "
+"authentication login and SSH login."
+
 #: ../../docs/login/login-outer.rst:13 32ee1c0492924e108b2b171711f594f7
 msgid "新用户申请请参考 :ref:`user-register` 章节。"
 msgstr "For new user applications, please refer to :ref:`user-register`."
+
 #: ../../docs/login/login-outer.rst:15 5aae52827820432f9d13d0019e1d8269
 msgid "如需协助，请联系 shaoska@shao.ac.cn。"
 msgstr "For assistance, contact shaoska@shao.ac.cn."
-

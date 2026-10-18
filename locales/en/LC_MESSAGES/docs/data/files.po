@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cnSRC User Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 19:55+0800\n"
+"POT-Creation-Date: 2026-10-18 18:26+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -19,129 +19,146 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../docs/data/files.rst:4 0306feb744474da89fe302f189add995
+#: ../../docs/data/files.rst:4 bd595940a8a14672ade111acab25a49c
 msgid "上传和管理个人文件"
 msgstr "Upload and Manage Personal Files"
 
-#: ../../docs/data/files.rst:7 e44081d948c74d7b94adf19c9f63cff5
+#: ../../docs/data/files.rst:7 be14f9c8761a4712bbc8a0ed45d4f69d
 msgid "流程目标"
 msgstr "Purpose"
 
-#: ../../docs/data/files.rst:9 9c2c46b1abb1497ebe3c3738d7844fe5
+#: ../../docs/data/files.rst:9 aaa19c3b4b6f4449b86a44996be9679d
 msgid "帮助用户完成文件上传和个人目录管理的基础操作。"
-msgstr "Help users complete basic file upload and personal directory management operations."
+msgstr ""
+"Help users complete basic file upload and personal directory management "
+"operations."
 
-#: ../../docs/data/files.rst:12 b41be4323e104c96890d15be3db17b5d
+#: ../../docs/data/files.rst:12 3e58934b2fe94184bc78f7d66c17c441
 msgid "进入方式"
 msgstr "How to Access"
 
-#: ../../docs/data/files.rst:14 c03d16d445ae4a4795893ea7f75d0fc8
+#: ../../docs/data/files.rst:14 90e3576def164c36a31ea749531df0e5
 msgid "点击左侧菜单 ``文件管理``，进入个人文件页面。"
-msgstr "Click ``File Management`` in the left menu to open the personal files page."
+msgstr ""
+"Click ``File Management`` in the left menu to open the personal files page."
 
-#: ../../docs/data/files.rst:17 f9dd1d04b4db4798bbab32d6ed699d0a
+#: ../../docs/data/files.rst:17 d390d540edde4ca4ae768070e60e645f
 msgid "页面内容"
 msgstr "Page Overview"
 
-#: ../../docs/data/files.rst:19 4f5b54c505bd4bdca6cad925f6a65382
+#: ../../docs/data/files.rst:19 5329ab1fcbc944249ea424f20aa51548
 msgid ""
-"页面顶部显示当前路径 ``scorr/``；下方是工具栏，包含 ``返回上一级`` ``新建文件夹`` ``上传文件`` 按钮和 ``搜索文件``"
-" 输入框。"
+"页面顶部显示当前路径 ``scorr/``；下方是工具栏，包含 ``返回上一级`` ``新建文件夹`` ``上传文件`` 按钮和 ``搜索文件`` "
+"输入框。"
 msgstr ""
-"The current path ``scorr/`` is shown at the top. Below is a toolbar with ``Go Up``, ``New Folder``, and ``Upload File`` buttons, plus a ``Search Files`` input box."
+"The current path ``scorr/`` is shown at the top. Below is a toolbar with "
+"``Go Up``, ``New Folder``, and ``Upload File`` buttons, plus a ``Search "
+"Files`` input box."
 
-#: ../../docs/data/files.rst:22 4ade4e5acb5d4238be2d150e843460c5
+#: ../../docs/data/files.rst:22 8ce2931b19324a8c9766ba43dc56e771
 msgid ""
 "主体是文件列表表格，列包含 ``文件名``、``文件大小``、``上次修改时间``、 ``操作``。每个文件行最右侧 ``操作`` 列有一个红色 "
 "``×`` 按钮用于删除。"
 msgstr ""
-"The main area is a file list table with columns ``File Name``, ``File Size``, ``Last Modified``, and ``Actions``. Each row has a red ``×`` button in the ``Actions`` column for deletion."
+"The main area is a file list table with columns ``File Name``, ``File "
+"Size``, ``Last Modified``, and ``Actions``. Each row has a red ``x`` button "
+"in the ``Actions`` column for deletion."
 
-#: ../../docs/data/files.rst:29 e269a7ff546344c9b3ea66fd16c11597
+#: ../../docs/data/files.rst:29 70ca37a8bd884216bd8ff40872088f2a
 msgid "文件管理页面"
 msgstr "File management page"
 
-#: ../../docs/data/files.rst:29 ba7d979fe0664972803ee64e72305ed9
+#: ../../docs/data/files.rst:29 ef3d9065b4cc4563b131368d18a138d5
 msgid "文件管理页面，显示当前用户个人目录的文件列表。"
-msgstr "File management page showing the file list in the current user's personal directory."
+msgstr ""
+"File management page showing the file list in the current user's personal "
+"directory."
 
-#: ../../docs/data/files.rst:32 4e391fd6f1d34d408658ed290ba73fc9
+#: ../../docs/data/files.rst:32 89facb5e06cd42ac81cdccca9fcf361b
 msgid "上传文件流程"
 msgstr "Upload File Workflow"
 
-#: ../../docs/data/files.rst:34 add0ea955ee246abbecd1bd5642df12c
+#: ../../docs/data/files.rst:34 1d5527a30137431e91f2c3c2fa7aaad2
 msgid "在 ``文件管理`` 页面点击 ``上传文件`` 按钮。"
 msgstr "On the ``File Management`` page, click ``Upload File``."
 
-#: ../../docs/data/files.rst:35 92a41dc7fec5471fbf98194a1f49f5a6
+#: ../../docs/data/files.rst:35 1173f9129e81434caf9ad64c4fae4467
 msgid "在弹出的对话框中选择本地文件，确认上传。"
 msgstr "In the dialog, select a local file and confirm the upload."
 
-#: ../../docs/data/files.rst:36 2a2ac0ec549b4148af3407ddd2ff9084
+#: ../../docs/data/files.rst:36 a13ef262f17d4b68912042d4f7fb1692
 msgid "上传完成后，文件出现在列表中。"
 msgstr "After the upload completes, the file appears in the list."
 
-#: ../../docs/data/files.rst:42 772a678fa13e4ef9a21e5c3c96b09925
+#: ../../docs/data/files.rst:42 b5a6372cd7154ed5afe9eb6755abb73b
 msgid "文件上传对话框"
 msgstr "File upload dialog"
 
-#: ../../docs/data/files.rst:42 430f08d6c9df413a9f4edb725d979724
+#: ../../docs/data/files.rst:42 bf1665a4f74d4178b7b4db3cfa55754b
 msgid "点击 ``上传文件`` 后弹出的上传对话框。"
 msgstr "Upload dialog shown after clicking ``Upload File``."
 
-#: ../../docs/data/files.rst:45 40b63cc0a1144590b48a86e4a249b291
+#: ../../docs/data/files.rst:45 31ef2c8335564ed4a828a289309fef49
 msgid "新建文件夹流程"
 msgstr "Create Folder Workflow"
 
-#: ../../docs/data/files.rst:47 54a509028e31404b9649c33ff00a53bb
+#: ../../docs/data/files.rst:47 89901aec745149e09d2cab2d5e58eb06
 msgid "在 ``文件管理`` 页面点击 ``新建文件夹`` 按钮。"
 msgstr "On the ``File Management`` page, click ``New Folder``."
 
-#: ../../docs/data/files.rst:48 15aaea70c7bd429a9bb95c1455d394bb
+#: ../../docs/data/files.rst:48 eac5883097284ac3b50b46a18673a754
 msgid "在弹出的对话框中输入文件夹名称。"
 msgstr "Enter the folder name in the dialog."
 
-#: ../../docs/data/files.rst:49 2b66e9cf16ef4d7999e1a8e76f10a2a2
+#: ../../docs/data/files.rst:49 d2ce296fb0d3406eb433ac8c6663a351
 msgid "确认后，新文件夹出现在文件列表中。"
 msgstr "After confirmation, the new folder appears in the file list."
 
-#: ../../docs/data/files.rst:52 76abaf3825ed4d8bb25cf0c51feb76f8
+#: ../../docs/data/files.rst:52 675db8fc856f476792ff019b9f6d2656
 msgid "删除文件流程"
 msgstr "Delete File Workflow"
 
-#: ../../docs/data/files.rst:56 f22b3e8d3645498e9236661eb2632631
+#: ../../docs/data/files.rst:56 fbfcdb90a65e4bb9a49110247ff28b6c
 msgid ""
 "删除操作不可恢复，请在删除前确认该文件已不再需要。**不要删除个人 目录中已有的 "
 "``.bashrc``、``.bash_profile``、``log.*.out`` 等系统 或作业日志文件**，避免影响应用与作业运行。"
 msgstr ""
-"Deletion cannot be undone. Confirm the file is no longer needed before deleting. **Do not delete existing system or job log files in your personal directory such as ``.bashrc``, ``.bash_profile``, or ``log.*.out``**, to avoid affecting applications and jobs."
+"Deletion cannot be undone. Confirm the file is no longer needed before "
+"deleting. **Do not delete existing system or job log files in your personal "
+"directory such as ``.bashrc``, ``.bash_profile``, or ``log.*.out``**, to "
+"avoid affecting applications and jobs."
 
-#: ../../docs/data/files.rst:60 35ab0f18230f411bbfc8d541fc3a144d
+#: ../../docs/data/files.rst:60 9a0c86a9c54b4f10ae296aa358ed5b6e
 msgid "在文件列表中找到需要删除的文件。"
 msgstr "Find the file to delete in the file list."
 
-#: ../../docs/data/files.rst:61 7ca4fdba6c134db68fc0a39f4d024687
+#: ../../docs/data/files.rst:61 09ecd856d6b241e3a496b3215b4596c6
 msgid "点击该行最右侧的红色 ``×`` 按钮。"
-msgstr "Click the red ``×`` button at the far right of that row."
+msgstr "Click the red ``x`` button at the far right of that row."
 
-#: ../../docs/data/files.rst:62 284af1b69f9040deb9db5c7eb2654ed3
+#: ../../docs/data/files.rst:62 f941fd66da6f46d28af977f2f23081bc
 msgid "在确认对话框中点击 ``确定``，完成删除。"
 msgstr "Click ``OK`` in the confirmation dialog to complete deletion."
 
-#: ../../docs/data/files.rst:65 426d823c9cc642f3b54b2bba1f5138cb
+#: ../../docs/data/files.rst:65 6ef14c7775c7486ea5aa17937bd5e8e4
 msgid "常见问题"
 msgstr "FAQ"
 
-#: ../../docs/data/files.rst:67 bfa98f7ddee04f2fa5c269896bfc600a
+#: ../../docs/data/files.rst:67 6f3cd018c422475c998cd081a4aa117c
 msgid ""
 "**文件上传失败怎么办？** 检查网络连接是否正常，确认文件大小未超过平台限制；如反复失败，请 提交工单并附上文件大小、扩展名和失败提示截图。"
 msgstr ""
-"**What if file upload fails?** Check your network connection and confirm the file size is within platform limits. If failures persist, submit a ticket with the file size, extension, and a screenshot of the error."
+"**What if file upload fails?** Check your network connection and confirm the"
+" file size is within platform limits. If failures persist, submit a ticket "
+"with the file size, extension, and a screenshot of the error."
 
-#: ../../docs/data/files.rst:71 66cfaed755084cde9f4e997fdf2daadc
+#: ../../docs/data/files.rst:71 89e23cbc73fe4526a73a05133c759373
 msgid "**找不到上传的文件怎么办？** 检查页面顶部的当前路径是否正确；使用工具栏的 ``搜索文件`` 输入关键 字检索。"
-msgstr "**What if I cannot find an uploaded file?** Verify the current path at the top of the page; use ``Search Files`` in the toolbar to search by keyword."
+msgstr ""
+"**What if I cannot find an uploaded file?** Verify the current path at the "
+"top of the page; use ``Search Files`` in the toolbar to search by keyword."
 
-#: ../../docs/data/files.rst:75 e7d5678880f645a399c4590802f9bec9
+#: ../../docs/data/files.rst:75 e4ca61213e0f44c6bb8cc5a223efa15e
 msgid "**删除后是否可恢复？** 不可恢复，请删除前再次确认。"
-msgstr "**Can deleted files be recovered?** No. Confirm again before deleting."
+msgstr ""
+"**Can deleted files be recovered?** No. Confirm again before deleting."

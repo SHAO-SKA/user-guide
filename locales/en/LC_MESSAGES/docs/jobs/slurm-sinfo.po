@@ -25,7 +25,8 @@ msgstr "Viewing Compute Node Status with sinfo"
 
 #: ../../docs/jobs/slurm-sinfo.rst:7 0e485119e6ab456c83a5d08e1df6df4e
 msgid "可以通过 `sinfo` 来查看计算节点的状态"
-msgstr "You can check the status of computing nodes using the \"sinfo\" command."
+msgstr ""
+"You can check the status of computing nodes using the \"sinfo\" command."
 
 #: ../../docs/jobs/slurm-sinfo.rst:13 fb9e2947622641158c2419fa3d3d513e
 msgid "输出如下："
@@ -67,8 +68,8 @@ msgstr "``TIMELIMIT``"
 
 #: ../../docs/jobs/slurm-sinfo.rst:30 26c0133643e446a7939df1540547f890
 msgid ""
-"该分区的作业最大运行时长限制, ``30:00`` 表示30分钟，如果是\\ ``2-00:00:00``\\ 表示2天，如果是\\ "
-"``infinite``\\ 表示不限时间"
+"该分区的作业最大运行时长限制, ``30:00`` 表示30分钟，如果是\\ "
+"``2-00:00:00``\\ 表示2天，如果是\\ ``infinite``\\ 表示不限时间"
 msgstr ""
 "The maximum running time limit for jobs in this partition, ``30:00`` means "
 "30 minutes, if it is ``2-00:00:00`` means 2 days, if it is ``infinite`` "
@@ -88,15 +89,16 @@ msgstr "``STATE``"
 
 #: ../../docs/jobs/slurm-sinfo.rst:34 56d68524408b4a8ea435a3355e72b999
 msgid ""
-"状态：``drain/drained``: 排空状态，表示该类节点不再分配到其他；``idle``: 空闲状态；``alloc/allocated``:"
-" 被分配状态; ``mix``:部分被占用，但是仍有可用资源； ``down``\\ 宕机 ;completing、comp  完成中 ; fail  "
-"失效; unknown、unk  未知原因"
+"状态：``drain/drained``: 排空状态，表示该类节点不再分配到其他；``idle``: 空闲"
+"状态；``alloc/allocated``: 被分配状态; ``mix``:部分被占用，但是仍有可用资"
+"源； ``down``\\ 宕机 ;completing、comp  完成中 ; fail  失效; unknown、unk  未"
+"知原因"
 msgstr ""
 "State: ``drain/drained``: Drained state, indicating that this type of node "
-"is no longer allocated to others; ``idle``: Idle state; ``alloc/allocated``:"
-" Allocated state; ``mix``: Partially occupied, but still available "
-"resources; ``down``\\ Down; completing, comp Completing; fail Failed; "
-"unknown, unk Unknown reason"
+"is no longer allocated to others; ``idle``: Idle state; ``alloc/allocated``: "
+"Allocated state; ``mix``: Partially occupied, but still available resources; "
+"``down``\\ Down; completing, comp Completing; fail Failed; unknown, unk "
+"Unknown reason"
 
 #: ../../docs/jobs/slurm-sinfo.rst:35 317eca247a2e4c45a49b868a454d9fd7
 msgid "``NODELIST``"
@@ -115,56 +117,3 @@ msgid "在使用过程中，选择正确的分区对程序的运行十分重要"
 msgstr ""
 "In the process of using, it is very important to choose the right partition "
 "for the program to run"
-
-#~ msgid "AVAIL表示分区状态"
-#~ msgstr "AVAIL represents partition status."
-
-#~ msgid "up标识可用"
-#~ msgstr "up indicates available"
-
-#~ msgid "down标识不可用"
-#~ msgstr "down indicates unavailable"
-
-#~ msgid "TIMELIMIT表示程序运行最大时长"
-#~ msgstr "TIMELIMIT represents the maximum running time of the program"
-
-#~ msgid "infinite表示不限制,如果限制格式为days-houres:minutes:seconds"
-#~ msgstr ""
-#~ "infinite represents no limitation; if limited, the format is days-"
-#~ "hours:minutes:seconds"
-
-#~ msgid "NODES表示节点数"
-#~ msgstr "NODES represents the number of nodes"
-
-#~ msgid "STATE表示节点运行状态。可能的状态包括"
-#~ msgstr ""
-#~ "STATE represents the node's operational status. Possible states include"
-
-#~ msgid "allocated、alloc ：已分配"
-#~ msgstr "allocated, alloc: Allocated"
-
-#~ msgid "completing、comp : 完成中"
-#~ msgstr "completing, comp: Completing"
-
-#~ msgid "down : 宕机"
-#~ msgstr "down: Down"
-
-#~ msgid "drained、drain : 已失去活力"
-#~ msgstr "drained, drain: Drained"
-
-#~ msgid "fail : 失效"
-#~ msgstr "fail: Failed"
-
-#~ msgid "idle : 空闲"
-#~ msgstr "idle: Idle"
-
-#~ msgid "mix : 混合, 节点在运行作业, 但有些空闲CPU核, 可接受新作业"
-#~ msgstr ""
-#~ "mix: Mixed, nodes are running jobs but have some idle CPU cores and can "
-#~ "accept new jobs"
-
-#~ msgid "reserved、resv : 资源预留"
-#~ msgstr "reserved, resv: Resource Reserved"
-
-#~ msgid "unknown、unk : 未知原因"
-#~ msgstr "unknown, unk: Unknown reason"

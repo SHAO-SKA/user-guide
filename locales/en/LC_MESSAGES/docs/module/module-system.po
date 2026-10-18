@@ -4,7 +4,6 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
@@ -25,8 +24,13 @@ msgid "系统命令的使用"
 msgstr "System command usage"
 
 #: ../../docs/module/module-system.rst:7 e2da50b4aa0a46b2aec225ca512223da
-msgid "部分命令是系统级别的命令，如果希望以Slurm的方式运行， 需要导入需要的module文件，具体的使用方法如下："
-msgstr "Some commands are system-level commands. If you want to run in Slurm mode, you need to import the required module files. The specific usage is as follows:"
+msgid ""
+"部分命令是系统级别的命令，如果希望以Slurm的方式运行， 需要导入需要的module文"
+"件，具体的使用方法如下："
+msgstr ""
+"Some commands are system-level commands. If you want to run in Slurm mode, "
+"you need to import the required module files. The specific usage is as "
+"follows:"
 
 #: ../../docs/module/module-system.rst:20 95c5b47f8f6f4d238c97b425ce04fa1e
 msgid "此时应该可以看到system的各个版本"
@@ -43,4 +47,3 @@ msgstr "Load system module"
 #: ../../docs/module/module-system.rst:33 9200dcce1dcf4194a006f5404977e079
 msgid "然后就可以使用各个命令了。"
 msgstr "Then you can use each command."
-

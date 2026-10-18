@@ -43,11 +43,11 @@ msgstr ""
 
 #: ../../docs/faq/index.rst:16 9930fd5a0fdf46ea8e561986c35a7802
 msgid ""
-"Please do not run executable programs directly on the login node (it greatly"
-" affects the login and use efficiency of other users)."
+"Please do not run executable programs directly on the login node (it greatly "
+"affects the login and use efficiency of other users)."
 msgstr ""
-"Please do not run executable programs directly on the login node (it greatly"
-" affects the login and use efficiency of other users)."
+"Please do not run executable programs directly on the login node (it greatly "
+"affects the login and use efficiency of other users)."
 
 #: ../../docs/faq/index.rst:17 69353fe053b94f058feffcb88d601008
 msgid ""
@@ -71,44 +71,8 @@ msgstr ""
 
 #: ../../docs/faq/index.rst:19 fc719d7643b54afd8bdc843078fb35e3
 msgid ""
-"If you need to run and debug programs on the calculation node, you can first"
-" allocate a dedicated calculation node, then ssh to the calculation node."
+"If you need to run and debug programs on the calculation node, you can first "
+"allocate a dedicated calculation node, then ssh to the calculation node."
 msgstr ""
-"If you need to run and debug programs on the calculation node, you can first"
-" allocate a dedicated calculation node, then ssh to the calculation node."
-
-#~ msgid "常见问题集锦"
-#~ msgstr "Frequently Asked Questions"
-
-#~ msgid "本章列举使用过程中经常遇到的问题及解决方法。"
-#~ msgstr ""
-#~ "This chapter lists the problems and solutions that are often encountered in "
-#~ "the process of use."
-
-#~ msgid "由于手册篇幅限制，只列出了对于绝大多是用户比较重要的相关内容，如您有其他需求也可以联系数据中心技术人员。 重要提示："
-#~ msgstr ""
-#~ "Because of the limited length of the manual, only the relevant content that "
-#~ "is very important to most users is listed. If you have other needs, you can "
-#~ "also contact the data center technical staff. Important tips:"
-
-#~ msgid "请不要在登录节点直接运行可执行程序（极大的影响其他用户的登录和使用效率）。"
-#~ msgstr ""
-#~ "Please do not run executable programs directly on the login node (which "
-#~ "greatly affects the login and use efficiency of other users)."
-
-#~ msgid "如无特殊需要，请使用批处理方式（sbatch）提交任务，如果有任何问题请联系数据中心技术人员。"
-#~ msgstr ""
-#~ "Please use batch processing (sbatch) to submit tasks unless you have special"
-#~ " needs. If you have any questions, please contact the data center technical "
-#~ "staff."
-
-#~ msgid "请保存好运行程序的log文件，从而方便数据中心技术人员在作业出问题后，协助解决问题。"
-#~ msgstr ""
-#~ "Save the log file of the running program so that the data center technical "
-#~ "staff can help solve the problem after the job fails."
-
-#~ msgid "若需登录计算节点运行和调试程序，可以先分配独占计算节点，方可ssh登录计算节"
-#~ msgstr ""
-#~ "If you need to log in to the computing node to run and debug the program, "
-#~ "you can first allocate an exclusive computing node, and then ssh login to "
-#~ "the computing node"
+"If you need to run and debug programs on the calculation node, you can first "
+"allocate a dedicated calculation node, then ssh to the calculation node."

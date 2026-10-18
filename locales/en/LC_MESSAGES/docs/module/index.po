@@ -34,19 +34,22 @@ msgstr ""
 "versions of software are installed on cnSRC."
 
 #: ../../docs/module/index.rst:9 ed3fcd822c124834b750d26be66b1f07
-msgid "用户可在同一软件的不同版本之间切换，也可以在同一功能的不同软件之间切换，以此来选择最合适的编程环境和运行环境。"
+msgid ""
+"用户可在同一软件的不同版本之间切换，也可以在同一功能的不同软件之间切换，以此"
+"来选择最合适的编程环境和运行环境。"
 msgstr ""
-"Users can switch between different versions of the same software or "
-"between different software with the same functionality to choose the most"
-" suitable programming and runtime environment."
+"Users can switch between different versions of the same software or between "
+"different software with the same functionality to choose the most suitable "
+"programming and runtime environment."
 
 #: ../../docs/module/index.rst:11 f0901fa3d7e34d15ac1e1f100c0a73c5
 msgid "使用系统命令 ``module`` 可以快速地达到这一效果。"
 msgstr "This can be quickly achieved using the system command 'module'."
 
 #: ../../docs/module/index.rst:13 3368493e8c3e4a8195c67f76e30bd196
-msgid "详细的介绍可以参考: [module官方网站](https://modules.readthedocs.io/en/latest/)"
+msgid ""
+"详细的介绍可以参考: [module官方网站](https://modules.readthedocs.io/en/"
+"latest/)"
 msgstr ""
-"For detailed information, please refer to: [module official "
-"website](https://modules.readthedocs.io/en/latest/)"
-
+"For detailed information, please refer to: [module official website](https://"
+"modules.readthedocs.io/en/latest/)"

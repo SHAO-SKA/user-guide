@@ -73,7 +73,9 @@ msgid "用于存储原始观测数据"
 msgstr "Storage for observation raw data"
 
 #: ../../docs/data/storage.rst:19 a44d2a05024640e5a515cd6bbc9355e7
-msgid "目前，cnSRC系统存储超过了2PB左右的数据， 包括MWA、ASKAP、MeerKAT、VLBI望远镜等的观测数据。"
+msgid ""
+"目前，cnSRC系统存储超过了2PB左右的数据， 包括MWA、ASKAP、MeerKAT、VLBI望远镜"
+"等的观测数据。"
 msgstr ""
 "Currently, the cnSRC system stores more than about 2 PB of data, including "
 "observation data from MWA, ASKAP, MeerKAT, VLBI telescopes, and others."
@@ -82,12 +84,14 @@ msgstr ""
 #: 2b0245bbdbde4e81b60bfc2e31d618b9 bf8b1c0253de4e24bd57f946085059eb
 msgid "主要数据分组情况：MWA/GLEAM组、 MWA/Pulsar组和ASKAP组。"
 msgstr ""
-"Main data grouping situation: MWA/GLEAM group, MWA/Pulsar group and ASKAP"
-" group."
+"Main data grouping situation: MWA/GLEAM group, MWA/Pulsar group and ASKAP "
+"group."
 
 #: ../../docs/data/storage.rst:24 ../../docs/data/storage.rst:49
 #: 779f20fd095f4d59b32e83dbb816d449 db952b0a79c44473aeee3a361f27fc91
-msgid "如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 shaoska@shao.ac.cn  咨询。"
+msgid ""
+"如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 "
+"shaoska@shao.ac.cn  咨询。"
 msgstr ""
 "If you need to use data in these groups, or need to upload and store a large "
 "amount of data, please email shaoska@shao.ac.cn for assistance."
@@ -119,8 +123,8 @@ msgstr "Four partitions."
 #: ../../docs/data/storage.rst:39 1b0166a40e534b329a71c4375f6f1433
 msgid "/home和/ssd分区主要用于用户个人数据和结果数据存储，"
 msgstr ""
-"/home and /ssd partitions are mainly used for user personal data and "
-"result data storage,"
+"/home and /ssd partitions are mainly used for user personal data and result "
+"data storage,"
 
 #: ../../docs/data/storage.rst:40 f135fdac93074a949268310fd94a7c65
 msgid "/o9000主要用于处理数据的长期存储。"
@@ -135,17 +139,8 @@ msgid "/p9500主要用于存储原始观测数据。"
 msgstr "/p9500 is mainly used for storage of raw observation data."
 
 #: ../../docs/data/storage.rst:44 ddfd54ab8eea4511928256f8bb0d75bb
-msgid "目前，cnSRC系统存储了约2PB左右的数据， 包括MWA、ASKAP和VLBI望远镜的观测数据。"
+msgid ""
+"目前，cnSRC系统存储了约2PB左右的数据， 包括MWA、ASKAP和VLBI望远镜的观测数据。"
 msgstr ""
-"Currently, the cnSRC system stores about 2 PB of data, including "
-"observation data from MWA, ASKAP, and VLBI telescopes."
-
-#~ msgid "本章介绍ChinaSRC-P存储情况"
-#~ msgstr "This chapter introduces the storage situation of ChinaSRC-P"
-
-#~ msgid "ChinaSRC平台存储情况"
-#~ msgstr "ChinaSRC Platform Storage Situation"
-
-#~ msgid "ChinaSRC-P 文件系统包括："
-#~ msgstr "ChinaSRC-P file system includes:"
-
+"Currently, the cnSRC system stores about 2 PB of data, including observation "
+"data from MWA, ASKAP, and VLBI telescopes."

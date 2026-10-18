@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cnSRC User Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 19:55+0800\n"
+"POT-Creation-Date: 2026-10-18 18:27+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -19,161 +19,161 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../docs/jobs/quick-start.rst:4 857050a2f9994087bc690b1efe7f7840
+#: ../../docs/jobs/quick-start.rst:4 8d228976efde419d9b3dbd02d1ee0393
 msgid "快速开始"
 msgstr "Quick Start"
 
-#: ../../docs/jobs/quick-start.rst:7 df63e736b7884e218df1c0820c035306
+#: ../../docs/jobs/quick-start.rst:7 23c8c316178b45ac98a0da0d41986c0a
 msgid "流程目标"
 msgstr "Goals"
 
-#: ../../docs/jobs/quick-start.rst:9 c78480a230834a049bf709d4a0d079ba
+#: ../../docs/jobs/quick-start.rst:9 82de635588e6456d82e12d4742987b79
 msgid ""
 "用 5 分钟走完平台最常见的 6 个任务。**跟着本节操作即可完成首次使用**， 每个步骤都给出具体按钮和字段名。如需深入了解某个功能，可跳转到 "
 "对应章节阅读。"
 msgstr ""
 "Complete the six most common platform tasks in about 5 minutes. **Follow "
-"this section for your first use**—each step names the exact buttons and "
+"this section for your first use**--each step names the exact buttons and "
 "fields. For deeper coverage, jump to the linked chapters."
 
-#: ../../docs/jobs/quick-start.rst:14 8f2c7d39f4534e4398e236927ba4cec0
+#: ../../docs/jobs/quick-start.rst:14 5423ef8fe28c4f8784c33a4c6c556226
 msgid "完整 5 分钟任务链"
 msgstr "Full 5-minute task chain"
 
-#: ../../docs/jobs/quick-start.rst:16 b14dce382bd4453a971b1934d7d3e5d2
+#: ../../docs/jobs/quick-start.rst:16 f53cf9d2a3ec4511be6707007254721e
 msgid "本节串起以下 6 个连续任务，从登录后的工作台开始，到工作结束："
 msgstr ""
 "This section walks through six consecutive tasks from the post-login "
 "workbench to finishing your session:"
 
-#: ../../docs/jobs/quick-start.rst:18 7ec3f887a9284583af7af38212b91155
+#: ../../docs/jobs/quick-start.rst:18 4c1f2261305d4c5eafb55184f218bff6
 msgid "认识工作台"
 msgstr "Explore the workbench"
 
-#: ../../docs/jobs/quick-start.rst:19 1bfef2be91cc4781877842fd8f56b01d
+#: ../../docs/jobs/quick-start.rst:19 f6155bf8028d4a6fb9549d177d17eb59
 msgid "启动一个应用（Jupyter Lab）"
 msgstr "Launch an application (Jupyter Lab)"
 
-#: ../../docs/jobs/quick-start.rst:20 705c0ef454bb4d0485f973cfbc02442f
+#: ../../docs/jobs/quick-start.rst:20 645b9ee0aa654495a9574c1e6c4ffebd
 msgid "查看刚才启动的作业"
 msgstr "View the job you just started"
 
-#: ../../docs/jobs/quick-start.rst:21 ab2eea8529ec4eb2b64398ac744e845c
+#: ../../docs/jobs/quick-start.rst:21 7455779d1fb24629a5f4c6b622732974
 msgid "上传一个临时测试文件"
 msgstr "Upload a temporary test file"
 
-#: ../../docs/jobs/quick-start.rst:22 a11ce43435b449a38692d0a1cb791779
+#: ../../docs/jobs/quick-start.rst:22 2ff178f7ca3b469cb6842e4620ae5150
 msgid "提交一个测试工单"
 msgstr "Submit a test ticket"
 
-#: ../../docs/jobs/quick-start.rst:23 58b5335919eb4851b73ede089f63e97a
+#: ../../docs/jobs/quick-start.rst:23 46e8ca4d21584192b9759343d0b1a4e0
 msgid "提交一个配额申请（示例）"
 msgstr "Submit a quota request (example)"
 
-#: ../../docs/jobs/quick-start.rst:27 dbee588a5d43411c84b540dadd7142c6
+#: ../../docs/jobs/quick-start.rst:27 44757bb79e89439c94fb87e6dfbad92a
 msgid "任务 1：认识工作台"
 msgstr "Task 1: Explore the workbench"
 
 #: ../../docs/jobs/quick-start.rst:29 ../../docs/jobs/quick-start.rst:53
 #: ../../docs/jobs/quick-start.rst:87 ../../docs/jobs/quick-start.rst:111
-#: ../../docs/jobs/quick-start.rst:142 ../../docs/jobs/quick-start.rst:185
-#: 0e6cae963e5942dd9e347b6f0821ef44 16568fbf9c69425cb85c83ea11599a71
-#: 871e14ef57314c65b74387d842f6d8b0 89b6864cce5a45e9950205d35b537f5e
-#: 94bf28748c0d4a559c4ae49b24a508bf d01bdfdf74de4cfe900b1e696cf05216
+#: ../../docs/jobs/quick-start.rst:142 ../../docs/jobs/quick-start.rst:181
+#: 1b41e7d3c29346b49934f665cc42ea46 390ca3c94b314628aa70f3d4a389e42d
+#: 3ab5d8ca439646ecadf74d2af1df403f 4be43d8c59d44ce88945e64ea6fcf63f
+#: 76eb34cc94684ac7971c6447def94051 faff5fe4a2684c6baf14ca3478e0f8ba
 msgid "**操作步骤**："
 msgstr "**Steps:**"
 
-#: ../../docs/jobs/quick-start.rst:31 c289229f5f134934bb321875484fdd8c
+#: ../../docs/jobs/quick-start.rst:31 78985fbd09f544eeabc9787f00b2c139
 msgid "登录成功后，浏览器自动跳转到工作台。"
 msgstr ""
 "After a successful login, the browser opens the workbench automatically."
 
-#: ../../docs/jobs/quick-start.rst:32 ba1da1747653422aa7f2bc23ca9cc444
+#: ../../docs/jobs/quick-start.rst:32 d1a3a387c07f4cf385b7a9efb0e86da8
 msgid "工作台顶部是 ``快捷操作`` 卡片，包含 3 个按钮：``应用管理``、 ``通知中心``、``帮助文档``。"
 msgstr ""
 "At the top of the workbench is the ``Quick Actions`` card with three "
 "buttons: ``Application Management``, ``Notification Center``, and ``Help``."
 
-#: ../../docs/jobs/quick-start.rst:34 3d864fad67a44201898d13d9d0ee994b
+#: ../../docs/jobs/quick-start.rst:34 b08bc9e4999f4908b229ace80da9f0ee
 msgid "工作台中部是 ``作业统计`` 卡片。"
 msgstr "The center of the workbench shows the ``Job Statistics`` card."
 
-#: ../../docs/jobs/quick-start.rst:35 1dcdcf5d633a4a898414208ae0be3d50
+#: ../../docs/jobs/quick-start.rst:35 22788bca50dd4f3aa9c77036066cf4cc
 msgid "工作台右侧是 ``账户概览``、``平台通知`` 和 ``平台状态`` 卡片。"
 msgstr ""
 "On the right are ``Account Overview``, ``Platform Notifications``, and "
 "``Platform Status``."
 
-#: ../../docs/jobs/quick-start.rst:36 42bf9a8688624665a5ece90faec2b567
+#: ../../docs/jobs/quick-start.rst:36 ab318da8ebca44c1b6b79851483dcfbf
 msgid "工作台下方是 ``我的项目组`` 卡片，列出当前账号所属项目组。"
 msgstr ""
 "Below is ``My Project Groups``, listing project groups for your account."
 
-#: ../../docs/jobs/quick-start.rst:42 654fb4ea74474a83b205d8dd84f434fc
+#: ../../docs/jobs/quick-start.rst:42 112a2dd9723b4ab7b40126264fd68813
 msgid "工作台"
 msgstr "Workbench"
 
-#: ../../docs/jobs/quick-start.rst:42 01a59bc789544afaa88854d3b0253cf4
+#: ../../docs/jobs/quick-start.rst:42 fceac5dcaf204d47be45b738aef40571
 msgid "工作台全景。可点击 ``快捷操作`` 中的 ``应用管理`` 进入应用列表。"
 msgstr ""
 "Workbench overview. Click ``Application Management`` under ``Quick Actions``"
 " to open the application list."
 
-#: ../../docs/jobs/quick-start.rst:46 66f7ed1e7a624085a421dc95b9a6807b
+#: ../../docs/jobs/quick-start.rst:46 77d1213a10004a3987436a5654f7dfe6
 msgid "``工作台`` 是登录后的默认首页。也可点击左侧菜单 ``工作台`` 随时 回到此页。"
 msgstr ""
 "``Workbench`` is the default home page after login. Use the left menu "
 "``Workbench`` to return anytime."
 
-#: ../../docs/jobs/quick-start.rst:51 e46ff4bbb20643928efe75d66b87760a
+#: ../../docs/jobs/quick-start.rst:51 0c2ab269f42b4398a972927a6a29c631
 msgid "任务 2：启动一个应用（Jupyter Lab）"
 msgstr "Task 2: Launch an application (Jupyter Lab)"
 
-#: ../../docs/jobs/quick-start.rst:55 f57bd7ba8da74ce193b754188779e617
+#: ../../docs/jobs/quick-start.rst:55 243076314bd34d43891fbf9c4e9723a5
 msgid "在左侧菜单点击 ``应用列表``，进入应用列表页面。"
 msgstr ""
 "In the left menu, click ``Application List`` to open the application list "
 "page."
 
-#: ../../docs/jobs/quick-start.rst:56 770c119f8cec40e2a39ea15ebe23ca93
+#: ../../docs/jobs/quick-start.rst:56 4082a43b789c4862a48fa0c9c368c621
 msgid "页面中部是应用卡片网格，找到 ``Jupyter Lab`` 卡片。"
 msgstr "In the application card grid, find the ``Jupyter Lab`` card."
 
-#: ../../docs/jobs/quick-start.rst:57 616f341eba5c464b8b5ee0ede991ab24
+#: ../../docs/jobs/quick-start.rst:57 53fcee08b6834f1a9572a0ebc9984b40
 msgid ""
 "启动非 Terminal 类应用前，可在卡片的 ``项目组`` 行下拉选择本次 任务要计费的项目组，例如 ``2026 Summer "
 "School``；不选择项目组 则个人承担相关计费。其他资源参数如有需要可调整。"
 msgstr ""
 "Before starting a non-Terminal app, use the ``Project Group`` dropdown on "
-"the card to choose which group is billed—for example ``2026 Summer School``."
-" If none is selected, charges apply to your personal account. Adjust other "
-"resource fields as needed."
+"the card to choose which group is billed--for example ``2026 Summer "
+"School``. If none is selected, charges apply to your personal account. "
+"Adjust other resource fields as needed."
 
-#: ../../docs/jobs/quick-start.rst:60 bc1b7bc5703848e3bd4467b294ce6102
+#: ../../docs/jobs/quick-start.rst:60 722b0dac25d74e5ba84d54c184f89cd5
 msgid "点击卡片上的 ``启 动`` 按钮。"
 msgstr "Click ``Start`` on the card."
 
-#: ../../docs/jobs/quick-start.rst:61 02a3c54e2df24689b25c2ebcb69f3e71
+#: ../../docs/jobs/quick-start.rst:61 609248951ced4ea4a2b31c056c1e53b7
 msgid "等待几秒，**浏览器自动弹出新窗口**，新窗口中显示 Jupyter Lab 界 面，包含左侧文件浏览器和右侧 Notebook 工作区。"
 msgstr ""
 "Wait a few seconds; **the browser opens a new window** showing Jupyter Lab "
 "with the file browser on the left and the Notebook workspace on the right."
 
-#: ../../docs/jobs/quick-start.rst:68 6e17640653e94b7abf0fe3193ea21ab4
+#: ../../docs/jobs/quick-start.rst:68 2076f95ed7294e0cb2e49a64a80781b8
 msgid "应用卡片"
 msgstr "Application cards"
 
-#: ../../docs/jobs/quick-start.rst:68 cc81af4ad2d04a22aae6199b3f919b7c
+#: ../../docs/jobs/quick-start.rst:68 96e34bf31ef2463792e300482efff8b0
 msgid "应用卡片网格：``Terminal``、``Jupyter Lab``、``Linux Desktop``、 ``vscode`` 等。"
 msgstr ""
 "Application card grid: ``Terminal``, ``Jupyter Lab``, ``Linux Desktop``, "
 "``vscode``, etc."
 
-#: ../../docs/jobs/quick-start.rst:75 cddede517b79417fbcf93e0ddd80d798
+#: ../../docs/jobs/quick-start.rst:75 9369b195f5be4fb9b4de728ce9edf875
 msgid "Jupyter Lab 启动后界面"
 msgstr "Jupyter Lab after launch"
 
-#: ../../docs/jobs/quick-start.rst:75 09c38f8c996c4c44ab14a5c7170a6c08
+#: ../../docs/jobs/quick-start.rst:75 4274f55d295043a7a315507b3a68db9c
 msgid ""
 "点击 ``启 动`` 后浏览器自动弹出的 Jupyter Lab 界面。左侧是文件浏 览器，右侧是 Notebook "
 "工作区，可以新建文件、运行命令和编辑代码。"
@@ -182,29 +182,29 @@ msgstr ""
 " and the Notebook workspace on the right; you can create files, run "
 "commands, and edit code."
 
-#: ../../docs/jobs/quick-start.rst:80 5a97844ca1a74a0f8a52b1c0ec355792
+#: ../../docs/jobs/quick-start.rst:80 88014e1266324895a0c547f4026cba29
 msgid "关闭浏览器窗口不会自动停止 Jupyter Lab 等应用。完成工作后必须 回到 ``应用列表`` 页面点击 ``关 闭`` 才能释放资源。"
 msgstr ""
 "Closing the browser window does not stop Jupyter Lab and similar apps. When "
 "finished, return to ``Application List`` and click ``Close`` to release "
 "resources."
 
-#: ../../docs/jobs/quick-start.rst:85 fde6951e23e9458c9e5978e5ee97faad
+#: ../../docs/jobs/quick-start.rst:85 cb3151a7148e4423b82f62169eeec48a
 msgid "任务 3：查看刚才启动的作业"
 msgstr "Task 3: View the job you just started"
 
-#: ../../docs/jobs/quick-start.rst:89 23136c45ca0b4e10a9cb1f071815a416
+#: ../../docs/jobs/quick-start.rst:89 d5e6678039fc4f32b2829d821c0c216f
 msgid "切回 ``应用列表`` 页面（在浏览器已经打开的标签页中切换）。"
 msgstr "Switch back to the ``Application List`` tab in your browser."
 
-#: ../../docs/jobs/quick-start.rst:90 409bb9b9971549229e8652d6f73608ec
+#: ../../docs/jobs/quick-start.rst:90 eb6d283aacf940c2abe9aa1e2eaaa97a
 msgid ""
 "页面底部是 ``作业列表`` 表格，列包含 ``作业ID``、``作业名称``、 ``分区``、``状态``、``提交时间``、``耗时`` 等。"
 msgstr ""
 "At the bottom, the ``Job List`` table includes ``Job ID``, ``Job Name``, "
 "``Partition``, ``Status``, ``Submit Time``, ``Duration``, and more."
 
-#: ../../docs/jobs/quick-start.rst:92 05b68c9765724c9d8e360f5c7af89ca1
+#: ../../docs/jobs/quick-start.rst:92 4af61890bf4d4e959165cbee2aef89f5
 msgid ""
 "在列表中找到刚才启动的 Jupyter Lab 作业（作业名称如 ``JupyterLab_<用户名>`` 或类似），确认 ``状态`` 列显示为 "
 "``运行中``。"
@@ -212,68 +212,68 @@ msgstr ""
 "Find the Jupyter Lab job you started (name like ``JupyterLab_<username>``) "
 "and confirm ``Status`` shows ``Running``."
 
-#: ../../docs/jobs/quick-start.rst:99 6f5dd5c699e6441ebd0614c893dd1dfa
+#: ../../docs/jobs/quick-start.rst:99 e1617cc4b43047918ce1be3cf47dd31b
 msgid "作业列表"
 msgstr "Job list"
 
-#: ../../docs/jobs/quick-start.rst:99 e6cd17bdb2df4eac9770b1e5f2d60318
+#: ../../docs/jobs/quick-start.rst:99 fb1aff88c79e429fabd803c6f069f76c
 msgid "``应用列表`` 页面底部的 ``作业列表``，刚才启动的 Jupyter Lab 作业 显示在列表中，状态为 ``运行中``。"
 msgstr ""
 "``Job List`` at the bottom of ``Application List``; your Jupyter Lab job "
 "appears with status ``Running``."
 
-#: ../../docs/jobs/quick-start.rst:104 6c59c3ef4e2142e29bae55f04196782c
+#: ../../docs/jobs/quick-start.rst:104 99581a5762b54bef954c36c9087dcacb
 msgid "也可以点击顶部 ``批处理作业`` 标签查看所有作业（含批处理提交的 作业）。普通用户日常最常用的是 ``交互式应用`` 标签下的作业列表。"
 msgstr ""
 "You can also open the ``Batch Jobs`` tab for all jobs. Day to day, most "
 "users use the list under ``Interactive Applications``."
 
-#: ../../docs/jobs/quick-start.rst:109 06e7c89d9c7b4e38b9d74267446c77df
+#: ../../docs/jobs/quick-start.rst:109 11384217d007461e9e51a8e89ff3e2f6
 msgid "任务 4：上传一个临时测试文件"
 msgstr "Task 4: Upload a temporary test file"
 
-#: ../../docs/jobs/quick-start.rst:113 0e07c9f2b54947b08c0a168599cbd4b2
+#: ../../docs/jobs/quick-start.rst:113 2b43c9b78dd74b9e84bba14d7ffd7f4a
 msgid "在左侧菜单点击 ``文件管理``，进入个人文件页面。"
 msgstr ""
 "In the left menu, click ``File Management`` to open your personal files."
 
-#: ../../docs/jobs/quick-start.rst:114 1a9175d7d6cc46e4b634c94250a72ee9
+#: ../../docs/jobs/quick-start.rst:114 639db9c9d7ea499f8a6055285b3c4f2e
 msgid "页面顶部工具栏找到 ``上传文件`` 按钮。"
 msgstr "In the toolbar, find ``Upload File``."
 
-#: ../../docs/jobs/quick-start.rst:115 0a3f2324e3dd48a4a72223d2a80e5965
+#: ../../docs/jobs/quick-start.rst:115 98b6ddafdde640b7ad35f24bce0dd495
 msgid "点击 ``上传文件`` 按钮，在弹出对话框中再次点击 ``上 传 文 件`` 选 择本地小文件。"
 msgstr ""
 "Click ``Upload File``, then in the dialog click ``Upload File`` again to "
 "choose a small local file."
 
-#: ../../docs/jobs/quick-start.rst:117 979faac6da0e4a20be30483e6d1cf5cb
+#: ../../docs/jobs/quick-start.rst:117 d316b0c78d4240388d735eeb7d3a6716
 msgid "在弹出对话框中点击 ``OK``，看到文件出现在列表中即上传成功。"
 msgstr ""
 "Click ``OK`` in the dialog; the file appears in the list when upload "
 "succeeds."
 
-#: ../../docs/jobs/quick-start.rst:123 73d1d07a419747c0bc14c0298b5eda41
+#: ../../docs/jobs/quick-start.rst:123 c07feac9e6754fc896dfc8aad45f218a
 msgid "文件管理"
 msgstr "File management"
 
-#: ../../docs/jobs/quick-start.rst:123 e9bff10f15b04730835effb78e08c512
+#: ../../docs/jobs/quick-start.rst:123 4cf8e148a60c4acab03a84ec6c55a42f
 msgid "``文件管理`` 页面，顶部 ``返回上一级`` ``新建文件夹`` ``上传文件`` 按钮。"
 msgstr ""
 "``File Management`` page with ``Go Up``, ``New Folder``, and ``Upload File``"
 " in the toolbar."
 
-#: ../../docs/jobs/quick-start.rst:130 0a4239e68f00481e8036bf90e064f8ef
+#: ../../docs/jobs/quick-start.rst:130 b58289a3bdea42baa01cb8516066d925
 msgid "上传文件对话框"
 msgstr "Upload file dialog"
 
-#: ../../docs/jobs/quick-start.rst:130 4165e8ebc7804a8f9d33ed95ba92149c
+#: ../../docs/jobs/quick-start.rst:130 2395db988e634a088837c52a06410d77
 msgid "点击 ``上传文件`` 后弹出的对话框，再点击 ``上 传 文 件`` 选择本 地文件。"
 msgstr ""
 "Dialog after ``Upload File``; click ``Upload File`` again to select a local "
 "file."
 
-#: ../../docs/jobs/quick-start.rst:135 52ecc2d38c664fa3a03a5b7efc1b6cdc
+#: ../../docs/jobs/quick-start.rst:135 719040a127e248ee943ec59a2e2dcc77
 msgid ""
 "建议上传一个临时小文件（如 ``test.txt``，内容写 ``manual test``） 验证流程即可。**不要上传真实业务数据** "
 "或占用大量磁盘空间的文件。"
@@ -282,203 +282,208 @@ msgstr ""
 "test``) to verify the flow. **Do not upload real business data** or large "
 "files."
 
-#: ../../docs/jobs/quick-start.rst:140 f7a587d3420e486b8ec091a3bffe3426
+#: ../../docs/jobs/quick-start.rst:140 a763176ede694fd29db55e0ffc033215
 msgid "任务 5：提交一个测试工单"
 msgstr "Task 5: Submit a test ticket"
 
-#: ../../docs/jobs/quick-start.rst:144 65b831592a514ee0bc39badf9d93ba23
+#: ../../docs/jobs/quick-start.rst:144 e005dadd314548ac88ffa67ca5ee9e8e
 msgid "在左侧菜单点击 ``工单管理``，进入工单页面。"
 msgstr "In the left menu, click ``Ticket Management``."
 
-#: ../../docs/jobs/quick-start.rst:145 8e08babec73e4dbcb3d08a5f4e2f3ca6
+#: ../../docs/jobs/quick-start.rst:145 7a4ab3ed5601475fab29910ca0888d1b
 msgid "页面默认显示 ``提交工单`` 表单。"
 msgstr "The ``Submit Ticket`` form is shown by default."
 
-#: ../../docs/jobs/quick-start.rst:146 4143a1ec1466429e9e56a98b1c21458f
+#: ../../docs/jobs/quick-start.rst:146 48da169e374e4bcf868289d059df8231
 msgid "在 ``工单标题`` 输入框中输入 ``手册流程验证``。"
 msgstr "In ``Ticket Title``, enter ``Manual workflow verification``."
 
-#: ../../docs/jobs/quick-start.rst:147 8dd7f74f68a74d89b85255d02ddcc3e8
+#: ../../docs/jobs/quick-start.rst:147 5fa22ddb9d9b4d949bef88fb134c2912
 msgid "``工单分类`` 默认 ``其他``，可保持不变。"
 msgstr "``Ticket Category`` defaults to ``Other``; you can leave it."
 
-#: ../../docs/jobs/quick-start.rst:148 69c156b70ef94e908c3c863f55f0155b
+#: ../../docs/jobs/quick-start.rst:148 185bbe7cb0324a2b85a446395e66cf0a
 msgid "``优先级`` 默认 ``普通``，可保持不变。"
 msgstr "``Priority`` defaults to ``Normal``; you can leave it."
 
-#: ../../docs/jobs/quick-start.rst:149 acbf187dc36741da9f3b710023c04f28
-msgid "在 ``工单描述`` 文本框中输入："
-msgstr "In ``Ticket Description``, enter:"
+#: ../../docs/jobs/quick-start.rst:149 982d05c7fad949ae8ee097b517ca6458
+msgid "在 ``工单描述`` 文本框中输入：``本工单仅用于用户手册的流程验证，无需处理。``"
+msgstr ""
+"In the ``Ticket description`` box, enter: ``This ticket is only for user-"
+"guide workflow verification and needs no action.``"
 
-#: ../../docs/jobs/quick-start.rst:155 6692a35065284ab79819d4af6eb26e12
+#: ../../docs/jobs/quick-start.rst:151 73aaa6b8a1604ead9a4acb64894df25f
 msgid "点击 ``提交工单`` 按钮，看到成功提示。"
 msgstr "Click ``Submit Ticket`` and confirm the success message."
 
-#: ../../docs/jobs/quick-start.rst:156 fe8717a7db654374b59d496275bf5d25
+#: ../../docs/jobs/quick-start.rst:152 91b46cfae5b94371a3c0a9ee1bc3d741
 msgid "切换到 ``我的工单`` 标签，找到刚提交的工单，确认状态。"
 msgstr ""
 "Open ``My Tickets``, find the ticket you submitted, and check its status."
 
-#: ../../docs/jobs/quick-start.rst:162 a9a5b406171b4130a3ee6a063f3e8f82
+#: ../../docs/jobs/quick-start.rst:158 10c3bb07b6ee424288d9dfe2276f7714
 msgid "提交工单表单"
 msgstr "Submit ticket form"
 
-#: ../../docs/jobs/quick-start.rst:162 182ef3f23df64dfb8e977718ca0b9496
+#: ../../docs/jobs/quick-start.rst:158 596157b87f0341ebb30b715ea9588419
 msgid "``提交工单`` 表单，含标题、分类、优先级、描述字段。"
 msgstr ""
 "``Submit Ticket`` form with title, category, priority, and description."
 
-#: ../../docs/jobs/quick-start.rst:168 d0af90987801468e8c30c35dd6b39820
+#: ../../docs/jobs/quick-start.rst:164 8fc4e384a8bd4379a17acbfe49bc5fa9
 msgid "工单填写示例"
 msgstr "Ticket fill-in example"
 
-#: ../../docs/jobs/quick-start.rst:168 16276029e1424544a96fd69bf2567edf
+#: ../../docs/jobs/quick-start.rst:164 4ce76c16e40042eea59c1a87a8341c41
 msgid "工单填写示例。填写完成后点击 ``提交工单`` 按钮。"
 msgstr "Example ticket. Click ``Submit Ticket`` when done."
 
-#: ../../docs/jobs/quick-start.rst:174 c31373a6f73a4705a726f56167db972b
+#: ../../docs/jobs/quick-start.rst:170 dc404afe0c644da2b04d4ef567d4607a
 msgid "我的工单"
 msgstr "My tickets"
 
-#: ../../docs/jobs/quick-start.rst:174 3ee220b2f3334dc8b88311e703c6961d
+#: ../../docs/jobs/quick-start.rst:170 d5ed2fabf9e1442aae684204e47e0c87
 msgid "``我的工单`` 列表，刚提交的工单出现在列表中。"
 msgstr "``My Tickets`` list showing your newly submitted ticket."
 
-#: ../../docs/jobs/quick-start.rst:178 4ad6e725683e4f3d97caf00d7d61abf4
+#: ../../docs/jobs/quick-start.rst:174 d3c318b05498423a902f5efb92d765d7
 msgid "本工单只是验证流程的测试工单，**不包含真实业务问题**。如确实遇 到平台问题，请重新提交正式工单并详细描述。"
 msgstr ""
 "This ticket is only to verify the workflow and **is not a real issue**. For "
 "actual problems, submit a formal ticket with details."
 
-#: ../../docs/jobs/quick-start.rst:183 5d75b37478cf4d648b4601377730e23e
+#: ../../docs/jobs/quick-start.rst:179 d58d775227d44634802a03a56f73856f
 msgid "任务 6：提交一个配额申请"
 msgstr "Task 6: Submit a quota request"
 
-#: ../../docs/jobs/quick-start.rst:187 98686d2b56f4403a9fb631ea2e9045f3
+#: ../../docs/jobs/quick-start.rst:183 96aac5e2d31043e9afdc228e1a3098dd
 msgid "在左侧菜单点击 ``配额申请``，进入配额申请页面。"
 msgstr "In the left menu, click ``Quota Request``."
 
-#: ../../docs/jobs/quick-start.rst:188 2b56c173c86148a6b291d700fc2a0808
+#: ../../docs/jobs/quick-start.rst:184 c21c1b6849d44947a21b7373b9f76346
 msgid "点击右上角 ``新建申请`` 按钮，弹出 ``新建配额申请`` 表单。"
 msgstr "Click ``New Request`` to open the ``New Quota Request`` form."
 
-#: ../../docs/jobs/quick-start.rst:189 8cdf88027dd347c4be1cb5e8fa20d767
+#: ../../docs/jobs/quick-start.rst:185 718370e13da64afab4927caf2bf1a898
 msgid "填写表单字段："
 msgstr "Fill in the form:"
 
-#: ../../docs/jobs/quick-start.rst:191 7556016f3d19471f83a2f7906c7abcc6
+#: ../../docs/jobs/quick-start.rst:187 830b16341dc74a6d9a392c228ddcface
 msgid "``申请金额（元）``：填 ``0`` 表示仅验证流程，不申请实际金额。"
 msgstr ""
 "``Requested amount (CNY)``: enter ``0`` to verify the flow without "
 "requesting funds."
 
-#: ../../docs/jobs/quick-start.rst:192 e0fdc5492832450a8b425c57d6dfef3d
+#: ../../docs/jobs/quick-start.rst:188 4714772e26264e119d9634a5edacd32d
 msgid "``期望 CPU 配额（核数，可选）``：填 ``80`` 表示默认配额上限。"
 msgstr ""
 "``Desired CPU quota (cores, optional)``: ``80`` matches the default cap."
 
-#: ../../docs/jobs/quick-start.rst:193 30d21a1a3fd84b27ba82cd2b4f67c902
+#: ../../docs/jobs/quick-start.rst:189 0416468e973f4dbfb1b3dbf6ac05312a
 msgid "``期望存储空间（可选）``：填 ``10`` 表示 10 GB。"
 msgstr "``Desired storage (optional)``: ``10`` means 10 GB."
 
-#: ../../docs/jobs/quick-start.rst:194 97c753fdc9df4e53b0a97d4a3c537b21
+#: ../../docs/jobs/quick-start.rst:190 05817a015e45438b82dc89268eef20b7
 msgid "``所属项目组（可选）``：不填则为个人申请。"
 msgstr "``Project group (optional)``: leave blank for a personal request."
 
-#: ../../docs/jobs/quick-start.rst:195 f3ccd3b778f64e028341c3f8071774ad
+#: ../../docs/jobs/quick-start.rst:191 07366e46a8c64482ae9aff568fd3c832
 msgid "``申请理由``：填 ``手册流程验证，无需处理。``"
 msgstr "``Reason``: enter ``Manual workflow verification; no action needed.``"
 
-#: ../../docs/jobs/quick-start.rst:197 0db69db3732949a8be26f670225efb5f
+#: ../../docs/jobs/quick-start.rst:193 07d450c2305b47539d7d14c8327dc7cc
 msgid "点击 ``提 交`` 按钮，看到成功提示。"
 msgstr "Click ``Submit`` and confirm the success message."
 
-#: ../../docs/jobs/quick-start.rst:198 98b90c9fa04242b48b15883e2d900e46
+#: ../../docs/jobs/quick-start.rst:194 2b9838c18cbb43798c46484c98d17298
 msgid "申请出现在 ``我的申请`` 列表中，状态为 ``待审批``。"
 msgstr ""
 "The request appears under ``My Requests`` with status ``Pending approval``."
 
-#: ../../docs/jobs/quick-start.rst:204 89d566b51a134f0d88861df5bcb4eeaf
+#: ../../docs/jobs/quick-start.rst:200 251034f96c274f3b86150442326d5c3f
 msgid "配额申请页面"
 msgstr "Quota request page"
 
-#: ../../docs/jobs/quick-start.rst:204 00c50aa39ee04aa09bf05d139d61bf39
+#: ../../docs/jobs/quick-start.rst:200 72b4f33a0391451ca389bcef4631da61
 msgid "配额申请页面，含 ``我的申请`` 标签、``刷新`` 和 ``新建申请`` 按钮。"
 msgstr ""
 "Quota request page with ``My Requests``, ``Refresh``, and ``New Request``."
 
-#: ../../docs/jobs/quick-start.rst:210 04653a0273cb45ebb38571fb1a44f72f
+#: ../../docs/jobs/quick-start.rst:206 8a003230977746e7a46be2399b2420cb
 msgid "新建配额申请表单"
 msgstr "New quota request form"
 
-#: ../../docs/jobs/quick-start.rst:210 47374c19d48140edbec496be69abb7e8
+#: ../../docs/jobs/quick-start.rst:206 1a59c665e2c747578b471424af2b82d0
 msgid "新建配额申请表单。"
 msgstr "New quota request form."
 
-#: ../../docs/jobs/quick-start.rst:214 db870ff34fea4ff9b401dd1788079f0f
+#: ../../docs/jobs/quick-start.rst:210 21b88d7cb55546f98775306307713ef0
 msgid "配额申请仅作为本流程示例，实际申请请按真实需求填写金额和理由。"
 msgstr ""
 "Quota requests here are illustrative; use real amounts and reasons in "
 "production."
 
-#: ../../docs/jobs/quick-start.rst:215 4cc23285ac154b4196baf14101d70c20
+#: ../../docs/jobs/quick-start.rst:211 ddfdfee8ff774e4c9e5fa85b08883c05
 msgid "申请提交后状态为 ``待审批``，需管理员审批通过后配额才会到账。"
 msgstr ""
 "After submission, status is ``Pending approval`` until an administrator "
 "approves it."
 
-#: ../../docs/jobs/quick-start.rst:216 aed56b481ad743e0a6c8784f7b98cf18
+#: ../../docs/jobs/quick-start.rst:212 cf578d79f7424f3791477d0628f48ec8
 msgid "详细字段说明、申请状态流转和注意事项请参考第 6 章。"
 msgstr "See Chapter 6 for field details, status flow, and notes."
 
-#: ../../docs/jobs/quick-start.rst:217 f407008e3be34ef29879963314ec4b6a
+#: ../../docs/jobs/quick-start.rst:213 1d0a80e892d5450b90feeae372583b52
 msgid "退出平台流程请参考第 11 章。"
 msgstr "See Chapter 11 to log out of the platform."
 
-#: ../../docs/jobs/quick-start.rst:221 f26a7f4d7f9c45d9b9327d1442a41078
+#: ../../docs/jobs/quick-start.rst:217 4744474aca364cd49ac88f068bdf94c4
 msgid "下一步"
 msgstr "Next steps"
 
-#: ../../docs/jobs/quick-start.rst:223 38134005812b41b18093547a99b2d0b5
+#: ../../docs/jobs/quick-start.rst:219 e0bb1c90ba754db89562ae114bf9a492
 msgid "完成上述 6 个任务后，您已经熟悉了平台的核心使用流程。后续章节会逐个 深入介绍每个功能："
 msgstr ""
 "After these six tasks, you know the core platform workflow. Later chapters "
 "cover each feature in depth:"
 
-#: ../../docs/jobs/quick-start.rst:226 902ed73257744506ab6b4e32f1da0d70
+#: ../../docs/jobs/quick-start.rst:222 e91e7d9be28a47fa948717b594e01734
 msgid "第 4 章：工作台详细说明"
 msgstr "Chapter 4: Workbench in detail"
 
-#: ../../docs/jobs/quick-start.rst:227 a1529e13df534a8c9d99a9fb65334e32
+#: ../../docs/jobs/quick-start.rst:223 ee83c8f1bdf64bbf842515d14b865e9c
 msgid "第 5 章：启动应用与提交批处理作业（含 ``批处理作业`` 标签详细说明）"
 msgstr ""
 "Chapter 5: Launch apps and submit batch jobs (including the ``Batch Jobs`` "
 "tab)"
 
-#: ../../docs/jobs/quick-start.rst:228 355db6caea4044c5a1b686b74d9c1906
+#: ../../docs/jobs/quick-start.rst:224 873320bde840424e8cf446195e0a25bf
 msgid "第 6 章：配额申请（当默认配额不足时申请额外资源）"
 msgstr "Chapter 6: Quota requests (when default limits are insufficient)"
 
-#: ../../docs/jobs/quick-start.rst:229 29828e5f5e4d4f2a86ca35d43812d715
+#: ../../docs/jobs/quick-start.rst:225 f5a01701262a4084850143e337066b46
 msgid "第 7 章：上传和管理个人文件"
 msgstr "Chapter 7: Upload and manage personal files"
 
-#: ../../docs/jobs/quick-start.rst:230 95a78bd0583f4e0f829c6ac8d62082cf
+#: ../../docs/jobs/quick-start.rst:226 281f50a7500c43458296bdbbee1acf60
 msgid "第 8 章：申报成果获取积分"
 msgstr "Chapter 8: Report outcomes to earn points"
 
-#: ../../docs/jobs/quick-start.rst:231 a91dba3dbf2843f99b1bcb644fbedae8
+#: ../../docs/jobs/quick-start.rst:227 12fcb25533ef48db8073e7d117c79574
 msgid "第 9 章：查看平台通知"
 msgstr "Chapter 9: Platform notifications"
 
-#: ../../docs/jobs/quick-start.rst:232 dc61ba8ee2f94d19b91242f3a94c134f
+#: ../../docs/jobs/quick-start.rst:228 301935e5890b40419a8282ca10380d7e
 msgid "第 10 章：提交问题工单（含工单描述模板）"
 msgstr "Chapter 10: Submit problem tickets (with description templates)"
 
-#: ../../docs/jobs/quick-start.rst:233 c92ec0e929c24332a70866d6afa31890
+#: ../../docs/jobs/quick-start.rst:229 87a4d2093606433aa361bca483c70df9
 msgid "第 11 章：退出平台"
 msgstr "Chapter 11: Log out of the platform"
 
-#: ../../docs/jobs/quick-start.rst:234 be17a1db6e3643e29ebe1557e8aab1ff
+#: ../../docs/jobs/quick-start.rst:230 159c50de104c42bfae631f8c951d9278
 msgid "第 12 章：常见问题"
 msgstr "Chapter 12: FAQ"
+
+#~ msgid "在 ``工单描述`` 文本框中输入："
+#~ msgstr "In ``Ticket Description``, enter:"
