@@ -4,57 +4,53 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-05 08:58+0800\n"
+"POT-Creation-Date: 2026-10-16 19:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: ../../docs/module/module-python.rst:5 6d24b0b5cca54638b01a89bb3ef997a9
+#: ../../docs/module/module-python.rst:5 0f2aecbe4c2f424a8f1ee603c8ac5bb5
 msgid "Python环境使用"
 msgstr "Using the Python Environment"
 
-#: ../../docs/module/module-python.rst:8 b2749db8ac8d4cf7b00beed0ab3c25e9
-
+#: ../../docs/module/module-python.rst:8 dccec897ec294cf69b329b0575140a50
 msgid ""
-"ChinaSRC-P不部署Python module，用户可以通过上述方法加载Python软件后， "
+"cnSRC不部署Python module，用户可以通过上述方法加载Python软件后， "
 "创建Python虚拟环境到自己的HOME路径下，然后自行安装所需的Python module。"
 msgstr ""
-"ChinaSRC-P does not deploy Python modules. Users can load Python software"
-" using the method described above and create a Python virtual environment"
-" in their HOME directory. They can then install the required Python "
-"modules on their own."
+"cnSRC does not deploy Python modules. After loading Python software using "
+"the methods above, users can create a Python virtual environment under "
+"their HOME directory and install the required Python modules themselves."
 
-#: ../../docs/module/module-python.rst:11 937ce6973b3e44b6a0bd8d4c0d15df8d
+#: ../../docs/module/module-python.rst:11 7e245ffa307648798044150abd56c2cd
 msgid "具体方法如下： 加载Python软件,以X86系统为例："
 msgstr ""
 "Here are the specific steps: Loading Python software, using X86 system as"
 " an example:"
 
-#: ../../docs/module/module-python.rst:26 c6840b2c44c64963bae610aed1acb1ca
+#: ../../docs/module/module-python.rst:26 82b85b4ef33e468592fd927568722857
 msgid "创建Python虚拟环境："
 msgstr "Creating a Python virtual environment:"
 
-#: ../../docs/module/module-python.rst:37 345feb71ff9b448e9925a7d2ca0951a3
+#: ../../docs/module/module-python.rst:37 9ca00cf158464bce83a40f0c03149d55
 msgid "添加环境变量,把下面语句添加到~/.bashrc中："
 msgstr "Add environment variables by adding the following statement to ~/.bashrc:"
 
-#: ../../docs/module/module-python.rst:43 8d4110a9e3b54f16b19d40dfd296f935
+#: ../../docs/module/module-python.rst:43 8bc01ddfb4ab4caba80ca2c1f850300a
 msgid "启用Python虚拟环境："
 msgstr "Activate the Python virtual environment:"
 
-#: ../../docs/module/module-python.rst:50 e5fa65b921644cf1bea44d74fffda507
-
+#: ../../docs/module/module-python.rst:50 0aee3f7ec85a439a8a84a4843d756dab
 msgid ""
 "此时，可以在终端使用`pip install`安装Python module， 或者下载Python module 源码，使用`python "
 "setup.py install`安装。 以安装zstd为例"
@@ -64,7 +60,7 @@ msgstr ""
 "'python setup.py install' for installation. To exit the virtual "
 "environment:"
 
-#: ../../docs/module/module-python.rst:65 fc063b60f9ae4751962f0a188119dcbb
+#: ../../docs/module/module-python.rst:65 11127ba558314002889a080b36f19e4d
 msgid "退出虚拟环境："
 msgstr "Quit the virtual environment:"
 

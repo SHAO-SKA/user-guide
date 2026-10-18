@@ -4,49 +4,47 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-05 08:58+0800\n"
+"POT-Creation-Date: 2026-10-16 19:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: ../../docs/module/index.rst:3 097de5621f4d4406b8ffce262df9480c
+#: ../../docs/module/index.rst:3 8bb8c237c85a46dc9a2f59cbbf2f9b7b
 msgid "环境变量管理工具module"
 msgstr "Environment Variable Management Tool (module)"
 
-#: ../../docs/module/index.rst:5 a155770cc3154cf9b24cbc7f4161bbef
+#: ../../docs/module/index.rst:5 28d221c90ec84f539f28a7557d8b2a78
 msgid "本章介绍如何使用环境管理工具"
 msgstr "This chapter introduces how to use the environment management tool."
 
-#: ../../docs/module/index.rst:7 773b4c40f2c5415ebbec898b47140f6b
-
-msgid "为了满足不同用户或者科学研究的需求，ChinaSRC-P中安装了各种版本的软件。"
+#: ../../docs/module/index.rst:7 dea0734bcd154c458c09c084294fdb2e
+msgid "为了满足不同用户或者科学研究的需求，cnSRC中安装了各种版本的软件。"
 msgstr ""
 "To meet the needs of different users or scientific research, various "
-"versions of software are installed in ChinaSRC-P."
+"versions of software are installed on cnSRC."
 
-#: ../../docs/module/index.rst:9 aa9ac39250f741a7adeca07780a7e36d
+#: ../../docs/module/index.rst:9 ed3fcd822c124834b750d26be66b1f07
 msgid "用户可在同一软件的不同版本之间切换，也可以在同一功能的不同软件之间切换，以此来选择最合适的编程环境和运行环境。"
 msgstr ""
 "Users can switch between different versions of the same software or "
 "between different software with the same functionality to choose the most"
 " suitable programming and runtime environment."
 
-#: ../../docs/module/index.rst:11 809246d96ae647a6902107909263fb2e
+#: ../../docs/module/index.rst:11 f0901fa3d7e34d15ac1e1f100c0a73c5
 msgid "使用系统命令 ``module`` 可以快速地达到这一效果。"
 msgstr "This can be quickly achieved using the system command 'module'."
 
-#: ../../docs/module/index.rst:13 0e7ee1676fc04c43aa6cf92b0876dbd8
+#: ../../docs/module/index.rst:13 3368493e8c3e4a8195c67f76e30bd196
 msgid "详细的介绍可以参考: [module官方网站](https://modules.readthedocs.io/en/latest/)"
 msgstr ""
 "For detailed information, please refer to: [module official "

@@ -4,46 +4,56 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"POT-Creation-Date: 2026-10-16 23:05+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: ../../docs/module/module-intro.rst:5 3f3aecafaeab4e0ba345ac4d0378452d
+#: ../../docs/module/module-intro.rst:5 0f382aade4144f7d89f983a7bf9a5dad
 msgid "module简介"
 msgstr "Module Introduction"
 
-#: ../../docs/module/module-intro.rst:7 515a42d340114b24b27b399337f2a5f8
+#: ../../docs/module/module-intro.rst:7 8590300d9a88410b97dee0afced70411
 msgid ""
-"由于不同用户在原型系统上可能需要使用不同的软件环境，配置不同的环境变量， "
-"默认配置无法满足所有用户的需要，因而在原型系统上安装了module软件来进行对环境变量的管理， 方便用户更好地使用机器。"
+"由于不同用户在系统上可能需要使用不同的软件环境，配置不同的环境变量， "
+"默认配置无法满足所有用户的需要，因而在系统上安装了module软件来进行对环境变量的管理， 方便用户更好地使用机器。"
 msgstr ""
-"Since different users may need to use different software environments and configure different environment variables on the prototype system, "
-"the default configuration cannot meet the needs of all users. Therefore, the module software is installed on the prototype system to manage environment variables, making it easier for users to use the machine."
+"Different users may need different software environments and environment "
+"variables. The default configuration cannot cover every case, so the "
+"module system is installed on cnSRC to manage environment variables and "
+"make the machines easier to use."
 
-#: ../../docs/module/module-intro.rst:11 598e96363473428da58a30bc9b066956
+#: ../../docs/module/module-intro.rst:11 fcce497473b14da4bee195022c04c2bf
 msgid "Envrionment modules工具用来快速的设置和修改用户编译运行环境。"
-msgstr "The Environment Modules tool is used to quickly set and modify user compilation and runtime environments."
+msgstr ""
+"The Environment Modules tool is used to quickly set and modify user "
+"compilation and runtime environments."
 
-#: ../../docs/module/module-intro.rst:13 690893818a2548639eeb70b38b8bf708
+#: ../../docs/module/module-intro.rst:13 7a3222e6bfb84eb18d1399f4dbaf47c6
 msgid "Envrionment modules通过加载和卸载modulefile文件可直接改变用户的环境变量，用户不需要修改.bashrc，从而避免误操作。"
-msgstr "Environment Modules can directly change user environment variables by loading and unloading module files, eliminating the need for users to modify .bashrc and avoiding accidental operations."
+msgstr ""
+"Environment Modules can directly change user environment variables by "
+"loading and unloading module files, eliminating the need for users to "
+"modify .bashrc and avoiding accidental operations."
 
-#: ../../docs/module/module-intro.rst:16 a59fac3656ac45d091869d1b5e02658e
+#: ../../docs/module/module-intro.rst:16 6fa7ee3fdd1b4d5fa01bda9e0e4d493d
 msgid ""
 "`module`通过配置*modulefile*支持环境变量的动态修改， 能够控制软件不同版本对环境变量的依赖关系。 "
 "用户通过简单的命令即可获得适于自己环境变量设置，因而提高了用户移植软件的效率。"
 msgstr ""
-"module dynamically modifies environment variables by configuring module files and can control the dependency relationships of different software versions on environment variables."
-"Users can easily obtain environment variable settings suitable for their own needs with simple commands, thereby improving the efficiency of software portability for users."
+"module dynamically modifies environment variables by configuring module "
+"files and can control the dependency relationships of different software "
+"versions on environment variables.Users can easily obtain environment "
+"variable settings suitable for their own needs with simple commands, "
+"thereby improving the efficiency of software portability for users."
+

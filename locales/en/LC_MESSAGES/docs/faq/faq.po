@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2025, cnSRC
+# This file is distributed under the same license as the cnSRC User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cnSRC User Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-16 19:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/faq/faq.rst:4 0e0b339cac7d461ab59a0f5850454c97
+msgid "常见问题"
+msgstr "Frequently Asked Questions"
+
+#: ../../docs/faq/faq.rst:6 9d1050a3ab0c4e84a82473e0243e06a1
+msgid "本章汇总普通用户高频问题。每个回答控制在 3～6 步。"
+msgstr ""
+"This chapter summarizes frequently asked questions for regular users. Each "
+"answer is kept to 3–6 steps."
+
+#: ../../docs/faq/faq.rst:9 6369b06fc65c451d9b059fa36de06364
+msgid "登录相关"
+msgstr "Login"
+
+#: ../../docs/faq/faq.rst:11 ecbedb87069a439ba0cfa14e6878dc6e
+msgid ""
+"**登录后一直停留在登录页怎么办？** 检查浏览器当前是否仍显示登录页。如是，说明登录未成功，重 新输入用户名、密码和验证码，特别留意当前显示的验证码。"
+msgstr ""
+"**Still on the login page after signing in?** Check whether the browser "
+"still shows the login page. If so, login did not succeed—re-enter your "
+"username, password, and verification code, paying close attention to the "
+"code currently displayed."
+
+#: ../../docs/faq/faq.rst:15 2323a2ded6cf45fca3d64032a0659e8e
+msgid "**验证码错误怎么办？** 刷新登录页获取新验证码，再重新输入用户名和密码后提交。"
+msgstr ""
+"**Wrong verification code?** Refresh the login page for a new code, then re-"
+"enter your username and password and submit again."
+
+#: ../../docs/faq/faq.rst:19 2e8a97b651ab4eb489eeea1de7a6fed3
+msgid "应用启动相关"
+msgstr "Application Launch"
+
+#: ../../docs/faq/faq.rst:21 ad76dc49a7f1416ea08f6c0db009948c
+msgid ""
+"**应用点击 ``启 动`` 后没有打开怎么办？** 等待 10～30 秒再点击一次卡片；如仍未打开，刷新 ``应用列表`` 页面， 在底部 "
+"``作业列表`` 查看对应作业的状态。"
+msgstr ""
+"**Application did not open after clicking ``Launch``?** Wait 10–30 seconds "
+"and click the card again. If it still does not open, refresh the "
+"``Application List`` page and check the corresponding job status in ``Job "
+"List`` at the bottom."
+
+#: ../../docs/faq/faq.rst:25 fce41c35bfe44ce9a5da93e31dfcea95
+msgid ""
+"**启动 Jupyter Lab / JupyterHub 为什么很慢？** 首次启动时间较长，系统仍在初始化；请耐心等待。后续再启动一般会恢 复正常。"
+msgstr ""
+"**Why is Jupyter Lab / JupyterHub slow to start?** The first launch takes "
+"longer while the system initializes; please wait. Later launches are usually"
+" faster."
+
+#: ../../docs/faq/faq.rst:29 44acfa6db3f44b92a8629be515bc9724
+msgid "**如何确认应用已经启动？** 应用卡片上按钮变为 ``关 闭``，且 ``作业列表`` 中对应作业状态为 ``运行中``。"
+msgstr ""
+"**How do I confirm an application has started?** The button on the "
+"application card changes to ``Close``, and the corresponding job in ``Job "
+"List`` shows status ``Running``."
+
+#: ../../docs/faq/faq.rst:33 9b6f3f202c57417fbed1cddd3db83fa9
+msgid ""
+"**作业长时间排队怎么办？** 在 ``应用列表`` 页面 ``作业列表`` 中查看 ``分区`` 和 ``状态``。如果等 "
+"待作业较多或分区资源紧张，建议先关闭未使用的应用，或稍后再试。"
+msgstr ""
+"**Job queued for a long time?** On the ``Application List`` page, check "
+"``Partition`` and ``Status`` in ``Job List``. If many jobs are waiting or "
+"partition resources are tight, close unused applications first or try again "
+"later."
+
+#: ../../docs/faq/faq.rst:38 259bae2a9d014619b1d1d6751e8fccd9
+msgid "作业与文件相关"
+msgstr "Jobs and Files"
+
+#: ../../docs/faq/faq.rst:40 6b27884dab994a36a7849fc45e451f21
+msgid ""
+"**作业显示失败怎么办？** 在 ``作业列表`` 中找到对应作业，点击操作列查看失败提示。如需进一 步排查，提交工单并附上作业 ID、失败提示截图。"
+msgstr ""
+"**Job shows as failed?** Find the job in ``Job List`` and view the failure "
+"message in the action column. For further investigation, submit a ticket "
+"with the job ID and a screenshot of the error."
+
+#: ../../docs/faq/faq.rst:44 ca5e13b283b7423488e9a8355de80f59
+msgid "**文件上传失败怎么办？** 检查网络连接、文件大小和扩展名。如反复失败，提交工单并附上文件大 小、扩展名和失败提示截图。"
+msgstr ""
+"**File upload failed?** Check your network connection, file size, and "
+"extension. If it keeps failing, submit a ticket with file size, extension, "
+"and a screenshot of the error."
+
+#: ../../docs/faq/faq.rst:48 cd9a6ce6817c4403ac3d26f483816f12
+msgid "**找不到上传的文件怎么办？** 确认页面顶部当前路径正确；使用 ``搜索文件`` 输入关键字检索。如仍 找不到，请提交工单联系管理员。"
+msgstr ""
+"**Cannot find an uploaded file?** Confirm the current path at the top of the"
+" page; use ``Search Files`` with keywords. If you still cannot find it, "
+"submit a ticket to contact an administrator."
+
+#: ../../docs/faq/faq.rst:53 6e68fa353b2c4563931e3b5ff2c4f943
+msgid "积分与通知相关"
+msgstr "Points and Notifications"
+
+#: ../../docs/faq/faq.rst:55 b93f89bf4ee34360abcf5a955ee9a508
+msgid "**余额为负数怎么办？** 通过 ``工单管理`` 提交工单说明情况，等待管理员处理。"
+msgstr ""
+"**Negative balance?** Submit a ticket via ``Ticket Management`` explaining "
+"the situation and wait for an administrator."
+
+#: ../../docs/faq/faq.rst:58 e9b403d51f784d44a8e2508901405438
+msgid ""
+"**没有收到通知怎么办？** 在工作台 ``快捷操作`` 进入通知中心，确认 ``全部通知`` 列表中是否 "
+"已有该通知。如确认未收到，提交工单联系管理员。"
+msgstr ""
+"**Did not receive a notification?** From the workbench ``Quick Actions``, "
+"open the notification center and check whether the notification appears in "
+"``All Notifications``. If not, submit a ticket to contact an administrator."
+
+#: ../../docs/faq/faq.rst:63 55eb9c10856441718cd01d1eb2fda572
+msgid "工单与权限相关"
+msgstr "Tickets and Permissions"
+
+#: ../../docs/faq/faq.rst:65 7210d9072c8845f4a930d14a2ba6a4db
+msgid "**工单提交失败怎么办？** 检查 ``工单标题`` 是否填写、``工单描述`` 是否超出 5000 字符限制。 修正后重新提交。"
+msgstr ""
+"**Ticket submission failed?** Check that ``Ticket Title`` is filled in and "
+"``Ticket Description`` is within the 5,000-character limit, then submit "
+"again."
+
+#: ../../docs/faq/faq.rst:69 d02b4fff0460423e983daecb7efcd999
+msgid "**页面提示权限不足怎么办？** 确认当前登录账号角色正确；如确认账号无误但页面仍提示权限不足，提 交工单联系管理员。"
+msgstr ""
+"**Insufficient permissions on the page?** Confirm your account role is "
+"correct. If the account is correct but the page still shows insufficient "
+"permissions, submit a ticket to contact an administrator."
+
+#: ../../docs/faq/faq.rst:74 39e6efff33b340579b92119fbfe8cde7
+msgid "退出与安全相关"
+msgstr "Logout and Security"
+
+#: ../../docs/faq/faq.rst:76 2a2b69ff02ef47a286fbdcb2fd9cf85e
+msgid "**退出登录后应用是否会自动关闭？** 不会。必须先在 ``应用列表`` 页面点击 ``关 闭``，然后再退出登录。"
+msgstr ""
+"**Do applications close automatically after logout?** No. You must click "
+"``Close`` on the ``Application List`` page first, then log out."

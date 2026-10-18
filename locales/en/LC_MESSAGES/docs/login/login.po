@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2025, cnSRC
+# This file is distributed under the same license as the cnSRC User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cnSRC User Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-16 19:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/login/login.rst:4 26e6250a8b1842eba5bef7b876117c05
+msgid "登录平台"
+msgstr "Logging in to the platform"
+
+#: ../../docs/login/login.rst:7 361babcf7f034d87af60a349aba0bf2b
+msgid "流程目标"
+msgstr "Purpose"
+
+#: ../../docs/login/login.rst:9 ef87d14e8b0947119f19ccdb4c0e3a8a
+msgid "帮助首次使用者成功进入平台。"
+msgstr "Help first-time users sign in successfully."
+
+#: ../../docs/login/login.rst:12 ea1d5436e4e84194b4a70f4780eee1cf
+msgid "进入方式"
+msgstr "How to access"
+
+#: ../../docs/login/login.rst:14 0418b881e3194930a1decd245594b842
+msgid "在浏览器中打开平台地址 ``https://kylin.cnsrc.shao.ac.cn/Login/``，进入登录页 面。"
+msgstr ""
+"Open ``https://kylin.cnsrc.shao.ac.cn/Login/`` in your browser to reach the "
+"login page."
+
+#: ../../docs/login/login.rst:18 a89903812d0f4c89bfdd559e836f611d
+msgid "操作步骤"
+msgstr "Steps"
+
+#: ../../docs/login/login.rst:20 0904783dea9f4f32bb91025bb28408b7
+msgid "在浏览器中打开平台地址 ``https://kylin.cnsrc.shao.ac.cn/Login/``，按回车。"
+msgstr ""
+"Open ``https://kylin.cnsrc.shao.ac.cn/Login/`` in your browser and press "
+"Enter."
+
+#: ../../docs/login/login.rst:21 b042d36987234864acfec92ecf0a4464
+msgid "在登录页的 ``用户名`` 输入框中输入账号名。"
+msgstr "Enter your account name in the ``Username`` field on the login page."
+
+#: ../../docs/login/login.rst:22 a219f5a0cbea481aba79fd7736690c64
+msgid "在 ``密码`` 输入框中输入密码。"
+msgstr "Enter your password in the ``Password`` field."
+
+#: ../../docs/login/login.rst:23 91466fb0f2f64157838606c2ed776c62
+msgid "在 ``验证码`` 输入框中输入页面显示的验证码字符。"
+msgstr ""
+"Enter the captcha characters shown on the page in the ``Captcha`` field."
+
+#: ../../docs/login/login.rst:24 f2ef9d4213e34575afc72d96c3931cf7
+msgid "点击 ``登 录`` 按钮。"
+msgstr "Click the ``Login`` button."
+
+#: ../../docs/login/login.rst:27 a04da3e4e50e45eb83900023d69090ea
+msgid "正常结果"
+msgstr "Expected result"
+
+#: ../../docs/login/login.rst:29 a2890d71375445e7a70d8d06378d8470
+msgid "登录成功后，页面自动跳转到用户工作台。"
+msgstr "After a successful login, the page redirects to your workbench."
+
+#: ../../docs/login/login.rst:35 c5bdbd9939b44d1fb43fe5439165de62
+msgid "登录页面"
+msgstr "Login page"
+
+#: ../../docs/login/login.rst:35 7f644e4133f14e74980a66181e0568d0
+msgid ""
+"登录页面。含 ``用户名``、``密码``、``验证码`` 输入框，``注册账号``、 ``登 录``、``Login with SSO`` "
+"按钮和底部版本号。"
+msgstr ""
+"Login page with ``Username``, ``Password``, and ``Captcha`` fields; "
+"``Register``, ``Login``, and ``Login with SSO`` buttons; and the version at "
+"the bottom."
+
+#: ../../docs/login/login.rst:39 ../../docs/login/login.rst:49
+#: 94a97de38f704d55a9a3efdb2df853d3 e5a8b5dd58354a2b9a9dd1c813400ab4
+msgid "统一身份认证系统"
+msgstr "Unified identity authentication system"
+
+#: ../../docs/login/login.rst:41 b297cf8f7b3a47648b77f07e83d8cdbb
+msgid ""
+"如果所在单位已接入平台 SSO 系统，可跳过账号密码流程，点击登录页 ``Login with SSO`` 按钮（位于 ``登 录`` "
+"按钮下方）。浏览器会自动跳转 到统一身份认证系统登录页面。"
+msgstr ""
+"If your organization is connected to platform SSO, skip username/password "
+"and click ``Login with SSO`` (below ``Login``). The browser redirects to the"
+" unified identity login page."
+
+#: ../../docs/login/login.rst:49 9149f138768c41ab93dd48a54bd61122
+msgid "统一身份认证系统登录页面。可使用账号密码登 录，或通过所属机构（SKAO / GOSC / 中国科技云通行证 等）登录。"
+msgstr ""
+"Unified identity login page. Sign in with username/password, or via your "
+"organization (SKAO / GOSC / China Science & Technology Cloud Passport, "
+"etc.)."
+
+#: ../../docs/login/login.rst:54 224c67e2f400490699855e32e09a2777
+msgid "统一身份认证系统由平台所属单位统一维护；如不确定账号请咨询 单位管理员。"
+msgstr ""
+"The unified identity authentication system is maintained by your "
+"organization; if you are unsure about your account, contact your "
+"organization's administrator."
+
+#: ../../docs/login/login.rst:56 e9867ad3d635487bbc7a6210ad992a96
+msgid "首次 SSO 登录后通常会自动创建平台账号，无需手动注册。"
+msgstr ""
+"After your first SSO login, a platform account is usually created "
+"automatically; manual registration is not required."
+
+#: ../../docs/login/login.rst:57 f4f930011850482ba950f8993143ec06
+msgid "SSO 登录失败时请回退使用账号密码登录。"
+msgstr "If SSO login fails, fall back to username-and-password login."
+
+#: ../../docs/login/login.rst:60 249ce95cf00d44bfb0c903231311a1d9
+msgid "注意事项"
+msgstr "Notes"
+
+#: ../../docs/login/login.rst:62 cb17c42f84af4227aff6f36deb0d21c2
+msgid "验证码区分大小写，按页面显示内容输入；如显示不清晰可刷新页面换一张。"
+msgstr ""
+"Verification codes are case-sensitive; enter exactly what is shown. If it is"
+" hard to read, refresh the page for a new code."
+
+#: ../../docs/login/login.rst:63 a28dbe395ac74941808e0f42d94cd1a6
+msgid "如页面提示 ``验证码错误！``，重新输入当前验证码后再提交。"
+msgstr ""
+"If the page shows ``Captcha error!``, re-enter the current captcha and "
+"submit again."
+
+#: ../../docs/login/login.rst:64 57b9dfd5b0a142ffa4657204583fdd75
+msgid "连续输入错误次数过多，账号可能被临时锁定，请稍后再试或联系管理员。"
+msgstr ""
+"Too many failed attempts may temporarily lock your account; try again later "
+"or contact an administrator."
+
+#: ../../docs/login/login.rst:67 3f411470613c4a5d8bc36684b6b79cc7
+msgid "常见问题"
+msgstr "Common questions"
+
+#: ../../docs/login/login.rst:69 9f0f655500084839837ce0f071b81529
+msgid "**登录后一直停留在登录页怎么办？** 检查浏览器当前是否仍显示登录页。如是，说明登录未成功，请重 复本节操作步骤，特别留意验证码。"
+msgstr ""
+"**What if I stay on the login page after signing in?** Check whether the "
+"browser still shows the login page. If so, login did not succeed—repeat the "
+"steps in this section, especially the verification code."
+
+#: ../../docs/login/login.rst:73 67de970c36ca4fbb9d60e8ef3d592e12
+msgid "**页面无法打开怎么办？** 确认浏览器已联网，平台地址正确无误。如仍无法访问，请联系管理员。"
+msgstr ""
+"**What if the page will not open?** Confirm that the browser is online and "
+"the platform URL is correct. If you still cannot access it, contact an "
+"administrator."

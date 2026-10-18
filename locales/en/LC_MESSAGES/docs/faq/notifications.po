@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2025, cnSRC
+# This file is distributed under the same license as the cnSRC User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cnSRC User Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-16 19:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/faq/notifications.rst:4 2599ac2b1ebc45c49afaaea9bbb9bb6b
+msgid "查看平台通知"
+msgstr "View Platform Notifications"
+
+#: ../../docs/faq/notifications.rst:7 3fd0f87c23024ffcb11ccb5a44f81522
+msgid "流程目标"
+msgstr "Goal"
+
+#: ../../docs/faq/notifications.rst:9 5b6cfafd0f1b4bae86d2faaddef91241
+msgid "帮助用户及时发现系统通知和重要消息。"
+msgstr ""
+"Help users discover system notifications and important messages in time."
+
+#: ../../docs/faq/notifications.rst:12 e39493ba566644fdb410d30e0084f734
+msgid "进入方式"
+msgstr "How to Access"
+
+#: ../../docs/faq/notifications.rst:14 965a36d435224a6b957e9f797c1bf3bb
+msgid "普通用户侧栏没有 ``通知中心`` 菜单。可通过以下方式进入："
+msgstr ""
+"Regular users do not have a ``Notification Center`` item in the sidebar. "
+"Access it as follows:"
+
+#: ../../docs/faq/notifications.rst:16 f0280f3df37e42049def4e9d5d57c1f2
+msgid "工作台 ``快捷操作`` 中的 ``通知中心`` 按钮（路径 通知中心页面）。"
+msgstr ""
+"The ``Notification Center`` button under ``Quick Actions`` on the workbench "
+"(Notification Center page)."
+
+#: ../../docs/faq/notifications.rst:18 1648f0ac7c5d4aa09225c224eb302132
+msgid "工作台 ``平台通知`` 卡片右上角的 ``查看全部`` 链接。"
+msgstr ""
+"The ``View All`` link at the top right of the ``Platform Notifications`` "
+"card on the workbench."
+
+#: ../../docs/faq/notifications.rst:21 54a68db23e9b4efc96a542dce6a47f87
+msgid "页面内容"
+msgstr "Page Contents"
+
+#: ../../docs/faq/notifications.rst:23 53168c520bfd4833b5e8c5a640227da7
+msgid ""
+"通知中心页面顶部显示四个统计：``全部通知``、``未读通知``、``重要通 知``、``重要``。下方是筛选条件 ``类型`` ``分类`` "
+"``状态``。"
+msgstr ""
+"The notification center shows four counts at the top: ``All Notifications``,"
+" ``Unread Notifications``, ``Important Notifications``, and ``Important``. "
+"Below are filters ``Type``, ``Category``, and ``Status``."
+
+#: ../../docs/faq/notifications.rst:26 6282c33e32e644608b8696050b332930
+msgid ""
+"主体是通知列表表格，列包含 ``状态`` ``标题`` ``类型`` ``分类`` ``发布 时间``。每行右上角的圆形按钮可用于标记已读/未读。"
+msgstr ""
+"The main area is a notification table with columns ``Status``, ``Title``, "
+"``Type``, ``Category``, and ``Published Time``. The round button at the top "
+"right of each row marks read/unread."
+
+#: ../../docs/faq/notifications.rst:33 314b9d0ccd3b497690f98b573d2ae570
+msgid "通知中心"
+msgstr "Notification Center"
+
+#: ../../docs/faq/notifications.rst:33 a99015447e0b43199ade93a904f3ff4d
+msgid "通知中心页面，显示通知列表与筛选条件。"
+msgstr "Notification center page showing the notification list and filters."
+
+#: ../../docs/faq/notifications.rst:36 404e6421c397405685660e4f8773b640
+msgid "查看通知详情"
+msgstr "View Notification Details"
+
+#: ../../docs/faq/notifications.rst:38 31f26ee9a88e4739a1f2938b7c01e0d5
+msgid "在通知列表中找到需要查看的通知行。"
+msgstr "Find the notification row you want to view in the list."
+
+#: ../../docs/faq/notifications.rst:39 59b1e12235bd4c4390b9148669812a71
+msgid "点击通知标题行展开详情（如页面支持）或查看完整描述。"
+msgstr ""
+"Click the notification title row to expand details (if supported) or view "
+"the full description."
+
+#: ../../docs/faq/notifications.rst:40 4a5138e3d65b4156b2439581d9813ddc
+msgid "点击右侧圆形按钮将通知标记为已读，状态从 ``未读`` 变为 ``已读``。"
+msgstr ""
+"Click the round button on the right to mark as read; status changes from "
+"``Unread`` to ``Read``."
+
+#: ../../docs/faq/notifications.rst:43 ccc17e24064b4549a1387a67248e84cf
+msgid "筛选通知"
+msgstr "Filter Notifications"
+
+#: ../../docs/faq/notifications.rst:45 bc2f35552b264aa98de38c8ce66aa406
+msgid "在 ``类型`` 下拉框中选择通知类型（如 ``系统通知``）。"
+msgstr ""
+"In the ``Type`` drop-down, select a notification type (e.g. ``System "
+"Notification``)."
+
+#: ../../docs/faq/notifications.rst:46 ebccd5712e9e4583a30a2ad66278fa7c
+msgid "在 ``分类`` 下拉框中选择分类。"
+msgstr "In the ``Category`` drop-down, select a category."
+
+#: ../../docs/faq/notifications.rst:47 b3a9156771304d7cbd2e720981c794db
+msgid "在 ``状态`` 下拉框中选择 ``已读`` 或 ``未读``。"
+msgstr "In the ``Status`` drop-down, select ``Read`` or ``Unread``."
+
+#: ../../docs/faq/notifications.rst:48 ebd8f2c3bc98468584f010b897cc1bb0
+msgid "列表自动刷新显示符合条件的通知。"
+msgstr "The list refreshes automatically to show matching notifications."
+
+#: ../../docs/faq/notifications.rst:51 51f1d91b64134c97a669afdaf5d68eed
+msgid "常见问题"
+msgstr "Frequently Asked Questions"
+
+#: ../../docs/faq/notifications.rst:53 6d8ba4b1ff764b338abedafd29450e3b
+msgid "**没有收到通知怎么办？** 检查通知中心 ``全部通知`` 列表确认是否已发布；如确认未收到，请提交 工单联系管理员。"
+msgstr ""
+"**Did not receive a notification?** Check ``All Notifications`` in the "
+"notification center to confirm it was published. If you still did not "
+"receive it, submit a ticket to contact an administrator."

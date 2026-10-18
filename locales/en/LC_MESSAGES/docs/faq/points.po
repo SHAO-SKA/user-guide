@@ -1,0 +1,340 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2025, cnSRC
+# This file is distributed under the same license as the cnSRC User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cnSRC User Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-16 19:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/faq/points.rst:4 f5179b99ef134d6ba304fbd23a3e6993
+msgid "申报成果获取积分"
+msgstr "Earn Points by Reporting Achievements"
+
+#: ../../docs/faq/points.rst:7 ab5d23e3fdb14600a93142fea8570cbe
+msgid "流程目标"
+msgstr "Goal"
+
+#: ../../docs/faq/points.rst:9 6a690f3d51a941e8b9db09a7550b41ee
+msgid ""
+"帮助用户了解积分的来源——积分不是账户余额，而是用户在使用平台过程中取 得的**科研成果**经管理员审批后获得的奖励。本节重点介绍如何申报成果。"
+msgstr ""
+"Help users understand how points are earned—points are not account balance "
+"but rewards for **research achievements** obtained on the platform and "
+"approved by administrators. This section focuses on how to report "
+"achievements."
+
+#: ../../docs/faq/points.rst:13 2ab3735a662b4d84b527395175c5c7ca
+msgid "进入方式"
+msgstr "How to Access"
+
+#: ../../docs/faq/points.rst:15 f61720f9cac7487191b6bfd3bf85a053
+msgid "点击左侧菜单 ``积分管理``，进入积分页面。"
+msgstr "Click ``Points Management`` in the left menu to open the points page."
+
+#: ../../docs/faq/points.rst:18 1a5ac233a6654d56bbd9f789de3e4ff3
+msgid "积分与余额的区别"
+msgstr "Points vs. Account Balance"
+
+#: ../../docs/faq/points.rst:22 7c4a887ac46b4624bbff1132784a368d
+msgid "**积分** 和 **账户余额** 是两个不同概念："
+msgstr "**Points** and **account balance** are different concepts:"
+
+#: ../../docs/faq/points.rst:24 30c3b890f48240999b1027026727ee09
+msgid "账户余额（工作台 ``账户概览`` 中的 ``用户余额``\\ ）：是用户 充值/扣费的金额，单位是「元」，与计费相关。"
+msgstr ""
+"Account balance (``User Balance`` in ``Account Overview`` on the workbench):"
+" amount credited or charged, in yuan (CNY), related to billing."
+
+#: ../../docs/faq/points.rst:26 d3512f4b09784327968d98af566cce26
+msgid "积分：是用户申报成果（如论文、专利、报告）并经管理员审批通 过后获得的奖励，单位是「积分」，可在 ``服务兑换`` 中兑换计算服 务。"
+msgstr ""
+"Points: rewards after reporting achievements (papers, patents, reports, "
+"etc.) and administrator approval, measured in points, redeemable for compute"
+" services in ``Service Redemption``."
+
+#: ../../docs/faq/points.rst:30 3961f4e7b4cd420784e7a5bf7dc2a3ae
+msgid "本节只介绍**积分**及其获取流程。账户余额相关问题请参考计费相关章 节或联系管理员。"
+msgstr ""
+"This section covers **points** and how to earn them only. For account "
+"balance, see billing chapters or contact an administrator."
+
+#: ../../docs/faq/points.rst:34 c87cb89cb3e34314a37b9cd3dd783b4b
+msgid "页面内容"
+msgstr "Page Contents"
+
+#: ../../docs/faq/points.rst:36 c2705341e8ca45f38ec3ffaf16031609
+msgid "积分页面包含四个标签页："
+msgstr "The points page has four tabs:"
+
+#: ../../docs/faq/points.rst:38 7fda8fbe4add4bbb8e4b1887c97ee8cb
+msgid "``积分概览``：显示 ``可用积分``、``冻结积分``、``累计获得``、 ``累计消耗`` 四个数值。"
+msgstr ""
+"``Points Overview``: shows ``Available Points``, ``Frozen Points``, ``Total "
+"Earned``, and ``Total Spent``."
+
+#: ../../docs/faq/points.rst:40 5a450c060b7f4c94b2c806b642266520
+msgid "``积分流水``：积分变动明细。"
+msgstr "``Points History``: point transaction details."
+
+#: ../../docs/faq/points.rst:41 1fdb415228684498b5071813ed4e11e1
+msgid "``服务兑换``：用积分兑换计算服务（具体兑换规则由平台管理员发布）。"
+msgstr ""
+"``Service Redemption``: redeem points for compute services (rules published "
+"by platform administrators)."
+
+#: ../../docs/faq/points.rst:42 350b0db5ddf6406fbb582ea2f155cf52
+msgid "``成果申报``：**最重要的标签**，用户在此提交科研成果。"
+msgstr ""
+"``Achievement Reporting``: **the most important tab**, where users submit "
+"research achievements."
+
+#: ../../docs/faq/points.rst:48 ad8117849fce42d39dd7bee42025449c
+msgid "积分概览"
+msgstr "Points Overview"
+
+#: ../../docs/faq/points.rst:48 f81088d568cd4058a8e09e10f715c550
+msgid "积分概览页面，显示可用积分、冻结积分、累计获得、累计消耗。"
+msgstr ""
+"Points overview page showing available, frozen, total earned, and total "
+"spent points."
+
+#: ../../docs/faq/points.rst:51 e01a6f820a7442e1b06821064295af0a
+msgid "成果申报流程"
+msgstr "Achievement Reporting Workflow"
+
+#: ../../docs/faq/points.rst:53 7b1678e7232a4d7c8bc4dbc9b06a1250
+msgid ""
+"成果申报是普通用户获得积分的主要途径。流程是：在 ``成果申报`` 标签下 点击 ``新增成果`` → 填写成果信息 → 提交 → 等待管理员审核 → "
+"审核通 过后积分自动到账。"
+msgstr ""
+"Reporting achievements is the main way regular users earn points. Workflow: "
+"under ``Achievement Reporting``, click ``Add Achievement`` → fill in details"
+" → submit → wait for administrator review → points are credited "
+"automatically after approval."
+
+#: ../../docs/faq/points.rst:57 eb37089b9a27410eae3a4455925d9060
+msgid "在积分页面顶部点击 ``成果申报`` 标签。"
+msgstr ""
+"At the top of the points page, click the ``Achievement Reporting`` tab."
+
+#: ../../docs/faq/points.rst:58 7e378c5a915c412484779ff6fc90120e
+msgid "在子标签栏点击 ``新增成果``。"
+msgstr "In the sub-tab bar, click ``Add Achievement``."
+
+#: ../../docs/faq/points.rst:59 0d171e9cf0b848c8a1adc94d03f6279c
+msgid "填写 ``成果名称`` （必填，例如：基于 SKA 数据的脉冲星搜寻）。"
+msgstr ""
+"Fill in ``Achievement Name`` (required, e.g. pulsar search based on SKA "
+"data)."
+
+#: ../../docs/faq/points.rst:60 5e6e5b504fb44278a8f7ea7c433dcbf3
+msgid "选择 ``成果类型`` （必填，例如：论文、专利、技术报告等， 以页面下拉项为准）。"
+msgstr ""
+"Select ``Achievement Type`` (required, e.g. paper, patent, technical "
+"report—as shown in the drop-down)."
+
+#: ../../docs/faq/points.rst:62 34197dd6709a4b999288cc07b09f667e
+msgid "在 ``成果描述`` 中详细描述成果内容（必填），建议包括："
+msgstr ""
+"Describe the achievement in ``Achievement Description`` (required). "
+"Suggested content:"
+
+#: ../../docs/faq/points.rst:64 9b8737cf2a0841d5bee056d16983989b
+msgid "研究背景与目标。"
+msgstr "Research background and objectives."
+
+#: ../../docs/faq/points.rst:65 49b13eba11f149468fccd52c9d3d36e3
+msgid "使用了平台的哪些资源（如 CPU 核数、运行时长）。"
+msgstr "Which platform resources were used (e.g. CPU cores, runtime)."
+
+#: ../../docs/faq/points.rst:66 4bf80822f21746088b630aaea0d8b7ea
+msgid "成果形式（已发表论文、已授权专利、内部报告等）。"
+msgstr ""
+"Form of the achievement (published paper, granted patent, internal report, "
+"etc.)."
+
+#: ../../docs/faq/points.rst:67 a17bb6e88e964053a1b3c5a710b8abe4
+msgid "关联的项目组或作业 ID（可选）。"
+msgstr "Associated project group or job ID (optional)."
+
+#: ../../docs/faq/points.rst:69 91374a53ba4c4fa489e2e8c6dc53b27f
+msgid "如有相关附件（论文 PDF、报告、图表等），点击 ``上传附件`` 选择 本地文件上传。"
+msgstr ""
+"For attachments (PDF, report, figures, etc.), click ``Upload Attachment`` "
+"and select local files."
+
+#: ../../docs/faq/points.rst:71 eb7878f0e8584da0b7818171d01527f3
+msgid "填写完成后，点击 ``提交审核`` 按钮提交；如暂时不提交可点击 ``保存草稿``；如放弃可点击 ``取 消``。"
+msgstr ""
+"When done, click ``Submit for Review``; click ``Save Draft`` to save without"
+" submitting; click ``Cancel`` to discard."
+
+#: ../../docs/faq/points.rst:73 80771131f64045d991075029a5c97293
+msgid "看到成功提示后，切到 ``我的成果`` 标签可查看刚刚提交的成果。"
+msgstr ""
+"After a success message, switch to ``My Achievements`` to view the "
+"submission."
+
+#: ../../docs/faq/points.rst:79 3112a2989f8a4d859f638859736e65c0
+msgid "新增成果表单"
+msgstr "Add Achievement Form"
+
+#: ../../docs/faq/points.rst:79 a77fd1fde9474dfcb3703a8be0e0f4a3
+msgid "新增成果表单，填写成果名称、类型、描述并上传附件后提交审核。"
+msgstr ""
+"Add Achievement form: fill name, type, description, upload attachments, and "
+"submit for review."
+
+#: ../../docs/faq/points.rst:82 00c055e4f1c541d388abae1bf25f51c1
+msgid "查看我的成果与审核状态"
+msgstr "View My Achievements and Review Status"
+
+#: ../../docs/faq/points.rst:84 9efc0668f7a94dbf874d5567ebf4ebb3
+msgid "在 ``成果申报`` 标签下点击 ``我的成果`` 子标签。"
+msgstr ""
+"Under ``Achievement Reporting``, click the ``My Achievements`` sub-tab."
+
+#: ../../docs/faq/points.rst:85 aa531674da534d22b568a57548488638
+msgid ""
+"列表显示已提交的所有成果，列包含 ``成果名称``、``类型``、 ``积分``、``状态``、``创建时间``、``附件``、``操作``。"
+msgstr ""
+"The list shows all submitted achievements with columns ``Achievement Name``,"
+" ``Type``, ``Points``, ``Status``, ``Created Time``, ``Attachments``, and "
+"``Actions``."
+
+#: ../../docs/faq/points.rst:87 905b9e3597ef41bfbf7e50454d925adc
+msgid "列表上方 ``状态`` 下拉框可按状态筛选。"
+msgstr "Use the ``Status`` drop-down above the list to filter by status."
+
+#: ../../docs/faq/points.rst:88 823cc0760663424f8588a857212618e0
+msgid "点击 ``审核状态`` 子标签可看到各状态对应的说明。"
+msgstr "Click the ``Review Status`` sub-tab for descriptions of each status."
+
+#: ../../docs/faq/points.rst:89 cbd2e8fc02424478aad3b2d87a7dd6e4
+msgid "列表右上角的 ``新增成果`` 按钮可快速再次提交。"
+msgstr ""
+"Use ``Add Achievement`` at the top right of the list to submit again "
+"quickly."
+
+#: ../../docs/faq/points.rst:95 12062781669d49a885c0650490649e95
+msgid "我的成果列表"
+msgstr "My Achievements List"
+
+#: ../../docs/faq/points.rst:95 494312eabe3b41fdb96ad7527a86af7f
+msgid "我的成果列表，列出已提交的所有成果及其审核状态。"
+msgstr "My Achievements list showing all submissions and their review status."
+
+#: ../../docs/faq/points.rst:98 1dae62ba03b846d68bab476f50c90720
+msgid "审核状态说明"
+msgstr "Review Status Descriptions"
+
+#: ../../docs/faq/points.rst:100 9a54c47535794a4c86a3e189bbc0a9c7
+msgid "``待审核``：成果已提交，等待管理员审核。"
+msgstr "``Pending Review``: submitted, awaiting administrator review."
+
+#: ../../docs/faq/points.rst:101 99aa7de3dbab4929944747cb220c9c2f
+msgid "``已通过``：成果通过审核，相应积分已到账。"
+msgstr "``Approved``: passed review; corresponding points have been credited."
+
+#: ../../docs/faq/points.rst:102 afd64a0f2a05447abee51b32806b9319
+msgid "``已驳回``：成果未通过审核，可在备注中查看原因后重新提交。"
+msgstr ""
+"``Rejected``: not approved; see remarks for the reason and resubmit if "
+"needed."
+
+#: ../../docs/faq/points.rst:103 50949355bd7646eca468dca3c66c1731
+msgid "``已撤回``：用户主动撤回的成果。"
+msgstr "``Withdrawn``: achievement withdrawn by the user."
+
+#: ../../docs/faq/points.rst:106 a8c4397cbb0b4c0c836fee0b35c2de83
+msgid "查看积分流水"
+msgstr "View Points History"
+
+#: ../../docs/faq/points.rst:108 19c5837719bd43a2877128cc7e9e2327
+msgid "在积分页面点击 ``积分流水`` 标签。"
+msgstr "On the points page, click the ``Points History`` tab."
+
+#: ../../docs/faq/points.rst:109 fa27c1d4c9c64a9f938a48b0a590a9a1
+msgid "页面展示积分变动明细列表。"
+msgstr "The page shows a list of point transactions."
+
+#: ../../docs/faq/points.rst:110 1cf4d9aa6839439db2298a476c49ecf1
+msgid "每条记录包含时间、类型（获得 / 消耗 / 冻结 / 解冻 / 调整）和说明。"
+msgstr ""
+"Each record includes time, type (earned / spent / frozen / unfrozen / "
+"adjusted), and description."
+
+#: ../../docs/faq/points.rst:116 706da39aeca9473581313ab8ec0203f5
+msgid "积分流水"
+msgstr "Points History"
+
+#: ../../docs/faq/points.rst:116 01c1b3a02652408a82e583a3b57d6b3c
+msgid "积分流水标签页，展示积分变动记录。"
+msgstr "Points History tab showing point transaction records."
+
+#: ../../docs/faq/points.rst:119 e52d2a5804e64fcca3229cb2b9c3a310
+msgid "注意事项"
+msgstr "Notes"
+
+#: ../../docs/faq/points.rst:123 eb318692113f496b84ca95afa32f30d2
+msgid "同一成果请勿重复提交，避免被系统识别为重复并驳回。"
+msgstr ""
+"Do not submit the same achievement twice to avoid duplicate detection and "
+"rejection."
+
+#: ../../docs/faq/points.rst:124 f2d4b63b59ad4973a5c5e530278ed27b
+msgid "管理员审核完成后，积分会直接到账并显示在 ``积分概览`` 的 ``可用 积分`` 中。审核进度可在 ``我的成果`` 列表中查看。"
+msgstr ""
+"After administrator approval, points are credited and shown under "
+"``Available Points`` in ``Points Overview``. Track progress in ``My "
+"Achievements``."
+
+#: ../../docs/faq/points.rst:126 9968c0db06dd4d7fab6b562a447a8f07
+msgid "积分记录或状态异常时，请通过 ``工单管理`` 提交工单联系管理员。 本手册不介绍管理员审批、调整等操作。"
+msgstr ""
+"If point records or status look wrong, submit a ticket via ``Ticket "
+"Management``. This manual does not cover administrator approval or "
+"adjustment operations."
+
+#: ../../docs/faq/points.rst:130 94709a0d8c3d4c328bee87f56efd6427
+msgid "常见问题"
+msgstr "Frequently Asked Questions"
+
+#: ../../docs/faq/points.rst:132 3780960589a846e68317fae982ab46c5
+msgid "**积分怎么获得？** 通过 ``积分管理`` → ``成果申报`` → ``新增成果`` 提交科研成果，管 理员审核通过后积分自动到账。"
+msgstr ""
+"**How do I earn points?** Go to ``Points Management`` → ``Achievement "
+"Reporting`` → ``Add Achievement`` to submit research achievements; points "
+"are credited after administrator approval."
+
+#: ../../docs/faq/points.rst:136 37b822b2a48f4498991e0646b9f7d380
+msgid "**积分可以用来做什么？** 可在 ``服务兑换`` 标签中兑换平台提供的计算服务（具体兑换规则由管 理员发布）。"
+msgstr ""
+"**What can points be used for?** Redeem compute services on the ``Service "
+"Redemption`` tab (rules published by administrators)."
+
+#: ../../docs/faq/points.rst:140 cb4d5ef6c3114fc8b5ba82d6e0cd9d60
+msgid "**已提交的成果可以修改吗？** 提交后处于 ``待审核`` 状态的成果通常可在 ``操作`` 列编辑；已进入 审核流程的成果不可修改。"
+msgstr ""
+"**Can I edit a submitted achievement?** Items in ``Pending Review`` can "
+"usually be edited from ``Actions``; items already in review cannot be "
+"changed."
+
+#: ../../docs/faq/points.rst:144 05c0f1ce676a464f9324f69c27a89188
+msgid "**积分记录异常怎么办？** 在 ``积分流水`` 中核对变动记录。如确认异常，提交工单联系管理员。"
+msgstr ""
+"**Abnormal point records?** Check transactions in ``Points History``. If "
+"confirmed, submit a ticket to contact an administrator."

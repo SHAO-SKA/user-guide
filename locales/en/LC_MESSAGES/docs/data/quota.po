@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2025, cnSRC
+# This file is distributed under the same license as the cnSRC User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cnSRC User Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-16 19:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/data/quota.rst:4 366a188b50634c0ca71ecba7bd12864c
+msgid "配额申请"
+msgstr "Quota Request"
+
+#: ../../docs/data/quota.rst:8 88e50e4eb7494f77b280098a8f942c27
+msgid "流程目标"
+msgstr "Purpose"
+
+#: ../../docs/data/quota.rst:10 06a9acaa70bb490581149337d29da2b8
+msgid "当默认配额（CPU/存储）不足、或需要申请项目组级别的额外资源时，使用 本流程提交配额申请。管理员审批通过后，配额会自动到账。"
+msgstr "When default quotas (CPU/storage) are insufficient, or you need additional project-group-level resources, use this workflow to submit a quota request. After administrator approval, the quota is applied automatically."
+
+#: ../../docs/data/quota.rst:14 f5aba06f863a4f4d9fe06e6d81caccd1
+msgid "进入方式"
+msgstr "How to Access"
+
+#: ../../docs/data/quota.rst:16 a5438a0c09884f9e8fe6f800fcc89c36
+msgid "点击左侧菜单 ``配额申请``，进入配额申请页面。普通用户侧栏默认包含 此菜单。"
+msgstr "Click ``Quota Request`` in the left menu to open the quota request page. This menu is included in the default sidebar for regular users."
+
+#: ../../docs/data/quota.rst:20 514f0294b979406ca33750951538130e
+msgid "页面内容"
+msgstr "Page Overview"
+
+#: ../../docs/data/quota.rst:22 d2086b5ace954f9e96ad9c31856e0ce6
+msgid ""
+"页面顶部是 ``我的申请`` 标签，标签右侧有两个按钮：``刷新`` 和 ``新建 申请``。点击 ``刷新`` 重新载入列表；点击 "
+"``新建申请`` 弹出申请表单。"
+msgstr ""
+"At the top is the ``My Requests`` tab with ``Refresh`` and ``New Request`` buttons on the right. Click ``Refresh`` to reload the list; click ``New Request`` to open the request form."
+
+#: ../../docs/data/quota.rst:25 72b2ad4ce30f45b7a99225f5603e130a
+msgid ""
+"标签下方是申请列表表格，列包含：``申请编号``、``申请人``、``所属项目``、 "
+"``申请金额``、``期望CPU核数``、``期望存储``、``申请理由``、``状态``、 ``提交时间``。"
+msgstr ""
+"Below the tab is a request list table with columns: ``Request ID``, ``Applicant``, ``Project``, ``Requested Amount``, ``Requested CPU Cores``, ``Requested Storage``, ``Reason``, ``Status``, and ``Submitted At``."
+
+#: ../../docs/data/quota.rst:33 73954a3cb6eb453fa34c236a09387c30
+msgid "配额申请页面"
+msgstr "Quota request page"
+
+#: ../../docs/data/quota.rst:33 50e1b1b283014dddb0f7f1d499503612
+msgid "配额申请页面，含 ``我的申请`` 标签、``刷新`` 和 ``新建申请`` 按钮、 申请列表表格。"
+msgstr "Quota request page with the ``My Requests`` tab, ``Refresh`` and ``New Request`` buttons, and the request list table."
+
+#: ../../docs/data/quota.rst:37 c9ae75bda5214494ba0388c5257361da
+msgid "新建申请流程"
+msgstr "New Request Workflow"
+
+#: ../../docs/data/quota.rst:39 790db9fcb6624ace8c5da6666633aa07
+msgid "在配额申请页面点击 ``新建申请`` 按钮，弹出 ``新建配额申请`` 表单。"
+msgstr "On the quota request page, click ``New Request`` to open the ``New Quota Request`` form."
+
+#: ../../docs/data/quota.rst:40 b5d76b2d948e486bad59bf4c519b829d
+msgid "填写表单字段："
+msgstr "Fill in the form fields:"
+
+#: ../../docs/data/quota.rst:42 ad53de1abc0d460f970e5a934a89067f
+msgid "``申请金额（元）``：必填，希望申请的资源金额（单位：元）。"
+msgstr "``Requested Amount (CNY)``: Required. The resource amount you wish to request (in yuan)."
+
+#: ../../docs/data/quota.rst:43 410bec5fd3b848208168d778d3dfcced
+msgid "``期望 CPU 配额（核数，可选）``：希望获得的 CPU 核数（如不填则 仅申请金额）。"
+msgstr "``Requested CPU Quota (cores, optional)``: Desired CPU core count (leave blank to request amount only)."
+
+#: ../../docs/data/quota.rst:45 f641b399bbb94a1f991e66de022b63df
+msgid "``期望存储空间（可选）``：希望获得的存储空间，单位 GB（如不填 则仅申请金额）。"
+msgstr "``Requested Storage (optional)``: Desired storage in GB (leave blank to request amount only)."
+
+#: ../../docs/data/quota.rst:47 6bcdec5de53e47a0989aa4c78c7857f5
+msgid "``所属项目组（可选）``：下拉选择项目组；不填则为个人申请。"
+msgstr "``Project Group (optional)``: Select a project group from the dropdown; leave blank for a personal request."
+
+#: ../../docs/data/quota.rst:48 cefab859bfe74be9ad82b6d8d9862068
+msgid "``申请理由``：必填，简要说明申请原因，例如：因 XX 项目数据量 大，需要额外存储空间。"
+msgstr "``Reason``: Required. Briefly explain why you need the quota, for example: project XX has large data volume and needs additional storage."
+
+#: ../../docs/data/quota.rst:51 c3831e6f12c7415c8a525019a5e80008
+msgid "确认无误后点击 ``提 交`` 按钮；如放弃可点击 ``取 消``。"
+msgstr "Click ``Submit`` when ready, or ``Cancel`` to discard."
+
+#: ../../docs/data/quota.rst:52 06b51bd233c84e6a9356f50ae5786c43
+msgid "看到提交成功提示后，新申请出现在 ``我的申请`` 列表中，状态为 ``待审批``。"
+msgstr "After a successful submission, the new request appears in ``My Requests`` with status ``Pending Approval``."
+
+#: ../../docs/data/quota.rst:59 35ad26d44eaa402cab0ba6f74202ebff
+msgid "新建配额申请表单"
+msgstr "New quota request form"
+
+#: ../../docs/data/quota.rst:59 b7f7785717db4429821006ff1f3882ce
+msgid "新建配额申请表单，含申请金额、CPU 配额、存储空间、所属项目组、 申请理由字段。"
+msgstr "New quota request form with amount, CPU quota, storage, project group, and reason fields."
+
+#: ../../docs/data/quota.rst:63 110fb177b5764bd7a9ebc3411ee2303e
+msgid "查看申请状态"
+msgstr "Check Request Status"
+
+#: ../../docs/data/quota.rst:65 d3002c5ac1fa40029766557e39b6049e
+msgid "申请提交后，状态会自动流转："
+msgstr "After submission, status progresses automatically:"
+
+#: ../../docs/data/quota.rst:67 230ac5c57fbc471999682ff8b36bef3c
+msgid "``待审批``：申请已提交，等待管理员审核。"
+msgstr "``Pending Approval``: Submitted and awaiting administrator review."
+
+#: ../../docs/data/quota.rst:68 ad381009a4c440168d4f2cd830b410e9
+msgid "``已通过``：申请通过，相应配额已到账。"
+msgstr "``Approved``: Approved; the quota has been applied."
+
+#: ../../docs/data/quota.rst:69 22c56a719f674698919199fd78fa1d20
+msgid "``已驳回``：申请未通过，可在申请列表查看驳回原因。"
+msgstr "``Rejected``: Not approved; view the reason in the request list."
+
+#: ../../docs/data/quota.rst:72 49fe3491c3ff4dd0927ea4595ef543c0
+msgid "注意事项"
+msgstr "Notes"
+
+#: ../../docs/data/quota.rst:76 51a69a60ed2f4bb19bbc3ff358fcc136
+msgid "申请提交后不可直接修改，如需调整参数可联系管理员驳回后重新提 交。"
+msgstr "Requests cannot be edited after submission. To change parameters, ask an administrator to reject the request and submit again."
+
+#: ../../docs/data/quota.rst:78 b57217e14d73445787503997d50309af
+msgid "``申请金额`` 和 ``申请理由`` 是必填字段，其他字段选填；不填 的字段表示不申请该项资源。"
+msgstr "``Requested Amount`` and ``Reason`` are required; other fields are optional. Blank fields mean you are not requesting that resource type."
+
+#: ../../docs/data/quota.rst:80 8561506100e74cf88cfe6931c41f3756
+msgid "资源到账需要时间，请耐心等待管理员审批；如长时间未处理，可提 交工单询问。"
+msgstr "Quota application takes time. Wait for administrator approval; if there is no response for a long time, submit a ticket to inquire."
+
+#: ../../docs/data/quota.rst:85 dec87a259e6844748962e627d384c29f
+msgid "请如实填写申请金额和理由。频繁申请小额资源可能被管理员驳回。"
+msgstr "Provide accurate amounts and reasons. Frequent small requests may be rejected by administrators."

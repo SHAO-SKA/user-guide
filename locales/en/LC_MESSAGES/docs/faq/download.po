@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2025, cnSRC
+# This file is distributed under the same license as the cnSRC User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cnSRC User Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-16 19:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/faq/download.rst:5 a88d37aedeb8428790e3a2c719aa1fd3
+msgid "Data Download"
+msgstr "Data Download"
+
+#: ../../docs/faq/download.rst:8 ada4c7ec5d9e40308157911ec83bded9
+msgid "unable to resolve host address"
+msgstr "unable to resolve host address"
+
+#: ../../docs/faq/download.rst:10 af670a91b3484911846f4d9cb607f5c6
+msgid ""
+"When downloading data, if you encounter this error, please check if your "
+"network connection is working properly."
+msgstr ""
+"When downloading data, if you encounter this error, please check if your "
+"network connection is working properly."
+
+#: ../../docs/faq/download.rst:25 f05930b7cc7b455e840e207793bdc455
+msgid "Looks like the network connection is working properly."
+msgstr "Looks like the network connection is working properly."
+
+#: ../../docs/faq/download.rst:27 80ce7602035749ccb20d1b1f3a11c4ca
+msgid ""
+"If the network connection is fine, verify that your DNS settings are "
+"configured correctly."
+msgstr ""
+"If the network connection is fine, verify that your DNS settings are "
+"configured correctly."
+
+#: ../../docs/faq/download.rst:35 20fa0ca94ae74151973f90c7d85a3693
+msgid ""
+"If the DNS settings are not configured correctly, you can try to configure "
+"them manually."
+msgstr ""
+"If the DNS settings are not configured correctly, you can try to configure "
+"them manually."
+
+#: ../../docs/faq/download.rst:43 71b354399194439eb75e65c356c08bbc
+msgid ""
+"> Make sure you include 8.8.8.8 as a nameserver as this is a public DNS "
+"server."
+msgstr ""
+"> Make sure you include 8.8.8.8 as a nameserver as this is a public DNS "
+"server."
+
+#: ../../docs/faq/download.rst:45 47af6a1c509d4d4b9652b9245f5c7214
+msgid "If the problem persists, please contact the data center technicians."
+msgstr "If the problem persists, please contact the data center technicians."

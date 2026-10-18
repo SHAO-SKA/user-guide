@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2025, cnSRC
+# This file is distributed under the same license as the cnSRC User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cnSRC User Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-16 19:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/login/logout.rst:4 b4e9c6cc6702492fac9501e25236c1bc
+msgid "退出平台"
+msgstr "Logging out of the platform"
+
+#: ../../docs/login/logout.rst:7 624f464c55574651bb1cde7e0d9bcbdb
+msgid "流程目标"
+msgstr "Purpose"
+
+#: ../../docs/login/logout.rst:9 942ef4f28c2740d78bdfcdcbb4c9a7e6
+msgid "帮助用户安全结束使用。"
+msgstr "Help users end their session safely."
+
+#: ../../docs/login/logout.rst:12 b4fd5747991d40e98bee7601140d56b4
+msgid "进入方式"
+msgstr "How to access"
+
+#: ../../docs/login/logout.rst:14 79cbf422ab1945a8ab90dd1f50858dd3
+msgid "点击页面右上角的 ``用户名`` 头像，弹出下拉菜单。"
+msgstr ""
+"Click the ``Username`` avatar at the top right to open the dropdown menu."
+
+#: ../../docs/login/logout.rst:17 26a0cc7a9a9f45a9b2a054ed35d6c1e8
+msgid "操作步骤"
+msgstr "Steps"
+
+#: ../../docs/login/logout.rst:19 2486b5cd107f464781767d31ee321567
+msgid "保存当前应用中的文件。"
+msgstr "Save files in your current applications."
+
+#: ../../docs/login/logout.rst:20 0a9c3c4fd76c499285995fd219a8ea69
+msgid "关闭不再使用的应用（在 ``应用列表`` 页面点击对应卡片上的 ``关 闭``）。"
+msgstr ""
+"Close apps you no longer need (on ``Application List``, click ``Close`` on "
+"the card)."
+
+#: ../../docs/login/logout.rst:21 c1283b557eb74485bae9dcb09fb6028e
+msgid "点击右上角头像打开下拉菜单。"
+msgstr ""
+"Click the avatar in the upper-right corner to open the drop-down menu."
+
+#: ../../docs/login/logout.rst:22 2d4c41df41ed4da5b184bf23092b2b17
+msgid "在下拉菜单中点击 ``退出登录``。"
+msgstr "Click ``Log Out`` in the dropdown menu."
+
+#: ../../docs/login/logout.rst:23 21479635a2e1484eaa50a4a3c212650d
+msgid "确认返回到登录页。"
+msgstr "Confirm that you are returned to the login page."
+
+#: ../../docs/login/logout.rst:29 bc8bc424a69649f19d45b75583e99f3f
+msgid "退出登录菜单"
+msgstr "Logout menu"
+
+#: ../../docs/login/logout.rst:29 8d8b451d5d554d9a9958842005d00c5b
+msgid "点击右上角头像后弹出的下拉菜单，包含 ``个人信息`` ``修改密码`` ``退出登录`` 等。"
+msgstr ""
+"Dropdown after clicking the top-right avatar, including ``Profile``, "
+"``Change Password``, ``Log Out``, etc."
+
+#: ../../docs/login/logout.rst:33 28a8e78837a04d5cbfd5e7bb997c9483
+msgid "注意事项"
+msgstr "Notes"
+
+#: ../../docs/login/logout.rst:37 f3e89d3d0ab24b1d99d43b7c94a2a623
+msgid "关闭浏览器窗口不一定等同停止应用或释放作业资源，必须回到 ``应用列表`` 页面点击 ``关 闭`` 才能真正结束应用并释放资源。"
+msgstr ""
+"Closing the browser does not necessarily stop apps or release job resources;"
+" return to ``Application List`` and click ``Close`` to end the app and free "
+"resources."
+
+#: ../../docs/login/logout.rst:41 3ff1c279662f4ef6a8db662d25cbe325
+msgid "常见问题"
+msgstr "Common questions"
+
+#: ../../docs/login/logout.rst:43 beee1c3c67614c1081c35db4a4a8c315
+msgid "**退出登录后应用是否会自动关闭？** 不会。必须先在 ``应用列表`` 页面点击 ``关 闭``，然后再退出登录。"
+msgstr ""
+"**Do apps close automatically after logout?** No. Click ``Close`` on "
+"``Application List`` first, then log out."

@@ -22,9 +22,8 @@ msgstr ""
 
 #: ../../docs/mode/index.rst:3 84ecea6defc546dc8861e8eec98b6c02
 msgid "模式与实例"
-msgstr ""
+msgstr "Usage Modes and Instances"
 
 #: ../../docs/mode/index.rst:7 f265761733c246989e70010cb10aa20a
 msgid "本章介绍使用模式与用户实例。"
-msgstr ""
-
+msgstr "This chapter introduces usage modes and user instances."

@@ -4,130 +4,148 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-05 08:58+0800\n"
+"POT-Creation-Date: 2026-10-16 19:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: ../../docs/data/storage.rst:3 03aca3742dc74c7894b988463be1a83b
+#: ../../docs/data/storage.rst:3 d60975723de643bcbf141274ff3a784b
 msgid "数据存储"
 msgstr "Data Storage"
 
-#: ../../docs/data/storage.rst:5 a8b9ab65d41d4b97831e00a932261a4e
-msgid "本章介绍ChinaSRC-P存储情况"
-msgstr "This chapter introduces the storage situation of ChinaSRC-P"
+#: ../../docs/data/storage.rst:5 fa0d0c3c98444a26b15621597a61b3da
+msgid "本章介绍cnSRC存储情况"
+msgstr "This chapter describes cnSRC storage."
 
-#: ../../docs/data/storage.rst:9 6523dd355904442491a920573a5844ca
-msgid "ChinaSRC平台存储情况"
-msgstr "ChinaSRC Platform Storage Situation"
+#: ../../docs/data/storage.rst:9 d2fbf9a54a404cf1963e0baa57e2f379
+msgid "cnSRC平台存储情况"
+msgstr "cnSRC Platform Storage"
 
 #: ../../docs/data/storage.rst:11 ../../docs/data/storage.rst:30
-#: af47dc4eed734d1db128eed9a4049e43 ffb526b7fd4845909fe58620df4dc687
-msgid "ChinaSRC-P 文件系统包括："
-msgstr "ChinaSRC-P file system includes:"
+#: 72024fe4326f4df6872ebd6612234de6 fcc4498480ec4bb68464dd74cee2e81b
+msgid "cnSRC 文件系统包括："
+msgstr "The cnSRC file systems include:"
 
-#: ../../docs/data/storage.rst:1 17830db20e814338ae3d773d97a807ae
+#: ../../docs/data/storage.rst:1 3372f1250a664cb383e6ce35ed0db221
 msgid "序号"
 msgstr "No."
 
-#: ../../docs/data/storage.rst:1 c6c0f9c604e7486caa8c27fcd0c64353
+#: ../../docs/data/storage.rst:1 d753098a444a42c395485efd38ac2634
 msgid "目录"
 msgstr "Content"
 
-#: ../../docs/data/storage.rst:1 4bb19f05af5e4927910fa3558b1db774
+#: ../../docs/data/storage.rst:1 49792c7512ee42cd9705f9639354f8d1
 msgid "备注"
 msgstr "Remark"
 
-#: ../../docs/data/storage.rst:1 94950223b8c64e2491e38ca74007992a
+#: ../../docs/data/storage.rst:1 613e1328b81a453999c4fa3be6c5a748
 msgid "1"
-msgstr ""
+msgstr "1"
 
-#: ../../docs/data/storage.rst:1 642cee90588e4123ab8575469f5de481
+#: ../../docs/data/storage.rst:1 88ac883416f04b5e9dd27d390e9d8960
 msgid "/home/username"
-msgstr ""
+msgstr "/home/username"
 
-#: ../../docs/data/storage.rst:1 800c3c81931044acacd18f02293dafc8
+#: ../../docs/data/storage.rst:1 a6600811e5c0440aa2cafa3d3f03fbdc
 msgid "用于用户个人数据和结果数据存储"
 msgstr "Storage for user personal data and result data"
 
-#: ../../docs/data/storage.rst:1 0b7d4a9cec32429aafd8946996e10bae
+#: ../../docs/data/storage.rst:1 2e4fc06c5cdd4341ac38404f711f4cc4
 msgid "2"
-msgstr ""
+msgstr "2"
 
-#: ../../docs/data/storage.rst:1 dc9558d793c14d67a9fc59723b4d0320
+#: ../../docs/data/storage.rst:1 de9e87f8924e4fbba16ece750adc5096
 msgid "/p9550"
-msgstr ""
+msgstr "/p9550"
 
-#: ../../docs/data/storage.rst:1 fd7ddf5b8ac1430eafcb173ee06635bf
+#: ../../docs/data/storage.rst:1 a67caabedde54d68b1992adabe43db02
 msgid "用于存储原始观测数据"
 msgstr "Storage for observation raw data"
 
-#: ../../docs/data/storage.rst:19 17d61b28353f452a94b2e6e09ab19b02
-msgid "目前，ChinaSRC-P系统存储超过了2PB左右的数据， 包括MWA、ASKAP、MeerKAT、VLBI望远镜等的观测数据。"
-msgstr "Currently, ChinaSRC-P system stores more than 2PB of data, including observation data from MWA, ASKAP, MeerKAT, VLBI telescopes, etc."
+#: ../../docs/data/storage.rst:19 a44d2a05024640e5a515cd6bbc9355e7
+msgid "目前，cnSRC系统存储超过了2PB左右的数据， 包括MWA、ASKAP、MeerKAT、VLBI望远镜等的观测数据。"
+msgstr ""
+"Currently, the cnSRC system stores more than about 2 PB of data, including "
+"observation data from MWA, ASKAP, MeerKAT, VLBI telescopes, and others."
 
 #: ../../docs/data/storage.rst:22 ../../docs/data/storage.rst:47
-#: 0dc4bea4092d424383fc1b55ce825fb5 4bad47e5e9b54573a2b0a7e238a9a08f
+#: 2b0245bbdbde4e81b60bfc2e31d618b9 bf8b1c0253de4e24bd57f946085059eb
 msgid "主要数据分组情况：MWA/GLEAM组、 MWA/Pulsar组和ASKAP组。"
-msgstr "Main data grouping situation: MWA/GLEAM group, MWA/Pulsar group and ASKAP group."
+msgstr ""
+"Main data grouping situation: MWA/GLEAM group, MWA/Pulsar group and ASKAP"
+" group."
 
 #: ../../docs/data/storage.rst:24 ../../docs/data/storage.rst:49
-#: 0259f964499a423b9cf8e7497846c9a5 e7a861db76ca421281fb021684998569
+#: 779f20fd095f4d59b32e83dbb816d449 db952b0a79c44473aeee3a361f27fc91
 msgid "如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 shaoska@shao.ac.cn  咨询。"
-msgstr "If you need to use the data in these groups, or need to upload and store a large amount of data, please send an email to"
+msgstr ""
+"If you need to use data in these groups, or need to upload and store a large "
+"amount of data, please email shaoska@shao.ac.cn for assistance."
 
-#: ../../docs/data/storage.rst:28 acfc593c10ec4c5cb588ae03a4e0db27
+#: ../../docs/data/storage.rst:28 2380e0db99254bbdb2b160d5504a4f4f
 msgid "旧平台 - 待移除 V1"
 msgstr "Old Platform - To be removed V1"
 
-#: ../../docs/data/storage.rst:32 f1041bac3e264e978f322afd30abab59
+#: ../../docs/data/storage.rst:32 5b36723bec7748ecbac7c23e823e91b6
 msgid "/ssd"
-msgstr ""
+msgstr "/ssd"
 
-#: ../../docs/data/storage.rst:33 94cfb9bab63d41998341bcdc08af9a2d
+#: ../../docs/data/storage.rst:33 2fa2906f3781482e93e5c7f4890d441b
 msgid "/o9000"
-msgstr ""
+msgstr "/o9000"
 
-#: ../../docs/data/storage.rst:34 b2288274573448bdaf91afd89d0d8593
+#: ../../docs/data/storage.rst:34 3057f8bceb2d4ab2862ae010cfe28408
 msgid "/ibo9000"
-msgstr ""
+msgstr "/ibo9000"
 
-#: ../../docs/data/storage.rst:35 77ec7d842a9f442793e9c72be4afcaf4
+#: ../../docs/data/storage.rst:35 0ee181f81610450ca60eaa8a71ca7faa
 msgid "/p9500"
-msgstr ""
+msgstr "/p9500"
 
-#: ../../docs/data/storage.rst:37 97fb6abe29a5443d969f8d717dc56f85
+#: ../../docs/data/storage.rst:37 72079b872dd54c03bd6040577facee19
 msgid "四个分区。"
 msgstr "Four partitions."
 
-#: ../../docs/data/storage.rst:39 8f7ee074c0094781ab0d162ba53810eb
+#: ../../docs/data/storage.rst:39 1b0166a40e534b329a71c4375f6f1433
 msgid "/home和/ssd分区主要用于用户个人数据和结果数据存储，"
-msgstr "/home and /ssd partitions are mainly used for user personal data and result data storage,"
+msgstr ""
+"/home and /ssd partitions are mainly used for user personal data and "
+"result data storage,"
 
-#: ../../docs/data/storage.rst:40 8d3bcec578bb4cc1811c4b6c1e686a8b
+#: ../../docs/data/storage.rst:40 f135fdac93074a949268310fd94a7c65
 msgid "/o9000主要用于处理数据的长期存储。"
 msgstr "/o9000 is mainly used for long-term storage of processing data."
 
-#: ../../docs/data/storage.rst:41 cb1a921f46a745b19f66c58b4c7da9c7
+#: ../../docs/data/storage.rst:41 5a05cfbdecfc44108b4b1b03fa5c34ff
 msgid "/ibo9000主要用于存储处理数据数据。"
 msgstr "/ibo9000 is mainly used for storage of processing data data."
 
-#: ../../docs/data/storage.rst:42 b701273743be40babb524c2619401ec6
+#: ../../docs/data/storage.rst:42 68a01307d54746028483f563e96fe825
 msgid "/p9500主要用于存储原始观测数据。"
 msgstr "/p9500 is mainly used for storage of raw observation data."
 
-#: ../../docs/data/storage.rst:44 b0be5b625d59487184cb7f8b792a2345
-msgid "目前，ChinaSRC-P系统存储了约2PB左右的数据， 包括MWA、ASKAP和VLBI望远镜的观测数据。"
-msgstr "Currently, ChinaSRC-P system stores about 2PB of data, including observation data from MWA, ASKAP and VLBI telescopes."
+#: ../../docs/data/storage.rst:44 ddfd54ab8eea4511928256f8bb0d75bb
+msgid "目前，cnSRC系统存储了约2PB左右的数据， 包括MWA、ASKAP和VLBI望远镜的观测数据。"
+msgstr ""
+"Currently, the cnSRC system stores about 2 PB of data, including "
+"observation data from MWA, ASKAP, and VLBI telescopes."
+
+#~ msgid "本章介绍ChinaSRC-P存储情况"
+#~ msgstr "This chapter introduces the storage situation of ChinaSRC-P"
+
+#~ msgid "ChinaSRC平台存储情况"
+#~ msgstr "ChinaSRC Platform Storage Situation"
+
+#~ msgid "ChinaSRC-P 文件系统包括："
+#~ msgstr "ChinaSRC-P file system includes:"
 

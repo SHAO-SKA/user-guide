@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2025, cnSRC
+# This file is distributed under the same license as the cnSRC User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cnSRC User Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-16 19:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/faq/tickets.rst:4 0e782a2300f84a21bb0c9c0ca4ea60a6
+msgid "提交问题工单"
+msgstr "Submit a Support Ticket"
+
+#: ../../docs/faq/tickets.rst:7 738a5b334844417fa429b1cf82c7c212
+msgid "流程目标"
+msgstr "Goal"
+
+#: ../../docs/faq/tickets.rst:9 d006d4e884b44e868cb1304b9611464f
+msgid "帮助用户在遇到问题时提交完整、可处理的工单。"
+msgstr ""
+"Help users submit complete, actionable tickets when they encounter problems."
+
+#: ../../docs/faq/tickets.rst:12 3b916d9310f0429bb213e83db2e33211
+msgid "进入方式"
+msgstr "How to Access"
+
+#: ../../docs/faq/tickets.rst:14 2e609d395b2a47969b5faa0d83f12a5c
+msgid "点击左侧菜单 ``工单管理``，进入工单页面。页面 默认显示 ``提交工单`` 表单。"
+msgstr ""
+"Click ``Ticket Management`` in the left menu. The page opens to the ``Submit"
+" Ticket`` form by default."
+
+#: ../../docs/faq/tickets.rst:18 c51a692f36c54cf6a67a2d7ac6a117a5
+msgid "页面内容"
+msgstr "Page Contents"
+
+#: ../../docs/faq/tickets.rst:20 8affb649b6054b3fbf4ada97be89ca14
+msgid "``提交工单`` 表单包含字段："
+msgstr "The ``Submit Ticket`` form includes:"
+
+#: ../../docs/faq/tickets.rst:22 50affcfb01eb4a1a8cd8d683f9bb4f95
+msgid "``工单标题``：不超过 255 字符。"
+msgstr "``Ticket Title``: up to 255 characters."
+
+#: ../../docs/faq/tickets.rst:23 1708b3189d874bf796eb61d423dbc43b
+msgid "``工单分类``：默认 ``其他``，可根据问题类型选择。"
+msgstr "``Ticket Category``: default ``Other``; choose by problem type."
+
+#: ../../docs/faq/tickets.rst:24 cc35cc8bd728458d93a6dccd40742eb5
+msgid "``优先级``：默认 ``普通``。"
+msgstr "``Priority``: default ``Normal``."
+
+#: ../../docs/faq/tickets.rst:25 8513663fa584422ba867ea0fc36cead1
+msgid "``工单描述``：不超过 5000 字符，建议按模板填写（见下文）。"
+msgstr ""
+"``Ticket Description``: up to 5,000 characters; use the template below."
+
+#: ../../docs/faq/tickets.rst:26 28ab4495703d4de68460534f50d3a5dc
+msgid "``联系人姓名``、``联系邮箱``、``联系电话``：可选联系方式。"
+msgstr ""
+"``Contact Name``, ``Contact Email``, ``Contact Phone``: optional contact "
+"details."
+
+#: ../../docs/faq/tickets.rst:27 99631b223fc74981a3e23de5c770f6ca
+msgid "``重 置`` 与 ``提交工单`` 两个按钮。"
+msgstr "``Reset`` and ``Submit Ticket`` buttons."
+
+#: ../../docs/faq/tickets.rst:33 c35bbae478404b77a00f312199f6f890
+msgid "提交工单表单"
+msgstr "Submit Ticket Form"
+
+#: ../../docs/faq/tickets.rst:33 3359ab46c66248a4a456105d0e177c19
+msgid "提交工单表单，包含标题、分类、优先级、描述等字段。"
+msgstr ""
+"Submit Ticket form with title, category, priority, description, and other "
+"fields."
+
+#: ../../docs/faq/tickets.rst:36 d8846e890df64fa0a1ffce108e5e6efd
+msgid "提交工单流程"
+msgstr "Submit Ticket Workflow"
+
+#: ../../docs/faq/tickets.rst:38 70b0a871ee5d4f8db39214d9a42db49b
+msgid "在 ``工单标题`` 输入框中简要描述问题（例如 ``应用启动失败``）。"
+msgstr ""
+"Briefly describe the problem in ``Ticket Title`` (e.g. ``Application failed "
+"to start``)."
+
+#: ../../docs/faq/tickets.rst:39 ec51b4a966d34f8083b501449cffe52d
+msgid "选择 ``工单分类`` 与 ``优先级``。"
+msgstr "Select ``Ticket Category`` and ``Priority``."
+
+#: ../../docs/faq/tickets.rst:40 f3826c713ef644bc822b9cce3ba8c88f
+msgid "在 ``工单描述`` 中按工单描述模板填写。"
+msgstr "Fill ``Ticket Description`` using the template below."
+
+#: ../../docs/faq/tickets.rst:41 69fedab22ab1403a837b82b953ffb810
+msgid "如需回复，填写 ``联系人姓名``、``联系邮箱``、``联系电话``。"
+msgstr ""
+"For replies, fill in ``Contact Name``, ``Contact Email``, and ``Contact "
+"Phone``."
+
+#: ../../docs/faq/tickets.rst:42 21f9ed30f2844ca282cb24b06a773c44
+msgid "点击 ``提交工单`` 按钮。"
+msgstr "Click ``Submit Ticket``."
+
+#: ../../docs/faq/tickets.rst:43 2b9a2e00be4b4b4682e7406fd5deb296
+msgid "看到成功提示后，进入 ``我的工单`` 查看刚提交的工单。"
+msgstr "After a success message, open ``My Tickets`` to view the submission."
+
+#: ../../docs/faq/tickets.rst:49 a63e93e5a710487f9462338f46e8449f
+msgid "工单填写示例"
+msgstr "Ticket Example"
+
+#: ../../docs/faq/tickets.rst:49 fa86210218b246b9b899e72631c93ff6
+msgid "工单填写示例。"
+msgstr "Example of a filled ticket."
+
+#: ../../docs/faq/tickets.rst:52 cc2738f49e9749aa8af40e536560dd85
+msgid "工单描述模板"
+msgstr "Ticket Description Template"
+
+#: ../../docs/faq/tickets.rst:54 c1398ccaea1849dc9d12b6bbd2a1130d
+msgid "建议在 ``工单描述`` 中按以下格式填写："
+msgstr "Suggested format for ``Ticket Description``:"
+
+#: ../../docs/faq/tickets.rst:56 e324c0ebf11043308a6172418ece46da
+msgid "``问题页面``：访问的具体页面名称或路径。"
+msgstr "``Problem Page``: page name or path you were visiting."
+
+#: ../../docs/faq/tickets.rst:57 57a19a6fdd1545499c6ca84a2edb488f
+msgid "``发生时间``：出现问题的时间点。"
+msgstr "``Time Occurred``: when the problem happened."
+
+#: ../../docs/faq/tickets.rst:58 a1d8d0c547e74b16b5ffa5117ed73341
+msgid "``操作步骤``：触发出问题的具体步骤。"
+msgstr "``Steps Taken``: steps that triggered the problem."
+
+#: ../../docs/faq/tickets.rst:59 e17c46a6474447ebaaf4f0f702269fc2
+msgid "``实际结果``：页面实际显示的内容或报错信息。"
+msgstr "``Actual Result``: what the page showed or the error message."
+
+#: ../../docs/faq/tickets.rst:60 294340edf39543bbba4e6721c2776a07
+msgid "``期望结果``：期望的正常表现。"
+msgstr "``Expected Result``: what you expected to happen."
+
+#: ../../docs/faq/tickets.rst:61 c3974e97199e4ab09f833f5dd5f21396
+msgid "``相关应用或作业 ID``：如有关联的应用名或作业 ID，请填写。"
+msgstr ""
+"``Related Application or Job ID``: application name or job ID if applicable."
+
+#: ../../docs/faq/tickets.rst:64 2f8eb486ad15455b816ad4950d40e3c3
+msgid "查看我的工单"
+msgstr "View My Tickets"
+
+#: ../../docs/faq/tickets.rst:66 e08836e68cb44cdda442405b68d8a6c5
+msgid "在工单管理页面顶部点击 ``我的工单`` 标签。"
+msgstr "At the top of Ticket Management, click the ``My Tickets`` tab."
+
+#: ../../docs/faq/tickets.rst:67 39cd12a196b249bdb95d9fa234fab8f3
+msgid "在列表中找到刚提交的工单。"
+msgstr "Find the ticket you just submitted in the list."
+
+#: ../../docs/faq/tickets.rst:68 5a6e4605747e4811ac23c3527a17889c
+msgid "点击工单行打开详情，查看状态和处理进度。"
+msgstr "Click the ticket row to open details and view status and progress."
+
+#: ../../docs/faq/tickets.rst:74 07ef46ccb3c140ef9b848181f428bc05
+msgid "我的工单"
+msgstr "My Tickets"
+
+#: ../../docs/faq/tickets.rst:74 7d4f409f52054b57b1bbb89ac5f03a4b
+msgid "我的工单列表。"
+msgstr "My Tickets list."
+
+#: ../../docs/faq/tickets.rst:77 f51114343f7b4223ac9d9294faa3df47
+msgid "常见问题"
+msgstr "Frequently Asked Questions"
+
+#: ../../docs/faq/tickets.rst:79 358264a4c9104999a97bae3a0e3738b4
+msgid "**工单提交失败怎么办？** 检查 ``工单标题`` 是否已填写、``工单描述`` 是否超出 5000 字符限制； 修正后重新提交。"
+msgstr ""
+"**Ticket submission failed?** Ensure ``Ticket Title`` is filled and ``Ticket"
+" Description`` is within 5,000 characters, then submit again."
+
+#: ../../docs/faq/tickets.rst:83 c4b60220ba9f49fc990109cac186441b
+msgid "**页面提示权限不足怎么办？** 确认当前登录账号是普通用户角色；如账号异常请提交另一个工单联系管理 员处理。"
+msgstr ""
+"**Insufficient permissions?** Confirm you are logged in as a regular user. "
+"If the account looks wrong, submit another ticket for administrator help."

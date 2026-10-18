@@ -4,47 +4,111 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-
 msgid ""
 msgstr ""
-"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Project-Id-Version: ChinaSRC-P User Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 12:32+0800\n"
+"POT-Creation-Date: 2026-10-16 19:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: ../../docs/faq/index.rst:5 393c024f42ce4f60949be6fd3d985844
-msgid "常见问题集锦"
+#: ../../docs/faq/index.rst:5 0c22cf1d607f414a894d14b1613223cd
+msgid "Frequently Asked Questions"
 msgstr "Frequently Asked Questions"
 
-#: ../../docs/faq/index.rst:8 26b46732155b4d019ae978fb34ff8e38
-msgid "本章列举使用过程中经常遇到的问题及解决方法。"
-msgstr "This chapter lists the problems and solutions that are often encountered in the process of use."
+#: ../../docs/faq/index.rst:8 537b0ff96cf0446e8a382e13e13d84fc
+msgid ""
+"This chapter lists frequently asked questions and solutions during the use "
+"process."
+msgstr ""
+"This chapter lists frequently asked questions and solutions during the use "
+"process."
 
-#: ../../docs/faq/index.rst:13 709b4b717a114e0a8228b7da7486c3ca
-msgid "由于手册篇幅限制，只列出了对于绝大多是用户比较重要的相关内容，如您有其他需求也可以联系数据中心技术人员。 重要提示："
-msgstr "Because of the limited length of the manual, only the relevant content that is very important to most users is listed. If you have other needs, you can also contact the data center technical staff. Important tips:"
+#: ../../docs/faq/index.rst:13 cefd4dbfe2c341e0aed6199db97786e5
+msgid ""
+"Due to the length of the manual, only the most important content for most "
+"users is listed. If you have other needs, please contact the data center "
+"technicians. Important tips:"
+msgstr ""
+"Due to the length of the manual, only the most important content for most "
+"users is listed. If you have other needs, please contact the data center "
+"technicians. Important tips:"
 
-#: ../../docs/faq/index.rst:16 85890471bb144c75988e1b66716adbe9
-msgid "请不要在登录节点直接运行可执行程序（极大的影响其他用户的登录和使用效率）。"
-msgstr "Please do not run executable programs directly on the login node (which greatly affects the login and use efficiency of other users)."
+#: ../../docs/faq/index.rst:16 9930fd5a0fdf46ea8e561986c35a7802
+msgid ""
+"Please do not run executable programs directly on the login node (it greatly"
+" affects the login and use efficiency of other users)."
+msgstr ""
+"Please do not run executable programs directly on the login node (it greatly"
+" affects the login and use efficiency of other users)."
 
-#: ../../docs/faq/index.rst:17 0befe23bc2234ed7b8f89610688a8286
-msgid "如无特殊需要，请使用批处理方式（sbatch）提交任务，如果有任何问题请联系数据中心技术人员。"
-msgstr "Please use batch processing (sbatch) to submit tasks unless you have special needs. If you have any questions, please contact the data center technical staff."
+#: ../../docs/faq/index.rst:17 69353fe053b94f058feffcb88d601008
+msgid ""
+"If there is no special need, please submit tasks using batch processing "
+"(sbatch). If you have any questions, please contact the data center "
+"technicians."
+msgstr ""
+"If there is no special need, please submit tasks using batch processing "
+"(sbatch). If you have any questions, please contact the data center "
+"technicians."
 
-#: ../../docs/faq/index.rst:18 5d4795ceccf34e48848f15d0ab5a863b
-msgid "请保存好运行程序的log文件，从而方便数据中心技术人员在作业出问题后，协助解决问题。"
-msgstr "Save the log file of the running program so that the data center technical staff can help solve the problem after the job fails."
+#: ../../docs/faq/index.rst:18 1701b3e6c7cd44959da9f028d758aa79
+msgid ""
+"Please save the log file of the running program to facilitate the problem-"
+"solving assistance of the data center technicians when the job is out of "
+"order."
+msgstr ""
+"Please save the log file of the running program to facilitate the problem-"
+"solving assistance of the data center technicians when the job is out of "
+"order."
 
-#: ../../docs/faq/index.rst:19 32eeb9fb6daf42f09af53435bd47b4a1
-msgid "若需登录计算节点运行和调试程序，可以先分配独占计算节点，方可ssh登录计算节"
-msgstr "If you need to log in to the computing node to run and debug the program, you can first allocate an exclusive computing node, and then ssh login to the computing node"
+#: ../../docs/faq/index.rst:19 fc719d7643b54afd8bdc843078fb35e3
+msgid ""
+"If you need to run and debug programs on the calculation node, you can first"
+" allocate a dedicated calculation node, then ssh to the calculation node."
+msgstr ""
+"If you need to run and debug programs on the calculation node, you can first"
+" allocate a dedicated calculation node, then ssh to the calculation node."
 
+#~ msgid "常见问题集锦"
+#~ msgstr "Frequently Asked Questions"
+
+#~ msgid "本章列举使用过程中经常遇到的问题及解决方法。"
+#~ msgstr ""
+#~ "This chapter lists the problems and solutions that are often encountered in "
+#~ "the process of use."
+
+#~ msgid "由于手册篇幅限制，只列出了对于绝大多是用户比较重要的相关内容，如您有其他需求也可以联系数据中心技术人员。 重要提示："
+#~ msgstr ""
+#~ "Because of the limited length of the manual, only the relevant content that "
+#~ "is very important to most users is listed. If you have other needs, you can "
+#~ "also contact the data center technical staff. Important tips:"
+
+#~ msgid "请不要在登录节点直接运行可执行程序（极大的影响其他用户的登录和使用效率）。"
+#~ msgstr ""
+#~ "Please do not run executable programs directly on the login node (which "
+#~ "greatly affects the login and use efficiency of other users)."
+
+#~ msgid "如无特殊需要，请使用批处理方式（sbatch）提交任务，如果有任何问题请联系数据中心技术人员。"
+#~ msgstr ""
+#~ "Please use batch processing (sbatch) to submit tasks unless you have special"
+#~ " needs. If you have any questions, please contact the data center technical "
+#~ "staff."
+
+#~ msgid "请保存好运行程序的log文件，从而方便数据中心技术人员在作业出问题后，协助解决问题。"
+#~ msgstr ""
+#~ "Save the log file of the running program so that the data center technical "
+#~ "staff can help solve the problem after the job fails."
+
+#~ msgid "若需登录计算节点运行和调试程序，可以先分配独占计算节点，方可ssh登录计算节"
+#~ msgstr ""
+#~ "If you need to log in to the computing node to run and debug the program, "
+#~ "you can first allocate an exclusive computing node, and then ssh login to "
+#~ "the computing node"

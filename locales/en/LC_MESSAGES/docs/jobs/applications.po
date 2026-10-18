@@ -1,0 +1,290 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2025, cnSRC
+# This file is distributed under the same license as the cnSRC User Guide
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cnSRC User Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-16 19:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/jobs/applications.rst:4 f39f931043c14438a80291aea77dad6a
+msgid "启动应用"
+msgstr "Launch applications"
+
+#: ../../docs/jobs/applications.rst:7 590b4be697764aab934d6901e173e596
+msgid "流程目标"
+msgstr "Goals"
+
+#: ../../docs/jobs/applications.rst:9 7abb22f193ed4c9399d4c755382d4efb
+msgid ""
+"帮助用户完成平台最常用的科研计算任务——启动交互式应用（如 ``Jupyter Lab``、``Terminal``、``Linux "
+"Desktop``、``vscode`` 等）。"
+msgstr ""
+"Help users with the most common research computing task—launching "
+"interactive applications (such as ``Jupyter Lab``, ``Terminal``, ``Linux "
+"Desktop``, ``vscode``, etc.)."
+
+#: ../../docs/jobs/applications.rst:13 1c0cc03d4fca4ba59bf05cc6fd1761f0
+msgid "进入方式"
+msgstr "How to open"
+
+#: ../../docs/jobs/applications.rst:15 ad9769ff3d314b68a97f504e6fbe2c93
+msgid "点击左侧菜单 ``应用列表``，进入应用页面。也可以从工作台 ``快捷操作`` 中的 ``应用管理`` 按钮进入。"
+msgstr ""
+"Click ``Application List`` in the left menu, or ``Application Management`` "
+"under ``Quick Actions`` on the workbench."
+
+#: ../../docs/jobs/applications.rst:19 e614a350aed741548f5232927d426dc3
+msgid "页面内容"
+msgstr "Page layout"
+
+#: ../../docs/jobs/applications.rst:21 d8fdb9179f6e47d9bab00199e1c30c1e
+msgid "页面顶部是 ``用户配额图表``，显示当前账户的 CPU、GPU、内存使用情况 和配额上限。"
+msgstr ""
+"At the top, ``User Quota Charts`` show CPU, GPU, and memory usage versus "
+"limits."
+
+#: ../../docs/jobs/applications.rst:24 50b7c828a045456fb5cab7a00f8ab1e1
+msgid ""
+"页面中部是 ``交互式应用`` 标签页，含应用卡片网格（``Terminal``、 ``Jupyter Lab``、``Linux "
+"Desktop``、``vscode`` 等）。当前版本不再单 独提供 ``批处理作业`` 标签，如需在后台运行脚本，请直接使用应用卡片 "
+"启动应用并在终端内执行。"
+msgstr ""
+"The ``Interactive Applications`` tab shows application cards (``Terminal``, "
+"``Jupyter Lab``, ``Linux Desktop``, ``vscode``, etc.). There is no separate "
+"``Batch Jobs`` tab; to run scripts in the background, start an app from a "
+"card and run commands in its terminal."
+
+#: ../../docs/jobs/applications.rst:29 50f4768adb66477f903c9218adcb51e8
+msgid "页面底部是 ``作业列表``，列出当前账号最近产生的作业记录。"
+msgstr "At the bottom, ``Job List`` shows recent jobs for your account."
+
+#: ../../docs/jobs/applications.rst:35 355d57ed2d8f4846b04f4083910fd9e4
+msgid "应用列表"
+msgstr "Application list"
+
+#: ../../docs/jobs/applications.rst:35 6ceada498e4b4848a96c32583903128b
+msgid "应用列表页面，含用户配额图表、应用卡片网格（仅有 ``交互式应用`` 标签）和底部作业列表。"
+msgstr ""
+"Application list with quota charts, the interactive application card grid, "
+"and the job list."
+
+#: ../../docs/jobs/applications.rst:40 0b1bf2d227854c8dbe4e68157844a1ce
+msgid "应用卡片网格"
+msgstr "Application card grid"
+
+#: ../../docs/jobs/applications.rst:42 ccbff5910fa24069a22131ecb701c7fc
+msgid "``交互式应用`` 标签的中部是应用卡片网格。**不同应用的卡片格式略有 不同**："
+msgstr ""
+"The ``Interactive Applications`` tab centers on the card grid. **Card layout"
+" varies slightly by app:**"
+
+#: ../../docs/jobs/applications.rst:45 24482cac438342a6ba63d9fe5c95962b
+msgid "``Terminal`` 卡片：只有应用图标、名称和 ``启 动`` 按钮（直接挂接登录节点，无需申请额外资源）。"
+msgstr ""
+"``Terminal`` cards show only the icon, name, and ``Start`` (attached to the "
+"login node; no extra resources)."
+
+#: ../../docs/jobs/applications.rst:46 c0ad5d8181a84c8c81e3cc058ecf028f
+msgid ""
+"其他应用卡片（如 ``Jupyter Lab`` ``Linux Desktop`` ``vscode`` ``IceWM`` 等）：包含 "
+"``App`` 类型下拉、``N cpus`` 行（选择 CPU 数量）、``M gpus`` 行（选择 GPU 数量，部分应用不支持）、``项目组``"
+" 行（选择计费项目组）、``启 动`` / ``关 闭`` 按钮。"
+msgstr ""
+"Other cards (``Jupyter Lab``, ``Linux Desktop``, ``vscode``, ``IceWM``, "
+"etc.) include ``App`` type, ``N cpus``, ``M gpus`` (where supported), "
+"``Project Group`` for billing, and ``Start`` / ``Close``."
+
+#: ../../docs/jobs/applications.rst:55 7c292519f0ec4a67ab33fd876bb63dde
+msgid "应用卡片和启动按钮"
+msgstr "Application cards and Start button"
+
+#: ../../docs/jobs/applications.rst:55 acff661ebabe4ec09e887c59a87e9fa3
+msgid ""
+"应用卡片示例。从左到右：``Terminal``（仅 ``启 动`` 按钮）、 ``Jupyter Lab``、``Linux "
+"Desktop``、``vscode``（含 App / cpus / gpus / 项目组选择与 ``启 动`` / ``关 闭`` 按钮）。启动非 "
+"Terminal 类应用前，可在卡片的 ``项目组`` 行下拉选择本次任务要计费的项目组， 例如 ``2026 Summer "
+"School``；不选择项目组则个人承担相关计费。"
+msgstr ""
+"Example cards: ``Terminal`` (``Start`` only), ``Jupyter Lab``, ``Linux "
+"Desktop``, ``vscode`` (App / cpus / gpus / project group and ``Start`` / "
+"``Close``). Before starting non-Terminal apps, pick a billing project group "
+"on the card (e.g., ``2026 Summer School``); otherwise charges apply "
+"personally."
+
+#: ../../docs/jobs/applications.rst:62 2217a3095d1243e89088945c0100cfc9
+msgid "启动流程"
+msgstr "Launch workflow"
+
+#: ../../docs/jobs/applications.rst:64 8c7ad20730994b808b77925ff1792711
+msgid "在左侧菜单点击 ``应用列表``，进入应用页面。"
+msgstr "In the left menu, click ``Application List`` to open the application page."
+
+#: ../../docs/jobs/applications.rst:65 4574508d900b418687b39c31d4bd8cba
+msgid "在应用卡片网格中找到目标应用（例如 ``Jupyter Lab``）。"
+msgstr "Find the target application (e.g., ``Jupyter Lab``) in the grid."
+
+#: ../../docs/jobs/applications.rst:66 26c0c5400af649d6a9db46eb577c4c03
+msgid "卡片上如有 CPU/GPU/项目组选择，按任务需要调整（首次使用可直接 使用默认值）。"
+msgstr ""
+"Adjust CPU/GPU/project group as needed (defaults are fine on first use)."
+
+#: ../../docs/jobs/applications.rst:68 746c522222274c949f2ed64930146c56
+msgid "点击该卡片上的 ``启 动`` 按钮。"
+msgstr "Click ``Start`` on that card."
+
+#: ../../docs/jobs/applications.rst:69 331ce3cd695f426888253b301885cb58
+msgid "等待几秒，**浏览器自动弹出新窗口**，新窗口中即为目标应用的交互 界面（如 Jupyter Lab、Linux 远程桌面等）。"
+msgstr ""
+"Wait a few seconds; **a new window opens** with the interactive UI (Jupyter "
+"Lab, Linux desktop, etc.)."
+
+#: ../../docs/jobs/applications.rst:71 dc186ad87ba04f2ea53ac8ac7eb83b34
+msgid "在新窗口中正常操作即可。结束使用前，请在 ``应用列表`` 页对应卡 片点击 ``关 闭`` 释放资源。"
+msgstr ""
+"Use the new window as usual. Before finishing, click ``Close`` on the card "
+"in ``Application List`` to release resources."
+
+#: ../../docs/jobs/applications.rst:78 49eda808753147f29e28fc32ba18f4cd
+msgid "启动后弹出的新窗口"
+msgstr "New window after launch"
+
+#: ../../docs/jobs/applications.rst:78 6e3c395f7a20409dae71ebf2a28b2424
+msgid ""
+"点击 ``Jupyter Lab`` 卡片的 ``启 动`` 后浏览器自动弹出的 Jupyter Lab 界面。左侧是文件浏览器，右侧是 "
+"Notebook 工作区，可以新建文 件、运行命令和编辑代码。"
+msgstr ""
+"Jupyter Lab after ``Start`` on the card: file browser on the left, Notebook "
+"workspace on the right; create files, run commands, and edit code."
+
+#: ../../docs/jobs/applications.rst:83 18e20dbb5a6a4717a785aa6d600860ec
+msgid "关闭应用流程"
+msgstr "Close workflow"
+
+#: ../../docs/jobs/applications.rst:85 df97b731f51e47fd83082462a358cfd4
+msgid "在 ``应用列表`` 页面找到对应应用卡片。"
+msgstr "On ``Application List``, find the application card."
+
+#: ../../docs/jobs/applications.rst:86 a53ab3a7e0c140459410fa4d60dad5f3
+msgid "点击卡片上的 ``关 闭`` 按钮。"
+msgstr "Click ``Close`` on the card."
+
+#: ../../docs/jobs/applications.rst:87 1d57d490e59340aaabad88cdfbd69a3d
+msgid "等待几秒，按钮恢复为 ``启 动``，对应作业状态变为 ``已关闭`` 或 ``已完成``。"
+msgstr ""
+"After a few seconds the button returns to ``Start``; job status becomes "
+"``Closed`` or ``Completed``."
+
+#: ../../docs/jobs/applications.rst:91 073e4a4c949e46438a2cc46e188e8e66
+msgid "作业列表（应用启动后产生的作业）"
+msgstr "Job list (jobs created by launched apps)"
+
+#: ../../docs/jobs/applications.rst:93 a6978fcd60c440c0adbc7c4dbbdee912
+msgid ""
+"``应用列表`` 页面底部的 ``作业列表`` 表格列包含：``作业ID``、``作业名称``、 "
+"``用户``、``分区``、``CPUS``、``GPUS``、``状态``、``耗时``、``节点数量``、 ``操作``。"
+msgstr ""
+"The ``Job List`` table columns include ``Job ID``, ``Job Name``, ``User``, "
+"``Partition``, ``CPUS``, ``GPUS``, ``Status``, ``Duration``, ``Node Count``,"
+" and ``Actions``."
+
+#: ../../docs/jobs/applications.rst:101 aaf8dd143f584e0e96fd99f90b7a8001
+msgid "作业列表"
+msgstr "Job list"
+
+#: ../../docs/jobs/applications.rst:101 76e8e3a780d748e0afb201d57d3d2945
+msgid "``作业列表`` 显示当前用户的最近作业记录。"
+msgstr "``Job List`` shows recent jobs for the current user."
+
+#: ../../docs/jobs/applications.rst:103 7c80f2b4072a45a280b023cdbd488c35
+msgid "常见状态说明（仅解释普通用户最常见状态）："
+msgstr "Common statuses (for typical users):"
+
+#: ../../docs/jobs/applications.rst:105 b27d43cf6f704d0fa1a508055b9f7494
+msgid "``运行中``：作业正在执行。"
+msgstr "``Running``: the job is active."
+
+#: ../../docs/jobs/applications.rst:106 ee08ae5c51904e4caa62f358fe972f99
+msgid "``排队中``：作业等待资源。"
+msgstr "``Queued``: waiting for resources."
+
+#: ../../docs/jobs/applications.rst:107 a71de15f56544a219b8579a062bbae1d
+msgid "``已完成``：作业执行结束。"
+msgstr "``Completed``: finished successfully."
+
+#: ../../docs/jobs/applications.rst:108 5a9917419f904aa4bb983697b93b84d4
+msgid "``失败``：作业未成功。"
+msgstr "``Failed``: did not succeed."
+
+#: ../../docs/jobs/applications.rst:109 df83a7853cdf4715a2044a634b661bcd
+msgid "``已取消``：作业被用户或管理员取消。"
+msgstr "``Cancelled``: canceled by user or administrator."
+
+#: ../../docs/jobs/applications.rst:112 76a3b03e8b8b45069bacf5e8664bd296
+msgid "注意事项"
+msgstr "Notes"
+
+#: ../../docs/jobs/applications.rst:116 9281f28cce7b483e85dac3b2e63583d4
+msgid "启动应用会占用集群资源。CPU、GPU 和项目组选择应与任务规模相匹 配；不确定时使用默认或最小可用配置即可。"
+msgstr ""
+"Launching apps consumes cluster resources. Match CPU/GPU/project group to "
+"workload; use defaults or minimum settings when unsure."
+
+#: ../../docs/jobs/applications.rst:118 eb0adf9a98354eb89bbb5040a5425c36
+msgid "使用结束后请主动 ``关 闭`` 应用，避免持续占用资源。"
+msgstr "``Close`` apps when done to avoid holding resources."
+
+#: ../../docs/jobs/applications.rst:119 aa9b357d24a842d0b0154c00b2fa1c19
+msgid ""
+"关闭浏览器窗口不一定等同停止应用，必须回到 ``应用列表`` 页面点 击 ``关 闭`` 才能释放资源（弹出的应用窗口是会话窗口，关闭后后 "
+"端进程仍可能继续运行）。"
+msgstr ""
+"Closing the browser window may not stop the app; use ``Close`` on "
+"``Application List`` (the popup is a session window; backend processes may "
+"keep running)."
+
+#: ../../docs/jobs/applications.rst:122 f43bb747f1174a24ba0f939ec21d8915
+msgid "当前版本不再单独提供 ``批处理作业`` 标签；如需在后台运行脚 本，请启动 Terminal/Jupyter 等应用后在其中执行。"
+msgstr ""
+"There is no separate ``Batch Jobs`` tab; run scripts in Terminal/Jupyter "
+"after launching."
+
+#: ../../docs/jobs/applications.rst:126 ea66a53eb4a5412aa02cb4c5f604de2b
+msgid "常见问题"
+msgstr "FAQ"
+
+#: ../../docs/jobs/applications.rst:128 ebe5e1f2c7ed4e2496bad7df71aa75d8
+msgid ""
+"**应用点击 ``启 动`` 后没有弹出新窗口怎么办？** 检查浏览器是否拦截了弹窗（通常浏览器地址栏右侧会有弹窗拦截提示， 允许弹窗后再次点击 ``启"
+" 动``）。如已允许弹窗仍无反应，等待 10～ 30 秒后在 ``作业列表`` 中查看对应作业状态。"
+msgstr ""
+"**No popup after ``Start``?** Check whether the browser blocked pop-ups "
+"(look for a blocker icon near the address bar), allow pop-ups, and click "
+"``Start`` again. If still nothing, wait 10–30 seconds and check job status "
+"in ``Job List``."
+
+#: ../../docs/jobs/applications.rst:133 3182913e0d21411aa74a8a205ac24c2f
+msgid "**如何确认应用已经启动？** 浏览器已弹出新窗口，且 ``应用列表`` 页面底部 ``作业列表`` 中对应 作业状态为 ``运行中``。"
+msgstr ""
+"**How to confirm the app started?** A new browser window opened and the job "
+"in ``Job List`` shows ``Running``."
+
+#: ../../docs/jobs/applications.rst:137 3df0eccc26bc487a89ffda2260e16fa8
+msgid ""
+"**为什么 Terminal 卡片没有 CPU/GPU 选项？** Terminal 直接挂接登录节点，无需申请额外资源。点击 ``启 动`` 后浏览 "
+"器弹出新窗口即可使用。"
+msgstr ""
+"**Why no CPU/GPU on Terminal?** Terminal uses the login node directly; click"
+" ``Start`` and use the new window."

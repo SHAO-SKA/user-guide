@@ -4,68 +4,74 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-
 msgid ""
 msgstr ""
-"Project-Id-Version: ChinaSRC-P User Guide \n"
+"Project-Id-Version: ChinaSRC-P User Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-05 08:58+0800\n"
+"POT-Creation-Date: 2026-10-16 19:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: ../../docs/jobs/index.rst:3 321732e4cd9d46908451fb046a4a0f21
-
+#: ../../docs/jobs/index.rst:3 4eaa9ad19ae44482b51c2daf2e56f8c4
 msgid "作业系统"
-msgstr "jobs"
+msgstr "Job System"
 
-#: ../../docs/jobs/index.rst:5 bf81ced5ec834cee9f8dd2fb1389b540
-
+#: ../../docs/jobs/index.rst:5 37a35a69eee6489e93bde94ae611b6fb
 msgid ""
-"ChinaSRC-P通过Slurm调度系统进行资源和作业管理，提高运行效率，以此来完成程序的规范运行，最新文档参考 "
+"cnSRC通过Slurm调度系统进行资源和作业管理，提高运行效率，以此来完成程序的规范运行，最新文档参考 "
 "[Slurm官网](https://slurm.schedmd.com/documentation.html)。"
 msgstr ""
-"CSRC-P runs jobs through the Slurm scheduling system to ensure the proper"
-" execution of programs. For the latest documentation, please refer "
-"to[Slurm official website](https://slurm.schedmd.com/documentation.html)"
+"cnSRC uses the Slurm scheduler for resource and job management to improve "
+"efficiency and ensure programs run in a standard way. For the latest "
+"documentation, see the [Slurm "
+"website](https://slurm.schedmd.com/documentation.html)."
 
-#: ../../docs/jobs/index.rst:7 443ca2b5a83c4dad9a4af57e12842faf
-msgid "所有需要运行的作业，无论是程序调试还是业务计算，都必须通过交互式并行srun、批量提交sbatch或分布式salloc命令提交，提交后可以使用相关命令查询作业状态。"
-msgstr "All jobs that need to be run, whether it is program debugging or business calculation, must be submitted through the interactive parallel srun, batch submission sbatch or distributed salloc command. After submission, you can use the relevant command to query the job status."
+#: ../../docs/jobs/index.rst:7 a3529879ab014615b6988b1795c5e1dd
+msgid ""
+"所有需要运行的作业，无论是程序调试还是业务计算，都必须通过交互式并行srun、批量提交sbatch或分布式salloc命令提交，提交后可以使用相关命令查询作业状态。"
+msgstr ""
+"All jobs that need to be run, whether it is program debugging or business "
+"calculation, must be submitted through the interactive parallel srun, batch "
+"submission sbatch or distributed salloc command. After submission, you can "
+"use the relevant command to query the job status."
 
-#: ../../docs/jobs/index.rst:11 e49d118a43e6411d9a5dc022f3b6f5ee
+#: ../../docs/jobs/index.rst:11 55e1940cc7854426bdd30f319a2d9bb6
 msgid "本章节介绍了作业系统的基本使用方法，如果你是第一次接触作业系统，建议你先阅读 :ref:`slurm_intro` 章节。"
-msgstr "This chapter introduces the basic usage of the job system. If you are new to the job system, it is recommended that you read the :ref:`slurm_intro` chapter first."
+msgstr ""
+"This chapter introduces the basic usage of the job system. If you are new to"
+" the job system, it is recommended that you read the :ref:`slurm_intro` "
+"chapter first."
 
-#: ../../docs/jobs/index.rst:13 72c04743e4984749ad0dddcdb983eb2d
-
+#: ../../docs/jobs/index.rst:13 6dedc59ade6b401b914827f8510ce225
 msgid ""
 "如果你顺利完成了上面的步骤，那么是否可以直接让服务器运行你的程序了呢？ "
 "答案是不可以的，如果你在登录后直接运行程序，很抱歉，会被终止掉，这是因为登录节点是不允许运行程序的， 你需要使用作业调度系统 SLURM "
 "来运行你的程序。 如果你留意登录之后显示的主机名，名为 workstation 的主机仅仅为用户提供了登录操作的平台， "
-"但程序的运行需要交给它背后的计算节点们完成。那么如何告诉工作站来运行我们的程序？ "
-"我们需要使用作业调度系统SLURM，它给我们提供了若干运行程序的方式， 在本章节里我们简要介绍最常用的方式：提交 SLURM "
-"作业脚本的批处理方式。"
+"但程序的运行需要交给它背后的计算节点们完成。那么如何告诉工作站来运行我们的程序？ 我们需要使用作业调度系统SLURM，它给我们提供了若干运行程序的方式，"
+" 在本章节里我们简要介绍最常用的方式：提交 SLURM 作业脚本的批处理方式。"
 msgstr ""
-"Writing SLURM Scripts  If you have successfully completed the previous "
-"steps, can you directly run your program on the server? The answer is "
-"no.Have you ever noticed the hostname displayed after logging in, named "
-"'admin'? This host only provides users with login operations.However, the"
-" execution of programs needs to be handed over to the computational nodes"
-" behind it. So how do we instruct the workstation to run our program? We "
-"need to use the job scheduling system, SLURM, which offers us several "
-"ways to run programs. In this chapter, we will briefly introduce the most"
-" commonly used method: submitting SLURM job scripts in batch mode."
+"If you have completed the steps above, can you run your program on the "
+"server directly? No. If you run a program immediately after logging in, it "
+"will be terminated—login nodes must not run compute workloads. You need the "
+"SLURM job scheduler to run your program. If you notice the hostname shown "
+"after login, the host named ``workstation`` only provides a platform for "
+"login operations; actual execution is handled by compute nodes behind it. To"
+" run your program, use SLURM, which offers several ways to launch jobs. This"
+" chapter briefly introduces the most common approach: batch submission via "
+"SLURM job scripts."
 
-#: ../../docs/jobs/index.rst:22 a53b99b522fc49548924c4279c16529e
+#: ../../docs/jobs/index.rst:22 5c897b8d5afb48ec9bab6dbae76561e7
 msgid "请不要在登录节点上直接运行作业，以免影响其他用户的正常使用。"
-msgstr "Please do not run jobs directly on the login node to avoid affecting the normal use of other users."
+msgstr ""
+"Please do not run jobs directly on the login node to avoid affecting the "
+"normal use of other users."
 
 #~ msgid "首先需要编写一个 SLURM 脚本。"
 #~ msgstr "First, you need to create an SLURM script."
@@ -75,4 +81,3 @@ msgstr "Please do not run jobs directly on the login node to avoid affecting the
 
 #~ msgid "$ sbatch run.slurm"
 #~ msgstr "$ sbatch run.slurm"
-

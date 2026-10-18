@@ -4,52 +4,50 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-05 08:58+0800\n"
+"POT-Creation-Date: 2026-10-16 19:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: ../../docs/module/module-commands.rst:5 670f946efbd04e8e85a7f6c736cf23dc
+#: ../../docs/module/module-commands.rst:5 ecfe85a7bfc241d7a67dc8de3ecbfbc7
 msgid "基本命令"
 msgstr "Basic Commands"
 
-#: ../../docs/module/module-commands.rst:8 e65743c65c904e96b15a4c37ca0c4244
+#: ../../docs/module/module-commands.rst:8 84d3b72225cb4cbca166490acc3ec9be
 msgid "添加模块集合"
 msgstr "Add Module Sets"
 
-#: ../../docs/module/module-commands.rst:16 dbc8e4e349af4320bd4eeee92db92792
+#: ../../docs/module/module-commands.rst:16 fd701ab25ae2412b9b179bfc6e6796f3
 msgid "添加模块集合-CRATIV"
 msgstr "Add Module Sets - CRATIV"
 
-#: ../../docs/module/module-commands.rst:23 f75d6f0e454949dab4627cf92a63ef75
+#: ../../docs/module/module-commands.rst:23 6cb960bcd09d4102b486bfe284dad0d2
 msgid "查看可用的模块列表"
 msgstr "View Available Module Lists"
 
-#: ../../docs/module/module-commands.rst:31 4d8768bd3486421294bb737bca69aa96
+#: ../../docs/module/module-commands.rst:31 e7b31259a81d422792c5d0f58ee6e232
+msgid "cnSRC 平台可用的软件如下所示："
+msgstr "The software available on the cnSRC platform is as follows:"
 
-msgid "ChinaSRC-P 平台可用的软件如下所示："
-msgstr "The software available on the ChinaSRC-P platform is as follows:"
-
-#: ../../docs/module/module-commands.rst:39 e2f069b1996743fbb817eb031e7b7d37
+#: ../../docs/module/module-commands.rst:39 45222ef625aa4c6eb2920df040d6320b
 msgid "CRATIV 平台可用的软件如下所示："
 msgstr "The software available on the CRATIV platform is as follows:"
 
-#: ../../docs/module/module-commands.rst:46 b81960d0c225428aa42e27a945475c19
+#: ../../docs/module/module-commands.rst:46 66bc4bae697c4c7ea9aadbc90feacebb
 msgid "加载需要的模块"
 msgstr "Loading Required Modules"
 
-#: ../../docs/module/module-commands.rst:53 6ae6a60aeb0a4926aa1e505071ad817e
+#: ../../docs/module/module-commands.rst:53 ed030d0a37684fd089d0c88627e3b35a
 msgid ""
 "ARM 系统加载方法 `module load softwarename/arm-version`, X86 系统加载方法 `module "
 "load softwarename/cpu-version` 或 `module load softwarename/gpu-version`。 "
@@ -61,18 +59,18 @@ msgstr ""
 "version'.For CRATIV systems, load modules using the command 'module load "
 "softwarename-version'."
 
-#: ../../docs/module/module-commands.rst:57 a5cd73ebf8344abc809ab372ea085b86
+#: ../../docs/module/module-commands.rst:57 597e6fc5dc6f47d58196675f9c578e19
 msgid "以X86的gcc为例："
 msgstr "Using GCC for X86 systems as an example:"
 
-#: ../../docs/module/module-commands.rst:69 38598037e9de408fa9125109ef5ea2bb
+#: ../../docs/module/module-commands.rst:69 12ef6829f06940199b6685840cee0cd8
 msgid "在执行过程中如果出现模块的问题或者冲突，可以考虑清空载入的module，重新进行加载测试，命令如下："
 msgstr ""
 "If you encounter issues or conflicts with modules during execution, "
 "consider unloading the loaded modules and reloading them for testing "
 "using the following command:"
 
-#: ../../docs/module/module-commands.rst:77 4fa93fbabbf74e39a725c8364608a7c1
+#: ../../docs/module/module-commands.rst:77 751a77b8e8f9428987e77c2c55a3b332
 msgid ""
 "module 其他用法，可以通过module --help查询。 "
 "更多详细使用方法见[module官网](http://modules.sourceforge.net)"
@@ -80,4 +78,7 @@ msgstr ""
 "For other uses of the module command, you can refer to 'module --help' "
 "for more information.For more detailed usage instructions, please visit "
 "the [module official website](http://modules.sourceforge.net)."
+
+#~ msgid "ChinaSRC-P 平台可用的软件如下所示："
+#~ msgstr "The software available on the ChinaSRC-P platform is as follows:"
 
