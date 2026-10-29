@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ChinaSRC-P User Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-18 18:26+0800\n"
+"POT-Creation-Date: 2026-10-29 20:41+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -19,180 +19,334 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../docs/data/transfer.rst:4 58c0e6e2f55245f3be5393e92c27f98a
+#: ../../docs/data/transfer.rst:4 f0cba091ba3c4a26b0b39950c4cebf18
 msgid "文件传输"
 msgstr "File Transfer"
 
-#: ../../docs/data/transfer.rst:7 b2dd5784c8ec4c6c95a4ee2899013276
+#: ../../docs/data/transfer.rst:7 a8bd4d54a8fa4bfcbc9ac499148b201b
 msgid "用户数据存储空间"
 msgstr "User Data Storage Space"
 
-#: ../../docs/data/transfer.rst:11 9e85fc24025d45f89770f8c0d93a4377
-msgid ""
-"在cnSRC上，系统根据三种 :ref:`usage-mode-ref` 为用户在共享文件系统上分配三种目录，分别是个人目录，项目目录和公共集群目录。"
+#: ../../docs/data/transfer.rst:11 79f056fc4bbe49ee8be7eb5a25776a4a
+msgid "在cnSRC上，系统根据使用模式为用户在共享文件系统上分配三种目录，分别是个人目录，项目目录和公共集群目录。"
 msgstr ""
 "On cnSRC, the system allocates three directories on the shared file system "
-"according to the three :ref:`usage-mode-ref` usage modes: personal "
-"directory, project directory, and public cluster directory."
+"according to usage modes: personal directory, project directory, and public "
+"cluster directory."
 
-#: ../../docs/data/transfer.rst:13 00e4427f20774e84b291d7693ebd2717
+#: ../../docs/data/transfer.rst:13 a99c6952cfdd4354b6220345db4f2f08
 msgid "在实例或集群中，这三种目录所对应的路径不同，具体见下表："
 msgstr ""
 "In the instance or cluster, the paths corresponding to these three "
 "directories are different, as shown in the following table:"
 
-#: ../../docs/data/transfer.rst:1 9a58a289d6b0459a94a3a06147a1b71e
+#: ../../docs/data/transfer.rst:1 4d7d76a926374be28f17ff27f9a4c971
 msgid "个人目录"
 msgstr "Personal Directory"
 
-#: ../../docs/data/transfer.rst:1 d576249821344f8286901e206da95342
+#: ../../docs/data/transfer.rst:1 41039dd53de240de82a8c5a986e0d545
 msgid "项目目录"
 msgstr "Project Directory"
 
-#: ../../docs/data/transfer.rst:1 529b0e2828ad46b1b9b912000be25dfc
+#: ../../docs/data/transfer.rst:1 4fadb630e8ab4325b862bb709362b637
 msgid "公共集群目录"
 msgstr "Public Cluster Directory"
 
-#: ../../docs/data/transfer.rst:1 d59b14b1c91f4bc2ba5439d1e129b398
+#: ../../docs/data/transfer.rst:1 1f720c3c23fb45b1b3dd2a5c7842a525
 msgid "容器实例"
 msgstr "Container Instance"
 
-#: ../../docs/data/transfer.rst:1 d494a948c7674476bd57e1847a3e2ee7
-#: e9a75e72a092414a85d35159f361da4d
+#: ../../docs/data/transfer.rst:1 78259366768a42df971b69616ce427a0
+#: c10316bf33064fbdb21bbb20011f8e7d
 msgid "/home/username"
 msgstr "/home/username"
 
-#: ../../docs/data/transfer.rst:1 2aab230abfd243728dfa0f7b1c7eab47
+#: ../../docs/data/transfer.rst:1 c1144ac395ad4e12a20a82b04f901dbf
 msgid "/group_homes/<project>/home/username"
 msgstr "/group_homes/<project>/home/username"
 
-#: ../../docs/data/transfer.rst:1 8b1b673d5f144e3380b5912a047fbb45
+#: ../../docs/data/transfer.rst:1 0d103117c2eb492c93a329c0906add42
 msgid "/group_homes/public_cluster/home/username"
 msgstr "/group_homes/public_cluster/home/username"
 
-#: ../../docs/data/transfer.rst:1 f5295e9b9b4342fe8be9cffabc7b7ae0
+#: ../../docs/data/transfer.rst:1 a6d28271b6aa4758944f7d0c52f8482c
 msgid "虚拟机实例"
 msgstr "Virtual Machine Instance"
 
-#: ../../docs/data/transfer.rst:1 4cfc1d84b03c4d759908bb3f4a265677
+#: ../../docs/data/transfer.rst:1 6b184dc60b3f4398990bd567ce861863
 msgid "/webdav/MyData"
 msgstr "/webdav/MyData"
 
-#: ../../docs/data/transfer.rst:1 619c130265b54db5b812547b7e595838
+#: ../../docs/data/transfer.rst:1 84001c23f3f04d05863ce63d227eb206
 msgid "/webdav/ProjectGroup(<project>)"
 msgstr "/webdav/ProjectGroup(<project>)"
 
-#: ../../docs/data/transfer.rst:1 6497320ed31f4baca92c8313e4003666
+#: ../../docs/data/transfer.rst:1 b83af2216a874d5c8842810676a0158f
 msgid "/webdav/ProjectGroup(public_cluster)"
 msgstr "/webdav/ProjectGroup(public_cluster)"
 
-#: ../../docs/data/transfer.rst:1 7b820b5761f143f4aa676d89931b388d
+#: ../../docs/data/transfer.rst:1 86737a2ca632465ca37458f1a4dbaf17
 msgid "公共集群"
 msgstr "Public Cluster"
 
-#: ../../docs/data/transfer.rst:1 de359c62c283483e84cfed5ba3100ecd
+#: ../../docs/data/transfer.rst:1 1a7556dff2df4ee2b00de7ab837ea049
 msgid "/users/username"
 msgstr "/users/username"
 
-#: ../../docs/data/transfer.rst:1 75f78872b30641cf881e1af14bf28dca
+#: ../../docs/data/transfer.rst:1 778b8685da71440e8145245cd567a8b4
 msgid "/groups/<project id>/home/username"
 msgstr "/groups/<project id>/home/username"
 
-#: ../../docs/data/transfer.rst:1 89a74cf25a9f410581875738b6214677
-msgid "WEB页面"
-msgstr "Web Page"
+#: ../../docs/data/transfer.rst:1 0cd97dd7ec2241888fd4910cbc07e8c1
+msgid "Web文件管理"
+msgstr "Web File Manager"
 
-#: ../../docs/data/transfer.rst:1 2c2759def662488b998d2ccb86ece83b
-msgid "独占实例数据-username"
-msgstr "private instance data-username"
+#: ../../docs/data/transfer.rst:1 c1cde9e7722b43dd979d4d30da90f33e
+msgid "个人家目录"
+msgstr "Home Directory"
 
-#: ../../docs/data/transfer.rst:1 3b035f7ec73f4fafad7f961c973441ef
-msgid "共享实例数据-<project显示名>"
-msgstr "shared instance data-<project display name>"
+#: ../../docs/data/transfer.rst:1 375103c60b4949b2b099ad7a84c04ef2
+msgid "项目组目录（选择相应项目组）"
+msgstr "Project group directory (select the corresponding project group)"
 
-#: ../../docs/data/transfer.rst:1 a7e3c308ae804b4e8eaa92f35fe7f833
-msgid "共享实例数据-public_cluster"
-msgstr "shared instance data-public_cluster"
+#: ../../docs/data/transfer.rst:1 79f2c00c5bf84ffbb58df1ec19bfe055
+msgid "项目组目录（如有public_cluster选项）"
+msgstr "Project group directory (if a public_cluster option is available)"
 
-#: ../../docs/data/transfer.rst:27 ee3dcb32d578454a9225363b8adcedf3
+#: ../../docs/data/transfer.rst:27 cb96c3480bd84bccbb583d484d724d45
 msgid "username请替换为自己的用户名（这个信息可以在“我的信息”-“基本信息”中查询）。"
 msgstr ""
 "change username to your own username (this information can be found in \"my "
 "information\"-\"basic information\")."
 
-#: ../../docs/data/transfer.rst:29 0ffb64fdda4945a3af9c243652516f1d
+#: ../../docs/data/transfer.rst:29 d223be57cbaa42af96485216d3009ad9
 msgid "<project id>请替换为\"g+项目ID\"（项目基本信息中查询项目ID），例：项目ID为700008，则替换为“g700008”。"
 msgstr ""
 "change <project id> to \"g+project id\" (project id can be found in project "
 "basic information), for example: if project id is 700008, then change it to "
 "\"g700008\"."
 
-#: ../../docs/data/transfer.rst:31 830b3ea8539b4502962742cc7785c462
+#: ../../docs/data/transfer.rst:31 963aa25c6e7342a48602ba761e709180
 msgid "<project>请替换为项目名（项目基本信息中查询。）"
 msgstr ""
 "change <project> to project name (can be found in project basic "
 "information)."
 
-#: ../../docs/data/transfer.rst:35 79a915df44684dc9a1e1ec6afa328a4f
-msgid "项目目录和公共集群目录的具体说明请分别查看 :ref:`project-data` 。"
+#: ../../docs/data/transfer.rst:35 667bbfc2804a4166af0cb08f82e7da27
+msgid "Web文件管理通过“个人家目录”和“项目组目录”切换数据位置。 页面顶部显示的是当前浏览位置，不应直接作为实例或集群中的文件系统路径使用。"
 msgstr ""
-"See :ref:`project-data` for details on the project directory and public "
-"cluster directory."
+"Use Web File Manager to switch between \"Home Directory\" and \"Project "
+"group directory\". The path shown at the top of the page is the current "
+"browsing location and should not be used directly as a filesystem path "
+"inside an instance or cluster."
 
-#: ../../docs/data/transfer.rst:39 52e1b7832f2c42779638a82031d74b4c
-msgid "Web页面数据传输"
-msgstr "web page data transfer"
+#: ../../docs/data/transfer.rst:40 dd024561129b49239b9f7cbcd31bdd70
+msgid "Web文件管理与数据传输"
+msgstr "Web File Manager and Data Transfer"
 
-#: ../../docs/data/transfer.rst:41 d3d3391dd13b4e248492f987aed82286
-msgid "cnSRC支持通过Web页面上传下载数据和管理文件。"
+#: ../../docs/data/transfer.rst:42 d2d17543012148c98aa754047edbbda0
+msgid ""
+"登录麒麟平台后，点击左侧菜单 **文件管理**，或直接打开 `文件管理页面 "
+"<https://kylin.cnsrc.shao.ac.cn/File/>`__， 即可浏览目录、搜索文件、新建文件夹，以及上传和下载文件。"
 msgstr ""
-"cnSRC supports uploading and downloading data and managing files through the"
-" web interface."
+"After logging in to the Kylin platform, click **File Manager** in the left "
+"menu, or open the `File Manager page "
+"<https://kylin.cnsrc.shao.ac.cn/File/>`__, to browse directories, search "
+"files, create folders, and upload or download files."
 
-#: ../../docs/data/transfer.rst:43 8bd8cb8c510e4acb89acda8912fabb7a
-msgid "通过Web页面上传和下载文件有数量限制，每次最多上传\\ **10**\\ 个文件，下载\\ **1**\\ 个文件。"
+#: ../../docs/data/transfer.rst:47 5c6524d472c54303a960dd4cdad1573e
+msgid "选择数据目录"
+msgstr "Select a Data Directory"
+
+#: ../../docs/data/transfer.rst:49 7709520440ae4ae5b9fb8ab5100f6400
+msgid "**个人家目录**：点击此按钮返回个人存储空间，页面顶部显示 ``~/``。"
 msgstr ""
-"there are quantity limits for uploading and downloading files through web "
-"pages, at most **10** files can be uploaded each time, and **1** file can be"
-" downloaded."
+"**Home Directory**: click this button to return to your personal storage. "
+"The page header shows ``~/``."
 
-#: ../../docs/data/transfer.rst:45 e7f1617874ae4a82bc65693ed90487ac
-msgid "进入“工作台”-“数据总览”，选择相应的数据位置，就可以对个人、项目和公共集群中的数据进行管理。"
+#: ../../docs/data/transfer.rst:50 e38c58d881b1499c88e36f8d9abc150f
+msgid ""
+"**项目组目录**：展开下拉列表，选择需要访问的项目组。页面顶部显示对应的项目组目录， 例如 ``test_project/``；进入其 "
+"``data`` 子目录后显示 ``test_project/data/``。"
 msgstr ""
-"Enter \"workbench\"-\"data overview\", select the corresponding data "
-"location, and then you can manage the data in personal, project and public "
-"cluster."
+"**Project group directory**: expand the dropdown and select the project "
+"group to access. The page header shows the corresponding project path, for "
+"example ``test_project/``; after entering its ``data`` subdirectory it shows"
+" ``test_project/data/``."
 
-#: ../../docs/data/transfer.rst:47 13ec6213afa449fe8aabe8c9fac7da49
-msgid "|web data management|"
-msgstr "|web data management|"
+#: ../../docs/data/transfer.rst:53 508957861920480997a7a7abf0784045
+msgid "操作前先核对页面顶部的路径，确保上传文件或新建文件夹的位置正确。 项目组目录的可选项以当前账号页面中显示的列表为准。"
+msgstr ""
+"Before any operation, check the path at the top of the page so uploads and "
+"new folders go to the right place. Available project group directories "
+"follow the list shown for the current account."
 
-#: ../../docs/data/transfer.rst:106 2204fc91bbd043eea5521e76a4643a93
-#: 730022d023154813b26db6ee7916b31c
-msgid "web data management"
-msgstr "web data management"
+#: ../../docs/data/transfer.rst:56 0518d8d1277e4f8eb33699931c6b15de
+msgid ""
+"文件列表包含 **文件名**、**文件大小**、**上次修改时间** 和 **操作** 四列， 可通过名称旁的文件夹图标或文件图标区分目录和文件。"
+msgstr ""
+"The file list has four columns: **Name**, **Size**, **Last modified**, and "
+"**Actions**. Use the folder or file icon next to the name to tell "
+"directories from files."
 
-#: ../../docs/data/transfer.rst:50 04989f0c30a34421a755b8ed2eb5c687
+#: ../../docs/data/transfer.rst:63 1613ea2ff2ef4b189889a2634de43647
+msgid "文件管理中的目录切换、工具栏及文件列表"
+msgstr "Directory switcher, toolbar, and file list in File Manager"
+
+#: ../../docs/data/transfer.rst:63 41db8ad9314847b0b7f82894b2c7311e
+msgid "项目组目录示例：顶部显示当前路径，下方为目录切换入口、工具栏和文件列表。"
+msgstr ""
+"Project group directory example: the current path is shown at the top, with "
+"the directory switcher, toolbar, and file list below."
+
+#: ../../docs/data/transfer.rst:66 b3f412c9bba04d66b45b45576d8afff3
+msgid "浏览和搜索文件"
+msgstr "Browse and Search Files"
+
+#: ../../docs/data/transfer.rst:68 4a67c2af2cdc4197a6c6a1f478eeb21d
+msgid "点击文件夹名称，进入该子目录；点击 **返回上一级** 返回父目录。"
+msgstr ""
+"Click a folder name to enter that subdirectory; click **Up one level** to "
+"return to the parent directory."
+
+#: ../../docs/data/transfer.rst:69 91cf29231df144ed9d60c1833434a5d7
+msgid "在 **搜索文件** 输入框中输入文件名关键字，点击右侧放大镜按钮，筛选当前目录中的条目。"
+msgstr ""
+"In the **Search files** box, enter a filename keyword and click the "
+"magnifier on the right to filter entries in the current directory."
+
+#: ../../docs/data/transfer.rst:70 089ce05340484963a8ef2d98e5794e36
+msgid "清空搜索框并再次点击放大镜按钮，可恢复当前目录的完整列表。"
+msgstr ""
+"Clear the search box and click the magnifier again to restore the full list "
+"for the current directory."
+
+#: ../../docs/data/transfer.rst:71 edcd84fcb89e45e59c91c5418205aa7b
+msgid "文件较多时，使用列表底部的页码或左右箭头切换分页。"
+msgstr ""
+"When there are many files, use the page numbers or left/right arrows at the "
+"bottom of the list to change pages."
+
+#: ../../docs/data/transfer.rst:74 dc92c415227c45a187d866538b94fe4d
+msgid "新建文件夹"
+msgstr "Create Folder"
+
+#: ../../docs/data/transfer.rst:76 49cb4f1d36874971ba4cf9744006bf8b
+msgid "进入目标目录，点击工具栏中的 **新建文件夹**。"
+msgstr "Enter the target directory and click **New folder** on the toolbar."
+
+#: ../../docs/data/transfer.rst:77 3fd250c1a965474184f0f21b6ffbfa5e
+msgid "在弹出的对话框中输入文件夹名称，点击 **OK**。"
+msgstr "In the dialog, enter the folder name and click **OK**."
+
+#: ../../docs/data/transfer.rst:78 ff4f735ce2e34babb399515fbb01b5fe
+msgid "检查当前列表中是否出现新文件夹；如需放弃创建，点击 **Cancel** 或右上角关闭按钮。"
+msgstr ""
+"Check that the new folder appears in the current list; to cancel, click "
+"**Cancel** or the close button at the top right."
+
+#: ../../docs/data/transfer.rst:81 3a845ab8e650458498f3b0ef58b69f7b
+msgid "上传文件"
+msgstr "Upload Files"
+
+#: ../../docs/data/transfer.rst:83 19b6deb3f5b9494092b6aa7b2b76f625
+msgid "进入需要保存文件的个人目录或项目组目录，点击工具栏中的 **上传文件**。"
+msgstr ""
+"Enter the home or project group directory where files should be saved, then "
+"click **Upload** on the toolbar."
+
+#: ../../docs/data/transfer.rst:84 f1d147a18fd24ace9c8d621d0d57b1c7
+msgid "在弹出的对话框中，再次点击 **上传文件**，通过本地文件选择窗口选择文件。"
+msgstr ""
+"In the dialog, click **Upload** again and choose a file in the local file "
+"picker."
+
+#: ../../docs/data/transfer.rst:85 d5715f6315584c5fad6b6fee014b32a8
+msgid "查看上传窗口中的状态及提示，按界面提示完成操作并关闭窗口。"
+msgstr ""
+"Watch the status and messages in the upload window, follow the on-screen "
+"prompts, then close the window."
+
+#: ../../docs/data/transfer.rst:86 4411e2714bf0486aa235b5c365c59d2f
+msgid "回到文件列表，核对文件名和文件大小，确认文件已出现在预期目录。"
+msgstr ""
+"Return to the file list and verify the filename and size to confirm the file"
+" is in the expected directory."
+
+#: ../../docs/data/transfer.rst:92 fa465f6912d94ea4898adb15c422c2dd
+msgid "Web文件上传对话框，包含上传文件、Cancel和OK按钮"
+msgstr "Web file upload dialog with Upload, Cancel, and OK buttons"
+
+#: ../../docs/data/transfer.rst:92 3f5b96c6efe046b984604fa25ce5aec0
+msgid "上传文件对话框；其中的“上传文件”按钮用于选择本地文件。"
+msgstr "Upload dialog; the \"Upload\" button is used to select a local file."
+
+#: ../../docs/data/transfer.rst:96 02737798c4c6438da8f58e5836f8f9cd
+msgid "当前上传窗口的文件选择控件每次只允许选择一个本地文件，多个文件需逐个操作。 文件大小或数量限制、失败原因以实际上传时的平台提示为准。"
+msgstr ""
+"The file picker in the current upload window allows only one local file at a"
+" time; upload multiple files one by one. Size/count limits and failure "
+"reasons follow the platform messages shown during upload."
+
+#: ../../docs/data/transfer.rst:100 c1bbba893a1c4ddd95cc27ccca5aa0ed
+msgid "下载文件"
+msgstr "Download Files"
+
+#: ../../docs/data/transfer.rst:102 b84b2e09819f4ed58bac19f0c74c0a29
+msgid ""
+"进入文件所在目录，点击文件名称下载，并在浏览器中查看下载进度和保存位置。 文件夹名称用于进入目录；如需传输整个目录，可使用下文介绍的SSH传输方式。"
+msgstr ""
+"Enter the directory that contains the file, click the filename to download, "
+"and check progress and save location in the browser. Folder names open "
+"directories; to transfer a whole directory, use the SSH methods described "
+"below."
+
+#: ../../docs/data/transfer.rst:106 4f52d87325f642d68d34b967b775ca07
+msgid "删除与操作注意事项"
+msgstr "Deletion and Operation Notes"
+
+#: ../../docs/data/transfer.rst:108 299abc94f6ed4c78991c6371921562e9
+msgid ""
+"文件列表 **操作** 列中的红色 **×** 为删除入口。 删除前应核对当前目录和目标名称，并提前备份重要数据； "
+"项目组目录中的操作还需确认不会影响其他成员使用的数据。"
+msgstr ""
+"The red **x** in the **Actions** column deletes an item. Before deleting, "
+"verify the current directory and target name, and back up important data; in"
+" a project group directory, also confirm you will not affect data used by "
+"other members."
+
+#: ../../docs/data/transfer.rst:114 0bd9d5491d904020b68fc34a4a3537fc
+msgid ""
+"不要随意删除或覆盖个人目录中的配置文件（例如 ``.bashrc``、``.ssh`` 中的文件）。 "
+"上传失败或文件未出现在列表中时，先检查当前路径、搜索条件、网络连接和页面错误提示， 确认原因后再重试，避免重复传输或误操作。"
+msgstr ""
+"Do not casually delete or overwrite configuration files in your home "
+"directory (for example files under ``.bashrc`` or ``.ssh``). If an upload "
+"fails or a file does not appear in the list, first check the current path, "
+"search filter, network connection, and page error messages, then retry after"
+" you understand the cause to avoid duplicate transfers or mistakes."
+
+#: ../../docs/data/transfer.rst:119 768b9539d4394190889c96e5b28a27d8
 msgid "通过ssh账户传输"
 msgstr "transfer through ssh account"
 
-#: ../../docs/data/transfer.rst:54 1b2e628914324c28925265cd14a708bc
+#: ../../docs/data/transfer.rst:123 91c767bc2b124d6689f8b06787c0914a
 msgid "由于Web传输文件功能有限，对于开放了SSH端口的集群或实例，用户可以通过SSH账户使用scp类的工具来传输数据。"
 msgstr ""
 "Because the web file transfer function is limited, for the cluster or "
 "instance with open SSH port, users can use scp tools to transfer data "
 "through SSH account."
 
-#: ../../docs/data/transfer.rst:56 8ed74f0853b74601960e8fb27bc0f44a
+#: ../../docs/data/transfer.rst:125 2191ac3b142549af97f502f0d68925dc
 msgid "|image4|"
 msgstr "|image4|"
 
-#: ../../docs/data/transfer.rst:107 4014e8141be44feba01f8718390a9eb3
-#: 7ee30cf17aa54f58a9f06a9024803b5f
+#: ../../docs/data/transfer.rst:175 cb3f3c9c2c2f45f79798d13e37c57946
+#: edfeb8755abe43258ef0004618698b7b
 msgid "image4"
 msgstr "image4"
 
-#: ../../docs/data/transfer.rst:58 bcd5aa36a6e24f7f97cacf2ca4a71bb4
+#: ../../docs/data/transfer.rst:127 82df02eec73d4faea82704ee5a5d2296
 msgid ""
 "以公共集群项目为例，用户在 **项目** -> *public cluster* 的页面里，选择 **实例** "
 "，点击实例最右侧的SSH服务地址按钮，会弹出cnSRC对外开放的IP地址和端口："
@@ -202,31 +356,31 @@ msgstr ""
 "button at the far right of the instance, and cnSRC will display the "
 "externally accessible IP address and port:"
 
-#: ../../docs/data/transfer.rst:60 d4c2054361774387b3be8ee3966a15a0
+#: ../../docs/data/transfer.rst:129 24d916c601a34977a724f606fa09d967
 msgid "|ssh ip|"
 msgstr "|ssh ip|"
 
-#: ../../docs/data/transfer.rst:62 1c4b995b3b0d4d59821d24ca4a16db07
-#: 48d08d44afec4675895aa21d7f2460be
+#: ../../docs/data/transfer.rst:131 2d610e3304f0419f9ccad42f6c4ff52b
+#: 684552dfdc804a8eb32d73f240d8bf5c
 msgid "ssh ip"
 msgstr "ssh ip"
 
-#: ../../docs/data/transfer.rst:65 7d8e5a1e76914444aee33c0e9f1641d0
+#: ../../docs/data/transfer.rst:134 1bbbc9adaba846f19b50275ff48ed9e9
 msgid "首次使用SSH登录的用户需要 :ref:`重置cnSRC密码 <reset password>`"
 msgstr ""
 "Users logging in via SSH for the first time need to :ref:`reset their cnSRC "
 "password <reset password>`"
 
-#: ../../docs/data/transfer.rst:67 f7e250afb14f47bca0a346e897828f3f
+#: ../../docs/data/transfer.rst:136 048a9b78f4ac4803ae8157dc59fe3c0f
 msgid "|reset_pw|"
 msgstr "|reset_pw|"
 
-#: ../../docs/data/transfer.rst:109 3dbc0d7eef194357ac6e0c2eb50a4d7f
-#: 75fde9850ec247979a98243746c352d2
+#: ../../docs/data/transfer.rst:177 b8cee9ffe805407588a300d303ebfd08
+#: c7aa8f8c17124de1b4d3e3a2ba57786e
 msgid "reset_pw"
 msgstr "reset_pw"
 
-#: ../../docs/data/transfer.rst:69 0ff5495a071d47fdaeac8d159ce20f36
+#: ../../docs/data/transfer.rst:138 4f5603a82365450a9604d977133e1097
 msgid ""
 "用户在能够直接访问cnSRC服务IP地址的情况下，可以使用scp、\\ `WinSCP "
 "<https://winscp.net/eng/docs/lang:chs>`__\\ 或\\ `Xmanager "
@@ -237,30 +391,30 @@ msgstr ""
 "<https://www.netsarang.com/en/xmanager/>`__\\ and other scp tools to "
 "transfer data:"
 
-#: ../../docs/data/transfer.rst:76 df332c6a9f4d4e3dbbb5f04367416360
+#: ../../docs/data/transfer.rst:145 0ce8b9b2476b4867856e7a3b41906c78
 msgid "使用XFTP传输"
 msgstr "Transfer with XFTP"
 
-#: ../../docs/data/transfer.rst:78 6d1ee0d79ae74a889b824b8b29d1fedf
+#: ../../docs/data/transfer.rst:147 fcd5457ec6cd4f17b6ec85386700803e
 msgid "Windows用户也可以使用\\ `XFTP <https://www.xshellcn.com/xftp.html>`__\\ 客户端进行传输。"
 msgstr ""
 "Windows users can also use \\ `XFTP "
 "<https://www.xshellcn.com/xftp.html>`__\\ client for transmission."
 
-#: ../../docs/data/transfer.rst:80 7215627e217644ca979e4bfaac2029c6
+#: ../../docs/data/transfer.rst:149 f9962fc4c4a549059fafd39726448924
 msgid "下载并安装XFTP软件后打开，点击“文件”-“新建”。"
 msgstr "Download and install XFTP software, open it, click \"file\"-\"new\"."
 
-#: ../../docs/data/transfer.rst:82 d62420b060ac483b91fb438edbe82cea
+#: ../../docs/data/transfer.rst:151 01a615c6f28e45abbfa7bbf0a2a8df8c
 msgid "|new xftp connection|"
 msgstr "|new xftp connection|"
 
-#: ../../docs/data/transfer.rst:84 9ffac15dfffa4daaa06fe76d195aed2a
-#: da080787608d492c9824f5de91a9619c
+#: ../../docs/data/transfer.rst:153 3225a5c54bad46a9b02ce10043fd2c2f
+#: 377c5aaf06f145a499930b9111988005
 msgid "new xftp connection"
 msgstr "new xftp connection"
 
-#: ../../docs/data/transfer.rst:86 24a5b508f6124d25818d95ac05bd0dc9
+#: ../../docs/data/transfer.rst:155 2a644845145c43a8864160fbe019405c
 msgid ""
 "名称用户可以自定义，主机选项中输入“服务ssh“显示的服务外部地址，端口号填写“服务ssh”中的端口号，协议使用默认的SFTP，用户名和密码填写cnSRC的用户名和密码。点击”连接“。"
 msgstr ""
@@ -269,16 +423,16 @@ msgstr ""
 "SSH\"; use the default SFTP protocol; enter your cnSRC username and "
 "password. Click \"Connect\"."
 
-#: ../../docs/data/transfer.rst:88 2e59ff4177184a0f9d814b51207ecd8c
+#: ../../docs/data/transfer.rst:157 e2fa551272854bf28491d94af5865c4f
 msgid "|set xftp connection|"
 msgstr "|set xftp connection|"
 
-#: ../../docs/data/transfer.rst:90 661170efb5dc4dc9be8674bc5a695336
-#: fec60aec1080423b82ec085b3d72b44e
+#: ../../docs/data/transfer.rst:159 8900191aa0804a4bbf9699062e227fe6
+#: ada62217d3c34b26b7ec40f4b6ba75e7
 msgid "set xftp connection"
 msgstr "set xftp connection"
 
-#: ../../docs/data/transfer.rst:92 165eab798c2d4cfc8f21c7048e4e48af
+#: ../../docs/data/transfer.rst:161 aa2710c8a9634619bacec5e59cd792eb
 msgid ""
 "连接后左侧为当前用户计算机的视图，右侧为远程计算机的视图，用户访问的远程计算机路径为\\ ``/home/username``\\ "
 "，即当前用户的家目录，用户可将文件从个人电脑上传输到共享文件夹内，下方传输栏会显示传输任务详细信息。"
@@ -290,70 +444,140 @@ msgstr ""
 "computer to the shared folder, and the transmission bar below will display "
 "the detailed information of the transmission task."
 
-#: ../../docs/data/transfer.rst:94 8940bf4fdc6e42d58e33ebe3d2f21048
+#: ../../docs/data/transfer.rst:163 627fed3f3d124eaaac62aa33cd8b446f
 msgid "|xftp windows|"
 msgstr "|xftp windows|"
 
-#: ../../docs/data/transfer.rst:96 2a60af280514430180c1c2ad30741bef
-#: 3b1d7e8b7d7549d9a0634e923ba8a49f
+#: ../../docs/data/transfer.rst:165 c6431db0ab5645cab73a71f117739f6c
+#: d782ba22a8274e23815d30d8866490fd
 msgid "xftp windows"
 msgstr "xftp windows"
 
-#: ../../docs/data/transfer.rst:98 c0cb5b37ab0f4802a18f54464c45dcfe
+#: ../../docs/data/transfer.rst:167 379f31d0988d46f4bcd18c3a2158030e
 msgid "传输完成后即可在公共集群或实例控制台的用户家目录中看到刚才传输的文件。"
 msgstr ""
 "After the transmission is completed, you can see the transferred file in the"
 " user's home directory of the public cluster or instance console."
 
-#: ../../docs/data/transfer.rst:100 2767e5d2e0da4772a19077b3cf79d501
+#: ../../docs/data/transfer.rst:169 6e5677ade05546a7a8f045be7317d319
 msgid "|file in terminal|"
 msgstr "|file in terminal|"
 
-#: ../../docs/data/transfer.rst:102 0da7cb1ed22b4ca5ac26185c963c8447
-#: 7df57076a09142ca81c924fe12f33a6e
+#: ../../docs/data/transfer.rst:171 806ba5fc50104e76befb17ce83ff7f84
+#: 879ce20dbd1f4640bce91cd269263cb5
 msgid "file in terminal"
 msgstr "file in terminal"
 
-#: ../../docs/data/transfer.rst:108 b3d3986e43cc4d70aafc2293a1038132
+#: ../../docs/data/transfer.rst:176 f4016a2eb0f24fb9a8cdc049732c813e
 msgid "image5"
 msgstr "image5"
 
-#: ../../docs/data/transfer.rst:111 867d16052c7542fe911a7aa677834b8c
+#: ../../docs/data/transfer.rst:179 3130a7c4f9ce4008a6e8eb33170f0c1e
 msgid "cyberduck connect"
 msgstr "cyberduck connect"
 
-#: ../../docs/data/transfer.rst:112 edb996dd08f640a686a3e3d2ce9e90f5
+#: ../../docs/data/transfer.rst:180 ca4b5a12bff24392b245bf807594d17f
 msgid "raidrive connect"
 msgstr "raidrive connect"
 
-#: ../../docs/data/transfer.rst:113 acc5405d69484cdd9bdfb6e6412bdc19
+#: ../../docs/data/transfer.rst:181 d0823e6b533e4fe7b83213d5b86c703f
 msgid "winscp connect"
 msgstr "winscp connect"
 
-#: ../../docs/data/transfer.rst:114 511d9cf5250943f398f00a4fe26a3901
+#: ../../docs/data/transfer.rst:182 d6d19ab762a3423ba5d23589cdc60525
 msgid "windows webdav client"
 msgstr "windows webdav client"
 
-#: ../../docs/data/transfer.rst:115 081d0168552641f3bda3725f1af4ef07
+#: ../../docs/data/transfer.rst:183 05dd1e70568e4371b20caf4d7ff115e4
 msgid "transfer error"
 msgstr "transfer error"
 
-#: ../../docs/data/transfer.rst:116 1697c1f505c84d8e966aba3b59e84241
+#: ../../docs/data/transfer.rst:184 68f346b5fc574ae19b3155fc175cb15d
 msgid "winscp vm connect"
 msgstr "winscp vm connect"
 
-#: ../../docs/data/transfer.rst:117 9f37155d76a94217acd275269b755db5
+#: ../../docs/data/transfer.rst:185 f1dc7ebb3f754a4bb9fa52bec779dccd
 msgid "winscp vm connect 2"
 msgstr "winscp vm connect 2"
 
-#: ../../docs/data/transfer.rst:118 7c60081514704621a252f14d95e962a9
+#: ../../docs/data/transfer.rst:186 e30e10e028ac4ce298438254483e83dd
 msgid "winscp vm connect 3"
 msgstr "winscp vm connect 3"
 
-#: ../../docs/data/transfer.rst:119 2eea3d2c2e6c40d4bf9e297a11cd02df
+#: ../../docs/data/transfer.rst:187 602c1eec9c314e3f8cb8fb1dd21b031d
 msgid "winscp vm connect 4"
 msgstr "winscp vm connect 4"
 
-#: ../../docs/data/transfer.rst:120 8816e54b2f8846d9b4fdf85c6f3b6c92
+#: ../../docs/data/transfer.rst:188 623116ca54924de9bbd1300e3f4780c8
 msgid "winscp vm connect 5"
 msgstr "winscp vm connect 5"
+
+#~ msgid "image5"
+#~ msgstr "image5"
+
+#~ msgid "cyberduck connect"
+#~ msgstr "cyberduck connect"
+
+#~ msgid "raidrive connect"
+#~ msgstr "raidrive connect"
+
+#~ msgid "winscp connect"
+#~ msgstr "winscp connect"
+
+#~ msgid "windows webdav client"
+#~ msgstr "windows webdav client"
+
+#~ msgid "transfer error"
+#~ msgstr "transfer error"
+
+#~ msgid "winscp vm connect"
+#~ msgstr "winscp vm connect"
+
+#~ msgid "winscp vm connect 2"
+#~ msgstr "winscp vm connect 2"
+
+#~ msgid "winscp vm connect 3"
+#~ msgstr "winscp vm connect 3"
+
+#~ msgid "winscp vm connect 4"
+#~ msgstr "winscp vm connect 4"
+
+#~ msgid "winscp vm connect 5"
+#~ msgstr "winscp vm connect 5"
+
+#~ msgid "WEB页面"
+#~ msgstr "Web Page"
+
+#~ msgid "独占实例数据-username"
+#~ msgstr "private instance data-username"
+
+#~ msgid "共享实例数据-<project显示名>"
+#~ msgstr "shared instance data-<project display name>"
+
+#~ msgid "项目目录和公共集群目录的具体说明请分别查看 :ref:`project-data` 。"
+#~ msgstr ""
+#~ "See :ref:`project-data` for details on the project directory and public "
+#~ "cluster directory."
+
+#~ msgid "cnSRC支持通过Web页面上传下载数据和管理文件。"
+#~ msgstr ""
+#~ "cnSRC supports uploading and downloading data and managing files through the"
+#~ " web interface."
+
+#~ msgid "通过Web页面上传和下载文件有数量限制，每次最多上传\\ **10**\\ 个文件，下载\\ **1**\\ 个文件。"
+#~ msgstr ""
+#~ "there are quantity limits for uploading and downloading files through web "
+#~ "pages, at most **10** files can be uploaded each time, and **1** file can be"
+#~ " downloaded."
+
+#~ msgid "进入“工作台”-“数据总览”，选择相应的数据位置，就可以对个人、项目和公共集群中的数据进行管理。"
+#~ msgstr ""
+#~ "Enter \"workbench\"-\"data overview\", select the corresponding data "
+#~ "location, and then you can manage the data in personal, project and public "
+#~ "cluster."
+
+#~ msgid "|web data management|"
+#~ msgstr "|web data management|"
+
+#~ msgid "web data management"
+#~ msgstr "web data management"

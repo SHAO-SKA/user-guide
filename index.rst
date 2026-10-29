@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-中国SKA区域中心平台
+中国SKA区域中心平台 cnSRC
 ===============================================
 
 .. toctree::
@@ -16,14 +16,13 @@
    docs/login/index.rst
    docs/computer/index.rst
    docs/storage/index.rst
-   docs/mode/index.rst
    docs/data/index.rst
    docs/module/index.rst
    docs/storage/index.rst
    docs/jobs/index.rst
    docs/faq/index.rst
 
-Indices and tables
+索引与检索
 ==================
 
 * :ref:`genindex`
