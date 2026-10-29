@@ -12,4 +12,4 @@
 
 新用户申请请参考 :ref:`user-register` 章节。
 
-如需协助，请联系 shaoska@shao.ac.cn。
+如需协助，请联系 cnsrc@shao.ac.cn。

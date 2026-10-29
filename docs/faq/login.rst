@@ -25,4 +25,4 @@ Why is there a conflict between WSClean and CASA?
 
 Please read the :ref:`module_wsclean_casa` section.
 
-.. _mailto: shaoska@shao.ac.cn
+.. _mailto: cnsrc@shao.ac.cn

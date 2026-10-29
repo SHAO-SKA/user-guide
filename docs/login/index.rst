@@ -8,7 +8,7 @@ Login
 
 
 The login address of the cnSRC platform is: https://kylin.cnsrc.shao.ac.cn/, which can be accessed directly through Chrome, Firefox, etc.
-External users please use VPN or contact shaoska@shao.ac.cn for access permission.
+External users please use VPN or contact cnsrc@shao.ac.cn for access permission.
 
 
 

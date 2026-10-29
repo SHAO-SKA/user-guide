@@ -42,4 +42,4 @@ This work used resources of China SKA Regional Centre funded by Ministry of Scie
 
 ## Contact us
 
-Any questions, please contact: shaoska@shao.ac.cn or cnsrc@shao.ac.cn
+Any questions, please contact: cnsrc@shao.ac.cn or cnsrc@shao.ac.cn

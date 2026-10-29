@@ -19,4 +19,4 @@
 
 .. _portal: https://kylin.cnsrc.shao.ac.cn/
 
-.. _mailto: shaoska@shao.ac.cn
+.. _mailto: cnsrc@shao.ac.cn

@@ -91,10 +91,10 @@ msgstr ""
 #: 779f20fd095f4d59b32e83dbb816d449 db952b0a79c44473aeee3a361f27fc91
 msgid ""
 "如果需要使用这些分组里面的数据，或需要上传和存储大量数据，请发邮件到 "
-"shaoska@shao.ac.cn  咨询。"
+"cnsrc@shao.ac.cn  咨询。"
 msgstr ""
 "If you need to use data in these groups, or need to upload and store a large "
-"amount of data, please email shaoska@shao.ac.cn for assistance."
+"amount of data, please email cnsrc@shao.ac.cn for assistance."
 
 #: ../../docs/data/storage.rst:28 2380e0db99254bbdb2b160d5504a4f4f
 msgid "旧平台 - 待移除 V1"

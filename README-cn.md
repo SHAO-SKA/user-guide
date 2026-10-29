@@ -44,4 +44,4 @@ $ make html-en     # 英文 HTML
 
 ## 联系方式
 
-如有问题请联系：shaoska@shao.ac.cn 或 cnsrc@shao.ac.cn
+如有问题请联系：cnsrc@shao.ac.cn 或 cnsrc@shao.ac.cn

@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-18 18:26+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: ChinaSRC Team <shaoska@shao.ac.cn>\n"
+"Last-Translator: ChinaSRC Team <cnsrc@shao.ac.cn>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -77,8 +77,8 @@ msgid "外网访问需要提前完成 VPN 或固定 IP 白名单开通。"
 msgstr "External access requires VPN or fixed-IP whitelist setup in advance."
 
 #: ../../docs/introduction/intro.rst:32 f3fa3e73719742f58805b90628615f90
-msgid "如需开通或调整资源，请联系管理员邮箱：shaoska@shao.ac.cn。"
-msgstr "To provision or adjust resources, contact shaoska@shao.ac.cn."
+msgid "如需开通或调整资源，请联系管理员邮箱：cnsrc@shao.ac.cn。"
+msgstr "To provision or adjust resources, contact cnsrc@shao.ac.cn."
 
 #: ../../docs/introduction/intro.rst:36 878634cdf1d3455b8af79079447c3593
 msgid "使用规范"

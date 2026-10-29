@@ -161,11 +161,11 @@ MacOSX login using terminal
 .. note:: 
    
    The default storage space for ordinary users is 500GB. If you have other needs, please contact the administrator to adjust the quota
-   (Please contact shaoska@shao.ac.cn).
+   (Please contact cnsrc@shao.ac.cn).
 
    The account information such as username and password please apply through the application form.
 
-   Please contact shaoska@shao.ac.cn.
+   Please contact cnsrc@shao.ac.cn.
 
 
 
