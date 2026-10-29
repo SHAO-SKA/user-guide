@@ -8,7 +8,7 @@
 
 .. _project-data:
 
-在cnSRC上，系统根据使用模式为用户在共享文件系统上分配三种目录，分别是个人目录，项目目录和公共集群目录。
+在cnSRC上，系统根据使用模式为用户在共享文件系统上分配三种目录，分别是个人目录，项目目录。
 
 在实例或集群中，这三种目录所对应的路径不同，具体见下表：
 
@@ -122,8 +122,6 @@ Web文件管理与数据传输
 
 由于Web传输文件功能有限，对于开放了SSH端口的集群或实例，用户可以通过SSH账户使用scp类的工具来传输数据。
 
-|image4|
-
 以公共集群项目为例，用户在 **项目** -> *public cluster* 的页面里，选择 **实例** ，点击实例最右侧的SSH服务地址按钮，会弹出cnSRC对外开放的IP地址和端口：
 
 |ssh ip|
@@ -172,8 +170,6 @@ Windows用户也可以使用\ `XFTP <https://www.xshellcn.com/xftp.html>`__\ 客
 
 
 
-.. |image4| image:: ../../_static/transfer_image5.png
-.. |image5| image:: ../../_static/transfer_image6.png
 .. |reset_pw| image:: ../../_static/cluster_login_image3.png
    :width: 3.0 in
 .. |cyberduck connect| image:: ../../_static/transfer_cyberduck_connect.png
